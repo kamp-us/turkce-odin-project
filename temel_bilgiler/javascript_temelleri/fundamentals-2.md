@@ -68,7 +68,7 @@ Bu bölüm, diğer içeriklere yönelik yararlı bağlantılar içerir. Gereksin
 
 ### Bilgi Kontrolü
 
-Bu bölüm, bu dersin anlayışınızı kendi kendinize kontrol etmek için sorular içerir. Bir soruyu cevaplamakta zorlanıyorsanız, tıkladığınızda bağlantı verilen materyali gözden geçirin.
+Bu bölüm, bu dersi anlayıp anlamadığınızı kendi başınıza kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta sorun yaşıyorsanız, soruya tıklayın ve bağlantının verdiği materyali inceleyin.
 
 - [JavaScript'te sekiz veri türü nedir?](https://javascript.info/types#summary)
 - [Hangi veri türü özdeğimsel DEĞİLDİR?](https://javascript.info/types#objects-and-symbols)

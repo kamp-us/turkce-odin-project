@@ -95,13 +95,13 @@ _* Javascript kodunu konsolda çalıştırarak fark ettiğiniz gibi, konsol, yü
 
 ### Ek Kaynaklar
 
-Bu bölüm, diğer içeriklere yardımcı olan faydalı bağlantılar içerir. Gereksiz değildir, bu yüzden ek olarak düşünün.
+Bu bölüm, diğer içeriklere yardımcı olan faydalı bağlantılar içerir. Zorunlu değildir, ek kaynak olarak düşünün 
 
 * `var` ve `let` arasındaki kesin farklar [javascript.info](https://javascript.info/var) adresinde açıklanmaktadır.
 
 ### Bilgi Kontrolü
 
-Bu bölüm, bu derste kendi anlayışınızı kontrol etmeniz için sorular içerir. Bir soruyu yanıtlayamıyorsanız, tıklayın ve bağlantı verilen materyali gözden geçirin.
+Bu bölüm, bu dersi anlayıp anlamadığınızı kendi başınıza kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta sorun yaşıyorsanız, soruya tıklayın ve bağlantının verdiği materyali inceleyin.
 
 * [Bir değişkeni deklare etmek için üç yolun adını verin](#variable-declaration)
 * [Üç değişken bildiriminden kaçınmalı mısınız ve neden?](#avoid-var)
