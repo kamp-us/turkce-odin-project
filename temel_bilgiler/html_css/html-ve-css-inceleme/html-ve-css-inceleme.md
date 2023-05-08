@@ -33,9 +33,9 @@ Stiller bölmesi, stilleri doğrudan tarayıcıda değiştirmenize de olanak tan
 ### Ödev
 
 <div class="lesson-content__panel" markdown="1">
-[Resmi Chrome Geliştiri Araçları dökümanının](https://developers.google.com/web/tools/chrome-devtools) aşağıdaki bölümlerini inceleyin:
+[Resmi Chrome Geliştirici Araçları dökümanının](https://developers.google.com/web/tools/chrome-devtools) aşağıdaki bölümlerini inceleyin:
 
-- [Overview](https://developer.chrome.com/docs/devtools/overview/): burada bağlantısı verilen diğer sayfalara gitmeyin; Şimdi hepsini nasıl kullanacağınızdan ziyade DevTools'ta _hangi_ araçların mevcut olduğunu öğrenin.
+- [Overview](https://developer.chrome.com/docs/devtools/overview/): burada bağlantısı verilen diğer sayfalara gitmeyin; şimdi hepsini nasıl kullanacağınızdan ziyade DevTools'ta _hangi_ araçların mevcut olduğunu öğrenin.
 - [Open Chrome DevTools](https://developer.chrome.com/docs/devtools/open/): yukarıda incelediklerimize benzer, ancak bazı güzel ek bilgiler var.
 - [View and change CSS](https://developer.chrome.com/docs/devtools/css): etkileşimli talimatları takip ettiğinizden emin olun!
 - [Get Started With Viewing And Changing The DOM](https://developer.chrome.com/docs/devtools/dom/): JavaScript konsolunu kullanan bölümleri atlayın.
