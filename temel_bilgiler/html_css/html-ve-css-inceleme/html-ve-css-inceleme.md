@@ -1,56 +1,56 @@
-### Introduction
+### Giriş
 
-Being able to inspect and debug your HTML and CSS is critical to frontend development. This lesson will take us through the Chrome Dev Tools, which allow you to see detailed information about your elements and CSS rules, as well as assist you in finding and fixing problems in your code.
+HTML ve CSS'inizi inceleyebilmek ve hata ayıklayabilmek, önyüz geliştirme için çok önemlidir. Bu derste, öğeleriniz ve CSS kurallarınız hakkında ayrıntılı bilgileri görmenizi sağlayan ve kodunuzdaki sorunları bulup düzeltmenize yardımcı olan Chrome Geliştirme Araçlarını inceleyeceğiz.
 
-### Lesson Overview
+### Derse Genel Bakış
 
-This section contains a general overview of topics that you will learn in this lesson.
+Bu bölüm, bu derste öğreneceğiniz konulara genel bir bakış içerir.
 
-- You will know how to access the element inspector.
-- You will know how to select and inspect specific elements.
-- You will know how to test out HTML and CSS in the inspector.
+- Öğe denetleyicisine nasıl erişeceğinizi öğreneceksiniz.
+- Belirli öğeleri nasıl seçip denetleyeceğinizi öğreneceksiniz.
+- Denetleyicide HTML ve CSS'i nasıl test edeceğinizi öğreneceksiniz.
 
-### The Inspector
+### Denetleyici
 
-To open up the inspector, you can right-click on any element of a webpage and click "Inspect" or press F12. Go ahead and do that right now to see the HTML and CSS used on this page.
+Denetleyiciyi açmak için, sayfanın herhangi bir öğesine sağ tıklayıp "İncele" seçeneğine tıklayabilir veya F12 tuşuna basabilirsiniz. Bu sayfada kullanılan HTML ve CSS'i görmek için hemen şimdi deneyebilirsiniz.
 
-Don't get overwhelmed with all the tools you're now seeing! For this lesson, we want to focus on the Elements and Styles panes.
+Şu anda karşınıza çıkan tüm araçlar sizi endişelendirmesin! Bu ders için yalnızca Öğeler ve Stiller bölmelerine odaklanacağız.
 
-### Inspecting Elements
+### Öğeleri Denetlemek
 
-In the Elements pane, you can see the entire HTML structure of your page. You can click on any of the elements in this pane to select that specific element. Alternatively, you can click the blue-highlighted icon shown below on the left, and hover over any element on the page.
+Öğeler bölmesinde, sayfanın tüm HTML yapısını görebilirsiniz. Belirli bir öğeyi seçmek için bu bölmede herhangi birine tıklayabilirsiniz. Alternatif olarak, aşağıdaki görselin sol üstünde bulunan mavi simgeye tıklayıp sayfadaki herhangi bir öğenin üzerine gelebilirsiniz.
 
 ![Inspector Icon](https://cdn.statically.io/gh/TheOdinProject/curriculum/594984d7c9f9e744577f19ea475b3864e8cc7c91/html_css/v2/foundations/inspecting-html-and-css/imgs/01.png)
 
-<span id="strikethrough">When an element is selected, the Styles tab will show all the currently applied styles, as well as any styles that are being overwritten (indicated by a strikethrough of the text).</span> For example, if you use the inspector to click on the "Your Career in Web Development Starts Here" header on the TOP homepage, on the right-hand side you'll see all the styles that are currently affecting the element, as seen below:
+<span id="strikethrough">Bir öğe seçildiğinde, Stiller sekmesi, uygulanmakta olan tüm stillerin yanı sıra üzerine yazılan stilleri de gösterir (metnin üstü çizili olarak gösterilir).</span> Örneğin, ana sayfadaki "Web Geliştirme Kariyeriniz Burada Başlıyor" başlığına tıklamak için denetçiyi kullanırsanız, aşağıda görüldüğü gibi, sağ tarafta şu anda öğeyi etkileyen tüm stilleri göreceksiniz.
 
 ![Overwritten style](https://cdn.statically.io/gh/TheOdinProject/curriculum/f8fd38fc62578d8e8368f5303126215a492847f0/foundations/html_css/inspecting-html-and-css/imgs/03.png)
 
-### Testing Styles in the Inspector
+### Denetleyici'de Stilleri İncelemek
 
-The Styles pane also allows you to edit styles directly in the browser. You can click inside of any individual selector to add a new rule or click on an existing attribute or value to alter it. When doing so, the webpage responds with the changes in real-time. This won’t affect the source code in your text editor, but it is extremely useful for quickly testing out various attributes and values without needing to reload the page over and over again.
+Stiller bölmesi, stilleri doğrudan tarayıcıda değiştirmenize de olanak tanır. Yeni bir kural eklemek için herhangi bir seçicinin içine tıklayabilir veya mevcut bir nitelik veya değere tıklayarak değişiklik yapabilirsiniz. Bunu yaptığınızda, internet sayfası gerçek zamanlı olarak değişikliklerle yanıt verir. Bu değişiklikler, metin düzenleyicinizdeki kaynak kodunu etkilemez, ancak sayfayı tekrar tekrar yüklemeye gerek kalmadan çeşitli nitelikleri ve değerleri hızlı bir şekilde test edebilmek için son derece yararlıdır.
 
-### Assignment
+### Ödev
 
 <div class="lesson-content__panel" markdown="1">
-Go through the following sections of the [official Chrome DevTools docs](https://developers.google.com/web/tools/chrome-devtools):
+[Resmi Chrome Geliştiri Araçları dökümanının](https://developers.google.com/web/tools/chrome-devtools) aşağıdaki bölümlerini inceleyin:
 
-- [Overview](https://developer.chrome.com/docs/devtools/overview/): don't navigate to any other pages linked here; just get familiar with _what_ tools are available in the DevTools, rather than how to use all of them right now.
-- [Open Chrome DevTools](https://developer.chrome.com/docs/devtools/open/): similar to what we went over above, but with some nice extras.
-- [View and change CSS](https://developer.chrome.com/docs/devtools/css): be sure to follow along with any interactive instructions!
-- [Get Started With Viewing And Changing The DOM](https://developer.chrome.com/docs/devtools/dom/): skip through any part that uses the JavaScript console.
+- [Overview](https://developer.chrome.com/docs/devtools/overview/): burada bağlantısı verilen diğer sayfalara gitmeyin; Şimdi hepsini nasıl kullanacağınızdan ziyade DevTools'ta _hangi_ araçların mevcut olduğunu öğrenin.
+- [Open Chrome DevTools](https://developer.chrome.com/docs/devtools/open/): yukarıda incelediklerimize benzer, ancak bazı güzel ek bilgiler var.
+- [View and change CSS](https://developer.chrome.com/docs/devtools/css): etkileşimli talimatları takip ettiğinizden emin olun!
+- [Get Started With Viewing And Changing The DOM](https://developer.chrome.com/docs/devtools/dom/): JavaScript konsolunu kullanan bölümleri atlayın.
 </div>
 
-### Knowledge Check
+### Bilgi Kontrolü
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+Bu bölüm, dersi anlayıp anlamadığınızı kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta zorlanıyorsanız, soruya tıklayıp yönlendirdiği materyali inceleyin.
 
-- [How do you select a specific element on your page with your browser’s developer tools?](#inspecting-elements)
-- [What does a strikethrough in a CSS declaration mean in your browser’s developer tools?](#strikethrough)
-- [How do you change CSS in real time on specific elements of a web page with your browser’s developer tools?](#testing-styles-in-the-inspector)
+- [Tarayıcınızın geliştirici araçlarıyla sayfadaki belirli bir öğeyi nasıl seçersiniz?](#inspecting-elements)
+- [Bir CSS ifadesindeki üstü çizili kısım, tarayıcınızın geliştirici araçlarında ne anlama gelir?](#strikethrough)
+- [Tarayıcınızın geliştirici araçlarıyla sayfadaki belirli öğelerinde CSS'i gerçek zamanlı olarak nasıl değiştirirsiniz?](#testing-styles-in-the-inspector)
 
-### Additional Resources
+### Ek Kaynaklar
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
 
 - [This article about how we can utilize css overview in the developer tools](https://www.freecodecamp.org/news/how-to-use-css-overview-in-chrome-developer-tools/) to check the colors, font styles, media-queries, etc. used on a particular webpage.
