@@ -1,17 +1,17 @@
-### Introduction
+### Giriş
 
-Let's see how the orientation of items within a flex container can be controlled using the `flex-direction` property.
+Flex bir konteyner içindeki öğelerin yönünün `flex-direction` özelliği kullanılarak nasıl kontrol edilebileceğini görelim.
 
-### Lesson Overview
+### Derse Genel Bakış
 
-This section contains a general overview of topics that you will learn in this lesson.
+Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içerir.
 
--   You'll learn about the 2 "axes" of a flex container.
--   You'll learn how to change those axes to arrange your content in columns instead of rows.
+-   Flex bir konteynerin 2 "eksenini" öğreneceksiniz.
+-   İçeriğinizi satırlar yerine sütunlar halinde düzenlemek için eksenleri nasıl değiştireceğinizi öğreneceksiniz.
 
-The most confusing thing about flexbox is that it can work either horizontally or vertically, and some rules change a bit depending on which direction you are working with.
+Flexbox ile ilgili en kafa karıştırıcı şey, yatay veya dikey olarak çalışabilmesi ve hangi yönde çalıştığınıza bağlı olarak bazı kuralların biraz değişmesidir.
 
-The default direction for a flex container is horizontal, or `row`, <span id='flex-vertical'>but you can change the direction to vertical, or `column`. The direction can be specified in CSS like so:
+Bir flex konteyner için varsayılan yön yatay veya `row`dır, <span id='flex-vertical'>ancak yönü dikey veya `column` olarak değiştirebilirsiniz. Yön, CSS'de şu şekilde belirtilebilir:
 </span>
 
 ~~~css
@@ -20,45 +20,45 @@ The default direction for a flex container is horizontal, or `row`, <span id='fl
 }
 ~~~
 
-### Axes
+### Eksenler
 
-<span id='flex-axes'>No matter which direction you're using, you need to think of your flex-containers as having 2 axes: the main axis and the cross axis. It is the direction of these axes that changes when the `flex-direction` is changed. In _most_ circumstances, `flex-direction: row` puts the main axis horizontal (left-to-right), and `column` puts the main axis vertical (top-to-bottom).</span>
+<span id='flex-axes'>Hangi yönü kullanırsanız kullanın, flex konteynerinizin 2 eksene sahip olduğunu bilmeniz gerekmektedir: ana eksen ve çapraz eksen. `Flex-direction` değeri değiştirildiğinde, değişen bu eksenlerin yönüdür. _Çoğu durumda_, `flex-direction: row` ana ekseni yatay (soldan sağa) ve `column` ana ekseni dikey (yukarıdan aşağıya) yerleştirir.</span>
 
-In other words, in our very first example, we put `display: flex` on a div and it arranged its children horizontally. This is a demonstration of `flex-direction: row`, the default setting. The following example is very similar. If you uncomment the line that says `flex-direction: column`, those divs will stack vertically.
+Yani ilk örneğimizde bir div üzerine `display: flex` koyduk ve çocuklarını yatay olarak sıraladı. Bu, varsayılan ayar olan "`flex-direction: row`ın bir gösterimidir. Aşağıdaki örnek çok benzer. `flex-direction: column` yazan satırın yorumunu kaldırırsanız, bu div'ler dikey olarak sıralanırlar.
 
 <p class="codepen" data-height="400" data-default-tab="html,result" data-slug-hash="BaZKPdw" data-editable="true" data-user="TheOdinProjectExamples" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen [flex-direction example](https://codepen.io/TheOdinProjectExamples/pen/BaZKPdw) by TheOdinProject ([@TheOdinProjectExamples](https://codepen.io/TheOdinProjectExamples))
-  on [CodePen](https://codepen.io).</span>
+  <span>[CodePen](https://codepen.io)'de TheOdinProject'in ([@TheOdinProjectExamples](https://codepen.io/TheOdinProjectExamples)) yazdığı [flex-direction örneğine] bakın.
+  </span> 
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-One thing to note is that in this example, `flex-direction: column` would not work as expected if we used the shorthand `flex: 1`. Try it out now (i.e. go change the flex value on the `flex: 1 1 auto;` line). Can you figure out why it does not work if `flex: 1` is used? The divs collapse, even though they _clearly_ have a `height` defined there.
+Unutulmaması gereken bir nokta, bu örnekte, `flex: 1` kısaltmasını kullanırsak `flex-direction: column` beklendiği gibi çalışmaz. Şimdi deneyin (yani, `flex: 1 1 auto;` satırındaki flex değerini değiştirin). `flex: 1` kullanılırsa neden çalışmadığını anlayabilir misiniz? Orada _açıkça_ tanımlanmış bir `yüksekliğe` sahip olmalarına rağmen div'ler çöker.
 
-The reason for this is that the <span id='row-flex-basis'> flex shorthand expands `flex-basis` to `0`, which means that all `flex-grow`ing and `flex-shrink`ing would begin their calculations from `0`.</span> Empty divs by default have 0 height, so for our flex items to fill up the height of their container, they don't actually need to have any height at all.
+Bunun nedeni, <span id='row-flex-basis'> flex kısaltmasının `flex-basis`ı `0`a genişletmesidir; bu, tüm `flex-grow` ve `flex-shrink`nin hesaplamalarına `0`dan başlayacağı anlamına gelir.</span> Boş div'lerin varsayılan olarak 0 yüksekliği vardır, bu nedenle flex öğelerimizin kaplarının yüksekliğini doldurması için aslında herhangi bir yüksekliğe sahip olmaları gerekmez.
 
-The example above fixed this by specifying `flex: 1 1 auto`, telling the flex items to default to their given `height`. We could also have fixed it by putting a height on the parent `.flex-container`, or by using `flex-grow: 1` instead of the shorthand.
+Yukarıdaki örnek, `flex: 1 1 auto` belirterek ve flex öğelerin varsayılan `height` değerlerinin verilmesi söylenerek bu düzeltildi. Ebeveyn `.flex-container` elementinin üzerine bir yükseklik koyarak veya kısaltma yerine `flex-grow: 1` kullanarak da düzeltebilirdik.
 
-Another detail to notice: when we changed the <span id='column-flex-basis'>flex-direction to `column`, `flex-basis` refers to `height` instead of `width`.</span> Given the context this may be obvious, but it's something to be aware of.
+Dikkat edilmesi gereken başka bir ayrıntı: <span id='column-flex-basis'>flex-direction'u `column` olarak değiştirdiğimizde, `flex-basis`, `width` yerine `height` anlamına gelir.</span> Bağlam göz önüne alındığında bu bariz olabilir, ancak dikkat edilmesi gereken bir şeydir.
 
-We've strayed from the point slightly... We were talking about flex-direction and axes. To bring it back home, the default behavior is `flex-direction: row` which arranges things horizontally. The reason this often works well without changing other details in the CSS is because block-level elements default to the full width of their parent. Changing things to vertical using `flex-direction: column` adds complexity because block-level elements default to the height of their content, and in this case there _is_ no content.
+Konudan biraz saptık... flex-direction ve eksenlerden bahsediyorduk. Önemli olan kısım, varsayılan davranış, her şeyi yatay olarak düzenleyen `flex-direction: row` şeklindedir. Bunun genellikle CSS'deki diğer ayrıntıları değiştirmeden iyi çalışmasının nedeni, blok düzeyindeki öğelerin varsayılan olarak ebeveynlerinin tam genişliğine sahip olmasıdır. `flex-direction: column` kullanarak her şeyi dikey olarak değiştirmek karmaşıklık katar çünkü blok düzeyindeki öğeler varsayılan olarak içeriklerinin yüksekliğine göre ayarlanır ve bu durumda içerik yoktur.
 
-> There are situations where the behavior of flex-direction could change if you are using a language that is written top-to-bottom or right-to-left, but you should save worrying about that until you are ready to start making a website in Arabic or Hebrew.
+> Yukarıdan aşağıya veya sağdan sola yazılan bir dil kullanıyorsanız, flex-direction davranışının değişebileceği durumlar vardır, ancak Arapça veya İbranice bir web sitesi yapmaya hazır olana kadar bunun için endişelenmemelisiniz. 
 
-For an interactive demo of how axes work with flexbox, check out this Scrim:
+Eksenlerin flexbox ile nasıl çalıştığına dair etkileşimli bir demo için şu Scrim'e göz atın:
 
 <iframe src="https://scrimba.com/learn/flexbox/main-axis-and-cross-axis-flexbox-tutorial-cz94MT8?embed=odin,mini-header,no-big-play,no-next-up" sandbox="allow-scripts allow-same-origin" width="100%" height="400"></iframe>
 
-### Knowledge Check
+### Bilgi Ölçme
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+Bu bölüm, bu dersi anlayıp anlamadığınızı kendi başınıza kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta sorun yaşıyorsanız, soruya tıklayın ve bağlantının verdiği materyali inceleyin.
 
 -   [How do you make flex items arrange themselves vertically instead of horizontally?](#flex-vertical)
 -   [In a `column` flex-container, what does `flex-basis` refer to?](#column-flex-basis)
 -   [In a `row` flex-container, what does `flex-basis` refer to?](#row-flex-basis)
 -   [Why do the previous two questions have different answers?](#flex-axes)
 
-### Additional Resources
+### Ek Kaynaklar
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
 
-*   [This flexbox visual cheatsheet](https://flexbox.malven.co/) has some useful references to flex and its properties.
+*   [Bu flexbox cheatsheet](https://flexbox.malven.co/)'i, flex ve özellikleri için bazı faydalı kaynaklara sahiptir.
