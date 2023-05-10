@@ -33,7 +33,7 @@ Chrome Geliştirici Araçları menüsünü açmanın üç yolu vardır:
 
 Google, aşağıdaki eğitimlerde gerekli bazı bölümleri güncelledi ve bazı öğeler değişmiş veya artık mevcut olmayabilir, ancak aynı işlev ve araçları kullanarak eğitimleri takip etmeye devam edebilirsiniz. Örneğin, artık sayfada bulunmayan bir düğmeyi incelemeniz istenebilir; ancak hala var olan öğeleri sorunsuz bir şekilde takip etmeye ve incelemeye devam edebilirsiniz.
 
-1. Google tarafından hazırlanan [Chrome DevTools Documentation] (<https://developer.chrome.com/docs/devtools/>) adresine gidin. Aşağıdaki alt bölümler, Geliştirici Araçlarını zamanın %95'inde ne için kullanacağınızı kapsamaktadır.  Zaten aşina olduğunuz öğeleri atlamaktan çekinmeyin:
+1. Google tarafından hazırlanan İngilizce dilindeki [Chrome DevTools Documentation](<https://developer.chrome.com/docs/devtools/>) adresine gidin. Aşağıdaki alt bölümler, Geliştirici Araçlarını zamanın %95'inde ne için kullanacağınızı kapsamaktadır.  Zaten aşina olduğunuz öğeleri atlamaktan çekinmeyin:
     * CSS
         1. [CSS'i görüntüleme ve değiştirme](https://developer.chrome.com/docs/devtools/css/)
         2. [CSS özellikleri referansı](https://developer.chrome.com/docs/devtools/css/reference/)
@@ -44,7 +44,7 @@ Google, aşağıdaki eğitimlerde gerekli bazı bölümleri güncelledi ve bazı
         1. [JavaScript'te Hata Ayıklama](https://developer.chrome.com/docs/devtools/javascript/)
         2. [Breakpointlerle kodu duraklatma](https://developer.chrome.com/docs/devtools/javascript/breakpoints/)
 
-2. Ardından konsolu ve kullanımını tanımak için [konsola genel bakış videosunu izleyin ve sayfayı inceleyin](https://developer.chrome.com/docs/devtools/console/).
+2. Ardından konsolu ve kullanımını tanımak için [bu adresteki İngilizce konsola genel bakış videosunu izleyin ve sayfayı inceleyin](https://developer.chrome.com/docs/devtools/console/).
 
 </div>
 
@@ -52,7 +52,7 @@ Google, aşağıdaki eğitimlerde gerekli bazı bölümleri güncelledi ve bazı
 
 Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
 
-* Wes Bos tarafından hazırlanan bu [JavaScript 30 Video](https://www.youtube.com/watch?v=xkzDaKwinA8) videosundaki 14 ipucu ve püf noktayı öğrenin
+* Wes Bos tarafından hazırlanan İngilizce dilindeki bu [JavaScript 30 Video](https://www.youtube.com/watch?v=xkzDaKwinA8) videodaki 14 ipucu ve püf noktayı öğrenin
 
 ### Bilgi Ölçme
 
