@@ -1,21 +1,21 @@
-### Introduction
+### Giriş
 
-Now that you understand the basic syntax of HTML and CSS, we're going to get serious. The most important skills you need to master with CSS are _positioning_ and _layout_. Changing fonts and colors is a crucial skill, but being able to put things exactly where you want them on a webpage is even more crucial. After all, how many webpages can you find where absolutely every element is just stacked one on top of another?
+HTML ve CSS'in temel sözdizimini anladığınıza göre, artık ciddileşeceğiz. CSS'te ustalaşmanızı sağlayan en önemli beceriler _konumlandırma_ ve _düzendir._ Yazı tiplerini ve renkleri değiştirmek çok önemli bir beceridir. Ancak bir öğeyi, internet sayfasında tam olarak istediğiniz yere koyabilmek daha da önemlidir. Sonuçta, istisnasız tüm öğelerin üst üste yığıldığı kaç tane internet sayfası bulabilirsiniz ki?
 
-Learning to position elements on a webpage is not that difficult once you understand just a few key concepts. Unfortunately, many learners race through learning HTML and CSS to get to JavaScript and end up missing these fundamental concepts. This leads to frustration, pain, ([and funny gifs](https://giphy.com/gifs/css-13FrpeVH09Zrb2)) because all the JavaScript skills in the world are meaningless if you can't stick your elements on the page where you need them to be. So with that in mind, let's get started.
+Birkaç temel kavramı anladığınız zaman, öğeleri bir sayfada konumlandırmayı öğrenmek o kadar da zor değildir. Ne yazık ki birçok öğrenci, JavaScript'e ulaşmak için HTML ve CSS'i aceleyle öğrenip bu temel kavramları kaçırıyor. Bu da hüsrana, acıya ve ([komik giflere](https://giphy.com/gifs/css-13FrpeVH09Zrb2)) yol açıyor. Çünkü öğelerinizi sayfada olmaları gereken yerlere yerleştiremezseniz, istediğiniz kadar JavaScript ustası olun, o JavaScript becerileriniz anlamsız olacaktır. Bunu göz önünde bulundurarak başlayalım.
 
-### Lesson Overview
+### Derse Genel Bakış
 
-This section contains a general overview of topics that you will learn in this lesson.
+Bu bölüm, bu derste öğreneceğiniz konulara genel bir bakış içerir.
 
-- You'll learn all about _the box model_.
-- You'll learn how to make sure elements are just the right size with `margin`, `padding`, and `borders`
+- _Kutu modeli_ hakkında her şeyi öğreneceksiniz.
+- Öğelerin `dış kenar boşluğu(margin)`, `iç kenar boşluğu(padding)` ve `kenar çizgileri(borders)` ile doğru boyutta olmasını nasıl sağlayacağınızı öğreneceksiniz.
 
-### The Box Model
+### Kutu Modeli
 
-The first important concept that you need to understand to be successful in CSS is the box model. It isn't complicated, but skipping over it now will cause you much frustration down the line.
+CSS'de başarılı olmak için anlamanız gereken ilk önemli kavram kutu modelidir. Karmaşık olmamasına rağmen, şimdi onu atlamak ileride çok fazla hüsrana uğramanıza neden olacaktır.
 
-Every single thing on a webpage is a rectangular box. These boxes can have other boxes in them and can sit alongside one another. You can get a rough idea of how this works by sticking a border on every item on the page like this:
+Bir internet sayfasındaki her şey dikdörtgen bir kutudur. Bu kutular, içlerinde başka kutular barındırabilir ve yan yana durabilirler. Sayfadaki her öğeye şu şekilde birer kenar çizgisi ekleyerek bunun nasıl çalıştığına dair kabaca bir fikir edinebilirsiniz:
 
 ```css
 * {
@@ -25,45 +25,45 @@ Every single thing on a webpage is a rectangular box. These boxes can have other
 
 ![boxes](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/the-box-model/imgs/boxes.png)
 
-You can use the browser's inspector to add the CSS above to this web page if you want. Boxes in boxes!
+Yukarıdaki CSS'i bu internet sayfasına eklemek isterseniz, bunun için tarayıcının denetleyicisini kullanabilirsiniz. Kutular içinde kutular!
 
 ![lines](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/the-box-model/imgs/odin-lined.png)
 
-OK, so there might be some circles in the above image... but when it comes to layout, they fit together like rectangular boxes and not circles. In the end, laying out a webpage and positioning all its elements is deciding how you are going to nest and stack these boxes.
+Tamam, yukarıdaki resimde bazı daireler olabilir... ama söz konusu düzen olduğunda, bu öğeler daireler gibi değil, dikdörtgen kutular gibi bir araya gelirler. Sonuçta, bir internet sayfasını düzenlemek ve tüm öğelerini konumlandırmak, bu kutuları nasıl iç içe geçireceğinize ve üst üste koyacağınıza karar vermekten ibarettir.
 
-The only real complication here is that there are many ways to manipulate the size of these boxes, and the space between them, using `padding`, `margin`, and `border`. The assigned articles go into more depth on this concept, but to sum it up briefly:
+Buradaki tek gerçek karmaşıklık, `iç kenar boşluğu`, `dış kenar boşluğu` ve `kenar çizgisi` kullanarak bu kutuların boyutlarını ve aralarındaki boşlukları değiştirmenin birçok yolunun olmasıdır. Bu kavrama özel makaleler, kavramı daha derinlemesine ele alıyor, ancak kısaca özetlememiz gerekirse:
 
-- `padding` increases the space between the border of a box and the content of the box.
-- `margin` increases the space between the borders of a box and the borders of adjacent boxes.
-- `border` adds space (even if it's only a pixel or two) between the margin and the padding.
+- `iç kenar boşluğu`, bir kutunun kenarları ile kutunun içeriği arasındaki boşluğu artırır.
+- `dış kenar boşluğu`, bir kutunun kenarları ile bitişiğindeki kutuların kenarları arasındaki boşluğu artırır.
+- `kenar çizgisi`, dış kenar boşluğu ile iç kenar boşluğu arasına bir boşluk ekler (yalnızca birkaç piksel olsa bile).
 
-Be sure to study the diagrams carefully.
+Diyagramları dikkatlice incelediğinizden emin olun.
 
 ![the box model](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/the-box-model/imgs/box-model.png)
 
-### Assignment
+### Ödev
 
 <div class="lesson-content__panel" markdown="1">
 
-1. [This video](https://www.youtube.com/watch?v=rIO5326FgPE) is a straightforward overview of the box model, padding and margin. Go ahead and watch this now; it informs everything else.
-2. Because the box model concept is so incredibly fundamental, check out [this lesson from MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model). It covers the same material as the video above, but it goes a little further in-depth. Pay close attention to the examples and take the time to experiment with their in-browser editor!
-3. [This CSS Tricks page](https://css-tricks.com/almanac/properties/m/margin/) has some further information about the `margin` property that you'll find useful. Specifically, the sections about `auto` and margin collapsing contain things you'll want to know.
+1. [Bu video](https://www.youtube.com/watch?v=rIO5326FgPE), kutu modeli, iç kenar boşluğu ve dış kenar boşluğu konularına basit bir genel bakış niteliğindedir. Haydi şimdi bu videoyu izleyin; sizi bu konunun diğer tüm yönleri hakkında bilgilendirecektir.
+2. Kutu modeli kavramı son derece temel bir kavram olduğu için, [MDN'deki bu derse](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model) göz atın. Yukarıdaki video ile aynı materyali kapsar, ancak konunun biraz daha derinine iner. Verilen örneklere çok dikkat edin ve tarayıcı içi düzenleyicilerini denemeye vakit ayırın!
+3. [Bu CSS Tricks sayfası](https://css-tricks.com/almanac/properties/m/margin/), `dış kenar boşluğu` özelliği hakkında yararlı bulacağınız bazı ek bilgiler içerir. Özellikle, `auto` değeri ve dış kenar boşluğu daraltma ile ilgili bölümler, bilmek isteyeceğiniz şeyler içerir.
 
 </div>
 
-### Knowledge Check
+### Bilgi Ölçme
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+Bu bölüm, dersi anlayıp anlamadığınızı kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta zorlanıyorsanız, soruya tıklayıp yönlendirdiği materyali inceleyin.
 
-- [From inside to outside, what is the order of box-model properties?](#the-box-model)
-- [What does the `box-sizing` CSS property do?](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#the_alternative_css_box_model)
-- [What is the difference between the standard and alternative box model?](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#the_alternative_css_box_model)
-- [Would you use `margin` or `padding` to create more space between 2 elements?](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#margins_padding_and_borders)
-- [Would you use `margin` or `padding` to create more space between the contents of an element and its border?](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#margins_padding_and_borders)
-- [Would you use `margin` or `padding` if you wanted two elements to overlap each other?](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#margins_padding_and_borders)
+- [İçeriden dışarıya doğru, kutu modeli özelliklerinin sıralaması nedir?](#the-box-model)
+- [CSS özelliklerinden `box-sizing` ne işe yarar?](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#the_alternative_css_box_model)
+- [Standart ve alternatif kutu modeli arasındaki fark nedir?](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#the_alternative_css_box_model)
+- [İki öğe arasında daha fazla boşluk oluşturmak için `dış kenar boşluğu` mu yoksa `iç kenar boşluğu` mu kullanırsınız?](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#margins_padding_and_borders)
+- [Bir öğenin içeriği ile kenarı arasında daha fazla boşluk oluşturmak için `dış kenar boşluğu` mu yoksa `iç kenar boşluğu` mu kullanırsınız?](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#margins_padding_and_borders)
+- [İki öğenin birbiriyle örtüşmesini isterseniz `dış kenar boşluğu` mu yoksa `iç kenar boşluğu` mu kullanırsınız?](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#margins_padding_and_borders)
 
-### Additional Resources
+### Ek Kaynaklar
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
 
-- [This W3Schools tutorial on CSS Box Model](https://www.w3schools.com/css/css_boxmodel.asp) provides an interactive playground to test your box model skills with exercises.
+- [CSS Kutu Modeli hakkındaki bu İngilizce W3Schools dersi](https://www.w3schools.com/css/css_boxmodel.asp), kutu modeli becerilerinizi egzersizlerle test etmek için etkileşimli bir oyun alanı sağlar.
