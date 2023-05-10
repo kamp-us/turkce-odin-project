@@ -53,8 +53,8 @@ Eksenlerin flexbox ile nasıl çalıştığına dair etkileşimli bir demo için
 Bu bölüm, bu dersi anlayıp anlamadığınızı kendi başınıza kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta sorun yaşıyorsanız, soruya tıklayın ve bağlantının verdiği materyali inceleyin.
 
 -   [Flex öğelerin yatay yerine dikey olarak düzenlenmesini nasıl sağlarsınız?](#flex-vertical)
--   [Bir flex-container'da `column`, `flex-basis` neyi ifade eder?](#column-flex-basis)
--   [Bir flex-container'da `row`, `flex-basis` neyi ifade eder?](#row-flex-basis)
+-   [Bir `column` flex-container'da, `flex-basis` neyi ifade eder?](#column-flex-basis)
+-   [Bir `row` flex-container'da, `flex-basis` neyi ifade eder?](#row-flex-basis)
 -   [Önceki iki sorunun neden farklı yanıtları var?](#flex-axes)
 
 ### Ek Kaynaklar
