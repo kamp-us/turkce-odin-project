@@ -13,7 +13,7 @@ Bu bölüm, bu derste öğreneceğiniz konulara genel bir bakış içerir.
 
 ### Kutu Modeli
 
-CSS'de başarılı olmak için anlamanız gereken ilk önemli kavram kutu modelidir. Karmaşık olmamasına rağmen, şimdi onu atlamak ileride çok fazla hüsrana uğramanıza neden olacaktır.
+CSS'de başarılı olmak için anlamanız gereken ilk önemli kavram kutu modelidir. Karmaşık bir konu değil ancak bu konuyu atlamanız ileride çok fazla hüsrana uğramanıza sebep olabilir.
 
 Bir internet sayfasındaki her şey dikdörtgen bir kutudur. Bu kutular, içlerinde başka kutular barındırabilir ve yan yana durabilirler. Sayfadaki her öğeye şu şekilde birer kenar çizgisi ekleyerek bunun nasıl çalıştığına dair kabaca bir fikir edinebilirsiniz:
 
@@ -46,7 +46,7 @@ Diyagramları dikkatlice incelediğinizden emin olun.
 <div class="lesson-content__panel" markdown="1">
 
 1. [Bu video](https://www.youtube.com/watch?v=rIO5326FgPE), kutu modeli, iç kenar boşluğu ve dış kenar boşluğu konularına basit bir genel bakış niteliğindedir. Haydi şimdi bu videoyu izleyin; sizi bu konunun diğer tüm yönleri hakkında bilgilendirecektir.
-2. Kutu modeli kavramı son derece temel bir kavram olduğu için, [MDN'deki bu derse](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model) göz atın. Yukarıdaki video ile aynı materyali kapsar, ancak konunun biraz daha derinine iner. Verilen örneklere çok dikkat edin ve tarayıcı içi düzenleyicilerini denemeye vakit ayırın!
+2. Kutu modeli kavramı son derece temel bir kavram olduğu için, [MDN'deki İngilizce dilindeki bu derse](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model) göz atın. Yukarıdaki video ile aynı materyali kapsar, ancak konunun biraz daha derinine iner. Verilen örneklere çok dikkat edin ve tarayıcı içi düzenleyicilerini denemeye vakit ayırın!
 3. [Bu CSS Tricks sayfası](https://css-tricks.com/almanac/properties/m/margin/), `dış kenar boşluğu` özelliği hakkında yararlı bulacağınız bazı ek bilgiler içerir. Özellikle, `auto` değeri ve dış kenar boşluğu daraltma ile ilgili bölümler, bilmek isteyeceğiniz şeyler içerir.
 
 </div>
