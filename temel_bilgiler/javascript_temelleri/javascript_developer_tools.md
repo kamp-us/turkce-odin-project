@@ -33,7 +33,7 @@ Chrome Geliştirici Araçları menüsünü açmanın üç yolu vardır:
 
 Google, aşağıdaki eğitimlerde gerekli bazı bölümleri güncelledi ve bazı öğeler değişmiş veya artık mevcut olmayabilir, ancak aynı işlev ve araçları kullanarak eğitimleri takip etmeye devam edebilirsiniz. Örneğin, artık sayfada bulunmayan bir düğmeyi incelemeniz istenebilir; ancak hala var olan öğeleri sorunsuz bir şekilde takip etmeye ve incelemeye devam edebilirsiniz.
 
-1. Google tarafından hazırlanan İngilizce dilindeki [Chrome DevTools Documentation](<https://developer.chrome.com/docs/devtools/>) adresine gidin. Aşağıdaki alt bölümler, Geliştirici Araçlarını zamanın %95'inde ne için kullanacağınızı kapsamaktadır.  Zaten aşina olduğunuz öğeleri atlamaktan çekinmeyin:
+1. Google tarafından hazırlanan İngilizce dilindeki [Chrome DevTools Documentation](https://developer.chrome.com/docs/devtools/) adresine gidin. Aşağıdaki alt bölümler, Geliştirici Araçlarını zamanın %95'inde ne için kullanacağınızı kapsamaktadır.  Zaten aşina olduğunuz öğeleri atlamaktan çekinmeyin:
     * CSS
         1. [CSS'i görüntüleme ve değiştirme](https://developer.chrome.com/docs/devtools/css/)
         2. [CSS özellikleri referansı](https://developer.chrome.com/docs/devtools/css/reference/)
