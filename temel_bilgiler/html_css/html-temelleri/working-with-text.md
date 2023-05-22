@@ -1,23 +1,23 @@
-### Introduction
+### Giriş
 
-Most content on the web is text-based, so you will find yourself needing to work with HTML text elements quite a bit.
+Web'deki çoğu içerik metin tabanlıdır, bu nedenle kendinizi HTML kodlarıyla oldukça fazla çalışıyor halde bulacaksınız.
 
-In this lesson, we will learn about the text-based elements you are likely to use the most.
+Bu derste, en çok kullanmanız muhtemel metin tabanlı öğeler hakkında bilgi edineceğiz.
 
-### Lesson Overview
+### Derse Genel Bakış
 
-This section contains a general overview of topics that you will learn in this lesson.
+Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içermektedir.
 
-*   How to create paragraphs
-*   How to create headings
-*   How to create bold text
-*   How to create italicized text
-*   The relationships between nested elements
-*   How to create HTML comments
+*   Paragraflar nasıl oluşturulur
+*   Başlıklar nasıl oluşturulur
+*   Kalın metin nasıl oluşturulur
+*   İtalik metin nasıl oluşturulur
+*   İç içe geçmiş öğeler arasındaki ilişkiler
+*   HTML yorumları nasıl oluşturulur
 
-### Paragraphs
+### Paragraflar
 
-What would you expect the following text to output on an HTML page?
+Bir HTML sayfasında aşağıdaki metnin çıktısının ne olmasını beklersiniz?
 
 ~~~html
 <body>
@@ -29,161 +29,188 @@ What would you expect the following text to output on an HTML page?
 </body>
 ~~~
 
-It looks like two paragraphs of text, and so you might expect it to display in that way. However that is not the case, as you can see in the output below:
+Görünüşe göre iki paragraf metin gibi duruyor, bu nedenle onun bu şekilde görüntülenmesini bekleyebilirsiniz. Ancak durum böyle değil, aşağıdaki çıktıda görebileceğiniz gibi:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="xxrKqeV" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/xxrKqeV">
-  no-paragraphs-example</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
+  <span>
+  <a href="https://codepen.io">CodePen</a> aracılığıyla
+  TheOdinProject'te <a href="https://codepen.io/TheOdinProjectExamples/penxxrKqeV">paragraf-örneği</a>
+  'ni inceleyebilirsiniz (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+  </span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 
-When the browser encounters new lines like this in your HTML, it will compress them down into one single space. The result of this compression is that all of the text is clumped together into one long line.
+Tarayıcı HTML'nizde bunun gibi yeni satırlarla karşılaştığında, bunları tek bir boşluk halinde sıkıştıracaktır. Bu sıkıştırmanın sonucu olarak tüm metin tek bir uzun satırda toplanır.
 
-If we want to create paragraphs in HTML, <span id='create-paragraph-element'>we need to use the paragraph element</span>, which will add a newline after each of our paragraphs. A paragraph element is defined by wrapping text content with a `<p>` tag.
+HTML'de paragraflar oluşturmak istiyorsak, <span id='create-paragraph-element'>paragraf öğesini kullanmamız gerekiyor</span>, bu da her paragrafımızdan sonra bir satırbaşı ekleyecektir. Bir paragraf öğesi, metin içeriğinin bir `<p>` etiketi ile sarılmasıyla tanımlanır.
 
-Changing our example from before to use paragraph elements fixes the issue:
+Örneğin paragraf öğelerini kullanacak şekilde değiştirmek sorunu çözer:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="mdwbmdp" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/mdwbmdp">
-  pargraph-example</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
+  <span>
+  <a href="https://codepen.io">CodePen</a> aracılığıyla
+  TheOdinProject'te <a href="https://codepen.io/TheOdinProjectExamples/pen/mdwbmdp">
+  pargraph-örneği</a>
+  'ni inceleyebilirsiniz (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+  </span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-### Headings
+### Başlıklar
 
-Headings are different from other HTML text elements: they are displayed larger and bolder than other text to signify that they are headings.
+Başlıklar diğer HTML kodlarından farklıdır: başlık olduklarını belirtmek için diğer metinlerden daha büyük ve kalın bir şekilde görüntülenirler.
 
-<span id='different-heading-levels'>There are 6 different levels of headings starting from `<h1>` to `<h6>`. The number within a heading tag represents that heading's level. The largest and most important heading is h1, while h6 is the tiniest heading at the lowest level.</span>
+<span id='different-heading-levels'>`<h1>` den başlayarak `<h6>` ya kadar 6 farklı başlık seviyesi vardır. Bir başlık etiketi içindeki sayı, o başlığın seviyesini temsil eder. En büyük ve en önemli başlık h1 iken, h6 en alt seviyedeki en küçük başlıktır.</span>
 
-Headings are defined much like paragraphs. For example, to create an h1 heading, we wrap our heading text in a `<h1>` tag.
+Başlıklar da paragraflar gibi tanımlanır. Örneğin, bir h1 başlığı oluşturmak için başlık metnimizi bir `<h1>` etiketi içine sararız.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="LYLPLbg" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/LYLPLbg">
-  html-headings-example</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
+  <span><a href="https://codepen.io">CodePen</a> aracılığıyla
+  TheOdinProject'te <a href="https://codepen.io/TheOdinProjectExamples/pen/LYLPLbg">
+  html-başlık-örneği</a>
+  'ni inceleyebilirsiniz (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+  </span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Using the correct level of heading is important as levels provide a hierarchy to the content. An h1 heading should always be used for the heading of the overall page, and the lower level headings should be used as the headings for content in smaller sections of the page.
+Doğru başlık seviyesini kullanmak, içeriğe bir hiyerarşi sağladığından önemlidir. Genel sayfanın başlığı için her zaman h1 başlığı kullanılmalı ve daha düşük seviye başlıklar, sayfanın daha küçük bölümlerindeki içeriklerin başlıkları olarak kullanılmalıdır.
 
-### Strong Element
+### Güçlü Element
 
-The `<strong>` element makes text bold. It also semantically marks text as important; this affects tools, like screen readers, that users with visual impairments will rely on to use your website. The tone of voice on some screen readers will change to communicate the importance of the text within a strong element. To define a strong element we wrap text content in a `<strong>` tag.
+`<strong>` öğesi metni kalın yapar. Ayrıca metni semantik olarak önemli olarak işaretler; bu, görme engelli kullanıcıların web sitenizi kullanmak için güvenecekleri ekran okuyucular gibi araçları etkiler. Bazı ekran okuyuculardaki ses tonu, güçlü bir öğe içindeki metnin önemini iletmek için değişecektir. Güçlü bir öğe tanımlamak için metin içeriğini bir `<strong>` etiketi içine sararız.
 
-You can use strong on its own:
+Tek başına güçlü kullanabilirsiniz:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="qBjWXrB" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/qBjWXrB">
-  html-single-strong-example</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
+  <span>
+  <a href="https://codepen.io">CodePen</a> aracılığıyla
+  TheOdinProject'te <a href="https://codepen.io/TheOdinProjectExamples/pen/qBjWXrB">
+  html-single-strong-örneği</a>
+  'ni inceleyebilirsiniz (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-But you will probably find yourself using the strong element much more in combination with other text elements, like this:
+Ancak muhtemelen kendinizi güçlü öğeyi diğer metin öğeleriyle birlikte daha çok kullanırken göreceksiniz, bunun gibi:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="wvewqJr" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/wvewqJr">
-  html-strong-with-paragraph-exmample</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
+  <span>
+  <a href="https://codepen.io">CodePen</a> aracılığıyla
+  TheOdinProject'te <a href="https://codepen.io/TheOdinProjectExamples/pen/wvewqJr">
+  html-strong-paragraf-örneği</a>
+  'ni inceleyebilirsiniz (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+  </span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Sometimes you will want to make text bold without giving it an important meaning. You'll learn how to do that in the CSS lessons later in the curriculum.
+Bazen metni `<strong>` etiketi kullanmadan kalın yapmak isteyebilirsiniz. Bunu nasıl yapacağınızı müfredatın ilerleyen bölümlerindeki CSS derslerinde öğreneceksiniz.
 
-### Em Element
+### Em Elemenı
 
-The `<em>` element makes text italic. It also semantically places emphasis on the text, which again may affect things like screen readers. To define an emphasised element we wrap text content in a `<em>` tag.
+`<em>` öğesi metni italik yapar. Ayrıca semantik olarak metne vurgu yapar, bu da yine ekran okuyucular gibi öğeleri etkileyebilir.
 
-To use `<em>` on its own:
+Tek başına `<em>` kullanmak için:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="wvewqpp" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/wvewqpp">
-  html-single-em-example</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
+  <span>
+  <a href="https://codepen.io">CodePen</a> aracılığıyla
+  TheOdinProject'te <a href="https://codepen.io/TheOdinProjectExamples/pen/wvewqpp">
+  html-single-em-örneği</a>
+  'ni inceleyebilirsiniz (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Again, like the strong element, you will find yourself mostly using the `<em>` element with other text elements:
+Yine strong öğesinde olduğu gibi, `<em>` öğesini de çoğunlukla diğer metin öğeleriyle birlikte kullanacaksınız:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="VwWZzyj" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/VwWZzyj">
-  html-em-with-paragraph-example</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
+  <span>
+  <a href="https://codepen.io">CodePen</a> aracılığıyla
+  TheOdinProject'te <a href="https://codepen.io/TheOdinProjectExamples/pen/VwWZzyj">
+  html-em-ile-paragraf-örneği</a>
+  'ni inceleyebilirsiniz (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-### Nesting and Indentation
+### Yerleştirme ve Girinti
 
-You may have noticed that in all the examples in this lesson we indent any elements that are within other elements. This is known as nesting elements.
+Bu dersteki tüm örneklerde, diğer öğelerin içinde yer alan öğeleri girintilendirdiğimizi fark etmiş olabilirsiniz. Bu, öğelerin iç içe geçmesi olarak bilinir.
 
-<span id='nested-relationship'>When we nest elements within other elements, we create a parent and child relationship between them. The nested elements are the children and the element they are nested within is the parent.</span>
+<span id='nested-relationship'>Elemanları diğer elemanların içine yerleştirdiğimizde, aralarında bir ebeveyn ve çocuk ilişkisi yaratırız. İç içe geçen elemanlar çocuk, iç içe geçtikleri eleman ise ebeveyndir.</span>
 
-In the following example, the body element is the parent and the paragraph is the child:
+Aşağıdaki örnekte body öğesi üst öğe (ebevyn), paragraf ise alt öğedir(çocuk):
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="oNwjEvO" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/oNwjEvO">
-  html-nesting-parent-child</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
+  <span>
+  <a href="https://codepen.io">CodePen</a> aracılığıyla
+  TheOdinProject'te <a href="https://codepen.io/TheOdinProjectExamples/pen/oNwjEvO">
+  html-nesting-parent-child</a>
+  'ni inceleyebilirsiniz (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+  </span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Just as in human relationships, HTML parent elements can have many children.  <span id='elements-same-level'>Elements at the same level of nesting are considered to be siblings.</span>
+Tıpkı insan ilişkilerinde olduğu gibi, HTML ana öğelerinin birçok çocuğu olabilir.  <span id='elements-same-level'>Aynı iç içe yerleştirme seviyesindeki öğeler kardeş olarak kabul edilir.</span>
 
-For example, the two paragraphs in the following code are siblings, since they are both children of the body tag and are at the same level of nesting as each other:
+Örneğin, aşağıdaki kodda yer alan iki paragraf kardeştir, çünkü her ikisi de body etiketinin alt öğeleridir ve birbirleriyle aynı iç içe geçme düzeyindedirler:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="ZEybrYx" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/ZEybrYx">
-  html-nesting-siblings</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
+  <span>
+  <a href="https://codepen.io">CodePen</a> aracılığıyla
+  TheOdinProject'te <a href="https://codepen.io/TheOdinProjectExamples/pen/ZEybrYx">
+  html-nesting-siblings</a>
+  'ni inceleyebilirsiniz (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-We use indentation to make the level of nesting clear and readable for ourselves and other developers who will work with our HTML in the future. It is recommended to indent any child elements by two spaces.
+İç içe geçme seviyesini kendimiz ve gelecekte HTML'mizle çalışacak diğer geliştiriciler için net ve okunabilir hale getirmek için girinti kullanırız. Tüm alt öğelerin iki boşluk girintilenmesi önerilir.
 
-The parent, child, and sibling relationships between elements will become much more important later when we start styling our HTML with CSS and adding behavior with JavaScript. For now, however, it is just important to know the distinction between how elements are related and the terminology used to describe their relationships.
+Öğeler arasındaki üst, alt ve kardeş ilişkileri, HTML'imizi CSS ile şekillendirmeye ve JavaScript ile işlev eklemeye başladığımızda çok daha önemli hale gelecektir. Ancak şimdilik, öğelerin birbiriyle nasıl ilişkili olduğu ve ilişkilerini tanımlamak için kullanılan terminoloji arasındaki farkı bilmek önemlidir.
 
-### HTML Comments
+### HTML Yorumları
 
-HTML comments are not visible to the browser; they allow us to *comment* on our code so that other developers or our future selves can read them and get some context about something that might not be clear in the code.
+HTML yorumları tarayıcı tarafından görülemez; kodumuz üzerinde *yorum* yapmamızı sağlarlar, böylece diğer geliştiriciler veya gelecekteki kişiler bunları okuyabilir ve kodda açık olmayan bir şey hakkında bazı bilgiler edinebilirler.
 
-Writing an HTML comment is simple: We just enclose the comment with `<!--` and `-->` tags. For example:
+Bir HTML yorumu yazmak basittir: Yorumu sadece `<!--` ve `-->` etiketleri ile çevreliyoruz. Örneğin:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="abwoyBg" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/abwoyBg">
-  html-comments-example</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
+  <span>
+  <a href="https://codepen.io">CodePen</a> aracılığıyla
+  TheOdinProject'te <a href="https://codepen.io/TheOdinProjectExamples/pen/abwoyBg">
+  html-yorum-örneği</a>
+  'ni inceleyebilirsiniz (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-### Assignment
+### Görev
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Watch Kevin Powell's [HTML Paragraph and Headings Video](https://www.youtube.com/watch?v=yqcd-XkxZNM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=3)
-2.  Watch Kevin Powell's [HTML Bold and Italic Text Video](https://www.youtube.com/watch?v=gW6cBZLUk6M&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=4)
-3.  To get some practice working with text in HTML, create a plain blog article page which uses different headings, uses paragraphs, and has some text in the paragraphs bolded and italicized. You can use [Lorem Ipsum](https://loremipsum.io/) to generate dummy text, in place of real text as you build your sites.
+1.  Kevin Powell'ın [HTML Paragraf ve Başlıklar Videosunu İzleyin](https://www.youtube.com/watch?v=yqcd-XkxZNM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=3)
+2.  Kevin Powell'ın [HTML Kalın ve İtalik Metin Videosunu İzleyin](https://www.youtube.com/watch?v=gW6cBZLUk6M&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=4)
+3.  HTML'de metinle çalışma alıştırması yapmak için, farklı başlıklar kullanan, paragraflar kullanan ve paragraflardaki bazı metinleri kalın ve italik hale getiren düz bir blog makalesi sayfası oluşturun. Sitelerinizi oluştururken gerçek metin yerine sahte metin oluşturmak için [Lorem Ipsum](https://loremipsum.io/) kullanabilirsiniz.
 
 </div>
 
-### Knowledge Check
+### Bilgi Kontrolü
   
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+Bu bölüm, bu dersi kendi başınıza anlayıp anlamadığınızı kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta zorlanıyorsanız, soruya tıklayın ve bağlantı verdiği materyali gözden geçirin.
  
-*   [How do you create a paragraph in HTML?](#create-paragraph-element)
-*   [How do you create a heading in HTML?](#headings)
-*   [How many different levels of headings are there and what is the difference between them?](#different-heading-levels)
-*   [What element should you use to make text bold and important?](#strong-element)
-*   [What element should you use to make text italicized to add emphasis to it?](#em-element)
-*   [What relationship does an element have with any nested elements within it?](#nested-relationship)
-*   [What relationship do two elements have if they are at the same level of nesting?](#elements-same-level)
-*   [How do you create HTML comments?](#html-comments)
+*   [HTML'de bir paragraf nasıl oluşturulur?](#create-paragraph-element)
+*   [HTML'de nasıl başlık oluşturulur?](#headings)
+*   [Kaç farklı başlık seviyesi vardır ve aralarındaki fark nedir?](#different-heading-levels)
+*   [Metni kalın ve önemli yapmak için hangi öğeyi kullanmalısınız?](#strong-element)
+*   [Metne vurgu katmak amacıyla italik hale getirmek için hangi öğeyi kullanmalısınız?](#em-element)
+*   [Bir elemanın içindeki herhangi bir iç içe elemanla ne gibi bir ilişkisi vardır?](#nested-relationship)
+*   [İki öğe aynı iç içe geçme seviyesindeyse aralarında nasıl bir ilişki vardır?](#elements-same-level)
+*   [HTML yorumları nasıl oluşturulur?](#html-comments)
 
-### Additional Resources
+### Ek Kaynaklar
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+Bu bölüm, ilgili içeriğe yararlı bağlantılar içerir. Zorunlu değildir, bu nedenle tamamlayıcı olarak düşünün.
 
-*   [The semantic difference between &lt;strong> and &lt;b> or &lt;em> and &lt;i> tags and when to use them.](https://medium.com/@zac_heisey/when-to-use-strong-b-em-and-i-tags-in-your-markup-fa4d0af8affb)
-*   [An interactive HTML text formatting article](https://www.w3schools.com/html/html_formatting.asp)
+*   [&lt;strong> &lt;b> &lt;em> ve &lt;i> etiketleri arasındaki anlamsal fark nedir ve bu öğeler ne zaman kullanılır?](https://medium.com/@zac_heisey/when-to-use-strong-b-em-and-i-tags-in-your-markup-fa4d0af8affb)
+*   [Etkileşimli bir HTML metin biçimlendirme makalesi](https://www.w3schools.com/html/html_formatting.asp)
