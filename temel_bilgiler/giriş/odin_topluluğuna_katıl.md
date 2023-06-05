@@ -8,7 +8,7 @@ Web geliştirmeyi öğrenmek uzun ve zahmetli bir yolculuk olacak, ancak Discord
 
 Kodunuzun çalışmadığı ve hatta sizin için bir anlam ifade etmediği [umutsuzluk çölünde](https://www.thinkful.com/blog/why-learning-to-code-is-so-damn-hard/) ilerlerken, topluluğumuzda bir bilgi ve cesaret kaynağı bulabilirsiniz. The Odin Project'teki deneyimli üyeler, bilgi eksikliklerinizi gidermekte ve kodunuzu nasıl geliştireceğinize dair yeni bakış açıları ve fikirler sunmak konusunda yardımcı olurlar. Hepimiz daha önce aynı yollardan geçtik!
 
-Çözmek için çok uğraştığınız ve bitirmekten gurur duyduğunuz projeyi hatırlıyor musunuz? Topluluğumuz aracılığıyla, çalışmanıza ve ilerlemenize ne kadar çok emek harcandığını tam olarak takdir eden insanlarla paylaşabileceksiniz.
+Çözmek için çok uğraştığınız ve bitirmekten gurur duyduğunuz projeyi hatırlıyor musunuz? Topluluğumuz aracılığıyla, çalışmanızı ve ilerlemenizi, bir projeye ne kadar çok emek harcandığını tamamiyle anlayabilecek insanlarla paylaşabileceksiniz.
 
 ### Bir Topluluk Odin İçin Neden Harika?
 
