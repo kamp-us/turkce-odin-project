@@ -4,9 +4,9 @@ Diğer insanlarla çalışmak ve işbirliği yapmak, bir web geliştiricisi olar
 
 ### Bir Topluluk Sizin İçin Neden Harika?
 
-Web geliştirmeyi öğrenmek uzun ve meşakkatli bir yolculuk olacak, ancak Discord topluluğumuza katılarak maratonu çok daha eğlenceli hale getirebilirsiniz. Müfredatımızı hangi hızda yaparsanız yapın, her zaman birkaç adım önünüzde yardım etmeye istekli insanlar olacaktır. Ayrıca, sizden birkaç adım geride olanlara yardım etmek, kendi anlayışınızı derinleştirmenin ve öğrenmenizi kalıcı hale getirmenin harika bir yoludur.
+Web geliştirmeyi öğrenmek uzun ve zahmetli bir yolculuk olacak, ancak Discord topluluğumuza katılarak bu yolculuğu çok daha eğlenceli hale getirebilirsiniz. Müfredatımızı hangi hızda yaparsanız yapın, her zaman birkaç adım önünüzde yardım etmeye istekli insanlar olacaktır. Ayrıca, sizden birkaç adım geride olanlara yardım etmek, kendi anlayışınızı derinleştirmenin ve öğrenmenizi kalıcı hale getirmenin harika bir yoludur.
 
-Kodunuzun artık çalışmadığı ve hatta sizin için bir anlam ifade etmediği [umutsuzluk çölünde](https://www.thinkful.com/blog/why-learning-to-code-is-so-damn-hard/) zorlukla ilerlerken, topluluğumuzda bir bilgi ve cesaret vahası bulabilirsiniz. The Odin Project'teki gaziler, bilgi boşluklarını doldurmaya yardımcı olmayı ve kodunuzu nasıl geliştireceğiniz konusunda yeni kavramlar ve bakış açıları sağlamayı sever. Hepimiz daha önce aynı yollardan geçtik!
+Kodunuzun çalışmadığı ve hatta sizin için bir anlam ifade etmediği [umutsuzluk çölünde](https://www.thinkful.com/blog/why-learning-to-code-is-so-damn-hard/) ilerlerken, topluluğumuzda bir bilgi ve cesaret kaynağı bulabilirsiniz. The Odin Project'teki deneyimli üyeler, bilgi eksikliklerinizi gidermekte ve kodunuzu nasıl geliştireceğinize dair yeni bakış açıları ve fikirler sunmak konusunda yardımcı olurlar. Hepimiz daha önce aynı yollardan geçtik!
 
 Çözmek için çok uğraştığınız ve bitirmekten gurur duyduğunuz projeyi hatırlıyor musunuz? Topluluğumuz aracılığıyla, çalışmanıza ve ilerlemenize ne kadar çok emek harcandığını tam olarak takdir eden insanlarla paylaşabileceksiniz.
 
@@ -18,17 +18,17 @@ Mevcut dersleri güncellemek ve yeni içerikler üretmek için çok çalışıyo
 
 Projelerin çoğu sizi sınırlarınızı zorlamanız için tasarlandığından, lütfen her zaman başvurabileceğiniz bir topluluk olduğunu unutmayın! Her sorunu hemen nasıl çözeceğinizi bilmenize gerek yok, ANCAK sorunun ne olduğu konusunda genel bir fikriniz olması gerekiyor. Sorularınızı sorarken bu gerçekten önemlidir çünkü bazen sorun kodunuz değil **sizin yaklaşımınızdır**.
 
-Bir konuda takılıp kaldığınızı hissediyorsanız, durup bir nefes almanın tam zamanıdır. Sorunu küçük parçalara ayırın ve ardından sizi gerçekten neyin engellediğine karar verin. Bu tekniğe [lastik ördek hata ayıklaması](https://en.wikipedia.org/wiki/Rubber_duck_debugging) diyoruz.
+Bir konuda takılıp kaldığınızı hissediyorsanız, durup bir nefes almanın tam zamanı. Sorunu küçük parçalara ayırın ve ardından sizi gerçekten neyin engellediğine karar verin. Bu tekniğe [lastik ördek hata ayıklaması](https://en.wikipedia.org/wiki/Rubber_duck_debugging) diyoruz.
 
-Sorununuzla ilgili bilgileri bulmak için bir [Google araması](https://www.google.com/) da yapmalısınız. [Programlama sorularınızı çözmek için Google'ı nasıl kullanacağınız](https://codinginflow.com/google-programming-questions) hakkında bilgi edinin. Üzerinde çalıştığınız ödeve uygulayabileceğiniz araçlar için önceki derslere de bakabilirsiniz.
+Sorununuzla ilgili bilgileri bulmak için bir [Google araması](https://www.google.com/) da yapmalısınız. [Programlama sorularınızı çözmek için Google'ı nasıl kullanacağınız](https://codinginflow.com/google-programming-questions) hakkında bilgi edinin. Üzerinde çalıştığınız göreve uygulayabileceğiniz araçlar için önceki derslere de bakabilirsiniz.
 
 Eğer bu yöntemler sizin için bir çözüm sağlamıyorsa, Odin topluluğuna ulaşıp yardım istemenin zamanı geldi.
 
 ### Yardım İstemek
 
-Sorunu kendi başınıza çözmek için biraz zaman harcadınız ve şimdi Odin Discord'u açıp yardım isteme zamanı. Akılda tutulması gereken ilk şey [sormak için sorma](https://dontasktoask.com/). Bu basit bir fikir olsa da (oldukça akılda kalıcı bir özlü söz ile!), sorularınıza çok daha hızlı yanıt almanıza yardımcı olabilir ve başkalarının size yardım teklif ederken kendilerini rahat hissetmelerini kolaylaştırır.
+Sorunu kendi başınıza çözmek için biraz zaman harcadınız ve şimdi Odin Discord'u açıp yardım isteme zamanı. Akılda tutulması gereken ilk şey [sormak için sorma](https://dontasktoask.com/). Bu basit bir fikir olsa da (oldukça akılda kalıcı bir özlü söz ile!), sorularınıza çok daha hızlı yanıt almanıza yardımcı olabilir ve başkalarının size yardım teklif etmesini kolaylaştırır.
 
-Ayrıca, sorularınızı sorduğunuzda harika bir soru oluşturarak topluluğun size yardımcı olmasına yardımcı olmalısınız.
+Ayrıca, sorularınızı sorarken harika bir soru oluşturarak topluluğun size yardımcı olmasını kolaylaştırmalısınız.
 
 Sorunuzu sorarken, lütfen ayrıntı eklemeyi unutmayın:
 
@@ -40,7 +40,7 @@ Sorunuzu sorarken, lütfen ayrıntı eklemeyi unutmayın:
 
 Sorunu tam olarak belirleyemezseniz bir **ekran görüntüsü** paylaşabilirsiniz. Bu, özellikle komutların çıktısını komut satırında göstermek için kullanışlıdır. Discord'da, ekran görüntüsü yüklemek için resim dosyanızı sohbet kutusuna sürükleyip bırakın veya PrtScn'yi kullanın ve klavye kısayollarıyla yapıştırın. Bilgisayarınızda nasıl ekran görüntüsü alacağınızı bilmiyorsanız [Google'a](https://google.com) sormanın tam zamanı.
 
-Ekran görüntüleri, komutların çıktılarını veya komut satırındaki hata mesajlarını göstermek için harikadır. Ekran görüntüleri, çıktının bir web sayfasında görsel olarak nasıl göründüğü veya tarayıcıda konsol çıktıları gibi kodunuzdan çıktıyı göstermek için de harikadır. Ancak, her zaman hatayı içeren ilgili dosyaları eklemelisiniz. Kısa bir kod olsa bile, çıktının ekran görüntüsüyle birlikte discord sunucusunda uygun biçimde paylaşılması, yalnızca bir ekran görüntüsü yerine hata ayıklayanlar için yararlıdır. Çıktının ekran görüntüsünü veya görsel olarak nasıl göründüğünü paylaştığınızda, projenizi GitHub'a aktardığınızdan veya ilgili kodu bir [Replit](https://replit.com) içine koyduğunuzdan emin olun, böylece diğerleri inceleyebilir ve kodunuzun hatalarını düzeltebilirler. Çıktının ekran görüntüsü ve sorunu yeniden oluşturabilecek ilgili kod, size yardımcı olan kişilerin sorunu anlamalarını kolaylaştıracaktır. Çok yakında GitHub hakkında her şeyi öğreneceksiniz.
+Ekran görüntüleri, komutların çıktılarını veya komut satırındaki hata mesajlarını göstermek için harikadır. Ekran görüntüleri, çıktının bir web sayfasında görsel olarak nasıl göründüğü veya tarayıcıda konsol çıktıları gibi kodunuzdan çıktıyı göstermek için de harikadır. Ancak, her zaman hatayı içeren ilgili dosyaları eklemelisiniz. Kısa bir kod olsa bile, çıktının ekran görüntüsüyle birlikte Discord sunucusunda uygun biçimde paylaşılması, yalnızca bir ekran görüntüsü yerine hata ayıklayanlar için yararlıdır. Çıktının ekran görüntüsünü veya görsel olarak nasıl göründüğünü paylaştığınızda, projenizi GitHub'a aktardığınızdan veya ilgili kodu bir [Replit](https://replit.com) içine koyduğunuzdan emin olun, böylece diğerleri inceleyebilir ve kodunuzun hatalarını düzeltebilirler. Çıktının ekran görüntüsü ve sorunu yeniden oluşturabilecek ilgili kod, size yardımcı olan kişilerin sorunu anlamalarını kolaylaştıracaktır. Çok yakında GitHub hakkında her şeyi öğreneceksiniz.
 
 Bazen sorununuzla ilgili size yardımcı olacak kimse olmayabilir. [Discord arama işlevine](https://support.discordapp.com/hc/en-us/articles/115000468588-Using-Search) aşina olmak için ideal zaman budur. Daha önce başka birinin benzer bir sorunu olup olmadığını ve sorunu nasıl çözdüğünü görmek için belirli anahtar kelimeleri veya hata mesajlarını arayın!
 
@@ -48,7 +48,7 @@ Bazen sorununuzla ilgili size yardımcı olacak kimse olmayabilir. [Discord aram
 
 Sorularınızı okunabilir bir biçimde sormak, herkesin sorularda daha iyi hata ayıklamasına yardımcı olur. İşte bununla ilgili bazı yollar:
 
-Komut satırında sorun yaşıyorsanız hem girdinizi hem de aldığınız hata mesajını eklediğinizden emin olun.
+Komut satırında sorun yaşıyorsanız hem komut satırına yazdıklarınızı hem de aldığınız hata mesajını eklediğinizden emin olun.
 
 Sohbet odalarında, ABD ve İngiltere klavyelerinde Tab tuşunun üzerinde bulunan **ters tikler** (\`\`) kullanılarak kod normal cümlelerden farklı bir şekilde görüntülenebilir. Ters tikler, Enter tuşunun solunda bulunan tek tırnak işaretleri ('') ile aynı değildir.
 
@@ -82,11 +82,11 @@ Birden Çok Satırlı Renkli Kodunuz
 
 ### Başkalarının Kodlama Sorunlarını Çözmesine Nasıl Yardımcı Olabilirsiniz?
 
-Sadece nasıl etkili bir soru sorulacağını bilmek önemli değil, aynı zamanda başkalarına etkili bir şekilde nasıl yardım edileceğini bilmek de önemlidir. Discord topluluğumuzda alacağınız yardımdan uygun beklentilere sahip olabilmeniz için lütfen bu yönergeleri incelemek için bir dakikanızı ayırın. Ayrıca, başkalarına yardım etmeye hazır olduğunuzda geri gelip bu yönergeleri gözden geçirin.
+Sadece nasıl etkili bir soru sorulacağını bilmek önemli değil, aynı zamanda başkalarına etkili bir şekilde nasıl yardım edileceğini bilmek de önemlidir. Lütfen bu yönergeleri gözden geçirmek zaman ayırın, böylece Discord topluluğumuzdan alabileceğiniz yardımla ilgili doğru beklentilere sahip olabilirsiniz. Ayrıca, başkalarına yardım etmeye hazır olduğunuzda geri gelip bu yönergeleri gözden geçirin.
 
 #### 1.  Soruyu Yanıtlamak Yerine, Cevap için rehberlik edin
 
-Sorun basit bir yazım hatası veya sözdizimi hatası olmadığı sürece, kendi yanıtlarını bulmaları için onlara rehberlik etmek daha faydalıdır. Bu yaklaşım onlara iyi hata ayıklama becerileri öğretecek ve gelecekteki sorunları çözme becerilerini artıracaktır.
+Sorun basit bir yazım hatası veya sözdizimi hatası olmadığı sürece, soru soranlara kendi yanıtlarını bulmaları için rehberlik etmek daha faydalıdır. Bu yaklaşım onlara iyi hata ayıklama becerileri öğretecek ve gelecekteki sorunları çözme becerilerini artıracaktır.
 
 "Daha önce ne denediniz?", "Bu fonksiyonun ne yapmasını bekliyorsunuz?" veya "Bu hatanın ne anlama geldiğini düşünüyorsunuz?" gibi araştırma soruları sorarak başlayın.
 
@@ -165,7 +165,7 @@ Bazen yanlış anlaşılmalar olur ve etkileşimler kötü gider. Siz bir gönü
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Öncelikle ücretsiz bir [GitHub hesabı](https://github.com/join) oluşturun. Keşfedeceğiniz gibi GitHub, geliştirme iş akışının ayrılmaz bir parçasıdır.  
+1.  Öncelikle ücretsiz bir [GitHub hesabı](https://github.com/join) oluşturun. Keşfedeceğiniz gibi GitHub, geliştirme sürecinin ayrılmaz bir parçasıdır. 
 
 2.  Şimdi [Discord sunucumuzda](https://discord.gg/fbFCkYabZB) oturum açın. İçeri girin ve merhaba deyin! Kendinizi tanıtmak için harika bir yer olan bir tanıtım odası oluşturduk ve yeni topluluk üyelerini ağırlamaktan her zaman mutluluk duyarız. Müfredatımızın kapsadığı her geliştirme konusu için sohbet odalarımız var. Sohbete giriş yapın ve keşfetmeye başlayın!  
 
@@ -175,10 +175,10 @@ Bazen yanlış anlaşılmalar olur ve etkileşimler kötü gider. Siz bir gönü
 
     *   **Bir amaç ile etiketleyin (@kullanıcı):** Sadece gerektiğinde başka bir kullanıcıyı @'leyin. Sorunuzu veya yorumunuzu mesaja ekleyin. Tekrar etiketlemeden önce cevap verene kadar bekleyin.
     *   **Sohbetleri bombalamayın** Art arda birden fazla mesaj göndermeyin; tüm mesajınızı yazın, ardından gönder düğmesine basın.
-    *   **Kimseti dışlamayın** Bunlar herkese açık sohbetlerdir; birisi bir sohbete katılırsa, onu da dahil edin!
-    *   **Kodla İlgili Yardım İstedikten Sonra Hemen Ortadan Kaybolmayın:** Bir soru gönderiyorsanız, etrafta dolanmak ve yardım etmeye çalışanlarla tartışmak için zamanınız olduğundan emin olun!
+    *   **Kimseyi dışlamayın** Bunlar herkese açık sohbetlerdir; birisi bir sohbete katılırsa, onu da dahil edin!
+    *   **Kodla İlgili Yardım İstedikten Sonra Hemen Ortadan Kaybolmayın:** Bir soru gönderiyorsanız, yardım etmeye çalışanlarla fikir alışverişi yapmak için zamanınız olduğundan emin olun!
     *   **İnsan Olduklarını Hatırlayın:** Her kullanıcı adının arkasında duyguları olan bir kişi vardır! Nazik ol! Söyleyecek güzel bir şeyin yoksa, hiçbir şey söyleme.
-    *   **Yüksek Sesle Söylemeyecekseniz Yazmayın:** Sade ve basit.
+    *   **Ağza alınmayacak lafları burada da kullanma:** Sade ve basit.
     *   **Kuralları ve SSS'yi okuyun:** Katıldıktan sonra kurallarımızı okumak zorunda kalacaksınız. Lütfen kurallarımızı ve SSS bölümümüzü okumak ve anlamak için zaman ayırın.
 
 </div>
