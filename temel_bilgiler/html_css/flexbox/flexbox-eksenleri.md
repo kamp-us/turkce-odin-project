@@ -40,7 +40,7 @@ Yukarıdaki örnekte `flex: 1 1 auto` tanımlanarak yani flex öğelerinin varsa
 
 Dikkat edilmesi gereken başka bir ayrıntı: <span id='column-flex-basis'>flex-direction'u `column` olarak değiştirdiğimizde, `flex-basis`, `width` yerine `height` özelliğini baz alır.</span> Kullanım esnasında bu bariz olabilir ancak yine de dikkat edilmesi gerekir.
 
-Konudan biraz saptık... flex-direction ve eksenlerden bahsediyorduk. Önemli olan kısım, varsayılan davranış, her şeyi yatay olarak düzenleyen `flex-direction: row` şeklindedir. Bunun genellikle CSS'deki diğer ayrıntıları değiştirmeden iyi çalışmasının nedeni, blok düzeyindeki öğelerin varsayılan olarak ebeveynlerinin tam genişliğine sahip olmasıdır. `flex-direction: column` kullanarak her şeyi dikey olarak değiştirmek karmaşıklık katar çünkü blok düzeyindeki öğeler varsayılan olarak içeriklerinin yüksekliğine göre ayarlanır ve bu durumda içerik yoktur.
+Konudan biraz saptık... flex-direction ve eksenlerden bahsediyorduk. Konuya dönmek gerekirse, varsayılan davranış öğeleri yatay olarak düzenleyen `flex-direction: row`dur. Bunun, genellikle CSS'deki diğer ayrıntıları değiştirmeden sorunsuz çalışmasının nedeni, blok düzeyindeki (tüm yatayı kaplayan) öğelerin varsayılan olarak ebeveynlerinin tam genişliğine sahip olmasıdır. `flex-direction: column` kullanarak her şeyi dikey olarak değiştirmek karmaşıklık katar çünkü blok düzeyindeki öğeler, varsayılan olarak içeriklerinin yüksekliğine göre ayarlanır ve bu durumda herhangi bir içerik _bulunmamaktadır_.
 
 > Yukarıdan aşağıya veya sağdan sola yazılan bir dil kullanıyorsanız, flex-direction davranışının değişebileceği durumlar vardır, ancak Arapça veya İbranice bir web sitesi yapmaya hazır olana kadar bunun için endişelenmemelisiniz. 
 
