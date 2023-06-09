@@ -12,7 +12,7 @@ Son olarak, bu sizin sıfırdan oluşturduğunuz ilk JavaScript programı olduğ
 ### Görev
 
 <div class="lesson-content__panel" markdown="1">
-Erken ve sık sık commit atmayı unutma! [Commit Mesajı dersine buradan](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/commit-messages) bakabilirsin!
+Erken ve sık sık commit atmayı unutmayın! [Commit Mesajı dersine buradan](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/commit-messages) bakabilirsiniz!
 
 1. Projeniz için yeni bir Git deposu oluşturun.
 2. Bir boş HTML belgesi oluşturun ve bir script etiketi oluşturun (İpucu: dış bir .js dosyası bağlamak en iyi uygulamadır). Bu oyun sadece konsoldan oynanacak, bu yüzden başka bir şey hakkında endişelenmeyin.
@@ -21,15 +21,15 @@ Erken ve sık sık commit atmayı unutma! [Commit Mesajı dersine buradan](https
     * Fonksiyonunuzun playerSelection parametresini büyük-küçük harf duyarsız hale getirin (kullanıcılar 'taş', 'TAŞ', 'TaŞ' veya başka herhangi bir varyasyonu girebilirler).
 
 5. **Önemli not:** Bu fonksiyon çağrısının sonuçlarını daha sonra kullanmak istiyorsanız `console.log()` etmek yerine `return` etmelisiniz, öyleyse hadi sonuçları görmek için console.log'u kullanarak bu fonksiyonu test edelim:
-    ~~~javascript
-function playRound(playerSelection, computerSelection) {
-    // your code here!
-}
+   ~~~javascript
+   function playRound(playerSelection, computerSelection) {
+     // your code here!
+   }
 
-const playerSelection = "taş";
-const computerSelection = getComputerChoice();
-console.log(playRound(playerSelection, computerSelection));
-~~~
+   const playerSelection = "taş";
+   const computerSelection = getComputerChoice();
+   console.log(playRound(playerSelection, computerSelection));
+   ~~~
 
 6. game() adlı yeni bir fonksiyon yazın. Bu fonksiyon _içinde_ önceki fonksiyonu kullanarak skor tutan ve sonunda bir kazanan veya kaybeden rapor eden 5 tur oyun oynayın.
     * Fonksiyon çağrılarını tekrarlamak için "döngü" kullanmayı henüz öğrenmediniz... Başka bir yerden döngüler hakkında bilgi sahibiyseniz (veya daha fazla öğrenmek istiyorsanız), kullanmaktan çekinmeyin. Aksi takdirde, endişelenmeyin! Sadece `playRound` fonksiyonunuzu 5 kez arka arkaya çağırın. Döngüler sonraki derslerde ele alınacaktır.
