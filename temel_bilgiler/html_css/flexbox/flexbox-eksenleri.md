@@ -42,7 +42,7 @@ Dikkat edilmesi gereken başka bir ayrıntı: <span id='column-flex-basis'>flex-
 
 Konudan biraz saptık... flex-direction ve eksenlerden bahsediyorduk. Konuya dönmek gerekirse, varsayılan davranış öğeleri yatay olarak düzenleyen `flex-direction: row`dur. Bunun, genellikle CSS'deki diğer ayrıntıları değiştirmeden sorunsuz çalışmasının nedeni, blok düzeyindeki (tüm yatayı kaplayan) öğelerin varsayılan olarak ebeveynlerinin tam genişliğine sahip olmasıdır. `flex-direction: column` kullanarak her şeyi dikey olarak değiştirmek karmaşıklık katar çünkü blok düzeyindeki öğeler, varsayılan olarak içeriklerinin yüksekliğine göre ayarlanır ve bu durumda herhangi bir içerik _bulunmamaktadır_.
 
-> Yukarıdan aşağıya veya sağdan sola yazılan bir dil kullanıyorsanız, flex-direction davranışının değişebileceği durumlar vardır, ancak Arapça veya İbranice bir web sitesi yapmaya hazır olana kadar bunun için endişelenmemelisiniz. 
+> Yukarıdan aşağıya veya sağdan sola yazılan bir dil kullanıyorsanız, flex-direction davranışının değişebileceği durumlar bulunur. Ancak Arapça veya İbranice bir web sitesi yapmaya hazır olana dek bu konuda endişelenmenize gerek yok. 
 
 Eksenlerin flexbox ile nasıl çalıştığına dair etkileşimli bir demo için şu Scrim'e göz atın:
 
