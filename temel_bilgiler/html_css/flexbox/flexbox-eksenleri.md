@@ -6,7 +6,7 @@ Bir flex konteynerindeki öğelerin yönünün `flex-direction` özelliği kulla
 
 Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içerir.
 
--   Flex bir konteynerin 2 "eksenini" öğreneceksiniz.
+-   Bir flex konteynerinin 2 "eksenini" öğreneceksiniz.
 -   İçeriğinizi satırlar yerine sütunlar halinde düzenlemek için eksenleri nasıl değiştireceğinizi öğreneceksiniz.
 
 Flexbox ile ilgili en kafa karıştırıcı şey, yatay veya dikey olarak çalışabilmesi ve hangi yönde çalıştığınıza bağlı olarak bazı kuralların biraz değişmesidir.
