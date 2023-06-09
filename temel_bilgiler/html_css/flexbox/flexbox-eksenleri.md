@@ -11,7 +11,7 @@ Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içerir.
 
 Flexbox ile ilgili en kafa karıştırıcı şey, yatay veya dikey olarak çalışabilmesi ve hangi yönde çalıştığınıza bağlı olarak bazı kuralların biraz değişmesidir.
 
-Bir flex konteyner için varsayılan yön yatay veya `row`dır, <span id='flex-vertical'>ancak yönü dikey veya `column` olarak değiştirebilirsiniz. Yön, CSS'de şu şekilde belirtilebilir:
+Bir flex konteyneri için varsayılan yön yatay veya `row` (satır)dır, <span id='flex-vertical'>ancak yönü dikey veya `column` (sütun) olarak değiştirebilirsiniz. Yön, CSS'de şu şekilde belirtilebilir:
 </span>
 
 ~~~css
