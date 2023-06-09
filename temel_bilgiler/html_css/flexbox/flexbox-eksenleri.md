@@ -36,7 +36,7 @@ Unutulmaması gereken bir nokta, bu örnekte, `flex: 1` kısaltmasını kullanı
 
 Bunun nedeni, <span id='row-flex-basis'> flex kısaltmasının `flex-basis`ı `0`a genişletmesidir; bu, tüm `flex-grow` ve `flex-shrink` hesaplamalarının `0`dan başlayacağı anlamına gelir.</span> Boş div'lerin varsayılan yüksekliği 0'dır, bu nedenle flex öğelerimizin kendi konteynerlerinin yüksekliğine ulaşması için aslında herhangi bir yüksekliğe sahip olmaları gerekmez.
 
-Yukarıdaki örnek, `flex: 1 1 auto` belirterek ve flex öğelerin varsayılan `height` değerlerinin verilmesi söylenerek bu düzeltildi. Ebeveyn `.flex-container` elementinin üzerine bir yükseklik koyarak veya kısaltma yerine `flex-grow: 1` kullanarak da düzeltebilirdik.
+Yukarıdaki örnekte `flex: 1 1 auto` tanımlanarak yani flex öğelerinin varsayılan `height` değerlerine dönmesi sağlanarak sorun giderildi. Ebeveyn `.flex-container` elementine bir yükseklik ekleyerek veya kısaltma yerine `flex-grow: 1` kullanarak da bunu düzeltebilirdik.
 
 Dikkat edilmesi gereken başka bir ayrıntı: <span id='column-flex-basis'>flex-direction'u `column` olarak değiştirdiğimizde, `flex-basis`, `width` yerine `height` özelliğini baz alır.</span> Kullanım esnasında bu bariz olabilir ancak yine de dikkat edilmesi gerekir.
 
