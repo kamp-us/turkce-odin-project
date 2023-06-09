@@ -38,7 +38,7 @@ Bunun nedeni, <span id='row-flex-basis'> flex kısaltmasının `flex-basis`ı `0
 
 Yukarıdaki örnek, `flex: 1 1 auto` belirterek ve flex öğelerin varsayılan `height` değerlerinin verilmesi söylenerek bu düzeltildi. Ebeveyn `.flex-container` elementinin üzerine bir yükseklik koyarak veya kısaltma yerine `flex-grow: 1` kullanarak da düzeltebilirdik.
 
-Dikkat edilmesi gereken başka bir ayrıntı: <span id='column-flex-basis'>flex-direction'u `column` olarak değiştirdiğimizde, `flex-basis`, `width` yerine `height` anlamına gelir.</span> Bağlam göz önüne alındığında bu bariz olabilir, ancak dikkat edilmesi gereken bir şeydir.
+Dikkat edilmesi gereken başka bir ayrıntı: <span id='column-flex-basis'>flex-direction'u `column` olarak değiştirdiğimizde, `flex-basis`, `width` yerine `height` özelliğini baz alır.</span> Kullanım esnasında bu bariz olabilir ancak yine de dikkat edilmesi gerekir.
 
 Konudan biraz saptık... flex-direction ve eksenlerden bahsediyorduk. Önemli olan kısım, varsayılan davranış, her şeyi yatay olarak düzenleyen `flex-direction: row` şeklindedir. Bunun genellikle CSS'deki diğer ayrıntıları değiştirmeden iyi çalışmasının nedeni, blok düzeyindeki öğelerin varsayılan olarak ebeveynlerinin tam genişliğine sahip olmasıdır. `flex-direction: column` kullanarak her şeyi dikey olarak değiştirmek karmaşıklık katar çünkü blok düzeyindeki öğeler varsayılan olarak içeriklerinin yüksekliğine göre ayarlanır ve bu durumda içerik yoktur.
 
