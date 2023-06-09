@@ -22,7 +22,7 @@ Bir flex konteyneri için varsayılan yön yatay veya `row` (satır)dır, <span 
 
 ### Eksenler
 
-<span id='flex-axes'>Hangi yönü kullanırsanız kullanın, flex konteynerinizin 2 eksene sahip olduğunu bilmeniz gerekmektedir: ana eksen ve çapraz eksen. `Flex-direction` değeri değiştirildiğinde, değişen bu eksenlerin yönüdür. _Çoğu durumda_, `flex-direction: row` ana ekseni yatay (soldan sağa) ve `column` ana ekseni dikey (yukarıdan aşağıya) yerleştirir.</span>
+<span id='flex-axes'>Hangi yönü kullanırsanız kullanın, flex konteynerinizin 2 eksene sahip olduğunu bilmeniz gerekmektedir: ana eksen ve çapraz eksen. `Flex-direction` değeri değiştirildiğinde, değişen şey bu eksenlerin yönüdür. _Çoğu durumda_, `flex-direction: row` ana ekseni yatay (soldan sağa) ve `column` ana ekseni dikey (yukarıdan aşağıya) yerleştirir.</span>
 
 Yani ilk örneğimizde bir div üzerine `display: flex` koyduk ve çocuklarını yatay olarak sıraladı. Bu, varsayılan ayar olan "`flex-direction: row`ın bir gösterimidir. Aşağıdaki örnek çok benzer. `flex-direction: column` yazan satırın yorumunu kaldırırsanız, bu div'ler dikey olarak sıralanırlar.
 
