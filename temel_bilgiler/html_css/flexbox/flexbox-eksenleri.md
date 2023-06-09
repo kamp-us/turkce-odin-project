@@ -32,7 +32,7 @@ Yani ilk örneğimizdeki gibi, bir div'e `display: flex` ekleyince çocukları y
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Unutulmaması gereken bir nokta, bu örnekte, `flex: 1` kısaltmasını kullanırsak `flex-direction: column` beklendiği gibi çalışmaz. Şimdi deneyin (yani, `flex: 1 1 auto;` satırındaki flex değerini değiştirin). `flex: 1` kullanılırsa neden çalışmadığını anlayabilir misiniz? Orada _açıkça_ tanımlanmış bir `yüksekliğe` sahip olmalarına rağmen div'ler çöker.
+Unutulmaması gereken bir nokta, bu örnekte, `flex: 1` kısaltmasını kullanırsak `flex-direction: column` beklendiği gibi çalışmaz. Şimdi deneyin (yani, `flex: 1 1 auto;` satırındaki flex değerini değiştirin). `flex: 1` kullanılırsa neden çalışmadığını anlayabilir misiniz? Orada _açıkça_ tanımlanmış bir `height` (yükseklik) bulunmasına rağmen div'ler kapanıyor.
 
 Bunun nedeni, <span id='row-flex-basis'> flex kısaltmasının `flex-basis`ı `0`a genişletmesidir; bu, tüm `flex-grow` ve `flex-shrink`nin hesaplamalarına `0`dan başlayacağı anlamına gelir.</span> Boş div'lerin varsayılan olarak 0 yüksekliği vardır, bu nedenle flex öğelerimizin kaplarının yüksekliğini doldurması için aslında herhangi bir yüksekliğe sahip olmaları gerekmez.
 
