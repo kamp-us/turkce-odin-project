@@ -18,14 +18,14 @@ Bir karar vermenize yardımcı olmak için, her bir teknolojinin bazı avantajla
 
 - Sabit
   - Projelerinizin yapısına ilişkin kararlar vermek zorunda kalmazsınız. Bu, diğerlerinin oluşturduğu projelere geçerken yardımcı olur.
-  - "Ruby Yöntemi" adı verilen şeyleri öğreneceksiniz, bu diğer dillerde de temiz kod yazmanıza yardımcı olabilir.
+  - "Ruby Yolu" adı verilen şeyleri öğreneceksiniz, bu diğer dillerde de temiz kod yazmanıza yardımcı olabilir.
 - Zarif
   - Kodunuzu okunması kolay hale getirmek için birçok araç getirir.
   - Çoğu zaman, Ruby'deki çözümler diğer dillere göre daha kısadır.
 - Hızlı geliştirme
   - Rails, uygulamaları çok hızlı bir şekilde oluşturmanıza yardımcı olur. Bu, aynı süre zarfında diğerlerinden daha fazla ilginç proje yapabileceğiniz anlamına gelir.
 - Tek Paradigma
-  - Nesne Yönelimli Programlama (OOP), Ruby yöntemidir; diğer bir çok diller de Nesne Yönelimli Programlama (OOP) tabanlıdır.
+  - Nesne Yönelimli Programlama (OOP), Ruby yoludur; diğer bir çok diller de Nesne Yönelimli Programlama (OOP) tabanlıdır.
 
 ### JavaScript - Node & Express
 
