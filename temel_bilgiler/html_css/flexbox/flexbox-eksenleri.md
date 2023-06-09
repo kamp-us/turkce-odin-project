@@ -1,6 +1,6 @@
 ### Giriş
 
-Flex bir konteyner içindeki öğelerin yönünün `flex-direction` özelliği kullanılarak nasıl kontrol edilebileceğini görelim.
+Bir flex konteynerindeki öğelerin yönünün `flex-direction` özelliği kullanılarak nasıl kontrol edilebileceğini görelim.
 
 ### Derse Genel Bakış
 
