@@ -146,7 +146,7 @@ Tüm bunlar tamamlandığına göre, bu pencereleri kapatabilir ve sanal makinen
 
 #### Step 3.4: Yeni Kazandığınız sudo Ayrıcalıklarını Test Etme
 
-Artık `sudo'ya` erişiminiz olduğuna göre, bunu Xubuntu'yu `Terminal` üzerinden güncellemek için kullanabiliriz. Terminal`i açın ve aşağıdaki komutları birbiri ardına kullanın:
+Artık `sudo'ya` erişiminiz olduğuna göre, bunu Xubuntu'yu `Terminal` üzerinden güncellemek için kullanabiliriz. Terminali açın ve aşağıdaki komutları birbiri ardına kullanın:
 
 ~~~bash
 sudo apt update
