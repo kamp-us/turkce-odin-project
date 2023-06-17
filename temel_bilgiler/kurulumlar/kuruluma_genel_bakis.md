@@ -4,7 +4,7 @@ Herhangi bir web sitesi oluşturmanın ilk adımı doğru araçlara sahip olmakt
 
 Birçok çevrimiçi geliştirme kursu, sadece o anki görevi tamamlamalık araçlar ve programlar sunan çevrimiçi kod düzenleyicileri veya "sandboxlar" (izole sanal ortamlar) kullanır. Bunlardan bazılarını Odin Project'in erken aşamalarında kullanacaksınız çünkü işe hızlıca başlamak için harikadırlar. Ancak uzun vadeli başarı için kendinizi hazırlamanın en iyi yolu, gerçek bir geliştirme ortamında çalışmaktır.
 
-Size yalan söylemeyeceğiz. Paketler, kod düzenleyiciler ve hatta tüm işletim sistemlerini yüklemek çok sinir bozucu olabilir. Ancak yazacağınız kodu çalıştırmak için bir geliştirme ortamı kurma deneyimi, kariyerinizin geri kalanı boyunca yanınızda taşıyacağınız paha biçilmez bir gerçek hayat becerisidir.
+Size yalan söylemeyeceğiz. Paketler, kod düzenleyiciler ve hatta koca işletim sistemlerini yüklemek oldukça sinir bozucu olabilir. Ancak yazacağınız kodu çalıştırmak için bir geliştirme ortamı kurma deneyimi; kariyeriniz boyunca yanınızda taşıyacağınız, paha biçilmez bir gerçek yaşam becerisidir.
 
 ### Kurulum Planı
 
