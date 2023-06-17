@@ -17,7 +17,7 @@ Aşağıdaki bölümlerde, geliştirme ortamınızı kurmak için gerekli adıml
 * Bir kod düzenleyici yüklemek.
 * Bir SSH anahtarı oluşturmak (GitHub, Heroku ve daha birçok siteye kimliğinizi tanımlayacak kişisel bir "şifre").
 
-Bir sonraki dersle, kod yazmak ve çalıştırmak için gereken birçok araçla hazır olacaksınız! Çok fazla adım gibi görünebilir, ancak birlikte en az sıkıntıyla bunu atlatacağız! Bir şeyler ters giderse, bu adımları kullanmayı unutmayın:
+Sıradaki dersin sonunda, kod yazmak ve kodu çalıştırmak için gereken birçok araçla hazır olacaksınız! Adımlar çok fazla gibi görünebilir ancak olabildiğince sorunsuz şekilde bunu beraber atlatacağız! Bir şeyler ters giderse, bu adımları kullanmayı unutmayın:
 
 * Asıl hatayı belirlemek için terminal çıktısını inceleyin.
 * Googlelayın, Googlelayın, Googlelayın.
