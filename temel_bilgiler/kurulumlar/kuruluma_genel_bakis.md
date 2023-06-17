@@ -67,7 +67,7 @@ Birçok öğrenci, bu sayfadaki yönergelerin takip edilmesi gerekip gerekmediğ
 
 Devam edebilmemiz için öncelikle önemli bir ayrıntıyı vurgulamamız gerekiyor:
 
-**Biz sadece müfredatımızın kapsamında olanı destekleyebiliriz. Windows'un doğal sürümünü veya Linux için Windows Alt Sistemi'nin (WSL) herhangi bir sürümünü geliştirme ortamı olarak desteklemiyoruz.** Windows ve WSL kullanımı birçok kez tartışıldı ve şu anda uygun değil. Lütfen bizden Windows'u desteklememizi istemeyin ve **Discord'da bunu gündeme getirmeyin**. Müfredatımızı mümkün olan en güncel ve erişilebilir şekilde tutmak için sürekli olarak değerlendiriyoruz ve Windows/WSL'in [düşük dirençli bir yol olduğu kanıtlanmamıştır.](https://github.com/microsoft/WSL/issues)
+**Biz sadece müfredatımızın kapsamında olanı destekleyebiliriz. Windows yerel sürümünü veya Linux için Windows Alt Sistemi'nin (WSL) herhangi bir sürümünü geliştirme ortamı olarak desteklemiyoruz.** Windows ve WSL kullanımı birçok kez tartışıldı ve şu anda uygun değil. Lütfen bizden Windows'u desteklememizi istemeyin ve **Discord'da bunu gündeme getirmeyin**. Müfredatımızı mümkün olan en güncel ve erişilebilir şekilde tutmak için sürekli olarak değerlendiriyoruz ve Windows/WSL'in [sorun çıkarmayan bir yöntem olduğu kanıtlanmamıştır.](https://github.com/microsoft/WSL/issues)
 
 Bu ayrıntıyı belirttikten sonra, uygun bir geliştirme ortamı kurmamız gerekiyor!
 
