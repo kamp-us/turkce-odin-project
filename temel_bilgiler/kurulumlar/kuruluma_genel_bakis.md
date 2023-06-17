@@ -20,7 +20,7 @@ Aşağıdaki bölümlerde, geliştirme ortamınızı kurmak için gerekli adıml
 Sıradaki dersin sonunda, kod yazmak ve kodu çalıştırmak için gereken birçok araçla hazır olacaksınız! Adımlar çok fazla gibi görünebilir ancak olabildiğince sorunsuz şekilde bunu beraber atlatacağız! Bir şeyler ters giderse, bu adımları kullanmayı unutmayın:
 
 * Asıl hatayı belirlemek için terminal çıktısını inceleyin.
-* Googlelayın, Googlelayın, Googlelayın.
+* Google'layın, Google'layın, Google'layın.
 * [Yardım istemekten](https://discord.gg/fbFCkYabZB) asla çekinmeyin!
 
 Chromebook kullanıcıları için, işletim sistemi etkili bir şekilde seçilmiştir. Ancak, cihazınız Linux Beta'yı [destekliyorsa,](https://www.chromium.org/chromium-os/chrome-os-systems-supporting-linux) bir sonraki derste cihazınızda bunu nasıl kuracağınıza dair talimatlar bulunur.
