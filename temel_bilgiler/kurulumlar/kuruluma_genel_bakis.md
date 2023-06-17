@@ -37,7 +37,7 @@ Eğer bir Mac kullanıyorsanız, harika bir durumdasınız. Odin Project talimat
 
 #### Windows
 
-Windows, Odin Project tarafından **doğal olarak desteklenmiyor** ve Discord sunucumuzda da destenklenmiyor. Ancak şu anda Windows kullanıyorsanız, sanal makine veya dual boot kullanarak Windows kurulumunuzu koruyabilir ve Linux'ta geliştirme ortamınızı oluşturabilirsiniz.
+Windows, Odin Project tarafından **yerel olarak desteklenmiyor** ve Discord sunucumuzda da yardım sunulmuyor. Ancak şu anda Windows kullanıyorsanız, sanal makine veya dual boot kullanarak Windows kurulumunuzu koruyabilir ve Linux'ta geliştirme ortamınızı oluşturabilirsiniz.
 
 **Sanal makine**, mevcut işletim sisteminizin içinde çalışan bir bilgisayar emülasyonudur. Mevcut işletim sisteminizin içindeki bir programla başka bir işletim sistemi kullanmanızı sağlar (örneğin: Windows içinde Linux çalıştırmak). Sanal makineler, herhangi bir program gibi yüklemesi basit ve risksizdir. Linux'u sevmezseniz, sanal makineyi kolaylıkla kaldırabilirsiniz. Sanal makineler, yeni geliştiricilerin hızlı bir şekilde başlaması için harika bir yoldur.
 
