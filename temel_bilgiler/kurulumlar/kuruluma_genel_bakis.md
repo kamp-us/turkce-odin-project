@@ -45,7 +45,7 @@ Windows, Odin Project tarafından **yerel olarak desteklenmiyor** ve Discord sun
 
 **Dual-booting**, bilgisayarınıza iki işletim sistemi kurarak, bilgisayarınız ilk açıldığında Linux veya Windows'u başlatma seçeneği sunabilir. Sanal makineye kıyasla dual-booting'in avantajı, işletim sisteminin bilgisayarın tüm kaynaklarını kullanabilmesi ve böylece çok daha hızlı çalışmasıdır. Hard disk bölümlerini değiştirdiğiniz için bir dual-boot sistemi kurmakta biraz risk vardır ancak zaman ayırıp talimatları okursanız sorun yaşamazsınız.
 
-Dual-booting, bir flash sürücüsü takıp birkaç tuşa basmak kadar kolay olabilir. Dual-booting'in faydaları abartılamaz. Linux'un donanımınızın tam kapasitesine erişmesine izin verecek, kodlama için temiz ve dikkat dağıtmayan bir ortam sağlayacak ve birçok üst düzey geliştirici ve sunucu tarafından kullanılan platformu öğreneceksiniz.
+Dual-booting, bir flash sürücüsü takıp birkaç tuşa basmak kadar kolaydır. Dual-booting'in faydaları saymakla bitmez. Linux'un donanımınızın tam kapasitesine erişmesine izin verecek, kodlama için temiz ve dikkat dağıtmayan bir ortam sağlayacak ve birçok üst düzey geliştirici ve sunucu tarafından kullanılan platformu öğreneceksiniz.
 
 ### Yeni Bir İşletim Sistemi Kurmakta Endişeli misiniz?
 
