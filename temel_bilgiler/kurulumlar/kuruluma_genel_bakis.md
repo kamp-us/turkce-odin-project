@@ -1,6 +1,6 @@
 ### Giriş
 
-Herhangi bir web sitesi oluşturmanın ilk adımı doğru araçlara sahip olmaktır. Bizim için bu, iyi kod yazmak için bir geliştirme ortamı kurmaktır.
+Herhangi bir web sitesi oluşturmanın ilk adımı doğru araçlara sahip olmaktır. Bizim için bu, iyi kod yazmak için bir geliştirme ortamı kurmak anlamına geliyor.
 
 Birçok çevrimiçi geliştirme kursu, sadece o anki görevi tamamlamalık araçlar ve programlar sunan tarayıcı içi kod düzenleyicileri veya "korumalı alanlar"(sandbox) kullanır. Bunlardan bazılarını Odin Project'in erken aşamalarında hızlı başlangıç yapmak için kullanacaksınız çünkü hızlıca başlamak için harikadırlar. Ancak uzun vadeli başarı için kendinizi hazırlamanın en iyi yolu, gerçek bir geliştirme ortamında çalışmaktır
 
