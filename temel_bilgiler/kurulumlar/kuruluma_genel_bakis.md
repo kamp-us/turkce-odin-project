@@ -57,7 +57,7 @@ Eğer bir Apple bilgisayarınız yoksa, muhtemelen Windows kullanıyorsunuzdur. 
 
 Hala ikna olmadınız mı? İşte Linux kurmak için birkaç harika neden:
 
-- **Test Edildi** - Yönergelerimizi macOS, Ubuntu ve resmi Ubuntu dağıtımlarıyla test ettik. Olası sorunları en aza indirerek araçları yüklemenizi sağlamak için araştırma yaptık, bu da kodlamaya daha erken başlamanıza yardımcı olur. İşletim sistemiyle uğraşmak için harcanan zaman, kodlamayı öğrenmekten alınan zaman anlamına gelir.
+- **Test Edildi** - Yönergelerimizi macOS, Ubuntu ve resmi Ubuntu dağıtımlarıyla test ettik. Kodlamaya daha erken başlamanıza yardımcı olmak ve olası sorunları en aza indirerek araçları yüklemenizi sağlamak için araştırma yaptık. İşletim sistemiyle uğraşmak için harcanan zaman, kodlamayı öğrenme zamanından kaybetmeniz anlamına gelir.
 - **Topluluk Desteği** - Önerdiğimiz araçları kullanmak, sorun yaşadığınızda size yardımcı olmamızı kolaylaştırır.
 - **Geliştirme Araçları Linux İçin Tasarlanmıştır** - Odin Project'te kapsanan Ruby (on Rails) ve Node.js, web geliştirme topluluğunda yaygın olarak kullanılan popüler arkayüz teknolojileri, açık kaynaklı projelerdir ve Linux gibi açık kaynaklı (UNIX tabanlı) bir platformda çalışmayı açıkça *bekler*.
 - **Profesyoneller Gibi Çalışın** - Birçok geliştirici Unix tabanlı bir işletim sistemini kullanır.
