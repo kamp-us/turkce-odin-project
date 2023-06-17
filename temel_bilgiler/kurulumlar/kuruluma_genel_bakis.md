@@ -23,7 +23,7 @@ Sıradaki dersin sonunda, kod yazmak ve kodu çalıştırmak için gereken birç
 * Google'layın, Google'layın, Google'layın.
 * [Yardım istemekten](https://discord.gg/fbFCkYabZB) asla çekinmeyin!
 
-Chromebook kullanıcıları için, işletim sistemi etkili bir şekilde seçilmiştir. Ancak, cihazınız Linux Beta'yı [destekliyorsa,](https://www.chromium.org/chromium-os/chrome-os-systems-supporting-linux) bir sonraki derste cihazınızda bunu nasıl kuracağınıza dair talimatlar bulunur.
+Chromebook kullanıcıları, cihazınız için en uygun işletim sistemi çoktan belirlenip yüklenmiştir. Ancak cihazınız Linux Beta'yı [destekliyorsa,](https://www.chromium.org/chromium-os/chrome-os-systems-supporting-linux) bir sonraki derste cihazınızda bunu nasıl kuracağınıza dair talimatlar bulunur.
 
 ### İşletim Sistemi(OS) Seçenekleri
 
