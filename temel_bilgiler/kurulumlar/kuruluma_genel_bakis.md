@@ -53,7 +53,7 @@ Dual-booting, bir flash sürücüsü takıp birkaç tuşa basmak kadar kolaydır
 
 Eğer bir Apple bilgisayarınız yoksa, muhtemelen Windows kullanıyorsunuzdur. Endişelenmeyin! Yukarıdaki seçenekler Windows'tan kurtulmanız gerektiği anlamına gelmiyor. Linux, sabit diskinizi Windows ile memnuniyetle paylaşacaktır. Favori işletim sisteminizle ilgili birçok ipucu ve püf noktası öğrendiğinizi ve bilgisayarınızdaki her şeyi kaybetmek istemediğinizi biliyoruz. Ancak çoğu işletim sistemi, teknik becerisi olmayan kişiler göz önünde bulundurularak geliştirildiğinden, kurmamız gereken birçok dil ve uygulama çatısını (framework) gizler veya kullanımını zorlaştırır. Bu zorluklarla uğraşmak, birçok yeni geliştiricinin full stack nirvanası yolculuğuna başlamadan vazgeçmesine neden olur.
 
-İhtiyacınız olan araçlarla çalışmak için bilgisayarınızı modifiye etmek veya dual-booting yapmak, programlamaya başlamayı çok daha kolay hale getirebilir, dikkat dağıtıcı olmayan bir ortam yaratmaya yardımcı olabilir ve CV'nizde iyi görünebilir. Derin bir nefes alın ve seçeneklerimize bir göz atalım.
+İhtiyacınız olan araçlarla çalışmak için bilgisayarınız üzerinde değişiklik veya dual-booting yapmak, programlamaya başlamayı çok daha kolay hale getirir, dikkat dağıtıcı olmayan bir ortam yaratmaya yardımcı olur ve CV'nizde iyi görünür. Derin bir nefes alın ve seçeneklere bir göz atın.
 
 Hala ikna olmadınız mı? İşte Linux kurmak için birkaç harika neden:
 
