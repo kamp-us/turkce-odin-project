@@ -8,7 +8,7 @@ Size yalan söylemeyeceğiz. Paketler, kod düzenleyiciler ve hatta koca işleti
 
 ### Kurulum Planı
 
-Aşağıdaki bölümlerde, geliştirme ortamınızı kurmak için gerekli adımları ele alacağız. Bu derste bir şeyler yüklemenize gerek yok, bunun bilgilendirici bir ders olduğunu unutmayın. Bu bölümler, tüm müfredatın **en önemli adımlarıdır**. **Aldığınız notları tekrar kontrol etmek** için ekstra zaman ayırın, aksi takdirde kendinize ileride daha fazla baş ağrısı çıkartabilirsiniz. 
+Aşağıdaki bölümlerde, geliştirme ortamınızı kurmak için gerekli adımları ele alacağız. Bu derste bir şeyler yüklemenize gerek yok, bu ders yalnızca bilgi sağlamak içindir. Bu bölümler, tüm müfredatın **en önemli adımlarıdır**. **Aldığınız notları tekrar kontrol etmek** için ekstra zaman ayırın, aksi takdirde kendinize ileride daha fazla iş çıkartabilirsiniz. 
 
 Önümüzdeki birkaç derste, bu yükleme adımlarını birlikte ele alacağız:
 
