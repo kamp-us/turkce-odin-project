@@ -33,7 +33,7 @@ Eğer bir Mac kullanıyorsanız, harika bir durumdasınız. Odin Project talimat
 
 #### Linux (Resmi Ubuntu Sürümleri)
 
-[Linux,](https://en.wikipedia.org/wiki/Linux) tüm programlama dilleriyle iyi çalışan ücretsiz ve açık kaynak kodlu bir işletim sistemidir. Çoğu geliştirme aracı, Linux ile doğal olarak çalışacak şekilde yazılmıştır. Araçlarınızın olası daha sık güncelleneceği, genel olarak Linux'ta daha iyi çalışacağı ve sorun giderme için daha fazla bilginin mevcut olduğu göz önüne alındığında, önerimiz Ubuntu veya onun daha hafif alternifi olan Xubuntu gibi en popüler ve kullanıcı dostu dağıtımlardan birini kullanmanızdır. **Eğer bir Mac kullanmıyorsanız, Linux kullanmanızı öneririz**. Bu kadar basit.
+[Linux,](https://en.wikipedia.org/wiki/Linux) tüm programlama dilleriyle iyi çalışan ücretsiz ve açık kaynak kodlu bir işletim sistemidir. Çoğu geliştirme aracı, Linux ile doğal olarak çalışacak şekilde yazılmıştır. Araçlarınız muhtemelen daha sık güncellenecektir, genel olarak Linux'ta daha sorunsuz çalışacaktır ve bir sorunla karşılaşmanız durumunda daha çok kaynak bulabileceksinizdir. Biz, en popüler ve kullanıcı dostu dağıtımlardan biri olan Ubuntu veya onun daha hafif alternatifi olan Xubuntu'yu kullanacağız. **Eğer bir Mac kullanmıyorsanız, Linux kullanmanızı öneririz**. Bu kadar basit.
 
 #### Windows
 
