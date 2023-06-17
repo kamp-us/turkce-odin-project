@@ -63,7 +63,7 @@ Hala ikna olmadınız mı? İşte Linux kurmak için birkaç harika neden:
 - **Profesyoneller Gibi Çalışın** - Birçok geliştirici Unix tabanlı bir işletim sistemini kullanır.
 - **Performans** - Bilgisayarınız yavaş/eski ve sınırlı bir disk alanına sahip olduğu için Linux yüklemekten çekiniyor musunuz? Önceliğiniz performans ise, Linux harika bir seçimdir, Windows'tan daha az sistem kaynağı kullanır ve daha az sabit disk alanı işgal eder.
 
-Birçok öğrenci, bu sayfadaki yönergelerin takip edilmesi gerekip gerekmediğini sormak için Discord kanalımıza geliyor. Kurulum planı hakkındaki okuduğunuz her şeyi Discord sunucumuzdaki moderatörlerimiz yazdı. Discord sunucumuzdaki öğrencileri destekleyenler, bu sayfadaki yönergeleri kabul eder ve sizlere burada okuduğunuz önerilerin aynısını yapacaktır.
+Birçok öğrenci, bu sayfadaki yönergelerin takip edilmesi gerekip gerekmediğini sormak için Discord kanalımıza geliyor. Kurulum planı hakkındaki okuduğunuz her şeyi Discord sunucumuzdaki moderatörlerimiz yazdı. Discord sunucumuzdaki öğrencileri destekleyenler, bu sayfadaki yönergelerle aynı fikirdeler ve sizlere burada okuduğunuz önerilerin aynısını yapacaktır.
 
 Devam edebilmemiz için öncelikle önemli bir ayrıntıyı vurgulamamız gerekiyor:
 
