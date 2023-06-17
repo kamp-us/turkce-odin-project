@@ -61,7 +61,7 @@ Hala ikna olmadınız mı? İşte Linux kurmak için birkaç harika neden:
 - **Topluluk Desteği** - Önerdiğimiz araçları kullanmak, sorun yaşadığınızda size yardımcı olmamızı kolaylaştırır.
 - **Geliştirme Araçları Linux İçin Tasarlanmıştır** - Odin Project'te kapsanan Ruby (on Rails) ve Node.js, web geliştirme topluluğunda yaygın olarak kullanılan popüler arkayüz teknolojileri, açık kaynaklı projelerdir ve Linux gibi açık kaynaklı (UNIX tabanlı) bir platformda kolaylıkla çalışması  *hedeflenmiştir*.
 - **Profesyoneller Gibi Çalışın** - Birçok geliştirici Unix tabanlı bir işletim sistemini kullanır.
-- **Performans** - Bilgisayarınız yavaş/eski ve sınırlı bir disk alanına sahip olduğu için Linux yüklemekten çekiniyor musunuz? Öncelik performanssa, Linux harika bir seçimdir, Windows'tan daha az sistem kaynağı kullanır ve daha az sabit disk alanı işgal eder.
+- **Performans** - Bilgisayarınız yavaş/eski ve sınırlı bir disk alanına sahip olduğu için Linux yüklemekten çekiniyor musunuz? Önceliğiniz performans ise, Linux harika bir seçimdir, Windows'tan daha az sistem kaynağı kullanır ve daha az sabit disk alanı işgal eder.
 
 Birçok öğrenci, bu sayfadaki yönergelerin takip edilmesi gerekip gerekmediğini sormak için Discord kanalımıza geliyor. Kurulum planı hakkındaki okuduğunuz her şeyi Discord sunucumuzdaki moderatörlerimiz yazdı. Discord sunucumuzdaki öğrencileri destekleyenler, bu sayfadaki yönergeleri kabul eder ve sizlere burada okuduğunuz önerilerin aynısını yapacaktır.
 
