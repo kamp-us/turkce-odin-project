@@ -52,9 +52,9 @@ Not: Aşinalık kazanmak için sol sütundaki dosyalara göz atmaktan çekinmeyi
 - [Egzersiz 2](https://replit.com/@OdinProject/enter-a-number#script.js)
   - script.js'de çalışacaksınız ve çalışmanızı kontrol etmek için 'webview' bölmesindeki konsolu kullanacaksınız. Konsola erişmek için, 'webview' bölmesi içindeki adres çubuğunun sağ tarafında bulunan anahtar simgesine tıklayın.
 - [Egzersiz 3](https://replit.com/@OdinProject/lets-do-some-math#math.js)
-  - math.js'de çalışacaksınız
+  - math.js'de çalışacaksınız.
 - [Egzersiz 4](https://replit.com/@OdinProject/direction-follow#follow.js)
-  - follow.js'de çalışacaksınız
+  - follow.js'de çalışacaksınız.
 
 </div>
 
