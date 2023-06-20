@@ -1,0 +1,2 @@
+## Javascript
+Web sitelerinizi JavaScript ile dinamik ve etkileşimli hale getirin! Bu bölümde özellikler ve bağımsız uygulamalar oluşturacaksınız. Bu modül, DOM'u nasıl değiştireceğinizi, nesne yönelimli programlama ilkelerini kullanmayı ve React ile tek sayfa uygulamaları oluşturmayı öğreneceğiniz projeleri içerir.
