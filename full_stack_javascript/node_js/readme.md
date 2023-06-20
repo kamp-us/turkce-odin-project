@@ -1,0 +1,2 @@
+## Genel Bakış
+JavaScript becerilerinizi sunucu tarafına taşıyın! Sitenizin backend'ini en popüler backend JavaScript framework'ü olan Express ile tam olarak nasıl oluşturacağınızı öğrenin. Ayrıca ilişkisel olmayan bir veritabanı olan MongoDB'yi nasıl kullanacağınızı da öğreneceksiniz.
