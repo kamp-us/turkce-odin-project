@@ -16,9 +16,9 @@ Bu bölüm, bu derste öğreneceğiniz konulara genel bir bakış içerir.
 
 ## Görevler
 
-1. Frontend ile Backend arasındaki farkı hızlı bir şekilde kendinize hatırlatmak için [bu blog yazısına göz atın.](https://blog.teamtreehouse.com/i-dont-speak-your-language-frontend-vs-backend)
-2. [Backend'e güzel ve kısa bir genel bakış.](https://techterms.com/definition/backend)
-3. Codecademy tarafından sağlanan bir tarayıcı bir sunucuya istekte bulunduğunda backend'de neler olduğunun adım adım dökümü de dahil olmak üzere, backend'in çeşitli yönlerine ilişkin [çok daha ayrıntılı ve kapsamlı bir açıklama.](https://www.codecademy.com/article/back-end-architecture)
+1. Frontend ile Backend arasındaki farkı hızlı bir şekilde kendinize hatırlatmak için bu blog yazısına göz atın. [Front-End vs. Back-End: The Complete Guide](https://blog.teamtreehouse.com/i-dont-speak-your-language-frontend-vs-backend)
+2. [A good and short overview of the backend](https://techterms.com/definition/backend).
+3. Codecademy tarafından sağlanan bir tarayıcı bir sunucuya istekte bulunduğunda backend'de neler olduğunun adım adım dökümü de dahil olmak üzere, backend'in çeşitli yönlerine ilişkin [çok daha ayrıntılı ve kapsamlı bir açıklama](https://www.codecademy.com/article/back-end-architecture).
 
 ## Bilgi Kontrolü
 Bu bölüm, bu dersi anlayıp anlamadığınızı kendi başınıza kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta sorun yaşıyorsanız, soruyu tıklayın ve bağlantı verdiği materyali inceleyin.
