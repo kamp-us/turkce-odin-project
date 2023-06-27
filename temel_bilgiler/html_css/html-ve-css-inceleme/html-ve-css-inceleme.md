@@ -4,7 +4,7 @@ HTML ve CSS'inizi inceleyebilmek ve hata ayıklayabilmek, önyüz geliştirme i�
 
 ### Derse Genel Bakış
 
-Bu bölüm, bu derste öğreneceğiniz konulara genel bir bakış içerir.
+Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içerir.
 
 - Öğe denetleyicisine nasıl erişeceğinizi öğreneceksiniz.
 - Belirli öğeleri nasıl seçip denetleyeceğinizi öğreneceksiniz.
@@ -53,4 +53,4 @@ Bu bölüm, dersi anlayıp anlamadığınızı kontrol etmeniz için sorular iç
 
 Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
 
-- [This article about how we can utilize css overview in the developer tools](https://www.freecodecamp.org/news/how-to-use-css-overview-in-chrome-developer-tools/) to check the colors, font styles, media-queries, etc. used on a particular webpage.
+- [Bu makale](https://www.freecodecamp.org/news/how-to-use-css-overview-in-chrome-developer-tools/), bir web sayfasında kullanılan renkler, yazı stilleri, medya sorguları ve benzeri şeyleri kontrol etmek için geliştirici araçlarında CSS genel bakışını nasıl kullanabileceğimiz hakkında bilgi vermektedir.
