@@ -22,7 +22,7 @@ Denetleyiciyi açmak için, sayfanın herhangi bir öğesine sağ tıklayıp "İ
 
 ![Inspector Icon](https://cdn.statically.io/gh/TheOdinProject/curriculum/594984d7c9f9e744577f19ea475b3864e8cc7c91/html_css/v2/foundations/inspecting-html-and-css/imgs/01.png)
 
-<span id="strikethrough">Bir öğe seçildiğinde, Stiller sekmesi, uygulanmakta olan tüm stillerin yanı sıra üzerine yazılan stilleri de gösterir (metnin üstü çizili olarak gösterilir).</span> Örneğin, ana sayfadaki "Web Geliştirme Kariyeriniz Burada Başlıyor" başlığına tıklamak için denetçiyi kullanırsanız, aşağıda görüldüğü gibi, sağ tarafta şu anda öğeyi etkileyen tüm stilleri göreceksiniz.
+<span id="strikethrough">Bir öğe seçildiğinde, Stiller bölmesi, uygulanmakta olan tüm stillerin yanı sıra üzerine yazılan stilleri de gösterir (metnin üstü çizili olarak gösterilir).</span> Örneğin, ana sayfadaki "Web Geliştirme Kariyeriniz Burada Başlıyor" başlığına tıklamak için denetçiyi kullanırsanız, aşağıda görüldüğü gibi, sağ tarafta şu anda öğeyi etkileyen tüm stilleri göreceksiniz.
 
 ![Overwritten style](https://cdn.statically.io/gh/TheOdinProject/curriculum/f8fd38fc62578d8e8368f5303126215a492847f0/foundations/html_css/inspecting-html-and-css/imgs/03.png)
 
