@@ -174,7 +174,7 @@ Bu bölümde, bu dersle ilgili anlayışınızı kendi başınıza kontrol etmek
 
 ### Ek kaynaklar
 
-Bu bölüm, ilgili içeriğe yönelik yararlı bağlantılar içermektedir. Zorunlu değildir, bu yüzden ek olarak düşünün.
+Bu bölüm ilgili içeriğe yönelik yararlı bağlantılar içermektedir. Zorunlu değildir bu yüzden ek olarak düşünün.
 
 * [charsets you should use with your HTML pages](https://www.positioniseverything.net/html-encoding/) hakkında bu makaleyi okuyun.
 
