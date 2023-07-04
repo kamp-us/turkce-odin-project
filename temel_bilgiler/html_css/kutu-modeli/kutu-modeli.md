@@ -13,7 +13,7 @@ Bu bölüm, bu derste öğreneceğiniz konulara genel bir bakış içerir.
 
 ### Kutu Modeli
 
-CSS'de başarılı olmak için anlamanız gereken ilk önemli kavram kutu modelidir. Karmaşık bir konu değil ancak bu konuyu atlamanız ileride çok fazla hüsrana uğramanıza sebep olabilir.
+CSS'de başarılı olmak için anlamanız gereken ilk önemli kavram kutu modelidir. Karmaşık bir konu değil ancak bu konuyu atlamanız ileride üzülmenize sebep olabilir.
 
 Bir internet sayfasındaki her şey dikdörtgen bir kutudur. Bu kutular, içlerinde başka kutular barındırabilir ve yan yana durabilirler. Sayfadaki her öğeye şu şekilde birer kenar çizgisi ekleyerek bunun nasıl çalıştığına dair kabaca bir fikir edinebilirsiniz:
 
