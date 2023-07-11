@@ -312,7 +312,7 @@ rm google-chrome-stable_current_amd64.deb
 
 Chrome'u iki şekilde başlatabilirsiniz,
 
-   -   Applications menüsünden **Google Chrome** öğesine tıklayın
+   -   Uygulamalar menüsünden **Google Chrome** öğesine tıklayın
    -   **Veya**, terminalde `google-chrome` komutunu çalıştırın
 
 ~~~bash
