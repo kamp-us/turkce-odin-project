@@ -333,7 +333,7 @@ _(__not__: Chrome, bu terminali çeşitli mesajları vermek için kullanacak ve 
 
 #### 2. Adım: Google Chrome'u Yükleme
 
-   -   **Downloads** klasörünü açın
+   -   **İndirilenler** klasörünü açın
    -   **googlechrome.dmg** dosyasına çift tıklayın
    -   Google Chrome simgesini **Applications** klasörü simgesine sürükleyin
 
