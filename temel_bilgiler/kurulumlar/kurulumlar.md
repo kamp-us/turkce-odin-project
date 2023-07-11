@@ -335,7 +335,7 @@ _(__not__: Chrome, bu terminali çeşitli mesajları vermek için kullanacak ve 
 
    -   **İndirilenler** klasörünü açın
    -   **googlechrome.dmg** dosyasına çift tıklayın
-   -   Google Chrome simgesini **Applications** klasörü simgesine sürükleyin
+   -   Google Chrome simgesini **Uygulamalar** klasörü simgesine sürükleyin
 
 #### 3. Adım: Kurulum Dosyasını Silme
 
