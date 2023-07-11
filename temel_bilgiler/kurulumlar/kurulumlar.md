@@ -346,7 +346,7 @@ _(__not__: Chrome, bu terminali çeşitli mesajları vermek için kullanacak ve 
 
 #### 4. Adım: Google Chrome'u Kullanma
 
-   -   **Applications** klasörüne gidin
+   -   **Uygulamalar** klasörüne gidin
    -   **Google Chrome'a** çift tıklayın
 
 </details>
