@@ -341,7 +341,7 @@ _(__not__: Chrome, bu terminali çeşitli mesajları vermek için kullanacak ve 
 
    -   **Finder'ı** açın
    -   Kenar çubuğunda Google Chrome'un yanındaki **ok** işaretine tıklayın
-   -   **Downloads** klasörüne gidin
+   -   **İndirilenler** klasörüne gidin
    -   **googlechrome.dmg** dosyasını çöp kutusuna sürükleyin
 
 #### 4. Adım: Google Chrome'u Kullanma
