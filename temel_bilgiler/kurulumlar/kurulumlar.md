@@ -353,6 +353,5 @@ _(__not__: Chrome, bu terminali çeşitli mesajları vermek için kullanacak ve 
 
 ### Ek Kaynaklar
 
-Bu alanda ilgili içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
 
 * Bu dersin henüz ek kaynağı bulunmuyor. Müfredatımıza katkıda bulunarak bu bölümü genişletmemize yardımcı olun.
