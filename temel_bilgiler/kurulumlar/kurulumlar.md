@@ -42,7 +42,7 @@ Piyasada binlerce Linux dağıtımı var, ancak Xubuntu şüphesiz en popüler v
 
 #### Step 2.1: VirtualBox'ı Yükleme
 
-VirtualBox'ı kurmak çok basittir. Çok fazla teknik bilgi gerektirmez ve Windows bilgisayarınıza herhangi bir program yüklemekle aynı işlemdir. İndirilen VirtualBox dosyasına çift tıkladığınızda yükleme işlemi başlayacaktır. Microsoft Visual C++ 2019 Redistributable Package'ına ihtiyaç duyduğunuzla ilgili bir hata alırsanız, onu [resmi Microsoft Learn sayfasında](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022) bulabilirsiniz. Büyük olasılıkla `X64` Mimarisine sahip sürümü istiyorsunuz (bu 64 bit anlamına gelir). Onu indirin ve kurun, ardından VirtualBox'ı tekrar kurmayı deneyin.
+VirtualBox'ı kurmak çok basittir. Çok fazla teknik bilgi gerektirmez ve Windows bilgisayarınıza herhangi bir program yüklemekle aynı işlemdir. İndirilen VirtualBox dosyasına çift tıkladığınızda yükleme işlemi başlayacaktır. Microsoft Visual C++ 2019 Redistributable Package'ına ihtiyaç duyduğunuzla ilgili bir hata alırsanız, onu [resmi Microsoft Learn sayfasında](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022) bulabilirsiniz. Büyük olasılıkla `X64` mimarisine sahip sürümü istiyorsunuz (bu 64 bit anlamına gelir). Onu indirin ve kurun, ardından VirtualBox'ı tekrar kurmayı deneyin.
 
 Kurulum sırasında size çeşitli seçenekler sunulacaktır. İhtiyacınız olmadığı için Python Desteğini ok işaretli sürücü simgesine tıklayarak ve **Entire feature will be unavailable** seçeneğini seçerek bırakmanızı öneririz:
 
