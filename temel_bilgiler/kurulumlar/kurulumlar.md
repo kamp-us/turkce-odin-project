@@ -155,7 +155,7 @@ sudo apt upgrade
 
 İlk komutu kullandıktan sonra parolanız sorulacaktır, parolanızı yazın ve <kbd>Enter'a</kbd> basarak terminalinize parolayı iletin. Ne yazdığınıza dair görsel bir geri bildirim olmayacaktır, ancak gerçekten yazıyorsunuz.
 
-Bir süre `sudo apt upgrade` çalıştıktan sonra terminalde bir şeyler yüklemek isteyip istemediğiniz sorulacaktır, makinenizi güncellemek için bunu yapın. Herhangi bir sorun yaşarsanız, [Discord sunucumuza](https://discord.gg/V75WSQG) gelmekten ve `#virtualbox-help` kanalında yardım istemekten çekinmeyin.
+Bir süre `sudo apt upgrade` çalıştıktan sonra terminalde bir şeyler yüklemek isteyip istemediğiniz sorulacaktır, makinenizi güncellemek için bunları onaylayın. Herhangi bir sorun yaşarsanız, [Discord sunucumuza](https://discord.gg/V75WSQG) gelmekten ve `#virtualbox-help` kanalında yardım istemekten çekinmeyin.
 
 ### Step 4: Yeni Sanal Makinenizi Anlama
 
