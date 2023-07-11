@@ -61,7 +61,7 @@ Artık VirtualBox'ı kurduğunuza göre, programı başlatın. Açıldıktan son
 
    ![The VirtualBox start screen](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/03_start_screen.png)
 
-Sanal bir işletim sistemi oluşturmak için **New** düğmesine tıklayın. Buna **Xubuntu** adını verin, sanal makinenin varsayılan `C:` konumundan başka bir yere kurulmasını istiyorsanız, bunu **Folder** seçeneğinde uygun şekilde değiştirin. Bu, sanal diskinizin bulunacağı yerdir, bu nedenle bunun için en az 30 GB'ınız olduğundan emin olun. **ISO Image** seçeneğinde **Other** seçeneğini seçin ve bilgisayarınızda `.iso` dosyasını bulmanız için bir pencere açılacaktır. Dosya büyük olasılıkla `Downloads` klasöründedir. **Skip Unattended Installation** seçeneğini olduğu gibi bırakın.
+Sanal bir işletim sistemi oluşturmak için **New** düğmesine tıklayın. Buna **Xubuntu** adını verin, sanal makinenin varsayılan `C:` konumundan başka bir yere kurulmasını istiyorsanız, bunu **Folder** seçeneğinde uygun şekilde değiştirin. Bu, sanal diskinizin bulunacağı yerdir, bu nedenle bunun için en az 30 GB'ınız olduğundan emin olun. **ISO Image** seçeneğinde **Other** seçeneğini seçin ve bilgisayarınızda `.iso` dosyasını bulmanız için bir pencere açılacaktır. Dosya büyük olasılıkla `İndirilenler` klasöründedir. **Skip Unattended Installation** seçeneğini olduğu gibi bırakın.
 
    ![Half of the options being greyed out is normal. Don't worry about it.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/04_install_start.png)
 
