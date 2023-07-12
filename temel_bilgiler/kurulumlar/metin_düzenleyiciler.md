@@ -93,12 +93,12 @@ code
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. VSCode'a aşina olmanız zamandan tasarruf etmenizi ve daha üretken olmanızı sağlayacaktır. Bu [VSCode Tutorial for Beginners](https://youtu.be/ORrELERGIHs?t=103) videosunu izleyerek, VSCode'un sunduğu tüm özellikler hakkında bir fikir edineceksiniz. Videoyla birlikte kodlama yapmak için endişelenmeyin, sadece VSCode'un video boyunca nasıl kullanıldığını izleyin.
+  1. VSCode'a aşina olmanız zamandan tasarruf etmenizi ve daha üretken olmanızı sağlayacaktır. Bu [Yeni Başlayanlar için VSCode Eğitimi](https://youtu.be/ORrELERGIHs?t=103) videosunu izleyerek, VSCode'un sunduğu tüm özellikler hakkında bir fikir edineceksiniz. Videoyla birlikte kodlama yapmak için endişelenmeyin, sadece VSCode'un video boyunca nasıl kullanıldığını izleyin.
 </div>
 
 ### Ek Kaynaklar
 
 Bu alanda ilgili içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
 
-* [VSCode docs](https://code.visualstudio.com/docs) VSCode ile ilgili sorularınız için başvurabileceğiniz harika bir yerdir.
+* [VSCode docs](https://code.visualstudio.com/docs), VSCode ile ilgili sorularınız için başvurabileceğiniz harika bir yerdir.
 * VSCode kısayolları üzerine olan bu kullanışlı ve küçük [shortcuts for linux](https://go.microsoft.com/fwlink/?linkid=832144) ve [shortcuts for macOS](https://go.microsoft.com/fwlink/?linkid=832143) PDF'leri, VSCode deneyiminizi daha sorunsuz ve daha verimli hale getirmenize yardımcı olacak harika kaynaklardır.
