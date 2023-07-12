@@ -22,7 +22,7 @@ Kurulum yönteminizi aşağıdan seçiniz:
 
 Bir Sanal Makine (VM) kurmak, web geliştirme için bir ortam oluşturmaya başlamanın en kolay ve en güvenilir yoludur. Sanal Makine, mevcut İşletim Sisteminizin (OS), Windows gibi, içinde çalışan komple bir bilgisayar emülasyonudur. Sanal makinenin en büyük dezavantajı, aynı anda iki bilgisayar çalıştırdığınız için yavaş olabilmesidir. Performansını artırmak için birkaç şey yapacağız.
 
-### Step 1: VirtualBox ve Xubuntu'yu İndirme
+### 1. Adım: VirtualBox ve Xubuntu'yu İndirme
 
 Bir sanal makine kurmak basit bir işlemdir. Bu kılavuz, sanal makineyi oluşturmak ve çalıştırmak için Oracle'ın VirtualBox programını kullanır. Bu program açık kaynaklı, ücretsiz ve basittir. Daha ne isteyebilirsiniz ki? Şimdi, her şeyin indirildiğinden ve kurulum için hazır olduğundan emin olalım.
 
@@ -30,17 +30,17 @@ Bir sanal makine kurmak basit bir işlemdir. Bu kılavuz, sanal makineyi oluştu
 
 Bu talimatları tamamladıktan sonra, **tamamen VM'de çalışmanız beklenmektedir.** Pencereyi büyütün, varsa daha fazla sanal monitör ekleyin, masaüstünün sol üst köşesindeki **Whisker Menu** <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/00_whisker_icon.png" alt="The blue-white rodent Whisker Menu Icon" style="display: inline; margin: auto;"> içindeki internet tarayıcısını çalıştırın. Odin Project üzerinde çalışırken sanal makine dışında hiçbir şey kullanmamalısınız. VM'yi bir süre kullandıktan sonra alıştığınızı düşünüyorsanız veya deneyiminizi geliştirmek istiyorsanız, aşağıda talimatları bulunan Ubuntu'yu dual boot yapmanızı öneririz.
 
-#### Step 1.1: VirtualBox'u İndirme
+#### Adım 1.1: VirtualBox'u İndirme
 
 [Buraya tıklayın](https://www.virtualbox.org/wiki/Downloads) ve Windows bilgisayarlar için VirtualBox'ı indirin.
 
-#### Step 1.2: Xubuntu'yu İndirme
+#### Adım 1.2: Xubuntu'yu İndirme
 
 Piyasada binlerce Linux dağıtımı var, ancak Xubuntu şüphesiz en popüler ve kullanıcı dostu olanlardan biri. Bir sanal makineye Linux kurarken, [Xubuntu 22.04'ü indirmenizi](https://mirror.us.leaseweb.net/ubuntu-cdimage/xubuntu/releases/22.04/release/) öneririz. Burada listelenen birkaç dosya var, `.iso` ile biteni indirin. Xubuntu, Ubuntu ile aynı temel yazılımı kullanır ancak daha az bilgisayar kaynağı gerektiren bir masaüstü ortamına sahiptir ve bu nedenle sanal makineler için idealdir. İndirme hızını yavaş bulursanız, daha önce bağlantısı verilen bir ABD linki olduğundan [farklı bir link kullanmayı](https://xubuntu.org/release/22-04/#show-all) deneyin. Eğer indirme sayfasına ulaşırsanız ve hangi sürümü seçeceğinizden emin değilseniz, en son Uzun Süreli Destek (LTS) sürümünü seçmeniz önerilir (yazının yazıldığı zaman 22.04). Daha yeni bir LTS olmayan sürümünü seçme düşüncesiyle oyalanabilirsiniz, ancak LTS sürümleri, 5 yıla kadar garanti edilen destek avantajına sahiptir, bu da onları daha güvenli, stabil ve dolayısıyla güvenilir yapar.
 
-### Step 2: VirtualBox'ı Yükleme ve Xubuntu'yu Kurma
+### 2. Adım: VirtualBox'ı Yükleme ve Xubuntu'yu Kurma
 
-#### Step 2.1: VirtualBox'ı Yükleme
+#### Adım 2.1: VirtualBox'ı Yükleme
 
 VirtualBox'ı kurmak çok basittir. Çok fazla teknik bilgi gerektirmez ve Windows bilgisayarınıza herhangi bir program yüklemekle aynı işlemdir. İndirilen VirtualBox dosyasına çift tıkladığınızda yükleme işlemi başlayacaktır. Microsoft Visual C++ 2019 Redistributable Package'ına ihtiyaç duyduğunuzla ilgili bir hata alırsanız, onu [resmi Microsoft Learn sayfasında](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022) bulabilirsiniz. Büyük olasılıkla `X64` mimarisine sahip sürümü istiyorsunuz (bu 64 bit anlamına gelir). Onu indirin ve kurun, ardından VirtualBox'ı tekrar kurmayı deneyin.
 
@@ -55,7 +55,7 @@ Kapatıldıktan sonra kurulum pencereniz bu şekilde görünmelidir:
 Uygulamayı `C:` sürücüsüne yüklediğinizden emin olun, aksi takdirde hata verme eğilimi vardır. Sanal makinenin kendisi herhangi bir yere kurulabilir ancak buna yakında değineceğiz.
 Yazılım yüklenirken ilerleme çubuğu takılmış gibi görünebilir, sadece bitmesini bekleyin.
 
-#### Step 2.2: VirtualBox'ı Xubuntu için Hazırlama
+#### Adım 2.2: VirtualBox'ı Xubuntu için Hazırlama
 
 Artık VirtualBox'ı kurduğunuza göre, programı başlatın. Açıldıktan sonra başlangıç ekranını görmelisiniz.
 
@@ -67,7 +67,7 @@ Sanal bir işletim sistemi oluşturmak için **New** düğmesine tıklayın. Bun
 
 **Next** tuşuna basarak devam edin ve sonraki adımları izleyin:
 
-#### Step 2.2.1: Gözetimsiz Konuk İşletim Sistemi(OS) Kurulumu
+#### Adım 2.2.1: Gözetimsiz Konuk İşletim Sistemi(OS) Kurulumu
 
 Şimdi buna benzer bir pencere görmelisiniz:
 
@@ -76,7 +76,7 @@ Sanal bir işletim sistemi oluşturmak için **New** düğmesine tıklayın. Bun
 **Guest Additions** ve **Install in Background** seçeneklerini işaretleyiniz ve ayrıca **Username** ve **Password** alanlarınızı istediğiniz gibi değiştiriniz. Varsayılan parolayı değiştirmeyi unutursanız, parola `changeme` olacaktır. **Guest Additions ISO**, **Hostname** ve **Domain Name** alanlarını olduğu gibi bırakın. **Next** tuşuna basarak devam edin.
 
 
-#### Step 2.2.2: Donanım
+#### Adım 2.2.2: Donanım
 
    ![You might be tempted to give your VM more than 2 processors. Don't.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/06_hardware.png)
 
@@ -88,14 +88,14 @@ _(__not:__ **G**iga**B**aytı **M**ega**B**ayta çevirirken zorlanıyor musunuz?
 
 **Processors** seçeneği için değer 2'de olmalı ve daha fazla olmamalıdır. **Enable EFI (special OSes only)** seçeneğini olduğu gibi bırakın, yani **işaretli değil**, ve devam etmek için **Next** seçeneğine tıklayın.
 
-#### Step 2.2.3: Sanal Sabit Disk
+#### Adım 2.2.3: Sanal Sabit Disk
 
    ![Don't Pre-allocate Full Size.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/07_virtual_hard_disk.png)
 
 Şimdi, **Disk Size** dışında tüm ayarları olduğu gibi bırakınız, sanal makinenize **en az 30GB** alan vermenizi öneririz. Bu diskin sanal makine oluşturma işleminin ilk adımında belirttiğiniz klasörde oluşturulacağını hatırlatırız, ancak yine de gerekirse disk ileride taşınabilir ve yeniden boyutlandırılabilir.
 
 
-#### Step 2.2.4: Katılımsız Kuruluma Başlama
+#### Adım 2.2.4: Katılımsız Kuruluma Başlama
 
 **Summary** sayfasına yönlendirilmek için **Next** seçeneğine tıklayın, bu sayfada gözetimsiz kurulum sürecini başlatmak için **Finish** seçeneğine tıklamanız yeterlidir. Bunun en güzel yanı nedir? İşletim sistemini ve GuestAdditions'ı size bir şey sormadan kendi başına yükler! Sadece kendi işini yapmasına izin verin, **Preview** bölümünde bunun gibi bir giriş ekranı gördüğünüzde işlemin bittiğini anlayacaksınız:
 
@@ -112,23 +112,23 @@ Bu, [bilgisayarınızın BIOS/UEFI ayarlarında sanallaştırmayı etkinleştirm
    ![You can already make your VM full screen or just maximize the window.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/10_login_screen.png)
 
 
-### Step 3: Doğru sudo İzinlerini Ayarlama
+### 3. Adım: Doğru sudo İzinlerini Ayarlama
 
 Katılımsız kurulumun VirtualBox tarafından yapılandırılma şekli nedeniyle, hesabınız uygun `sudo` izinlerine sahip değildir. Bunları Windows makinenizdeki `Yönetici olarak çalıştır` ile eşdeğer olarak düşünün, bunları düzene sokmanın neden önemli olacağını tahmin edebilirsiniz.
 
-#### Step 3.1: Users and Group'a Gidiş
+#### Adım 3.1: Users and Group'a Gidiş
 
 İlk olarak, pencerenizin sol üst köşesindeki <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/00_whisker_icon.png" alt="The blue-white rodent Whisker Menu Icon" style="display: inline; margin: auto;"> simgesine tıklayın, ardından `Users` yazın ve `Users and Groups'u` göreceksiniz. Üzerine tıklayın.
 
    ![It should be the top option you see. It is possible that due to localization it'll be called differently - try using the term in your language then.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/11_users_and_groups.png)
 
-#### Step 3.2: Groups'u Yönetme
+#### Adım 3.2: Groups'u Yönetme
 
 Karşınıza gelen pencerede **Manage Groups** seçeneğine tıklayınız, ardından listede bir yere tıklayın ve klavyenizden `sudo` yazın. Bu sizi resimdeki gibi `sudo` girdisine getirecektir:
 
    ![You will find the search functionality like this in many corners of Xubuntu.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/12_sudo_group.png)
 
-#### Step 3.2: Kendini sudo'ya Ekleme
+#### Adım 3.2: Kendini sudo'ya Ekleme
 
 `sudo` seçiliyken **Properties** seçeneğine tıklayın ve açılan pencerede kullanıcı adınızı aşağıdaki gibi işaretleyin:
 
@@ -136,7 +136,7 @@ Karşınıza gelen pencerede **Manage Groups** seçeneğine tıklayınız, ardı
 
 Ve ardından **OK**'a tıklayın. Bir parola, giriş yaparken kullandığınız parola ile aynı, istemiyle karşılaşacaksınız.
 
-#### Step 3.3: Sanal Makinenizi Yeniden Başlatma
+#### Adım 3.3: Sanal Makinenizi Yeniden Başlatma
 
 Tüm bunlar tamamlandığına göre, bu pencereleri kapatabilir ve sanal makinenizi yeniden başlatabilirsiniz. Klavyede <kbd>CTRL + ALT + T</kbd> yaparak `Terminal` penceresi açabilirsiniz ve terminalde `reboot` yazın ardından komutu çalıştırmak için <kbd>Enter'a</kbd> basın. Alternatif olarak, <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/00_whisker_icon.png" alt="The blue-white rodent Whisker Menu Icon" style="display: inline; margin: auto;"> ikonuna tıklayabilirsiniz, ardından sağ alttaki güç simgesine tıklayın ve **Restart** seçeneğini seçin.
 
@@ -144,7 +144,7 @@ Tüm bunlar tamamlandığına göre, bu pencereleri kapatabilir ve sanal makinen
 
    ![Not the most exciting of menus, but take note of the Shut Down option.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/15_restart.png)
 
-#### Step 3.4: Yeni Kazandığınız sudo Ayrıcalıklarını Test Etme
+#### Adım 3.4: Yeni Kazandığınız sudo Ayrıcalıklarını Test Etme
 
 Artık `sudo'ya` erişiminiz olduğuna göre, bunu Xubuntu'yu `Terminal` üzerinden güncellemek için kullanabiliriz. Terminali açın ve aşağıdaki komutları birbiri ardına kullanın:
 
@@ -157,7 +157,7 @@ sudo apt upgrade
 
 Bir süre `sudo apt upgrade` çalıştıktan sonra terminalde bir şeyler yüklemek isteyip istemediğiniz sorulacaktır, makinenizi güncellemek için bunları onaylayın. Herhangi bir sorun yaşarsanız, [Discord sunucumuza](https://discord.gg/V75WSQG) gelmekten ve `#virtualbox-help` kanalında yardım istemekten çekinmeyin.
 
-### Step 4: Yeni Sanal Makinenizi Anlama
+### 4. Adım: Yeni Sanal Makinenizi Anlama
 
 İşte sanal ortamda çalışmaya başlamanıza yardımcı olacak bazı ipuçları:
 
@@ -186,7 +186,7 @@ Bir süre `sudo apt upgrade` çalıştıktan sonra terminalde bir şeyler yükle
   -   Performansınız hala yetersizse, dual boot yapın çünkü bu, tüm bilgisayar kaynaklarını yalnızca bir işletim sistemi için kullandığınızı garanti edecek ve böylece deneyiminizi önemli ölçüde arttıracaktır.
 -   Farenizin kaydırma tekerleği Google Chrome'da garip davranıyorsa ve sanal makinenizin istendiği gibi çalıştığından emin olmak için sanal makine performans ipuçlarını gözden geçirdiyseniz, `imwheel'e` bakın: [daha fazla bilgi için bu AskUbuntu talimatlarına bakın](https://askubuntu.com/a/621140). VSCode'u yüklediyseniz, `gedit` yerine bu talimatları kullanın, aksi takdirde `sudo apt install gedit` komutuyla gedit'i yükleyin. Eğer gedit'i `snap` ile yüklerseniz, dosyayı kaydetmenize izin vermez. Her açılışta `imwheel`in çalıştığından emin olmak için whisker menüsüne tıklamalısınız <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/00_whisker_icon.png" alt="The blue-white rodent Whisker Menu Icon" style="display: inline; margin: auto;"> , ardından `Session` yazın ve `Session and Startup'a` tıklayın. `Application Autostart'ı` göreceksiniz ve ona gidin, sonra da `Add'e` tıklayın. `Name` değeri için `imwheel` ve `Command` değeri için `imwheel -b "4 5` girin. `OK'e` tıklayın ve her şey hazır olmalı.
 
-### Step 5: Güvenli Bir Şekilde Sanal Makinenizi Kapatma
+### 5. Adım: Güvenli Bir Şekilde Sanal Makinenizi Kapatma
 
 Günlük kullandığınız bilgisayarın fişini çekmezsiniz, değil mi? Neden aynı şeyi sanal bilgisayarınız için yapasınız ki? X düğmesine tıklayıp sanal bilgisayarınızı kapattığınızda, dosyalarınıza da elveda diyebilirsiniz. Bu bölümde, sanal bilgisayarınızı kapatmanın üç yolunu öğreneceksiniz.
 
@@ -218,19 +218,19 @@ Güvende olmak için **Send the shutdown signal'ı** seçin ve OK'a tıklayın. 
 
 Dual boot, bilgisayarınızda basit bir yeniden başlatma ile arasında geçiş yapabileceğiniz iki işletim sistemi sağlar. Siz açıkça söylemediğiniz sürece bir işletim sistemi diğerini değiştirmeyecektir. Devam etmeden önce, önemli verilerinizi yedeklediğinizden ve yardım istemek için bir yolunuz olduğundan emin olun. Kaybolursanız, korkarsanız veya takılırsanız, [Odin Teknik Destek sohbet odasında](https://discordapp.com/channels/505093832157691914/514204667245363200) yardıma hazırız. Gelin ve "Merhaba" deyin!
 
-### Step 1: Ubuntu'yu İndirme
+### 1. Adım: Ubuntu'yu İndirme
 
 Öncelikle, bilgisayarınıza kurmak istediğiniz Ubuntu sürümünü indirmeniz gerekir. Ubuntu'nun farklı sürümleri ("dağıtımları") vardır, ancak biz standart masaüstü [Ubuntu](https://releases.ubuntu.com/22.04/) sürümünü öneriyoruz. Eğer daha eski bir bilgisayar kullanıyorsanız, [Xubuntu](https://xubuntu.org/release/22-04/)'yu öneriyoruz. [Ubuntu](https://releases.ubuntu.com/22.04/) veya [Xubuntu](https://xubuntu.org/release/22-04/)'nun 64-bit sürümünü indirdiğinizden emin olun.
 
-### Step 2: Önyüklenebilir Flash Bellek Oluşturma
+### 2. Adım: Önyüklenebilir Flash Bellek Oluşturma
 
 Ardından, Ubuntu'yu sabit sürücünüze yükleyebilmeniz için önyüklenebilir bir flash bellek oluşturmak üzere [bu kılavuzu](https://itsfoss.com/create-live-usb-of-ubuntu-in-windows/) izleyin. Eğer flash belleğiniz yoksa CD ya da DVD de kullanabilirsiniz.
 
 Not: İsterseniz bu yöntemi [farklı Ubuntu dağıtımlarını](https://www.ubuntu.com/download/flavours) denemek için kullanabilirsiniz. Bu imajlar, kurulum yapmadan farklı dağıtımları denemenize olanak tanır. İşletim sistemini bir flash bellekten çalıştırmanın işletim sisteminin yavaş çalışmasına neden olacağını ve flash belleğinizin ömrünü azaltabileceğini unutmayın.
 
-### Step 3: Ubuntu'yu Yükleme
+### 3. Adım: Ubuntu'yu Yükleme
 
-#### Step 3.1: Flash Bellekten Önyükleme
+#### Adım 3.1: Flash Bellekten Önyükleme
 
 İlk olarak, Ubuntu'yu flash sürücünüzden önyüklemeniz gerekir. Tam olarak ne yapmanız gerektiği değişebilir, ancak genel olarak aşağıdakileri yapmanız gerekecektir:
 
@@ -240,7 +240,7 @@ Not: İsterseniz bu yöntemi [farklı Ubuntu dağıtımlarını](https://www.ubu
 
 Örneğin, bir Dell bilgisayarda boot menüsünü açmak için, flash sürücüyü takmanız, bilgisayarı yeniden başlatmanız ve bilgisayar ilk açılırken F12 tuşuna basmanız gerekir. Buradan, flash bellekten önyükleme yapmayı seçebilirsiniz. Sizin bilgisayarınızda yöntem tam olarak aynı olmayabilir, ancak Google bunu çözmenize yardımcı olabilir.
 
-#### Step 3.2: Ubuntu'yu Yükleme
+#### Adım 3.2: Ubuntu'yu Yükleme
 
 Flash bellekteki Ubuntu sürümünü test etmek isterseniz, 'Try me' seçeneğine tıklayın. Beğendiğiniz bir Ubuntu çeşidi bulduğunuzda, 'Install'a tıklayın ve bir sonraki adıma geçin.
 
@@ -352,6 +352,5 @@ _(__not__: Chrome, bu terminali çeşitli mesajları vermek için kullanacak ve 
 </details>
 
 ### Ek Kaynaklar
-
 
 * Bu dersin henüz ek kaynağı bulunmuyor. Müfredatımıza katkıda bulunarak bu bölümü genişletmemize yardımcı olun.
