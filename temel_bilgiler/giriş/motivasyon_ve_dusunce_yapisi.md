@@ -1,171 +1,171 @@
-### Introduction
+### Giriş
 
-Learning to code is incredibly rewarding but can also be difficult and frustrating. Like any skill worth knowing, it takes time to acquire, and it can't be learned in a weekend or even a month. With that said, we believe anyone can learn how to program as long as they are willing to put in the time and effort.
+Kod yazmayı öğrenmek inanılmaz derecede faydalı, ancak aynı zamanda zor ve sinir bozucu olabilir. Bilmeye değer her beceri gibi, edinilmesi zaman alır ve bir hafta sonu ya da bir ayda öğrenilemez. Bununla birlikte, zaman ve çaba harcamaya istekli oldukları sürece herkesin programlamayı öğrenebileceğine inanıyoruz.
 
-So before we get into the meat of the curriculum, we're going to go over the following to help you get the most out of The Odin Project: the things that will help you succeed in your goal of learning to code and the pitfalls that you should try to avoid.
+Müfredatın özüne girmeden önce, Odin Projesi'nden en iyi şekilde yararlanmanıza yardımcı olmak için aşağıdakilerin üzerinden geçeceğiz: kod yazmayı öğrenme hedefinizde başarılı olmanıza yardımcı olacak şeyler ve kaçınmaya çalışmanız gereken tuzaklar.
 
-### Motivation
+### Motivasyon
 
-Take a moment to think about why you have decided to learn programming.
+Neden programlama öğrenmeye karar verdiğinizi düşünmek için bir dakikanızı ayırın.
 
-*   Do you want to have a fulfilling career that pays well?
-*   Are you excited by the creative outlet programming provides? 
-*   Are you determined to develop the skills and abilities to build any app you can think of? 
-*   Do you want to start your own company by turning an app idea into reality?
+- İyi kazandıran, tatmin edici bir kariyere sahip olmak ister miydiniz?
+- Programlamanın sağladığı yaratıcı yol sizi heyecanlandırıyor mu?
+- Aklınıza gelebilecek her türlü uygulamayı oluşturabilecek beceri ve yetenekleri geliştirmeye kararlı mısınız?
+- Bir uygulama fikrini gerçeğe dönüştürerek kendi şirketinizi kurmak ister misiniz?
 
-Your motivation could be a combination of these reasons or something else entirely. Whatever it is, hold on tightly to your motivation - this will be what pulls you through to the end of this journey, giving you a definitive goal to aim towards.
+Programlamayı öğrenme motivasyonunuz bu nedenlerin bir kombinasyonu veya tamamen başka bir şey olabilir. O şey her ne olursa olsun, motivasyonunuza sıkıca sarılın - sizi bu yolculuğun sonuna kadar götürebilecek şey motivasyonunuz olacak ve sizi yönelmeniz gereken kesin bir hedefe ulaştıracaktır.
 
-To give your motivation a bit of a boost, you can read about the success of others in our discord [odin-success-stories](https://discord.com/channels/505093832157691914/1089990025162260570) channel.
+Motivasyonunuzu güçlendirmek istiyorsanız Discord kanalımızdaki [odin-success-stories](https://discord.com/channels/505093832157691914/705776663497277490) başarı hikayelerini okuyabilirsiniz.
 
+### Gelişim Zihniyeti
 
-### Growth Mindset
+Düşünce yapınız kendinize sadece programlama değil, _herhangi bir_ beceriyi öğretirken de çok önemlidir. Düşünce yapınız başarı şansınız üzerinde hemen hemen her şeyden daha fazla bir etkiye sahip olacaktır.
 
-Your mindset is very important when teaching yourself *any* new skills, not just programming. Your mindset will have more of an impact on your chances of success than just about anything else.
+**Sabit zihniyet**e sahip kişiler, bir şeyi ilk denemelerinde başaramadıklarında hiçbir zaman başaramayacaklarına inanırlar. Bazı şeyleri yapabilecek veya anlayabilecek kadar yeterince zeki olmadıklarını düşünürler.
 
-Someone with the **fixed mindset** believes if they don't get something on their first attempt, they never will. They believe that they simply aren't smart enough to be able to do or understand some things.
+Ancak, zeka düzeyinin sabit olmadığını, aksine geliştirilebileceğini gösteren geniş bir araştırma yelpazesi bulunmaktadır. **Gelişim odaklı zihniyet**e sahip birisi, çaba ve süreklilikle her konuda daha iyi olabileceğine inanır.
 
-However, there is a wide body of research showing that intelligence is not fixed but can instead be developed. Someone with the **growth mindset** believes they can get better at anything with effort and persistence.
+Bu sizin için ne anlama geliyor? Bu, **süreklilik ve azim** ile yeni beceriler öğrenebileceğinizi ve yeni yetenekler geliştirebileceğinizi gösterir.
 
-What does this mean for you? It means you can learn new skills and develop new talents with **persistence and grit**. 
+Odin Projesi müfredatı boyunca bir konsept veya programlama sorunu üzerinde takılıp kalacağınız ve programlamayı öğrenme yeteneğinizi sorgulayabileceğiniz zamanlar olacak. Bu durumda kendinize _henüz_ anlamamış olabileceğinizi, ancak süreklilik ve azimle başarabileceğinizi hatırlatabilirsiniz. Bir şeyle mücadele etmek büyüme anlamına gelir. Bir konsept veya projeyle ne kadar süre mücadele ettiğiniz önemli değildir;
+önemli olan, kararlılık ve azme sahip olmanızdır.
+Gerçek öğrenme böyle gerçekleşir.
 
-There will be many times throughout The Odin Project that you will get stuck on a concept or a programming problem and may find yourself questioning your ability to learn programming. When you find yourself in this position, remind yourself that you may not get it *yet* but that with persistence and grit you will. Struggling with something is growth. It doesn't matter how long you struggle with a concept or project; all that matters is that you have the grit and tenacity to see it through. That's how
-real learning happens.
+Müfredat üzerinde çalışırken, zor kavramlar ve karmaşık projelerle karşılaştığınızda yılmayıp bu mücadelelerin üstesinden gelme konusundaki ısrarınızı sürdürüp kendinizden emin bir şekilde ilerlemelisiniz.
 
-While you're working through the curriculum, embrace the struggles you encounter with difficult concepts and complex projects. Be sure to celebrate your persistence in overcoming those struggles!
+Kendinizi yeteneklerinizi sorgularken bulduğunuzda, programlamayı öğrenirken elde ettiğiniz başarıları düşünüp; tamamladığınız projeler ve bir zamanlar anlamadığınız ama şimdi anlamaya başladığınız kavramlar size bunu başarabiliyor olduğunuza dair ihtiyacınız olan kanıttır.
 
-When you find yourself questioning your abilities, reflect on the successes you have already achieved while learning to program: the projects you have completed and the concepts you once didn't understand but now do. This is all the proof you need that you can do it.
+Gelişim zihniyeti hakkında daha fazla bilgi edinmek için bu kaynaklara göz atabilirsiniz:
 
-To learn more about the growth mindset, check out these resources:
+- [Believe you can get better](https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve)
+- [Grit](https://ted.com/talks/angela_lee_duckworth_grit_the_power_of_passion_and_perseverance)
+- [You can learn anything](https://www.khanacademy.org/talks-and-interviews/conversations-with-sal/a/the-learning-myth-why-ill-never-tell-my-son-hes-smart)
 
-*   [Believe you can get better](https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve)
-*   [Grit](https://ted.com/talks/angela_lee_duckworth_grit_the_power_of_passion_and_perseverance)
-*   [You can learn anything](https://www.khanacademy.org/talks-and-interviews/conversations-with-sal/a/the-learning-myth-why-ill-never-tell-my-son-hes-smart)
+### Öğrenme Süreci
 
-### The Learning Process
+Kavramları öğrenmek ve ardından bunları uygulamak, işlerin nasıl yürüdüğünü ve birbirine nasıl uyduğunu daha iyi anlamanıza yardımcı olacaktır. Projeler, teorik anlayışınızın programlama kavramları ve tekniklerinin gerçekte nasıl işlediğiyle uyumlu olmasını sağlamak için en iyi yöntemdir.
 
-Learning concepts and then practicing them will help you to more fully understand how things work and fit together. Projects are the ultimate method for ensuring that your theoretical understanding aligns with how the programming concepts and techniques actually operate.
+Öğrenirken, zihniniz sürekli olarak odak modu ve dağınık mod arasında geçiş yapabilir. **Odak modu** bilinçli olarak öğrenmeye, okumaya, video izlemeye veya bir proje üzerinde çalışmaya odaklandığınızda ortaya çıkar. **Dağınık mod** ise aktif olarak öğrenmediğiniz zamanlarda, örneğin bulaşık yıkarken, egzersiz yaparken veya uyurken bilinçaltınızda oluşur. Bu durumda, zihniniz öğrendiklerinizi bildiğiniz diğer şeylerle ilişkilendirme işine devam eder. Atılımların gerçekleştiği yer burasıdır.
 
-When learning, your mind will consistently switch between focus mode and diffuse mode. **Focus mode** occurs when you are consciously focusing on learning, reading, watching videos, or working on a project. **Diffuse mode** occurs subconsciously, at times when you are not actively learning, such as when you're doing the dishes, exercising, or sleeping. In this state, your mind goes about the business of connecting what you have been learning to the other things you know. This is where breakthroughs happen.
+Öğrenirken zihninizin bu iki durumdan geçtiğini bilmek önemlidir çünkü bunu öğrenmenizi daha verimli hale getirmek için kullanabilirsiniz. Bir kavram veya proje üzerinde takılıp kaldığınızda, yenilenmek ve bilinçaltınızın bağlantılar kurmak için çalışmasına izin vermek için ara vermek, çoğu zaman sorununuza bir çözüm getirir. İşin püf noktası, önce sorunu çözmek için çaba sarf etmek ve ardından ara vermektir.
 
-It's important to know that your mind goes through these two states when learning because you can utilize this to make your learning more efficient. When stuck on a concept or project, taking a break to refresh and let your subconscious work on making connections more often than not yields a solution to your problem. The trick is to put effort into solving the problem first and then take a break.
+Kısacası, anlayın, uygulayın ve sonunda öğretin.
 
-In short, understand it, practice it, and finally teach it.
+Bildiklerinizi başkalarına öğretmek, öğrendiklerinizi sağlamlaştırmak için harika bir yoldur ve genellikle bilginizde başka türlü tespit edemeyeceğiniz boşlukları ortaya çıkarabilir.
 
-Teaching what you know to others is a great way to solidify what you have learned and can often reveal holes in your knowledge that you wouldn't have identified otherwise.
+Bu öğrenme yöntemini toplumumuzdaki diğer kişilere yardım ederek uygulayabilirsiniz.
 
-You can practice this method of learning by helping others in our community.
+- Öğrenmenin en iyi yolları hakkında bilgi edinmek için önemle tavsiye edilir: [learning how to learn on Coursera](https://www.coursera.org/learn/learning-how-to-learn).
 
-*   To learn more about the best ways to learn, [learning how to learn on Coursera](https://www.coursera.org/learn/learning-how-to-learn) is highly recommended.
+- Ruby Rogues'un bir podcast'i [podcast on How to Learn](https://topenddevs.com/podcasts/ruby-rogues/episodes/131-rr-how-to-learn) bulunmakta, bu podcast sizin için motive edici ve yararlı olabilir, bu nedenle öğrenmeyle ilgili bazı yararlı düşünceler için göz atabilirsiniz.
 
-*   The Ruby Rogues have a [podcast on How to Learn](https://topenddevs.com/podcasts/ruby-rogues/episodes/131-rr-how-to-learn), which should be motivational and useful to you, so check it out for some useful thoughts on learning.
+### Sıkıştığınızda Ne Yapmalısınız?
 
-### What to Do When You're Stuck
+Belki anlamakta güçlük çektiğiniz bir kavramdan, belki de bir projede yolunda gitmeyen bir şeyden dolayı müfredatın bir noktasında ister istemez takılıp kalabilirsiniz. Bu durumdan kurtulmak için aşağıdaki araçları kullanabilirsiniz:
 
-You will inevitably get stuck at some point in the curriculum, perhaps due to a concept that you are having difficulty understanding or perhaps due to something not working correctly in a project. Whatever it is, use the following tools to get unstuck:
+- Google'da aramak: Bir noktada sizinle aynı sorunla karşılaşan başka birilerinin olduğundan emin olabilirsiniz. Google araması yapmak genellikle bir çözüme yol açabilir.
+- Mola vermek: Bilinçaltınızın sorun üzerinde çalışmasına izin verebilirsiniz.
+- [Discord Sohbet](https://discord.gg/fbFCkYabZB) kanallarımızda yardım istemek: Araştırma yaptıktan sonra Discord sohbetine gelip insanlara çözümü kendi başınıza bulmak için çaba gösterdiğinizi gösterip yardım istediğinizde, insanlar size yardım etmeye daha istekli olacaklardır.
 
-*   Google it: You can be certain someone else out there has encountered the same problem as you at some point. A quick Google search can often lead to a solution.
-*   Take a break: Allow your diffuse learning state to work on the problem.
-*   Ask for help in our [chat](https://discord.gg/fbFCkYabZB): Come prepared with your research. People will be more willing to help you when they can see you have already put effort into trying to figure out the solution on your own.
+### Yapay Zekaların Kod Oluşturması Üzerine Bir Not
 
-### A Note on AI Code Generation
+Teknoloji geliştikçe, kodlamayı hızlandırmaya yardımcı olabilecek bazı inanılmaz araçların ortaya çıktığını gördük. Yapay zekaların kod oluşturması son zamanlarda popülaritesi artan bir alan, kod tamamlama (GitHub Copilot gibi) ve kod oluşturma (ChatGPT gibi) Büyük Dil Modellerinin (LLM'ler) ve üretken yapay zekaların kullanılmasıdır.
 
-As technology advances, we have seen some incredible tools emerge that can help accelerate coding capacity. One particular area that has exploded in popularity lately is the usage of Large Language Models (LLMs) and generative AIs for code completion (like GitHub Copilot) and code generation (like ChatGPT).
+Bu araçlar harika olsalar da, öğrenciler bu tür araçları kullanmanın temel yetkinlikler üzerindeki etkilerinin farkında olmalıdır. Bilgisayar bilimi profesörü olan David Humphrey [ChatGPT ve bunun temel eğitim üzerindeki potansiyel olumsuz etkileri hakkında yazı yazdı.](https://blog.humphd.org/cheatgpt/) Üretken yapay zekaları eğitim bağlamında kullanmanın beklenmedik zararları hakkında iyi bir yazıdır.
 
-While these tools are amazing, learners should be aware of the impacts that using such tools can have on core competency. David Humphrey, a computer science professor, [wrote about ChatGPT and its potentially negative impacts on core learning.](https://blog.humphd.org/cheatgpt/) It is a good read about the pitfalls of using generative AI in an educational context.
+Programlama konusunda yeni olan öğrenciler için ChatGPT veya GitHub Copilot gibi araçlar, bilgilerinizde bazı anlaşılmayan noktalara ve boşluklara neden olabilir.
 
-For learners that are new to programming, tools like ChatGPT or Github Copilot can result in some blindspots and gaps in your knowledge.
+1. Öğrenciler üretken bir yapay zeka kullanarak bir şeyin nasıl çalıştığını ve işlerin neden bu şekilde yapıldığını keşfetme fırsatını kaçırabilirler.
+1. Soru sormayı öğrenmek sahip olunması gereken önemli bir beceridir ve insanlara soru sormayı (yardımsever Discord topluluğumuz gibi) atlayıp üretken yapay zeka kullanmak bu beceriyi geliştirmenizin gecikmesi anlamına gelir.
+1. Yazdığınız kod hakkında konuşmayı öğrenmek de bir başka önemli beceridir. Profesyonel bir ortamda, sunduğunuz şeyin nasıl ve nedenini açıklamanız gereken kod incelemeleri yapacak olmanız kuvvetle muhtemeldir.
+1. David Humphrey'in de belirttiği gibi, üretici yapay zekanın çıktısı yakından incelenmelidir ve programlamaya yeni başlayan öğrenciler genellikle çıktının iyi mi yoksa kötü mü olduğunu belirleyebilecek genel bir anlayışa sahip değildir.
+1. Bir yapay zeka aracına nasıl iyi komutların verileceğini öğrenmek bir beceri olsa da, temel programlama becerilerini geliştirmeye yardımcı olacaktır. Odin müfredatı, bu temel beceriyi öğretmeye çalışmaktadır.
+1. Yapay Zeka araçları soruları yanıtlamak için tasarlanmış, öğrencilerin araştırma ve problem çözme becerilerini geliştirmelerinde yardımcı olmak için tasarlanmamıştır. Yapay zekadan bilgi isterseniz, size sadece bilgi sağlayacaktır. Bir insana sorarsanız, size sorunun çözümünü nasıl keşfedeceğiniz konusunda rehberlik sunabilir.
+1. Araştırma, problem çözme ve eleştirel düşünme pratiği olmadan, mülakatlar zor geçebilir çünkü başvuran kişilerin yapay zeka araçlarını kullanmalarına izin verilmeyeceği çok muhtemeldir.
 
-1. By using a generative AI, learners may miss the opportunity to discover how something works and why things are done that way.
-1. Asking good questions is an important skill to have, and using generative AI to skip asking people (like our helpful Discord community) means that your development of this skill is delayed.
-1. Learning to talk about the code that one writes is another important skill. In a professional environment, it is highly likely that you will be doing code reviews where you have to explain the how and why behind what you are presenting. Using the Odin community to ask good questions about your code when you require help can help develop this skill as well.
-1. As David Humphrey mentions, the output of generative AI must be closely scrutinized, and learners who are new to programming generally don't have a good overall understanding to be able to determine if the output is good or bad.
-1. While learning how to provide good prompts to an AI tool is a skill, it is one that is supplementary to developing foundational programming skills. The Odin curriculum strives to teach that foundational skill.
-1. AI tools are designed to answer questions and are not designed to help learners develop research and problem solving skills. If you ask an AI for information, it will provide information to you. If you ask a human, they may invite you to share your understanding of the problem and offer some guidance on how to discover a solution.
-1. Without practice in research, problem solving and critical thinking, interviews could be a struggle since it is very likely that applicants would not be allowed to use AI tools.
+Öğreniminiz için yapay zeka araçlarını kullanmanızı önermiyoruz.
 
-We do not recommend using AI tools for your learning.
+### Çalışma Saatlerinizi Yönetmek
 
-### Managing Your Study Time
+Odin üzerinde haftada bir kez çalışmak yerine **sürekli** zaman ayırırsanız daha başarılı olabilirsiniz. Her gün belirli bir saatte ve belirli bir hedefle çalışma alışkanlığı edinmek, tutarlı bir ilerleme kaydetmenizi sağlayacaktır.
 
-You will have more success with Odin by putting **consistent** time into it rather than working on it once a week. Building a habit of studying every day at a specific time and with a specific goal will ensure that you make consistent progress.
+Kavramları anlamanız diğer insanlardan daha uzun sürebilir ya da daha az zamanınızı alabilir. Bu, diğerlerinden daha zeki olduğunuz veya olmadığınız anlamına gelmez. Bu farklı deneyimleriniz olduğu anlamına gelir. Bir mühendisin yanında büyüyen biri, büyümeyen birine göre bazı avantajlara sahip olabilir, ancak bu o becerileri öğrenemeyeceğiniz anlamına gelmediğini unutmamalıyız.
 
-It may take you longer than others to grasp concepts, or it may take you less time. This doesn't mean you're smarter or dumber than others, it means you've had differing life experiences that may or may not have prepared you for learning this stuff. Someone who grew up around an engineer may have some advantages over someone who didn't, but it doesn't mean you can't learn those skills.
+Odin Projesi kolej veya üniversite gibi değildir, kendi kendine ilerler ve devam etmeden önce kavramları gerçekten sağlam bir şekilde kavramanıza olanak tanır. Okulda, ayak uydurmaya zorlanırsınız ya da başarısız olursunuz. Burada farklı olan şey, Odin Projesi'ne girerken çok fazla bilgiye sahip olmanız beklenmiyor; ön koşul yok. Sadece bilgisayarında e-postalarını nasıl kontrol edeceklerini bilen insanların buraya gelerek başarılı olduklarını gördük. Odin Projesi'ni statik bir zaman çizelgesi gibi ele almanız anlaşılabilir, ancak bu yanlış beklentinin bir işaretidir. Henüz neyi bilmediğinizi bilmiyorsanız bu tamamen normal! Odin Projesi'nde hiçbir şey için son tarih yok, bu yüzden doğru yapmak ve konuları tartışmak için istediğiniz kadar zaman harcayabilirsiniz.
 
-The Odin Project isn't like college or university, it is self paced and allows you to get a really solid grasp of concepts before moving on. In school, you're forced to keep up or you will fail. The difference here is that coming into The Odin Project, you're not expected to have much knowledge; there are no prerequisites. We've had people be successful coming through here who only knew how to check their email with a computer. We've also seen success from computer science degree holders. Treating The Odin Project like a static timeline is understandable, but is a sign of misplaced expectations. You simply don't know what you don't know yet, and that's OK! There are no due-dates on things in The Odin Project so you can spend the time to do it right and discuss the topics.
+Son teslim tarihleri (Deadlines) gereksiz strese neden olur. Odin Projesi ücretsiz ve açık bir platform olduğundan, bu müfredatta son teslim tarihi gibi bir şeye bağlı olmadığınızı belirtmek isteriz. Ancak kendi teslim tarihlerinizi belirlemek, aceleye getirilmemesi gereken kavramları aceleye getirmek için iyi bir yoldur. Bu kurs daha çok araştırma tabanlıdır. Yani görevleri ve projeleri tamamlamak için araştırma yapmanız gerekecektir. Doğru şekilde size yardımcı olacak makaleyi veya gönderiyi ne kadar hızlı bulabileceğiniz veya kendinize teslim tarihi belirlediyseniz teslim tarihlerinize yetişebileceğiniz belli olmayabilir, ancak müfredat boyunca çok şey öğreneceğinize eminiz. Bu tür araştırmalar yapan ve daha iyi çözümler yazmak için çabalayan insanlar gelecekte daha iyi geliştiriciler olma eğilimindedir. Cevaplarınızı bulmak için bir şeyleri nasıl sorgulayacağınızı öğrenmenizin ne kadar süreceğini bilemezsiniz. Bu konuda sağlam bir kılavuz yoktur. Odin Projesi'ni _hemen şimdi_ yüksek maaşlı bir işe ihtiyacınız olduğu için yapıyorsanız, belirlediğiniz zaman dilimi içinde sağlam bir geliştirici olmayacaksınız. Stres ve kaygı da öğrenmenize yardımcı olmayacaktır. Sadece rahatlayın ve bu yolculuğun tadını çıkarın.
 
-Deadlines cause un-needed stress. Since The Odin Project is a free and open platform, you are not beholden to a deadline. Creating your own deadlines is a good way to rush concepts that should not be rushed. This course is very research based, meaning you will have to do research to complete tasks and projects. There's no telling if you can find the article or post that helps you in the right way, quickly to meet your deadlines, but we bet you learned a TON along the way that you can use in the future. People that do this kind of research and strive to write better solutions tend to become better developers in the future. There's no knowing how long it could take you to learn how to query stuff to find your answers. There are no solid guidelines on that. If you're doing The Odin Project because you need a high paying job _right-now_, you're not going to become a solid developer within the timeframe you have set. Stress and anxiety absolutely do not help you learn either. Relax and just enjoy the ride.
+Uzun lafın kısası: Endişelenmeyin, sadece öğrenmeye devam edin!
 
-Long story short: Don't worry, just go learn!
+### Kaçınılması Gereken Tuzaklar
 
-### Pitfalls to Avoid
+Aşağıda, yeni başlayanların programlamayı öğrenirken sıklıkla karşılaştıkları bazı tuzaklar yer almaktadır. Bunlardan kaçınmak için elinizden geleni yapmalısınız.
 
-The following are some of the pitfalls that beginners often encounter when learning how to program. Try your best to avoid these.
+#### Erteleme
 
-#### Procrastination
+İlerleme kaydetmeye çalışırken erteleme yapmak en büyük düşmanınız olacaktır.
 
-Procrastination will be your biggest enemy when trying to make progress.
+**Çözümü:** [Pomodoro Tekniği](https://en.wikipedia.org/wiki/Pomodoro_Technique) odaklanmaya devam etmek için zamanınızı yönetmenin bir yoludur. Buradaki fikir, 25 dakika için bir zamanlayıcı ayarlamak ve zamanlayıcı bitene kadar çalışmaktır. Eğer 25 dakika boyunca dikkatiniz dağılır ya da işiniz yarıda kesilirse, 25 dakikalık çalışmaya yeniden başlarsınız. İşinize 25 dakika boyunca başarılı bir şekilde odaklandıktan sonra 5 dakika ara verirsiniz. Molanız bittiğinde, 25 dakikalık çalışmayı ve 5 dakikalık molayı tekrarlarsınız. Dört adet 25 dakikalık çalışma bloğunu tamamlandıktan sonra, 15-30 dakikalık daha uzun bir mola verirsiniz.
 
-**Solution:** The [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) is a way of managing your time in order to stay focused. The idea is to set a timer for 25 minutes and to work on a task until the timer goes off. If you get distracted or interrupted during the 25 minutes, start the 25 minutes of work over again. Once you've successfully focused on work for 25 minutes, take a 5 minute break. When your break is over, repeat the 25 minutes of work and 5 minute break. After you've completed four 25 minute blocks of work, take a longer 15-30 minute break. 
+Pomodoro tekniği, dikkatinizi dağıtan unsurlardan uzak durarak erteleme yapmanızı önlemek için harikadır. Çalışma süresi sadece 25 dakika olduğu için bunaltıcı olmayacak ve erteleme alışkanlığınızı yenmek için iyi bir yol olacaktır.
 
-The Pomodoro technique is great for avoiding procrastination as it forces you to work without distractions. Since the work time only lasts 25 minutes before taking a break, it's not overwhelming, making it harder to rationalize procrastination.
+Pomodoro Tekniği hakkında daha fazla bilgi edinmek için bu [harika makaleyi](https://medium.com/life-hacks/more-productivity-with-the-pomodoro-technique-d7ce8926ec0c#.hcqsv37u4) okuyabilirsiniz.
 
-To learn more about the Pomodoro Technique, read this [great article](https://medium.com/life-hacks/more-productivity-with-the-pomodoro-technique-d7ce8926ec0c#.hcqsv37u4).
+Denemek isterseniz, [TomatoTimer](http://tomato-timer.com/#) kullanımı kolay bir Pomodoro zamanlayıcısıdır.
 
-If you want to try it out, [TomatoTimer](http://tomato-timer.com/#) is an easy-to-use Pomodoro timer.
+#### Mola Vermemek
 
-#### Not Taking Breaks
+Konulara daldıkça, uzun süre boyunca sürekli çalışmak zorunda hissedebilirsiniz. İlk başta daha fazla iş yapıyormuşsunuz gibi görünebilir, ancak bu genellikle tükenmişliğe yol açar ve sonuç olarak daha düşük üretkenlikle sonuçlanır.
 
-As you get into the material, you may feel compelled to continuously study for long periods of time. It might seem like you are getting more work done at first, but this often leads to burnout, which consequently results in lower productivity.
+Mantıklı gelmeyebilir, ancak beyninizi ve vücudunuzu yeniden şarj etmek için düzenli olarak mola verirseniz daha iyi bir çalışmayla daha fazlasını yaparsınız. Araştırmalar, uzun süreli tatillerden 30 saniyelik mikro molalara kadar her türlü moladan sonra performansın arttığını gösteriyor. Toronto üniversitesi'nde Yönetim Doçenti olan John Trougakos, zihinsel konsantrasyonun kaslara benzediğini söylüyor. Odak noktamız sürekli kullanımdan sonra yorulur ve tıpkı spor salonunda setler arasında dinlenen bir vücut geliştirmeci gibi iyileşmek için dinlenme süresine ihtiyaç duyar.
 
-It may seem counterintuitive, but you will actually get more done if you regularly step back to recharge your brain and body. Studies show that performance increases after breaks of all durations: from extended vacations down to microbreaks of 30 seconds. John Trougakos, Associate Professor of Management at the University of Toronto, says that mental concentration is similar to a muscle. Our focus becomes fatigued after sustained use and needs a rest period to recover, just like a bodybuilder resting between sets at the gym.
+**Çözümü:** Hak ettiğiniz molaları ne sıklıkta ve ne kadar süreyle vereceğinizi zamanlamak için bahsettiğimiz Pomodoro Tekniğini kullanabilirsiniz. Farklı mola sıklıkları ve süreleri ile oynamaktan ve denemeler yapmaktan çekinmeyin.
 
-**Solution:** Use the previously mentioned Pomodoro Technique to time how often and how long to take your well-deserved breaks. Feel free to play around and experiment with different frequencies and durations of breaks.
+Mola sırasında ne yapmalı:
 
-What to do during your break:
+- müzik dinlemek
+- dergi okumak
+- doodle yapmak
+- meditasyon yapmak
+- hızlı ve kolay bir oyun oynamak
+- dışarıda kısa bir yürüyüş
 
-*   listen to music
-*   journal
-*   doodle
-*   meditate 
-*   play a quick game
-*   go for a short walk outside 
+Molalar ve üretkenlik hakkında daha fazla bilgi için [bu makaleyi](https://simpleprogrammer.com/taking-breaks-will-boost-productivity/) okuyabilirsiniz.
 
-Read [this article](https://simpleprogrammer.com/taking-breaks-will-boost-productivity/) for more information on breaks & productivity.
+#### Dijital Dikkat Dağıtıcı Şeyler
 
-#### Digital Distractions
+Dijital dikkat dağıtıcılar, e-posta ve Facebook bildirimleri ile sosyal medya gibi zaman kaybettiren web siteleri ve uygulamalardır. Bu dikkat dağıtıcılar odağınızı bozar ve ertelemeyi cazip hale getirir. Bu nedenle, çalışma süresi boyunca bunlardan kaçınılmalıdır.
 
-Digital distractions are email and Facebook notifications and time-wasting websites, such as social media. These distractions break your focus and make procrastination tempting. Therefore, they should be avoided during study time.
+**Çözümü:** Dikkat dağıtıcı web site ve uygulamalarda geçirdiğiniz zamanı sınırlamak için bildirimleri kapatabilir ve internetinize bir engelleyici ekleyebilirsiniz.
 
-**Solution:** Turn off notifications and add a blocker to your internet to limit your time on distracting sites.
+#### Fiziksel Dikkat Dağıtıcı Şeyler
 
-#### Physical Distractions
+Fiziksel dikkat dağıtıcılar, arka plandaki bir televizyon veya konuşan diğer insanlar gibi çevrenizden gelen dikkat dağıtıcı unsurlardır. Bu dikkat dağıtıcı unsurlar, odaklanmanıza dijital dikkat dağıtıcı unsurlar kadar zarar verebilir.
 
-Physical distractions are distractions from your environment, like a TV in the background or other people talking. These distractions can be just as damaging to your focus as digital distractions.
+**Çözümü:** Evinizde odaklanmak için gidebileceğiniz sessiz bir çalışma yeri tercih edebilirsiniz. Bu bir seçenek değilse, çevrenizdeki gürültülü dikkat dağıtıcı unsurları engellemek için gürültü önleyici kulaklıklar kullanabilirsiniz.
 
-**Solution:** Find a quiet place to study where you can go to focus in your home. If that's not an option, you can use noise cancelling headphones to block out noisy distractions in your environment.
+#### Tavşan Delikleri
 
-#### Rabbit Holes
+Odin Projesi'nde çok fazla konu ele aldığımız ve çok sayıda yüksek kaliteli kurs ve araca bağlantı verdiğimiz için, öğrencilerin hazır olmadıkları ve kendilerine çok fazla fayda sağlamayacak bir konu hakkında bilinmesi gereken her şeyi öğrenmeye çalışarak zaman harcayarak tavşan deliklerine çekilmeleri mümkündür. **Müfredatı yapılandırmak için çok çaba sarf ettik**, böylece web geliştirme hakkında bilmeniz gereken tüm önemli şeyler tam olarak bilmeniz gereken zamanda ele alınmaktadır.
 
-Because we cover so much material on The Odin Project and link to so many high quality courses and tools, it is easy for students to get pulled into rabbit holes by spending time trying to learn all there is to know about a subject that they aren't ready for or won't benefit them much. **We have put a lot of effort into structuring the curriculum** so that all of the important things that you need to know about web development are covered exactly when you need to know them.
+**Çözümü:** Mümkün olduğunca belirlenen yola sadık kalın. Tavşan deliklerine girmek için harcadığınız zamanı sınırlamaya çalışmalısınız çünkü bu yan yollar ivmenizi mahvedebilir.
 
-**Solution:** Stick to the path laid out as much as possible. Try to limit time spent going down rabbit holes as these sidetracks can really ruin your momentum.
+#### Kendinizi Başkalarıyla Karşılaştırmak
 
-#### Comparing Yourself to Others
+Öğrenciler genellikle kendilerini kodlama yolculuklarında daha ileride olan veya daha fazla deneyime sahip kişilerle karşılaştırırlar. Bu, depresyon ve hayal kırıklığının tarifidir.
 
-Students often compare themselves to others who are farther along in their coding journey or have more experience. This is a recipe for depression and frustration. 
+**Çözümü:** Kendinizi sadece geçmişteki halinizle karşılaştırın. Yetenekleriniz ve bilginiz geçen hafta, geçen ay veya geçen yıl bulunduğunuz noktaya göre gelişti mi? Kaydettiğiniz ilerlemeden gurur duymalısınız!
 
-**Solution:** Only compare yourself to your past self. Have your abilities and knowledge improved from where you were last week, last month, or last year? Be proud of the progress that you've made!
+### Sonuç
 
-### Conclusion
+Sonuç olarak herhangi bir yeni beceriyi öğrenmek, aşılması gereken engellerle dolu bir yolculuktur. Burada ortaya konulan ilkelerin sizi başarılı olmak ve Odin Projesi'nden en iyi şekilde yararlanmak için çok daha iyi bir konuma getireceğini umuyoruz.
 
-Learning any new skill is a journey full of speed bumps and obstacles to be overcome. We hope that the principles laid out here will put you in a much better position to succeed and get the most out of The Odin Project.
+### Ek Kaynaklar
 
-### Additional Resources
+Bu bölüm, ilgili içeriklere yararlı bağlantılar içermektedir. Bu içeriklere bakmanız zorunlu değildir, ancak ilave olarak bunlara da bakmanızı tavsiye ediyoruz.
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
-
-*   [Managing inspiration and motivation](https://markmanson.net/do-something)
-*   [Learning to code when it gets dark](https://medium.freecodecamp.org/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje)
-*   [Improve your typing skills with Keybr.com](https://www.keybr.com/). One excellent alternative is [typing.com](https://www.typing.com/). Use these keyboard trainer if you find your typing speed is holding you back. We recommend spending 5 mins every day after you start your PC.
-*   [Practice typing with Monkeytype!](https://monkeytype.com/) A minimalistic, customizable typing website. Test yourself in various modes, track your progress and improve your typing speed. It has a great community and frequently receives new features. Even though it has so many features, the experience is still very polished. 
-*   [Why Procrastinators Procrastinate](https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html) Learn about the Instant Gratification Monkey, Rational Decision Maker, Panic Monster, and how to navigate the Dark Playground. [Short video introduction from the same author](https://youtu.be/arj7oStGLkU)
+- [Managing inspiration and motivation](https://markmanson.net/do-something)
+- [Learning to code when it gets dark](https://medium.freecodecamp.org/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje)
+- [Improve your typing skills with Keybr.com](https://www.keybr.com/) Yazma hızınızın sizi engellediğini düşünüyorsanız bu web sitesini kullanabilirsiniz. Bilgisayar başına geçtiğinizde her gün 5 dakika geçirmenizi öneririz.
+- [Practice typing with Monkeytype!](https://monkeytype.com/) Minimalist, özelleştirilebilir bir yazım web sitesi. Kendinizi çeşitli modlarda test edebilir, ilerlemenizi takip edebilir ve yazma hızınızı arttırabilirsiniz. Harika bir topluluğa sahip ve sık sık yeni özellikler eklenmektedir. Bu kadar çok özelliğe sahip olmasına rağmen, sunduğu deneyim hala çok iyi.
+- [Why Procrastinators Procrastinate](https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html) Learn about the Instant Gratification Monkey, Rational Decision Maker, Panic Monster, and how to navigate the Dark Playground. [Short video introduction from the same author](https://youtu.be/arj7oStGLkU)
