@@ -1,12 +1,12 @@
-### Introduction
+### Giriş
 
-In this project, you'll be creating a pretty neat toy for your portfolio to flex your DOM manipulation skills. You're going to build a browser version of something between a sketchpad and an Etch-A-Sketch.
+Bu projede, portgolyonuza koyabileceğiniz ve DOM manipülasyonu becerilerinizi geliştirecek oldukça iyi bir oyuncak oluşturacaksınız. Bir eskiz defteri ve manyetik çizim tahtasının tarayıcı versiyonunu inşa edeceksiniz.
 
-This project should _not_ be easy for you. You'll probably have to Google frequently to get the right JavaScript methods and CSS to use – in fact, that's the point! You _can_ build this using the tools that you have already learned, and there are plenty of resources on the net for learning stuff that we haven't covered yet if you decide you need it. We'll walk you through the basic steps, but it will be up to you to actually implement them.
+Bu proje sizin için kolay _olmamalı_. Doğru JavaScript metodlarını ve kullanılacak CSS kodlarını bulabilmek için bolca Google'ı kullanacaksınız -aslında, amaç bu! Daha önce öğrendiğiniz araçlarla bu projeyi _yapabilirsiniz_ ve eğer ihtiyacınız olduğunu düşünüyorsanız daha değinmediğimiz bir çok konuyu internetten öğrenebileceğiniz çokça kaynak var. Size ilk adımlarda rehberlik edeceğiz fakat bunları uygulamak size kalmış.
 
-If you get totally stuck, drop by the chatroom. Someone will be there to point you in the right direction.
+Eğer gerçekten takılı kaldıysanız, sohbet odasına uğrayın. Oradaki biri size doğru yönü gösterecektir.
 
-### Assignment
+### Ödev
 
 <div class="lesson-content__panel" markdown="1">
 Don't forget to commit early & often! You can [reference the Commit Message lesson here](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/commit-messages)!
