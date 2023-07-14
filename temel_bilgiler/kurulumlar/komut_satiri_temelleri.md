@@ -1,118 +1,122 @@
-### Introduction
+### Giriş
 
-Feeling scared of the command line? You're not alone. We have this image of developers staring intently at a black screen with white or green text flashing across as they wildly enter incomprehensible commands to hack into the corporate mainframe (no doubt while guzzling soda and wiping neon orange Cheetos dust off their keyboard).
+Komut satırından korkuyor musunuz? Yalnız değilsiniz. Şirketin ana bilgisayarını hacklemek için çılgınca anlaşılmaz komutlar girerken, beyaz veya yeşil metinlerin yanıp söndüğü siyah bir ekrana dikkatle bakan geliştiricilerin bu görüntüsüne sahibiz.
 
-That black screen or window is the <span id="command-line">command line interface (CLI)</span>, where you're able to enter commands that your computer will run for you. While there's no need for you to reenact the scene above, working with the command line is a critical skill for you to learn as a developer. The command line is like our base of operations, from which we can launch other programs and interact with them. It has a syntax of its own to learn, but since you'll be entering the same commands dozens of times, you'll quickly pick up the commands you need most.
+Bu siyah ekran veya pencere, bilgisayarınızın sizin için çalıştıracağı komutları girebileceğiniz <span id="command-line">komut satırı arayüzüdür (CLI)</span>. Komut satırıyla çalışmak bir geliştirici olarak öğrenmeniz için kritik bir beceridir. Komut satırı, diğer programları başlatabileceğimiz ve onlarla iletişime geçebileceğimiz operasyon üssü gibidir. Öğrenilmesi gereken kendine has bir sözdizimi vardır, ancak aynı komutları onlarca kez gireceğiniz için en çok ihtiyacınız olan komutları çabuk öğrenebileceksiniz.
 
-In this introductory lesson to the command line, you'll learn how to navigate around your computer and how to manipulate files and directories (also known as folders) directly from the comfort of the command line. You'll soon see that this isn't as difficult as you may think. The commands you will learn in this lesson are very straightforward. So don't let the prospect of using the command line for the first time intimidate you.
+Komut satırına giriş niteliğindeki bu derste, bilgisayarınızda nasıl gezineceğinizi ve doğrudan komut satırının rahatlığıyla dosya ve dizinleri (klasörler olarak da bilinir) nasıl değiştireceğinizi öğreneceksiniz. Yakında bunun sandığınız kadar zor olmadığını göreceksiniz. Bu derste öğreneceğiniz komutlar çok basittir. Bu nedenle, komut satırını ilk kez kullanmanızın sizi korkutmasına izin vermeyin.
 
-### Test Drive Your Terminal
+### Terminalinizi Test Edin
 
-<span id="open-command-line">Open a terminal</span> on your computer.
+Bilgisayarınızda <span id="open-command-line">bir terminal açın</span>.
 
-- **Linux**: Open the programs menu and search for "Terminal". You can also open the terminal by pressing <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd> on your keyboard.
+- **Linux**: Programlar menüsünü açın ve "Terminal" diye aratın. Ayrıca klavyenizde <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd> tuşlarına basarak da terminali açabilirsiniz.
 
-- **macOS**: Open your Applications > Utilities folder and find "Terminal". You can also use Spotlight search to open Terminal. Press <kbd>Cmd</kbd> + <kbd>Space</kbd> to open Spotlight, and search for "Terminal". Press <kbd>Enter</kbd> to open it.
+- **macOS**: Uygulamalar > Araçlar klasörünüzü açın ve "Terminal" diye aratın. Terminal'i açmak için Spotlight aramasını da kullanabilirsiniz. <kbd>Cmd</kbd> + <kbd>Space</kbd> tuşlarına basarak Spotlight'ı açabilir, ve "Terminal" diye aratabilirsiniz. Sonrasında <kbd>Enter</kbd> tuşuna basarak Terminal'i açabilirsiniz.
 
-Before we do anything, take a look at the following text:
+Bir şey yapmadan önce, aşağıdaki metne bir göz atın:
+
 ```
 $ whoami
 ```
-This is a terminal command because it begins with a `$`. The `$` is saying "Hey! Enter what follows in your terminal." This means that we must exclude the `$` when entering any command. In the example above, we would only enter `whoami` in our terminal. This is a common indicator so make sure that you aren't entering `$` before a command. Now that you are aware of what `$` does, take your terminal for a test run! Make sure your terminal is open, type the command mentioned above, and press <kbd>Enter</kbd> on your keyboard.
 
-It returns your username. Cool!
+`$` işareti ile başladığı için bu bir terminal komutudur. `$` işareti "Selam! Terminalinize komut girebilirsiniz." anlamına gelir. Herhangi bir komut girerken `$` işaretini yazmanız gerekmeyecektir. Yukarıdaki örnekte, terminalimize sadece `whoami` yazdık. Bu yaygın kullanılan bir işarettir, bu nedenle bir komuttan önce `$` karakterini girmediğinizden emin olunuz. Artık `$` işaretinin ne olduğunu bildiğinize göre, terminalinizi bir test çalışması için kullanabilirsiniz! Terminalinizin açık olduğundan emin olun, yukarıda belirtilen komutu yazın ve klavyenizde <kbd>Enter</kbd> tuşuna basınız.
 
-#### Why learn this now?
+Kullanıcı adınızı yazdıracaktır. Harika!
 
-You will be making heavy use of the command line throughout this curriculum, and the upcoming installations project will need you to install many different software programs using the command line. Additionally, you will primarily be using Git within the command line (more on this later). As part of the bigger picture, you may well be using the command line on a daily basis in your career as a software developer, making it an indispensable skill in your toolset.
+#### Bunu neden şimdi öğreneceksiniz?
 
-### Lesson Overview
+Bu müfredat boyunca komut satırını yoğun bir şekilde kullanacaksınız ve yaklaşan kurulum projesi, komut satırını kullanarak birçok farklı yazılım programını yüklemenizi gerektirecek. Ayrıca, Git'i öncelikle komut satırında kullanacaksınız (bu konuda daha sonra bilgi verilecektir). Büyük resmin bir parçası olarak, yazılım geliştiricisi kariyerinizde komut satırını günlük olarak kullanıyor olabilirsiniz, bu da onu kullandığınız araçlar arasında vazgeçilmez bir beceri haline getirir.
 
-This section contains a general overview of topics that you will learn in this lesson.
+### Derse Genel Bakış
 
-* Describe what the command line is.
-* Open the command line on your computer.
-* Use the command line to navigate directories and display directory contents.
-* Use the command line to create a new directory and a new file.
-* Use the command line to rename or destroy a directory and a file.
-* Use the command line to open a file or folder in a program.
+Bu bölüm, derste öğreneceğiniz konulara genel bir bakış içermektedir.
 
-### Assignment
+- Komut satırının ne olduğunun açıklaması.
+- Bilgisayarınızda komut satırını açmak.
+- Dizinlerde gezinmek ve dizin içeriklerini görüntülemek için komut satırının kullanımı.
+- Yeni bir dizin ve yeni bir dosya oluşturmak için komut satırının kullanımı.
+- Bir dizini ve dosyayı yeniden adlandırmak veya yok etmek için komut satırının kullanımı.
+- Bir programda dosya veya klasör açmak için komut satırının kullanımı.
+
+### Ödev
 
 <div class="lesson-content__panel" markdown="1">
 
-**Note**: Many of these resources assume you're using a Mac or Linux environment. If you did our previous installation lesson, you should already have Linux installed in dual-boot or a virtual machine. Or, you might be using MacOS. If you don't have MacOS, or any version of Linux installed, please return to the [operating system installation guide](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/prerequisites).
+**Not**: Bu kaynakların birçoğu Mac veya Linux ortamı kullandığınızı varsaymaktadır. Önceki kurulum dersimizi yaptıysanız, Linux'u çift önyükleme veya sanal bir makinede zaten kurmuş olmalısınız. Ya da MacOS kullanıyor olabilirsiniz. MacOS veya herhangi bir Linux sürümü yüklü değilse, lütfen [işletim sistemi kurulum kılavuzu](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/prerequisites) bölümüne geri dönün.
 
-1. Visit [The Unix Shell](https://swcarpentry.github.io/shell-novice/) course designed by the Software Carpentry Foundation. There you will find a full complement of lessons on using the CLI, but for now just focus on completing the following lessons:
-    
-    * Setup (Follow instructions in `Download files` section only, this is all you need as you have the required software already)
-    * Introducing the Shell
-    * Navigating Files and Directories
-    * Working With Files and Directories
-    * Pipes and Filters
-    
-2. With your newly discovered CLI super powers, practice creating a folder and a few files using the `mkdir`, `touch`, and `cd` commands introduced in the previous step. As an example, a basic website might have a main `index.html` file, a CSS stylesheet file called `style.css`, and a folder for `images`. Think about how you could create these files with the commands and put it into practice!
+1. Software Carpentry Foundation tarafından tasarlanan [The Unix Shell](https://swcarpentry.github.io/shell-novice/) kursuna göz atın. Orada CLI kullanımı ile ilgili tüm dersleri bulabilirsiniz, ancak şimdilik sadece aşağıdaki dersleri tamamlamaya odaklanalım:
 
-3. Let's practice creating files and directories and deleting them! You'll need to enter the commands for the steps below in your terminal. If you can't recall how to open a terminal, scroll up for a reminder.
+   - Kurulum (Sadece `Download files` bölümündeki talimatları izleyin, gerekli yazılıma zaten sahip olduğunuz için ihtiyacınız olan tek şey budur)
+   - Shell Tanıtımı
+   - Dosya ve Dizinlerde Gezinme
+   - Dosyalar ve Dizinlerle Çalışma
+   - Pipe'lar ve Filtreler
 
-    1. Create a new directory in your home directory with the name `test`.
-    2. Navigate to the `test` directory.
-    3. Create a new file called `test.txt`. *Hint: use the `touch` or `echo` command.*
-    4. Open your newly created file in VSCode and make some changes, save the file, and close it.
-    5. Navigate back out of the `test` directory.
-    6. Delete the `test` directory.
+2. Yeni keşfettiğiniz CLI süper güçlerinizle, bir önceki adımda tanıtılan `mkdir`, `touch` ve `cd` komutlarını kullanarak klasör ve birkaç dosya oluşturma alıştırması yapın. Örnek olarak, basit bir web sitesinde ana `index.html` dosyası, `style.css` adlı bir CSS stil dosyası ve resimler için `images` isimli bir klasör olabilir. Bu dosyaları komutlarla nasıl oluşturabileceğimizi düşünüp uygulamaya başlayalım!
 
-    That's it--you're done with practice! If you commit to doing most things from the command line from here on out, these commands will become second nature to you. Moving and copying files is much more efficiently done through the command line, even if it feels like more of a hassle at this point.
+3. Dosya ve dizin oluşturma ve silme alıştırması yapalım! Aşağıdaki adımlar için komutları terminalinize girmeniz gerekecek. Terminali nasıl açacağınızı hatırlayamıyorsanız, hatırlatma için yukarı kaydırın.
+
+   1. home dizininizde `test` adıyla yeni bir dizin oluşturun.
+   2. `test` dizinine gidin.
+   3. `test.txt` adında yeni bir dosya oluşturun. _İpucu: `touch` veya `echo` komutunu kullanın._
+   4. Yeni oluşturduğunuz dosyayı VSCode'da açın ve bazı değişiklikler yaptıktan sonra dosyayı kaydedin ve kapatın.
+   5. `test` dizininin dışına geri dönün.
+   6. `test` dizinini silin.
+
+   Bu kadar. Alıştırma ile işimiz bitti! Bundan sonra çoğu şeyi komut satırından yapmaya karar verirseniz, bu komutlar sizin için kolay ve vazgeçilmez hale gelecektir.
 
 </div>
 
-### Use the Command Line Like a Pro
+### Komut Satırını Bir Profesyonel Gibi Kullanmak
 
-There's something important that you need to know about programmers. Programmers are lazy. Like, really lazy. When forced to do something over and over again, the odds are good that they'll figure out a way to automate it instead. The good news is that you get to take advantage of the many shortcuts they've created along the way. It's time to learn how to use the command line like a pro (which is to say, in a really lazy way).
+Programcılar hakkında bilmeniz gereken önemli bir şey var. Programcılar bir şeyi yapmanın kolay yolunu ararlar. Gerçekten. Bir şeyi tekrar tekrar yapmaya zorlandıklarında, bunun yerine otomatikleştirmenin bir yolunu bulma ihtimalleri yüksektir. İyi haber şu ki, programcıların bu güne kadar oluşturdukları birçok kısayoldan yararlanabileceksiniz. Komut satırını bir profesyonel gibi kullanmayı öğrenmenin zamanı geldi (yani, kısayollarla kolay bir şekilde).
 
-First, you might have already noticed that copying and pasting inside the command line doesn't work the way that you'd expect. When you're inside the command line, you'll need to use <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd> (Mac: <kbd>Cmd</kbd> + <kbd>C</kbd>) to copy and <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> (Mac: <kbd>Cmd</kbd> + <kbd>V</kbd>) to paste. For example, to copy and paste commands from your browser into the command line, you'll highlight the command text and use <kbd>Ctrl</kbd> + <kbd>C</kbd> as usual and then paste it in your terminal using <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd>. Test it out!
+Öncelikle, komut satırı içinde kopyalama ve yapıştırmanın beklediğiniz şekilde çalışmadığını çoktan fark etmiş olabilirsiniz. Komut satırının içindeyken, kopyalamak için <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd> (Mac: <kbd>Cmd</kbd> + <kbd>C</kbd>) ve yapıştırmak için <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> (Mac: <kbd>Cmd</kbd> + <kbd>V</kbd>) tuşlarını kullanmanız gerekir. Örneğin, tarayıcınızdaki komutları kopyalayıp komut satırına yapıştırmak için komut metnini vurgulayıp her zamanki gibi <kbd>Ctrl</kbd> + <kbd>C</kbd> tuşlarını kullanacak ve ardından <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> tuşlarını kullanarak terminalinize yapıştıracaksınız. Deneyin bakalım!
 
-Second, you need to learn about [tab completion](https://en.wikipedia.org/wiki/Command-line_completion). Seriously, this tip will save you so much time and frustration. Let's say that you're in the command line and that you need to move into a folder that's far away, something like `~/Documents/Odin-Project/foundations/javascript/calculator/`. That's a long command to type out, and everything needs to be exactly right in order for it to work. Nope, we're *way* too lazy for that! Basically, by hitting <kbd>Tab</kbd>, the command line will automatically complete commands that you've started typing once there's only one option. For example, it's pretty common to have a `Documents` folder and a `Downloads` folder in the home directory. If you've typed `cd D` and then press <kbd>Tab</kbd>, the command line will let you know that it's not sure which one you want by showing you the different options that match what you've typed so far:
+İkinci olarak, [tab completion](https://en.wikipedia.org/wiki/Command-line_completion) hakkında bilgi edinmeniz iyi olacaktır. Bu ipucu size çok fazla zaman kazandıracak. Diyelim ki komut satırındasınız ve `~/Documents/Odin-Project/foundations/javascript/calculator/` gibi uzak bir klasöre gitmeniz gerekiyor. Yazması uzun bir komut olacak ve çalışması için her şeyin tam olarak doğru olması gerekecektir. Bunu kolay bir şekilde yapabilmek için bir _yöntem_ bulunmakta! Basitçe, <kbd>Tab</kbd> tuşuna basmak, komut satırında yalnızca bir seçenek olduğunda yazmaya başladığınız komutları otomatik olarak tamamlayacaktır. Örneğin, home dizininde genellikle `Documents` ve `Downloads` klasörleri olur. Komut satırına `cd D` yazıp <kbd>Tab</kbd> tuşuna basarsanız, komut satırı, şu ana kadar yazdıklarınızla eşleşen farklı seçenekleri göstererek hangisini istediğinizden emin olmadığını size bildirecektir:
+
 ```bash
 $ cd D
 Documents/ Downloads/
 $ cd D
 ```
-But once you've typed in a little bit more, it will complete the name for you, making it possible to write out the full file path above by typing as little as `cd Doc[tab]O[tab]f[tab]j[tab]cal[tab]` (depending on what other folders exist on your computer). Test it out, and get comfortable with how this works. You're gonna love it.
 
-Third, there's a really handy shortcut for opening everything within a project directory: `.` Once you've installed a text editor, you can use this shortcut to open up an entire project and all its files in one go. This shortcut is also commonly used with Git (later on it's covered in detail) with commands like `git add .` to add all the files inside of a directory into Git's staging area. For example, if you have VS Code installed, you can `cd` into the project directory and then type `code .` (with the period). It will launch VS Code and open up the project folder in the sidebar. See the next section of this lesson for a more detailed example.
+Biraz daha yazdığınızda, adı sizin için tamamlayacak ve `cd Doc[tab]O[tab]f[tab]j[tab]cal[tab]` (bilgisayarınızda başka hangi klasörlerin bulunduğuna bağlı olarak) gibi her dizinin baş harfini yazıp <kbd>Tab</kbd> tuşuna bastığınızda yukarıdaki tam dosya yolunu yazmanızı mümkün kılacaktır. Deneyin ve bunun nasıl çalıştığına alışmaya çalışın bakalım. Bunu seveceksiniz.
 
-**A Note on typing passwords**: When using a command in the terminal that requires you to enter your password for authentication (such as `sudo`), the characters should not be visible to you as you type them. While you might think the terminal isn't responding, don't worry! This is a security feature to protect confidential information, like how password fields on websites use asterisks or dots. By not displaying the characters you write, the Terminal keeps your password secure.
+Üçüncü olarak, bir proje dizini içindeki her şeyi açmak için kullanışlı bir kısayol var: `.` Bir metin editörü yükledikten sonra, tüm projeyi ve tüm dosyalarını tek seferde açmak için bu kısayolu kullanabilirsiniz. Bu kısayol Git ile de yaygın olarak kullanılır (daha sonra ayrıntılı olarak ele alınacaktır) `git add .` gibi komutlar bir dizinin içindeki tüm dosyaları Git'in staging alanına eklemek için kullanılır. Örneğin, VS Code yüklüyse, proje dizinine `cd` kullanarak ulaşabilir ve ardından `code .` (nokta ile) yazabilirsiniz. Bu VS Code'u başlatacak ve proje klasörünü açacaktır. Daha ayrıntılı bir örnek için bu dersin bir sonraki bölümüne bakabilirsiniz.
 
-### Opening files in VSCode from the Command Line
+**Parola yazmaya ilişkin Bir Not**: Terminalde kimlik doğrulama için parolanızı girmenizi gerektiren bir komut kullanırken (örneğin `sudo`), karakterler siz yazarken görünmemelidir. Terminalin yanıt vermediğini düşünseniz de bu, web sitelerindeki parola alanlarının yıldız veya nokta kullanması gibi gizli bilgileri korumak için bir güvenlik önemlidir. Terminal, yazdığınız karakterleri görüntülemeyerek parolanızı güvende tutar.
 
-- **Linux**: You can open VSCode from the command line by typing `code`, and you can open folders or files by adding the name of the location after it: `code my_awesome_project/`.
+### VSCode'da Komut Satırından Dosya Açmak
 
-- **macOS**: Some setup is required. After installing VSCode, launch it any way you're comfortable with. Once it's running, open the Command Palette with <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>. In the little dialog that appears, type `shell command`. One of the choices that appears will be `Shell Command: Install 'code' command in PATH`. Select that option, and restart the terminal if you have it open.
+- **Linux**: VSCode'u komut satırından `code` yazarak açabilir ve ardından konumun adını ekleyerek klasörleri veya dosyaları açabilirsiniz: `code my_awesome_project/`.
 
-### Additional Resources
+- **macOS**: Bazı kurulumlar gereklidir. VSCode'u kurduktan sonra çalıştırın. VSCode çalıştıktan sonra, <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> tuşlarıyla Komut Paletini açın. Görüntülenen küçük kutuya `shell command` yazın. Görüntülenen seçeneklerden biri `Shell Command: Install 'code' command in PATH` olacaktır. Bu seçeneği seçin ve (açıksa) terminalinizi yeniden başlatın.
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+### Ek Kaynaklar
 
-* [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line#readme) is a complete beginner's pro-maker. It serves as an open-source repository. This also has a lot of pro tips!
-* The online book, [Learn Enough Command Line to Be Dangerous](https://www.learnenough.com/command-line-tutorial) is a great resource for mastering the command line. Chapters 1 and 2 are free and provides a good introduction to command line tools. The rest of the book is not free and goes into more depth than you really need at this point, but feel free to buy and read the rest of the book if you like.
-* [ExplainShell.com](http://explainshell.com/) is a great resource if you want to deconstruct a particularly strange shell command or learn how Bash works through guess-and-check.
-* [Unix/Linux Command Cheat Sheet](https://files.fosswire.com/2007/08/fwunixref.pdf) contains a list of important commands that you can refer to regularly as you become familiar with using Linux. You can print it out so you can have a physical copy with you when you're not at your computer.
-* [Command Line Flashcards](https://flashcards.github.io/command_line/introduction.html) by flashcards.github.io.
-* [Video Series from LearnLinuxTv](https://www.youtube.com/playlist?list=PLT98CRl2KxKHaKA9-4_I38sLzK134p4GJ) contains 24 videos explaining the basics of the command line. Videos are brief enough for beginners but, at the same time, detailed enough to get you started and light your inner curiosity.
+Bu bölüm ilgili içeriklere yararlı bağlantılar içerir. Bu içeriklere bakmanız zorunlu değildir, ancak ilave olarak bunlara da bakmanızı tavsiye ediyoruz.
 
-### Knowledge Check
+- [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line#readme) başlangıç için birebirdir!. Açık kaynak git deposudur. Burada birçok profesyonel ipucu mevcut!
+- [Learn Enough Command Line to Be Dangerous](https://www.learnenough.com/command-line-tutorial) adlı çevrimiçi kitap, komut satırında uzmanlaşmak için harika bir kaynaktır. Bölüm 1 ve 2 ücretsizdir ve komut satırı araçlarına iyi bir giriş sağlar. Kitabın geri kalanı ücretsiz değildir ve bu noktada gerçekten ihtiyacınız olandan daha fazla derinliğe iner, ancak ilginizi çekerse kitabın geri kalanını satın almaktan ve okumaktan çekinmeyin.
+- [ExplainShell.com](http://explainshell.com/), özellikle garip shell komutlarının yapısını çözmek veya Bash'in nasıl çalıştığını öğrenmek istiyorsanız harika bir kaynaktır.
+- [Unix/Linux Command Cheat Sheet](https://files.fosswire.com/2007/08/fwunixref.pdf), Linux kullanımına aşina olduğunuzda düzenli olarak başvurabileceğiniz önemli komutların listesini içerir. Bilgisayarınızın başında olmadığınız zamanlarda fiziksel bir kopyasını yanınızda bulundurmak için çıktısını alabilirsiniz.
+- [Command Line Flashcards](https://flashcards.github.io/command_line/introduction.html) by flashcards.github.io.
+- [Video Series from LearnLinuxTv](https://www.youtube.com/playlist?list=PLT98CRl2KxKHaKA9-4_I38sLzK134p4GJ) komut satırının temellerini açıklayan 24 video içermektedir. Videolar yeni başlayanlar için yeterince kısa ama aynı zamanda başlamanızı sağlayacak ve içinizdeki merakı ateşleyecek kadar detaylıdır.
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+### Bilgi Kontrolü
 
-* [What is the command line?](#command-line)
-* [How do you open the command line on your computer?](#open-command-line)
-* [How can you navigate to a particular directory?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#sec-basics-cd)
-* [Where will `cd` on its own navigate you to?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#uid31)
-* [Where will `cd ..` navigate you to?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#uid30)
-* [How do you display the name of the directory you are currently in?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#sec-basics-pwd)
-* [How do you display the contents of the directory you are currently in?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#sec-basics-ls)
-* [How do you create a new directory?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#cid7)
-* [How do you create a new file?](https://swcarpentry.github.io/shell-novice/03-create.html#create-a-text-file)
-* [How do you destroy a directory or file?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#cid9)
-* [How do you rename a directory or file?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#cid10)
+Bu bölüm, bu dersi kendi başınıza anlayıp anlamadığınızı kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta zorlanıyorsanız, soruya tıklayın ve bağlantı verdiği materyali gözden geçirin.
+
+- [What is the command line?](#command-line)
+- [How do you open the command line on your computer?](#open-command-line)
+- [How can you navigate to a particular directory?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#sec-basics-cd)
+- [Where will `cd` on its own navigate you to?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#uid31)
+- [Where will `cd ..` navigate you to?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#uid30)
+- [How do you display the name of the directory you are currently in?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#sec-basics-pwd)
+- [How do you display the contents of the directory you are currently in?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#sec-basics-ls)
+- [How do you create a new directory?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#cid7)
+- [How do you create a new file?](https://swcarpentry.github.io/shell-novice/03-create.html#create-a-text-file)
+- [How do you destroy a directory or file?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#cid9)
+- [How do you rename a directory or file?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#cid10)
