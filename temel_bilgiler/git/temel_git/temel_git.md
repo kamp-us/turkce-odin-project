@@ -287,7 +287,7 @@ zorlanıyorsanız, soruya tıklayın ve yönlendirdiği materyali gözden geçir
 
 ### Ekstra Kaynaklar
 
-Bu bölüm, ilgili içerik için yararlı bağlantılar içerir. Zorunlu değildir, bu nedenle yardımcı olarak kabul edin.
+Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
 
 - [Sıfırdan Git ve GitHub kursu](https://www.youtube.com/watch?v=apGV9Kg7ics) - by Kunal
   Kushwaha
