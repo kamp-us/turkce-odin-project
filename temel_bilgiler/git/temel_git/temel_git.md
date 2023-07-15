@@ -6,7 +6,7 @@ geçireceksiniz. Eğer bunları öğrenebilirseniz, Git'te ustalaşma yolunun ya
 
 ### Derse Genel Bakış
 
-Bu bölüm, bu derste öğreneceğiniz konulara genel bir bakış içermektedir.
+Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içerir.
 
 - GitHub'da depo nasıl oluşturulur.
 - GitHub'a dosya yükleme ve alma.
