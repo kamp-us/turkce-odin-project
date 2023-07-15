@@ -21,7 +21,7 @@ Son olarak, Git ile gelecekteki projeleriniz için şablon görevi görecek bir 
 
 ### Derse Genel Bakış:
 
-Bu bölüm, bu derste öğreneceğiniz konulara genel bir bakış içermektedir.
+Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içerir.
 
 - Git ve GitHub'ın ne olduğunu ve ikisi arasındaki farkları açıklayın.
 - Git ile bir metin editörü arasındaki farkları, kaydettikleri ve kayıt tuttukları farklılıklar açısından açıklayın.
