@@ -50,7 +50,7 @@ Bu bölüm, dersi anlayıp anlamadığınızı kontrol etmeniz için sorular iç
 
 ### Ekstra Kaynaklar
 
-Bu bölüm, ilgili içerik için yararlı bağlantılar içerir. Zorunlu değildir, bu nedenle yardımcı olarak kabul edin.
+Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
 
 + [Git ve GitHub nedir ?](https://content.red-badger.com/resources/what-is-git-and-github)
 + [Versiyon kontrol nedir?](https://www.atlassian.com/git/tutorials/what-is-version-control)
