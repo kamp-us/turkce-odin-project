@@ -12,7 +12,7 @@ Kod editörlerini özelleşmiş web geliştirme araçları olarak düşünebilir
 
 **Visual Studio Code** ya da yaygın olarak kullanılan adıyla VSCode, mükemmel bir ücretsiz kod editörüdür. Olağanüstü eklenti desteğine ve harika bir Git entegrasyonuna sahiptir. VSCode, Odin'in öğrencileri ve moderatörleri arasında en popüler kod editörüdür. Bu nedenle toplulukta destek bulmak kolaydır.
 
-Hangi editörü kullanacağınız genellikle bir tercih meselesidir ancak bu kursun amaçları doğrultusunda VSCode kullandığınızı varsayacağız. Çünkü ücretsizdir, kullanımı kolaydır ve her işletim sisteminde hemen hemen aynı şekilde çalışır. Bunun, müfredat için VSCode dışında farklı bir metin editörü kullanıyorsanız yardım alamayacağınız anlamına geldiğini unutmayın.
+Hangi editörü kullanacağınız genellikle bir tercih meselesidir ancak bu kursun amaçları doğrultusunda VSCode kullandığınızı varsayacağız. Çünkü ücretsizdir, kullanımı kolaydır ve her işletim sisteminde hemen hemen aynı şekilde çalışır. Müfredat için VSCode dışında farklı bir editör kullanıyorsanız yardım alamayacağınızı unutmayın.
 
 Bir hatırlatma olarak, eğer bir **sanal makine** kullanıyorsanız, VSCode'u **sanal makinenize(VM)** kurmalısınız. Ana sisteminize de (mesela ana işletim sisteminiz Windows'a) yükleyebilirsiniz ancak bu kritik aracın sanal makinenizde yüklü olduğundan emin olunuz.
 
