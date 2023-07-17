@@ -107,7 +107,7 @@ Bu bölüm ilgili içeriklere yararlı bağlantılar içerir. Bu içeriklere bak
 
 ### Bilgi Kontrolü
 
-Bu bölüm, bu dersi kendi başınıza anlayıp anlamadığınızı kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta zorlanıyorsanız, soruya tıklayın ve bağlantı verdiği materyali gözden geçirin.
+Bu bölüm, bu dersi kendi başınıza anlayıp anlamadığınızı kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta zorlanıyorsanız, soruya tıklayın ve yönlendirdiği materyali gözden geçirin.
 
 - [What is the command line?](#command-line)
 - [How do you open the command line on your computer?](#open-command-line)
