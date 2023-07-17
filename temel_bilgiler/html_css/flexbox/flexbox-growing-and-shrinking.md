@@ -113,7 +113,7 @@ Süslü olmak ve bazı sütunların birbirleriyle belirli bir oranda ilişkili o
 
 ### Bilgi Kontrolü
 
-Bu bölüm, bu dersi kendi başınıza anlayıp anlamadığınızı kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta zorlanıyorsanız, soruya tıklayın ve bağlantı verdiği materyali gözden geçirin.
+Bu bölüm, bu dersi kendi başınıza anlayıp anlamadığınızı kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta zorlanıyorsanız, soruya tıklayın ve yönlendirdiği materyali gözden geçirin.
 
 -   [flex özelliğinin kısaltmasında tanımlanan 3 değer nedir (örn. `flex: 1 1 auto`)? (İngilizce Video)](#the-flex-shorthand)
 -   [flex kısaltması `flex:auto` için tanımlanan 3 değer nedir? (İngilizce Video)](#what-is-flex-auto)
