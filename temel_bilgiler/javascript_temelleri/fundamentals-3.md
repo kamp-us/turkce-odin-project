@@ -6,7 +6,7 @@
 
 Bu bölüm, bu derste öğreneceğiniz konulara genel bir bakış içermektedir.
 
-- Farklı fonksiyon türlerini nasıl tanımlanır ve çağrılır?
+- Farklı fonksiyon türleri nasıl tanımlanır ve çağrılır?
 - Dönüş değeri nasıl kullanılır?
 - Fonksiyon kapsamı nedir?
 
