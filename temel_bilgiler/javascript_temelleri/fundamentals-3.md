@@ -1,6 +1,6 @@
 ### Giriş
 
-İşler _gerçekten_ heyecan verici bir hal almak üzere. Şimdiye kadar çeşitli problemleri çözmek için etkileyici miktarda kod yazdınız, ancak bu kod o kadar da kullanışlı değildi. Kodlarınızdan birini aldığınızı ve kodu yeniden yazmak veya değiştirmek zorunda kalmadan tekrar tekrar kullanabileceğiniz küçük bir paket haline getirdiğinizi hayal edin. İşte fonksiyonların gücü budur ve JavaScript'te _sürekli_ kullanılırlar.
+İşler _gerçekten_ heyecan verici bir hal almak üzere. Şimdiye kadar çeşitli problemleri çözmek için etkileyici miktarda kod yazdınız ancak bu kod o kadar da kullanışlı değildi. Kodlarınızdan birini alıp kodu yeniden yazmak veya değiştirmek zorunda kalmadan, tekrar tekrar kullanabileceğiniz küçük bir paket haline getirdiğinizi hayal edin. İşte fonksiyonların gücü budur ve JavaScript'te _sürekli_ kullanılırlar.
 
 ### Derse Genel Bakış
 
