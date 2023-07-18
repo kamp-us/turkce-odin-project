@@ -12,7 +12,7 @@ Bu bölüm, bu derste öğreneceğiniz konulara genel bir bakış içermektedir.
 
 ### Fonksiyonlar
 
-1. [Bu uzun İngilizce dilindeki MDN makalesi](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions) başlangıç için iyi bir noktadır. Bu dersin kapsamı dışında kalabilecek bazı fonksiyonlar da bulunduğu için endişelenmeyin,'Fonksiyon Kapsamı' ile ilgili bölümlere  odaklanın. Kapsam (scope), genellikle hem yeni başlayan hem de orta düzey yazılımcıları uğraştıran bir konudur, bu nedenle şimdiden bu konuya biraz zaman ayırmak faydalı olacaktır. Bu makale, henüz değinmediğimiz konuları da içerdiği için henüz **yapmamanız** gereken alıştırmaları da içerebilir.
+1. [İngilizce dilindeki bu uzun MDN makalesi](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions) başlangıç için iyi bir noktadır. Bu dersin kapsamı dışında kalabilecek bazı fonksiyonlar da bulunduğu için endişelenmeyin,'Fonksiyon Kapsamı' ile ilgili bölümlere  odaklanın. Kapsam (scope), genellikle hem yeni başlayan hem de orta düzey yazılımcıları uğraştıran bir konudur, bu nedenle şimdiden bu konuya biraz zaman ayırmak faydalı olacaktır. Bu makale, henüz değinmediğimiz konuları da içerdiği için henüz **yapmamanız** gereken alıştırmaları da içerebilir.
 2. [Geri dönüş değerleri](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values) hakkındaki bu İngilizce makaleyi okuyun.
 3. Parametreleri ve argümanları aşağıdaki örnek fonksiyon üzerinden inceleyelim:
 
