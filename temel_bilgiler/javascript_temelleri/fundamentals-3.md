@@ -25,15 +25,15 @@ Bu bölüm, bu derste öğreneceğiniz konulara genel bir bakış içermektedir.
     ~~~
 
     JavaScript'te parametreler, fonksiyon tanımlarken parantez içine yerleştirilen öğelerdir. Fonksiyon argümanları ise bu fonksiyona aktarmaya karar verdiğimiz gerçek değerlerdir. Yukarıdaki örnekte, fonksiyon tanımı ilk satırda yazılmıştır: `function favoriteAnimal(animal)`. Parametre, yani `animal` parantezlerin içinde bulunmaktadır. `animal` yerine `evcil hayvan`, `x` ya da `örnek` de koyabilirdik. Ancak bu durumda parametreyi `animal` olarak adlandırmak, kodumuzu okuyan birine fonksiyon hakkında bir fikir verecektir. Böylece `animal`ın içinde ne olabileceğini tahmin etmek zorunda kalmayacaklardır. `favouriteAnimal()` fonksiyonunun parantezleri içine `animal` yazarak, JavaScript'e `favoriteAnimal` fonksiyonumuza _bazı_ değerler göndereceğimizi söylemiş oluruz. Bu, `animal`ın gelecekte bizim atayacağımız herhangi bir değer için sadece bir **yer tutucu** olduğu anlamına gelir. Peki ama hangi değeri göndereceğiz?
-    Son satır, `favoriteAnimal('Goat')`, `favoriteAnimal` fonksiyonumuzu çağırdığımız ve `'Goat'` değerini bu fonksiyonun içine aktardığımız yerdir. Burada, `'Goat'` bizim argümanımızdır. Burada `favoriteAnimal` fonksiyonuna "Lütfen `'Goat'` değerini favoriteAnimal fonksiyonuna gönder ve `'Goat'` değerini 'animal' yer tutucusunun olduğu her yerde kullan" diyoruz. Parametre kullanmanın sağladığı esneklik sayesinde, herhangi bir hayvanı favorimiz olarak bildirebiliriz.
+    Son satır olan `favoriteAnimal('Goat')`, `favoriteAnimal` fonksiyonumuzu çağırdığımız ve `'Goat'` değerini bu fonksiyonun içine aktardığımız yerdir. Burada, `'Goat'` bizim argümanımızdır. Burada `favoriteAnimal` fonksiyonuna "Lütfen `'Goat'` değerini favoriteAnimal fonksiyonuna gönder ve `'Goat'` değerini 'animal' yer tutucusunun olduğu her yerde kullan" diyoruz. Parametre kullanmanın sağladığı esneklik sayesinde, herhangi bir hayvanı favorimiz olarak bildirebiliriz.
 
-    'Goat' argümanıyla `console.log()` içinde `favoriteAnimal()` çağrısı yaparak fonksiyonun geri dönüş değerini, yani `"Goat is my favorite animal!"` string'ini konsola yazdırdığımıza dikkat edelim. `favoriteAnimal('Goat')` fonksiyon çağrısını farklı bir fonksiyon çağrısına (`log()`) argüman olarak veriyoruz. Bu olasılığı aklınızda bulundurun çünkü sık sık fonksiyon çağrılarını argüman olarak geçireceksiniz. Eğer fonksiyonu console.logging olmadan çağırsaydık, konsolda hiçbir şey görünmeyecekti **ama** yine de fonksiyon bu stringi geri döndürecekti.
+    'Goat' argümanıyla `console.log()` içinde `favoriteAnimal()`'ı çağırarak fonksiyonun geri dönüş değerini, yani `"Goat is my favorite animal!"` string'ini konsola yazdırdığımıza dikkat edelim. Çağırdığımız `favoriteAnimal('Goat')` fonksiyonunu, farklı bir fonksiyon çağrısına (`log()`) argüman olarak veriyoruz. Bu olasılığı aklınızda bulundurun çünkü sık sık fonksiyon çağrılarını argüman olarak geçireceksiniz. Eğer fonksiyonu console.log() olmadan çağırsaydık, konsolda hiçbir şey görünmeyecekti **ama** yine de fonksiyon bu string'i geri döndürecekti.
 
-    Kendiniz de kodu deneyebilir ve `'Goat'` yerine en sevdiğiniz hayvanı koyabilirsiniz. Argümanı istediğimiz herhangi bir şeyle nasıl değiştirebileceğimize dikkat ettiniz mi? Fonksiyon bildiriminde ve fonksiyon gövdesinde de `animal` ifadesini değiştirmeyi deneyin. Bunu yaptığınızda ne olduğunu gördünüz mü?
+    Kendiniz de kodu deneyebilir ve `'Goat'` yerine en sevdiğiniz hayvanı koyabilirsiniz. Argümanı istediğimiz herhangi bir şeyle nasıl değiştirebileceğimize dikkat ettiniz mi? Fonksiyonu tanımlarken fonksiyonun gövdesinde de `animal` ifadesini değiştirmeyi deneyin. Bunu yaptığınızda ne olduğunu gördünüz mü?
 
-4. Ardından, Javascript.info'dan [bu İngilizce makaleyi](http://javascript.info/function-basics) okuyun. Bundan daha önce de bahsetmiştik, ancak JavaScript yıllar içinde biraz değişti ve fonksiyonlar son zamanlarda bazı yenilikler aldı. Bu makale en faydalı yeni işlevlerden birini ele alıyor: 'varsayılan parametreler'. \(NOT: Bu dersin sonundaki son "görev", bir sonraki derste öğreneceğiniz döngüleri içermektedir.  Bunun için endişelenmeyin.\)
+4. Ardından, Javascript.info'dan [bu İngilizce makaleyi](http://javascript.info/function-basics) okuyun. Bundan daha önce de bahsetmiştik. JavaScript yıllar içinde biraz değişti ve son zamanlarda fonksiyonlara bazı yenilikler getirildi. Bu makale en faydalı yeni işlevlerden birini ele alıyor: 'varsayılan parametreler'. \(NOT: Bu dersin sonundaki son "görev", bir sonraki derste öğreneceğiniz döngüleri içermektedir.  Bunun için endişelenmeyin.\)
 5. Şimdi, Javascript'teki fonksiyonlar hakkında [bu İngilizce makaleyi](http://javascript.info/function-expressions) okuyarak biraz daha bilgi edinebilir ve [bu makaleyi](http://javascript.info/arrow-functions-basics) okuyarak modern JavaScript'te nispeten yeni bir özellik olan `Arrow fonksiyonları`'na giriş yapabilirsiniz. Arrow fonksiyonları oldukça kullanışlıdır ancak şu an bizim için çok da önemli değildir, bu nedenle henüz onlar hakkında çok endişelenmenize gerek yok. Bunları buraya dahil ediyoruz çünkü ilerledikçe bunlarla karşılaşmanız kuvvetle muhtemel olduğundan, karşınıza çıktıklarında neye baktığınıza dair en azından _biraz_ fikir sahibi olmanız faydalı olacaktır.
-6. Son olarak, çağrı yığınları (call stack) ve zincirleme fonksiyon çağrıları bağlamında`return`ün nasıl çalıştığı hakkında [bu İngilizce makaleyi](https://www.javascripttutorial.net/javascript-call-stack/) okuyun. Bunu henüz tam olarak anlayamadıysanız endişelenmeyin, ancak`return` değerlerinin nereye gittiğini göz önünde bulundurmanız önemlidir. Bu kısım aynı zamanda biraz basit anlamda bilgisayar bilimi olarak da düşünülebilir.
+6. Son olarak, çağrı yığınları (call stack) ve zincirleme fonksiyon çağrıları bağlamında`return`ün nasıl çalıştığı hakkında [bu İngilizce makaleyi](https://www.javascripttutorial.net/javascript-call-stack/) okuyun. Bunu henüz tam olarak anlayamadıysanız endişelenmeyin ancak `return` değerlerinin nereye gittiğini göz önünde bulundurmanız önemlidir. Bu kısım aynı zamanda biraz basit anlamda bilgisayar bilimi olarak da düşünülebilir.
 
 ### Ödev
 
@@ -43,11 +43,11 @@ Bu bölüm, bu derste öğreneceğiniz konulara genel bir bakış içermektedir.
 
 Şimdilik, her bir fonksiyonu yazın ve çıktısını `console.log` ile test edin.
 
-1. Bir sayı alan ve bu sayı + 7 sonucunu döndüren `add7` adlı bir fonksiyon yazın.
-2. İki sayı alan ve bunların çarpımını döndüren `multiply` adında bir fonksiyon yazın.
-3. Bir string alan ve bu stringi _sadece_ ilk harfi büyük olacak şekilde döndüren `capitalize` adında bir fonksiyon yazın.  küçük harfli, BÜYÜK harfli ya da iKisi de olan stringleri de kullanabileceğinden emin olun.
-4. Bir string alan ve bu stringin en son harfini döndüren `lastLetter` adında bir fonksiyon yazın:
-    - `lastLetter("abcd")` fonksiyonu `"d"` döndürmelidir.
+1. Bir sayı alan ve bu sayının üstüne 7 ekleyip sonucu döndüren `7ekle` adlı bir fonksiyon yazın.
+2. İki sayı alan ve bunların çarpımını döndüren `çarp` adında bir fonksiyon yazın.
+3. Bir string alan ve bu string'i _sadece_ ilk harfi büyük olacak şekilde döndüren `harfiBüyüt` adında bir fonksiyon yazın.  küçük harfli, BÜYÜK harfli ya da kARışıK olan stringleri de kullanabileceğinden emin olun.
+4. Bir string alan ve bu string'in en son harfini döndüren `sonHarf` adında bir fonksiyon yazın:
+    - `sonHarf("abcd")` fonksiyonu `"d"` döndürmelidir.
 
 </div>
 
@@ -57,10 +57,10 @@ Bu bölüm, bu dersi kendi başınıza anlayıp anlamadığınızı kontrol etme
 
 - [Fonksiyonlar ne işe yarar?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions)
 - [Bir fonksiyonu nasıl çağırırız?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#invoking_functions)
-- [Anonim fonksiyonlar nedir?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#anonymous_functions_and_arrow_functions)
+- [İsimsiz fonksiyon nedir?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#anonymous_functions_and_arrow_functions)
 - [Fonksiyon kapsamı (scope) nedir?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#function_scope_and_conflicts)
-- [Geri dönüş değerleri nelerdir?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values)
-- [Arrow fonksiyonları nelerdir?](https://javascript.info/arrow-functions-basics)
+- [Geri dönüş değeri nedir?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values)
+- [Arrow fonksiyonu nedir?](https://javascript.info/arrow-functions-basics)
 
 ### Ek Kaynaklar
 

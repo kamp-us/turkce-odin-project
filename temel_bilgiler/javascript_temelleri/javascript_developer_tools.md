@@ -1,6 +1,6 @@
 ### Giriş
 
-Tarayıcı içerisindeki 'Geliştirici Araçları'nı kullanmak her web geliştiricisi için önemli bir yetenek olarak görülmektedir. 'Geliştirici Araçları' JavaScript kodlarını çalıştırma, HTML ve CSS stillerini sayfayı yenilemeden düzenleme ve performans verilerini görüntülemeyi sağlar. Ayrıca bunlarla birlikte oldukça zaman kazanmanızı sağlar. Başlamak hiç bu kadar kolay olmamıştı. Şu ana kadar HTML ve CSS üzerinde çalışmak ve hata ayıklamak konularına aşina olduğunuza göre bunların bize JavaScript yazarken nasıl katkı sağlayacağını birlikte görelim.
+Tarayıcı içerisindeki 'Geliştirici Araçları'nı kullanmak her web geliştiricisi için önemli bir beceridir. 'Geliştirici Araçları'; JavaScript kodlarını çalıştırma, HTML ve CSS stillerini sayfayı yenilemeden düzenleme ve performans verilerini görüntülemeyi sağlar. Ayrıca oldukça zaman kazandırır. Web geliştirmeye başlamak hiç bu kadar kolay olmamıştı. HTML ve CSS üzerinde çalışmak ve hata ayıklamak konularına çoktan aşina olduğunuza göre, bunların bize JavaScript yazarken nasıl katkı sağlayacağını birlikte görelim.
 
 ### Derse Genel Bakış
 
@@ -11,7 +11,7 @@ Bu bölüm, bu derste öğreneceğiniz konuların genel bir bakışını içerme
 * JavaScript'te hata ayıklama
 * Breakpoint kullanımı
 * Öğeler sekmesinde HTML görüntüleme ve düzenleme
-* İnternet sitesindeki çalışan scriptleri 'Kaynaklar' panelinde görüntüleme
+* İnternet sitesinde çalışan scriptleri 'Kaynaklar' panelinde görüntüleme
 * CSS Pseudostate'ini bir sınıfa ekleme
 * CSS bileşenlerini alfabetik sırada görüntüleme
 * Chrome DevTools'da herhangi bir elemanın veya kutu modelini görüntüleme ve düzenleme
@@ -31,9 +31,9 @@ Chrome Geliştirici Araçları menüsünü açmanın üç yolu vardır:
 
 <div class="lesson-content__panel" markdown="1">
 
-Google, aşağıdaki eğitimlerde gerekli bazı bölümleri güncelledi ve bazı öğeler değişmiş veya artık mevcut olmayabilir, ancak aynı işlev ve araçları kullanarak eğitimleri takip etmeye devam edebilirsiniz. Örneğin, artık sayfada bulunmayan bir düğmeyi incelemeniz istenebilir; ancak hala var olan öğeleri sorunsuz bir şekilde takip etmeye ve incelemeye devam edebilirsiniz.
+Google, aşağıdaki eğitimlerde gerekli bazı bölümleri güncelledi ve bazı öğeler değişmiş veya artık mevcut olmayabilir ancak aynı işlev ve araçları kullanarak eğitimleri takip etmeye devam edebilirsiniz. Örneğin, artık sayfada bulunmayan bir düğmeyi incelemeniz istenebilir; ancak hala var olan öğeleri sorunsuz bir şekilde takip etmeye ve incelemeye devam edebilirsiniz.
 
-1. Google tarafından hazırlanan İngilizce dilindeki [Chrome DevTools Documentation](https://developer.chrome.com/docs/devtools/) adresine gidin. Aşağıdaki alt bölümler, Geliştirici Araçlarını zamanın %95'inde ne için kullanacağınızı kapsamaktadır.  Zaten aşina olduğunuz öğeleri atlamaktan çekinmeyin:
+1. Google tarafından hazırlanan İngilizce dilindeki [Chrome DevTools Documentation](https://developer.chrome.com/docs/devtools/) adresine gidin. Aşağıdaki alt bölümler, Geliştirici Araçları'nda sizin kullanacağınız kısımların %95'ini ele almaktadır.  Zaten aşina olduğunuz öğeleri atlamaktan çekinmeyin:
     * CSS
         1. [CSS'i görüntüleme ve değiştirme](https://developer.chrome.com/docs/devtools/css/)
         2. [CSS özellikleri referansı](https://developer.chrome.com/docs/devtools/css/reference/)
@@ -44,7 +44,7 @@ Google, aşağıdaki eğitimlerde gerekli bazı bölümleri güncelledi ve bazı
         1. [JavaScript'te Hata Ayıklama](https://developer.chrome.com/docs/devtools/javascript/)
         2. [Breakpointlerle kodu duraklatma](https://developer.chrome.com/docs/devtools/javascript/breakpoints/)
 
-2. Ardından konsolu ve kullanımını tanımak için [bu adresteki İngilizce konsola genel bakış videosunu izleyin ve sayfayı inceleyin](https://developer.chrome.com/docs/devtools/console/).
+2. Ardından konsolu ve kullanımını tanımak için [bu adresteki İngilizce, konsola genel bakış videosunu izleyin ve sayfayı inceleyin](https://developer.chrome.com/docs/devtools/console/).
 
 </div>
 
