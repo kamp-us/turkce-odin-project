@@ -14,7 +14,7 @@ Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içermekted
 
 Aşağıdaki iki JavaScript kod parçasını inceleyin:
 
-Bu okuması zor ve kötü görünümlü bir kod örneği:
+Bu okuması zor ve kötü görünen bir kod örneği:
 
 ~~~JavaScript
 const x =
@@ -42,9 +42,9 @@ const sumArray = function(array) {
 sumArray([2, 2, 2]);
 ~~~
 
-İnanın veya inanmayın, her iki fonksiyon da aynı şeyi\(tamamen aynı şekilde!\) yapıyor ve her ikisi de tamamen geçerli kodlar, ancak görüldüğü üzere ikincisi takip etmesi daha kolaydır.Başka birisiyle ortak bir projede çalıştığınızı ve ilk fonksiyonu yazdığını hayal edin.. İşinizi yapabilmeniz için ne olup bittiğini anlamalısınız, ilk örnekte bunun için ne kadar süre harcamanız gerekeceğini düşünün. Kendi projenizi yazarken ilk fonksiyonu bir veya iki hafta önce yazdığınızı ve tek başınıza çalıştığınızı düşünün. Tam olarak ne yaptığınızı muhtemelen hatırlamayacaksınız. Her şeyi çözmek ve anlamak için tekrar iyi bir zaman harcamanız gerekecektir.
+İnanın veya inanmayın, her iki fonksiyon da aynı şeyi\(tamamen aynı şekilde!\) yapıyor ve her ikisi de tamamen geçerli kodlar, ancak görüldüğü üzere ikincisini takip etmesi daha kolay.Başka birisiyle ortak bir projede çalıştığınızı ve ilk fonksiyonu yazdığını hayal edin.. İşinizi yapabilmeniz için ne olup bittiğini anlamalısınız, ilk örnekte bunun için ne kadar süre harcamanız gerekeceğini düşünün. Kendi projenizi yazarken ilk fonksiyonu bir veya iki hafta önce yazdığınızı ve tek başınıza çalıştığınızı düşünün. Tam olarak ne yaptığınızı muhtemelen hatırlamayacaksınız. Her şeyi çözmek ve anlamak için tekrar iyi bir zaman harcamanız gerekecektir.
 
-Gerçekten ikincisi takip etmek için çok daha kolaydır. Kodun içerisindeki her şeyi tam olarak anlamasanız bile değişkenler açıkça isimlendirildiği için tahmin edebilirsiniz.Girintili yazılması da fonksiyonun farklı bölümlerini ayırt edebilecek kadar tutarlıdır.
+Gerçekten ikincisini takip etmek çok daha kolaydır. Kodun içerisindeki her şeyi tam olarak anlamasanız bile değişkenler açıkça isimlendirildiği için tahmin edebilirsiniz. Girintinin tutarlı kullanımı da fonksiyonun farklı bölümlerini anlaşılabilir kılmaktadır.
 
 Harika bir JavaScript kodunu oluşturma yöntemleri hakkında birçok farklı görüş var. En önemli şey sadece tutarlı olmanızdır. Kodları girintilemek için tab kullanan ve boşluk kullanan kullanıcılar arasındaki savaş o kadar derinleşti ki [bu aslında artık bir şaka](https://www.youtube.com/watch?v=SsoOG6ZeyUI), ancak tutarlı olduğunuz sürece gerçekten hangisini tercih ettiğiniz önemli değil.
 
@@ -100,7 +100,7 @@ Harika bir JavaScript kodunu oluşturma yöntemleri hakkında birçok farklı g�
     ~~~
 
 
-### Assignment
+### Ödev
 
 <div class="lesson-content__panel" markdown="1">
 
