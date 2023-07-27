@@ -121,6 +121,6 @@ Bu bölüm temiz kod yazma dersinde anladığınızı kendi kendinize kontrol et
 Bu bölüm, ilgili içeriğe yönlendiren yararlı bağlantılar içerir. Zorunlu değildir, dolayısıyla ek olarak düşünülebilir.
 
 * [Güzel bir görüş yazısı](https://www.martinfowler.com/bliki/CodeAsDocumentation.html)
-* Tam rehber: [kendini belgeleyen kodlarla](http://wiki.c2.com/?SelfDocumentingCode)
+* ["Kendi kendini açıklayan kod" rehberi](http://wiki.c2.com/?SelfDocumentingCode)
 * [Airbnb stil rehberi](https://github.com/airbnb/javascript)  
 * [Cümleler yazmak için yöntem zincirleme](https://web.archive.org/web/20190211152543/https://javascriptissexy.com/beautiful-javascript-easily-create-chainable-cascading-methods-for-expressiveness/)   
