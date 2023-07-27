@@ -42,7 +42,7 @@ const sumArray = function(array) {
 sumArray([2, 2, 2]);
 ~~~
 
-İnanın veya inanmayın, her iki fonksiyon da aynı şeyi\(tamamen aynı şekilde!\) yapıyor ve her ikisi de tamamen geçerli kodlar, ancak görüldüğü üzere ikincisini takip etmesi daha kolay.Başka birisiyle ortak bir projede çalıştığınızı ve ilk fonksiyonu yazdığını hayal edin.. İşinizi yapabilmeniz için ne olup bittiğini anlamalısınız, ilk örnekte bunun için ne kadar süre harcamanız gerekeceğini düşünün. Kendi projenizi yazarken ilk fonksiyonu bir veya iki hafta önce yazdığınızı ve tek başınıza çalıştığınızı düşünün. Tam olarak ne yaptığınızı muhtemelen hatırlamayacaksınız. Her şeyi çözmek ve anlamak için tekrar iyi bir zaman harcamanız gerekecektir.
+İnanın veya inanmayın, her iki fonksiyon da aynı şeyi\(tamamen aynı şekilde!\) yapıyor ve her ikisi de tamamen geçerli kodlar ancak görüldüğü üzere ikincisini takip etmesi daha kolay. Başka birisiyle ortak bir projede çalıştığınızı ve ilk fonksiyonu onun yazdığını hayal edin. İşinizi yapabilmeniz için ne olup bittiğini anlamalısınız, ilk örnekte bunun için ne kadar süre harcamanız gerekeceğini düşünün. Kendi projenizde tek başınıza çalıştığınızı ve bir iki hafta önce ilk örnekteki fonksiyonu yazdığınızı düşünün. Tam olarak ne yaptığınızı muhtemelen hatırlamayacaksınız. Her şeyi çözmek ve anlamak için _yine_ bayağı bir zaman harcamanız gerekecektir.
 
 Gerçekten ikincisini takip etmek çok daha kolaydır. Kodun içerisindeki her şeyi tam olarak anlamasanız bile değişkenler açıkça isimlendirildiği için tahmin edebilirsiniz. Girintinin tutarlı kullanımı da fonksiyonun farklı bölümlerini anlaşılabilir kılmaktadır.
 
