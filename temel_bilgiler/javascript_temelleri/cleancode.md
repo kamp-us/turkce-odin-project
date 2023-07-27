@@ -123,4 +123,4 @@ Bu bölüm, ilgili içeriğe yönlendiren yararlı bağlantılar içerir. Zorunl
 * [Güzel bir görüş yazısı](https://www.martinfowler.com/bliki/CodeAsDocumentation.html)
 * ["Kendi kendini açıklayan kod" rehberi](http://wiki.c2.com/?SelfDocumentingCode)
 * [Airbnb stil rehberi](https://github.com/airbnb/javascript)  
-* [Cümleler yazmak için yöntem zincirleme](https://web.archive.org/web/20190211152543/https://javascriptissexy.com/beautiful-javascript-easily-create-chainable-cascading-methods-for-expressiveness/)   
+* [Cümle yazmak için zincirleme yöntemini kullanmak](https://web.archive.org/web/20190211152543/https://javascriptissexy.com/beautiful-javascript-easily-create-chainable-cascading-methods-for-expressiveness/)   
