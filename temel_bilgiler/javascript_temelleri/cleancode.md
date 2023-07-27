@@ -46,7 +46,7 @@ sumArray([2, 2, 2]);
 
 İkincisini takip etmek gerçekten çok daha kolaydır. Kodun içerisindeki her şeyi tam olarak anlamasanız bile değişkenler açıkça isimlendirildiği için tahmin edebilirsiniz. Girintinin tutarlı kullanımı da fonksiyonun farklı bölümlerini anlaşılabilir kılmaktadır.
 
-Harika bir JavaScript kodunu oluşturma yöntemleri hakkında birçok farklı görüş var. En önemli şey sadece tutarlı olmanızdır. Kodları girintilemek için tab kullanan ve boşluk kullanan kullanıcılar arasındaki savaş o kadar derinleşti ki [bu aslında artık bir şaka](https://www.youtube.com/watch?v=SsoOG6ZeyUI), ancak tutarlı olduğunuz sürece gerçekten hangisini tercih ettiğiniz önemli değil.
+Bir JavaScript kodunu harika kılan şeyin ne olduğu hakkında birçok farklı görüş var. En önemli şey sadece tutarlı olmanızdır. Kodları girintilemek için tab kullanan ve boşluk kullanan kullanıcılar arasındaki savaş o kadar derinleşmiştir ki [artık bir şaka haline gelmiştir](https://www.youtube.com/watch?v=SsoOG6ZeyUI) ancak tutarlı olduğunuz sürece gerçekten hangisini tercih ettiğiniz önemli değil.
 
 ### Kurallar veya Kılavuzlar
 
