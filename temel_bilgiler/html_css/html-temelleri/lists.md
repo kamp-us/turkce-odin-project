@@ -67,7 +67,7 @@ Bu bölüm, bu dersi kendi başınıza anlayıp anlamadığınızı kontrol etme
 
 ### Ek Kaynaklar
 
-Bu bölüm, ilgili içeriğe yararlı bağlantılar içerir. Zorunlu değildir, bu nedenle tamamlayıcı olarak düşünün.
+Bu bölüm, ilgili içerik için yararlı bağlantılar içerir. Zorunlu değildir, bu nedenle yardımcı olarak kabul edin.
 
 *   [Sırasız liste öğesine ilişkin MDN belgeleri](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)
 *   [Sıralı liste öğesine ilişkin MDN belgeleri](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol)
