@@ -1,6 +1,6 @@
 ### Giriş
 
-Geliştiriciler kod yazmaktan daha çok kod okumaya zaman harcıyorlar. Bu kendi kodunuzda bile doğrudur.Lütfen kendinize ve kodunuzu kullanacak,bakımını yapacak ve geliştirecek kişilere iyilik yapmak için okunabilir kod yazmayı öğrenin.
+Geliştiriciler kod yazmaktan daha çok, kod okumaya zaman harcıyorlar. Bu kendi kodunuz için bile geçerlidir. Lütfen kendinize ve kodunuzu kullanacak, bakımını yapacak veya ileride geliştirecek kişilere iyilik yapmak için okunabilir kod yazmayı öğrenin.
 
 ### Derse Genel Bakış
 
