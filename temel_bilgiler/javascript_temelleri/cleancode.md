@@ -50,7 +50,7 @@ Bir JavaScript kodunu harika kılan şeyin ne olduğu hakkında birçok farklı 
 
 ### Kurallar veya Kılavuzlar
 
-1.  Girintileme: Kullandığınız girintileme stili gerçekten önemli değil. Farklı JS stil rehberleri farklı seçenekleri önerebilir ve biri diğerinden üstün değildir. Her halükarda önemli olan tutarlılıktır. Alıştırmalarımızda girintileme için 2 boşluk kullanacağız.
+1.  Girintileme: Kullandığınız girintileme stili _gerçekten_ önemli değil. Farklı JS stil rehberleri farklı seçenekler önermektedir ve hiçbiri bir diğerinden üstün değildir. Her halükarda önemli olan tutarlılıktır. Alıştırmalarımızda girintileme için 2 boşluk kullanacağız.
 
 2.  Noktalı virgüller: Noktalı virgüller, JavaScript'te çoğunlukla isteğe bağlıdır. Çünkü JS derleyicisi atlanmışlarsa otomatik olarak ekleyecektir. Fakat bu fonksiyonalite bazı durumlarda bozulabilir ve kodunuzda hatalara neden olabilir. Bu yüzden noktalı virgülü eklemeye alışmak daha iyidir. Yapmanız gereken sadece eklemek!
 
