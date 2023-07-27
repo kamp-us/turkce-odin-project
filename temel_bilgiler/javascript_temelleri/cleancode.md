@@ -54,7 +54,7 @@ Bir JavaScript kodunu harika kılan şeyin ne olduğu hakkında birçok farklı 
 
 2.  Noktalı virgüller: Noktalı virgüller, JavaScript'te _çoğu zaman_ isteğe bağlıdır. Çünkü eksikse, JS derleyicisi otomatik olarak ekleyecektir. Fakat bu fonksiyonalite bazı durumlarda bozulabilir ve kodunuzda hatalara neden olabilir. Bu yüzden noktalı virgülü eklemeye alışmak daha iyidir. Ekleyin gitsin!
 
-3. Satır uzunluğu: Yine farklı stil rehberleri bu konuda farklı önerilerde bulunabilir, ancak neredeyse tümü her satır uzunluğunu sınırlandırmayı önerir. Bu kural diğer kurallar kadar sıkı değildir. Fakat genel bir kural olarak, kodunuzun her satırı yaklaşık 80 karakterden sonra manuel olarak bölmeniz kodunuzu daha okunaklı hale getirir. Birçok kod düzenleyecisi, bu eşii geçtiğinizde size uyarı verecek bir satır göstergesine sahiptir. Satırları manuel olarak bölerken, operatör veya virgülün hemen sonrasında bölmeniz önerilir. Örneğin şunları yapabilirsiniz:
+3. Satır uzunluğu: Yine farklı stil rehberleri bu konuda farklı önerilerde bulunabilir ancak neredeyse HEPSİ, satır uzunluğunu sınırlandırmayı önerir. Bu kural diğer kurallar kadar sıkı değildir. Fakat genel bir kural olarak, kodunuzun her satırını yaklaşık 80 karakterden sonra manuel olarak bölmeniz kodunuzu daha okunaklı hale getirir. Birçok kod düzenleyicisi, bu eşiği geçtiğinizde size uyarı verecek bir satır göstergesine sahiptir. Satırları manuel olarak bölerken, operatör veya virgülün hemen sonrasında bölmeniz önerilir. Devam satırlarını düzenlemenin birkaç yolu vardır. Örneğin şunları yapabilirsiniz:
 
    - devam satırlarını aynı seviye girintiyle girintileyin,
    - devam satırlarını, ilk değişkeni baz alarak dikeylemesine hizalayın
