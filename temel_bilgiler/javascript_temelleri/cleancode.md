@@ -57,7 +57,7 @@ Bir JavaScript kodunu harika kılan şeyin ne olduğu hakkında birçok farklı 
 3. Satır uzunluğu: Yine farklı stil rehberleri bu konuda farklı önerilerde bulunabilir, ancak neredeyse tümü her satır uzunluğunu sınırlandırmayı önerir. Bu kural diğer kurallar kadar sıkı değildir. Fakat genel bir kural olarak, kodunuzun her satırı yaklaşık 80 karakterden sonra manuel olarak bölmeniz kodunuzu daha okunaklı hale getirir. Birçok kod düzenleyecisi, bu eşii geçtiğinizde size uyarı verecek bir satır göstergesine sahiptir. Satırları manuel olarak bölerken, operatör veya virgülün hemen sonrasında bölmeniz önerilir. Örneğin şunları yapabilirsiniz:
 
    - devam satırlarını aynı seviye girintiyle girintileyin,
-   - devam eden satırları dikey olarak ilk değişkenle hizalayın,
+   - devam satırlarını, ilk değişkeni baz alarak dikeylemesine hizalayın
    - veya tamamen farklı bir biçim kullanabilirsiniz. Kurallar katı değildir ve iş ortamından iş ortamına değişkenlik gösterebilir, yine de tutarlı olmaya dikkat edin.
 
    ~~~javascript
