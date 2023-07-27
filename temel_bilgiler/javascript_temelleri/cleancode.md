@@ -52,7 +52,7 @@ Bir JavaScript kodunu harika kılan şeyin ne olduğu hakkında birçok farklı 
 
 1.  Girintileme: Kullandığınız girintileme stili _gerçekten_ önemli değil. Farklı JS stil rehberleri farklı seçenekler önermektedir ve hiçbiri bir diğerinden üstün değildir. Her halükarda önemli olan tutarlılıktır. Alıştırmalarımızda girintileme için 2 boşluk kullanacağız.
 
-2.  Noktalı virgüller: Noktalı virgüller, JavaScript'te çoğunlukla isteğe bağlıdır. Çünkü JS derleyicisi atlanmışlarsa otomatik olarak ekleyecektir. Fakat bu fonksiyonalite bazı durumlarda bozulabilir ve kodunuzda hatalara neden olabilir. Bu yüzden noktalı virgülü eklemeye alışmak daha iyidir. Yapmanız gereken sadece eklemek!
+2.  Noktalı virgüller: Noktalı virgüller, JavaScript'te _çoğu zaman_ isteğe bağlıdır. Çünkü eksikse, JS derleyicisi otomatik olarak ekleyecektir. Fakat bu fonksiyonalite bazı durumlarda bozulabilir ve kodunuzda hatalara neden olabilir. Bu yüzden noktalı virgülü eklemeye alışmak daha iyidir. Ekleyin gitsin!
 
 3. Satır uzunluğu: Yine farklı stil rehberleri bu konuda farklı önerilerde bulunabilir, ancak neredeyse tümü her satır uzunluğunu sınırlandırmayı önerir. Bu kural diğer kurallar kadar sıkı değildir. Fakat genel bir kural olarak, kodunuzun her satırı yaklaşık 80 karakterden sonra manuel olarak bölmeniz kodunuzu daha okunaklı hale getirir. Birçok kod düzenleyecisi, bu eşii geçtiğinizde size uyarı verecek bir satır göstergesine sahiptir. Satırları manuel olarak bölerken, operatör veya virgülün hemen sonrasında bölmeniz önerilir. Örneğin şunları yapabilirsiniz:
 
