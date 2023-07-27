@@ -56,9 +56,9 @@ Bir JavaScript kodunu harika kılan şeyin ne olduğu hakkında birçok farklı 
 
 3. Satır uzunluğu: Yine farklı stil rehberleri bu konuda farklı önerilerde bulunabilir ancak neredeyse HEPSİ, satır uzunluğunu sınırlandırmayı önerir. Bu kural diğer kurallar kadar sıkı değildir. Fakat genel bir kural olarak, kodunuzun her satırını yaklaşık 80 karakterden sonra manuel olarak bölmeniz kodunuzu daha okunaklı hale getirir. Birçok kod düzenleyicisi, bu eşiği geçtiğinizde size uyarı verecek bir satır göstergesine sahiptir. Satırları manuel olarak bölerken, operatör veya virgülün hemen sonrasında bölmeniz önerilir. Devam satırlarını düzenlemenin birkaç yolu vardır. Örneğin şunları yapabilirsiniz:
 
-   - devam satırlarını aynı seviye girintiyle girintileyin,
+   - devam satırlarını bir kez girintileyin.
    - devam satırlarını, ilk değişkeni baz alarak dikeylemesine hizalayın
-   - veya tamamen farklı bir biçim kullanabilirsiniz. Kurallar katı değildir ve iş ortamından iş ortamına değişkenlik gösterebilir, yine de tutarlı olmaya dikkat edin.
+   - veya tamamen farklı bir biçim kullanabilirsiniz. Kurallar katı değildir ve iş ortamından iş ortamına değişkenlik gösterebilir, yeter ki tutarlı olmaya dikkat edin.
 
    ~~~javascript
    // Olası bir format:
@@ -76,7 +76,7 @@ Bir JavaScript kodunu harika kılan şeyin ne olduğu hakkında birçok farklı 
    
    ​
 
-4.  Fonksiyonları ve Değişkenleri isimlendirme: Fonksiyonlar ve değişkenler için isimlendirme açık olmalıdır. Her zaman camelCase kullanın. Tutarlılık ve okunabilirlik için değişkenler her zaman bir isim veya sıfatla(yani bir isim öbeğiyle) başlamalı ve fonksiyonlar bir fiil ile başlamalıdır. Döngü veya callback fonksiyonu bağlamında tek karakterli değişken adları kullanmak sorun değil ama başka yerlerde kullanmamaya özen gösterin.
+4.  Fonksiyonları ve Değişkenleri İsimlendirme: Fonksiyonlar ve değişkenler için isimlendirme açık olmalıdır. Her zaman camelCase kullanın. Tutarlılık ve okunabilirlik için değişkenler her zaman bir isim veya sıfatla (yani bir tamlama oluşturmalı) başlamalı ve fonksiyonlar bir fiil ile başlamalıdır. Döngü veya callback fonksiyonu bağlamında tek karakterli değişken adları kullanmak sorun değil ama başka yerlerde kullanmamaya özen gösterin.
 
     ~~~javascript
     // İyi
@@ -104,8 +104,8 @@ Bir JavaScript kodunu harika kılan şeyin ne olduğu hakkında birçok farklı 
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  [Bu temiz kod ipuçlarının listesi](https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/).
-2.  [Makale](https://blog.codinghorror.com/coding-without-comments/), [Diğer makale](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/) kodunuzda yorumların rolü içi bu makalelere göz atabilirsiniz.
+1.  [Temiz koda dair ipucu listesi](https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/).
+2.  [Bu makale](https://blog.codinghorror.com/coding-without-comments/) ve [bir de bu makale](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/) kodunuzdaki yorumların önemini anlatmaktadır.
 </div>
 
 ### Bilgi ölçme
@@ -113,12 +113,12 @@ Bir JavaScript kodunu harika kılan şeyin ne olduğu hakkında birçok farklı 
 Bu bölüm temiz kod yazma dersinde anladığınızı kendi kendinize kontrol etmek için sorular içermektedir. Bir soruyu cevaplamakta zorlanıyorsanız, üzerine tıklamanız ve bağlantıda verilen materyale göz atmanız önerilir.
 
 - [Temiz kod yazmak neden önemli?](#writing-clean-code)
-- [Önceden bahsedilen 5 temiz kod yazma prensibini adlandırın.](https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/)
-- [İyi yorumlar ve kötü yorumların farklılıkları nedir?](https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/)
+- [Önceden bahsedilen 5 temiz kod yazma prensibini sayın](https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/)
+- [İyi ve kötü yorumların arasındaki farklar nelerdir?](https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/)
 
 ### Ek Kaynaklar
 
-Bu bölüm, ilgili içeriğe yönlendiren yararlı bağlantılar içerir. Zorunlu değildir, dolayısıyla ek olarak düşünülebilir.
+Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
 
 * [Güzel bir görüş yazısı](https://www.martinfowler.com/bliki/CodeAsDocumentation.html)
 * ["Kendi kendini açıklayan kod" rehberi](http://wiki.c2.com/?SelfDocumentingCode)
