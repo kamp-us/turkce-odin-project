@@ -59,7 +59,7 @@ Listeleri kullanarak biraz pratik yapmak için yeni bir HTML belgesi oluşturun 
 
 ### Bilgi Kontrolü
 
-Bu bölüm, bu dersi kendi başınıza anlayıp anlamadığınızı kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta zorlanıyorsanız, soruya tıklayın ve bağlantı verdiği materyali inceleyin.
+Bu bölüm, bu dersi kendi başınıza anlayıp anlamadığınızı kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta zorlanıyorsanız, soruya tıklayın ve yönlendirdiği materyali inceleyin.
 
 *   [Sırasız bir liste oluşturmak için hangi HTML öğesi kullanılır?](#unordered-lists)
 *   [Sıralı bir liste oluşturmak için hangi HTML öğesi kullanılır?](#ordered-lists)
