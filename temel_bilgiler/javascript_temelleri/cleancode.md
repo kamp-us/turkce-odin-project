@@ -44,7 +44,7 @@ sumArray([2, 2, 2]);
 
 İnanın veya inanmayın, her iki fonksiyon da aynı şeyi\(tamamen aynı şekilde!\) yapıyor ve her ikisi de tamamen geçerli kodlar ancak görüldüğü üzere ikincisini takip etmesi daha kolay. Başka birisiyle ortak bir projede çalıştığınızı ve ilk fonksiyonu onun yazdığını hayal edin. İşinizi yapabilmeniz için ne olup bittiğini anlamalısınız, ilk örnekte bunun için ne kadar süre harcamanız gerekeceğini düşünün. Kendi projenizde tek başınıza çalıştığınızı ve bir iki hafta önce ilk örnekteki fonksiyonu yazdığınızı düşünün. Tam olarak ne yaptığınızı muhtemelen hatırlamayacaksınız. Her şeyi çözmek ve anlamak için _yine_ bayağı bir zaman harcamanız gerekecektir.
 
-Gerçekten ikincisini takip etmek çok daha kolaydır. Kodun içerisindeki her şeyi tam olarak anlamasanız bile değişkenler açıkça isimlendirildiği için tahmin edebilirsiniz. Girintinin tutarlı kullanımı da fonksiyonun farklı bölümlerini anlaşılabilir kılmaktadır.
+İkincisini takip etmek gerçekten çok daha kolaydır. Kodun içerisindeki her şeyi tam olarak anlamasanız bile değişkenler açıkça isimlendirildiği için tahmin edebilirsiniz. Girintinin tutarlı kullanımı da fonksiyonun farklı bölümlerini anlaşılabilir kılmaktadır.
 
 Harika bir JavaScript kodunu oluşturma yöntemleri hakkında birçok farklı görüş var. En önemli şey sadece tutarlı olmanızdır. Kodları girintilemek için tab kullanan ve boşluk kullanan kullanıcılar arasındaki savaş o kadar derinleşti ki [bu aslında artık bir şaka](https://www.youtube.com/watch?v=SsoOG6ZeyUI), ancak tutarlı olduğunuz sürece gerçekten hangisini tercih ettiğiniz önemli değil.
 
