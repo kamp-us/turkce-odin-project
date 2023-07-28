@@ -2,9 +2,9 @@
 
 Komut satırından korkuyor musunuz? Yalnız değilsiniz. Şirketin ana bilgisayarını hacklemek için çılgınca anlaşılmaz komutlar girerken, beyaz veya yeşil metinlerin yanıp söndüğü siyah bir ekrana dikkatle bakan geliştiricilerin bu görüntüsüne sahibiz.
 
-Bu siyah ekran veya pencere, bilgisayarınızın sizin için çalıştıracağı komutları girebileceğiniz <span id="command-line">komut satırı arayüzüdür (CLI)</span>. Komut satırıyla çalışmak geliştirici olarak öğrenilmesi kritik bir beceridir. Komut satırı, diğer programları başlatabileceğimiz ve onlarla iletişime geçebileceğimiz operasyon üssü gibidir. Öğrenilmesi gereken kendine has bir sözdizimi vardır, ancak aynı komutları onlarca kez gireceğiniz için ihtiyacınız olan komutları çabuk öğrenebileceksiniz.
+Bu siyah ekran veya pencere, bilgisayarınızın sizin için çalıştıracağı komutları girebileceğiniz <span id="command-line">komut satırı arayüzüdür (CLI)</span>. Komut satırıyla çalışmak geliştiriciler için öğrenilmesi önemli bir beceridir. Komut satırı, diğer programları başlatabileceğimiz ve onlarla iletişime geçebileceğimiz operasyon üssü gibidir. Öğrenilmesi gereken kendine has bir sözdizimi vardır, ancak aynı komutları onlarca kez gireceğiniz için ihtiyacınız olan komutları çabuk öğrenebileceksiniz.
 
-Komut satırına giriş niteliğindeki bu derste, bilgisayarınızda nasıl gezineceğinizi ve doğrudan komut satırının rahatlığıyla dosya ve dizinleri (klasörler olarak da bilinir) nasıl değiştireceğinizi öğreneceksiniz. Yakında bunun sandığınız kadar zor olmadığını göreceksiniz. Bu derste öğreneceğiniz komutlar çok basittir. Bu nedenle, komut satırını ilk kez kullanmanızın sizi korkutmasına izin vermeyiniz.
+Komut satırına giriş niteliğindeki bu derste, bilgisayarınızda nasıl gezineceğinizi ve doğrudan komut satırının rahatlığıyla dosya ve dizinleri (klasörler olarak da bilinir) nasıl değiştireceğinizi öğreneceksiniz. Bunun sandığınız kadar zor olmadığını göreceksiniz. Bu derste öğreneceğiniz komutlar çok basittir. Bu nedenle, komut satırını ilk kez kullanmanızın sizi korkutmasına izin vermeyiniz.
 
 ### Terminalinizi Test Edin
 
@@ -14,13 +14,13 @@ Bilgisayarınızda <span id="open-command-line">bir terminal açın</span>.
 
 - **macOS**: Uygulamalar > Araçlar klasörünüzü açın ve "Terminal" diye aratın. Terminal'i açmak için Spotlight aramasını da kullanabilirsiniz. <kbd>Cmd</kbd> + <kbd>Space</kbd> tuşlarına basarak Spotlight'ı açabilir, ve "Terminal" diye aratabilirsiniz. Sonrasında <kbd>Enter</kbd> tuşuna basarak Terminal'i açabilirsiniz.
 
-Bir şey yapmadan önce, aşağıdaki metne bir göz atın:
+Başlamadan önce, aşağıdaki metne bir göz atın:
 
 ```
 $ whoami
 ```
 
-`$` işareti ile başladığı için bu bir terminal komutudur. `$` işareti "Selam! Terminalinize komut girebilirsiniz." anlamına gelir. Herhangi bir komut girerken `$` işaretini yazmanız gerekmeyecektir. Yukarıdaki örnekte, terminalimize sadece `whoami` yazdık. Bu yaygın kullanılan bir işarettir, bu nedenle bir komuttan önce `$` karakterini girmediğinizden emin olunuz. Artık `$` işaretinin ne olduğunu bildiğinize göre, terminalinizi bir test çalışması için kullanabilirsiniz! Terminalinizin açık olduğundan emin olun, yukarıda belirtilen komutu yazın ve klavyenizde <kbd>Enter</kbd> tuşuna basınız.
+`$` işareti yaygın kullanılan bir terminal göstergesidir. `$` işareti "Selam! Terminalinize komut girebilirsiniz." anlamına gelir. Herhangi bir komut girerken `$` işaretini yazmanız gerekmeyecektir. Yukarıdaki örnekte, terminalimize sadece `whoami` yazdık. Bir komuttan önce `$` karakterini girmediğinizden emin olunuz. Artık `$` işaretinin ne olduğunu bildiğinize göre, terminalinizi bir test çalışması için kullanabilirsiniz! Terminalinizin açık olduğundan emin olun, yukarıda belirtilen komutu yazın ve klavyenizde <kbd>Enter</kbd> tuşuna basınız.
 
 Kullanıcı adınızı yazdıracaktır. Harika!
 
