@@ -6,7 +6,7 @@ Temel bilgiler derslerimiz, tasarım gereği, sadece mümkün olana ilk adımı 
 
 Şimdiye kadar muhtemelen temel bilgiler bölümünde bahsettiğimizden çok daha fazla HTML öğesi olduğunu fark etmişsinizdir. Bu kurs boyunca formlar ve tablolar gibi diğer önemli öğelere de değineceğiz.
 
-Ayrıca bu kurs boyunca öğreneceğiniz değişkenler, fonksiyonlar, gölgeler ve tabii ki grid düzenleri gibi CSS ile yapabileceğiniz _çok daha fazla_ şey var! O yüzden kemerlerinizi bağlayın! Bu kursu bitirdiğinizde internette bulabileceğiniz hemen hemen her web tasarımını yeniden yaratabileceksiniz... ki bu ileriye taşımak için önemli bir beceridir. Önyüz özel bir iş istemiyor olsanız bile, portföyünüzün güzel görünmesini sağlayıp kendinizi öne çıkarmak söz konusu olduğu için önemlidir.
+Ayrıca bu kurs boyunca öğreneceğiniz değişkenler, fonksiyonlar, gölgeler ve tabii ki grid düzenleri gibi CSS ile yapabileceğiniz _çok daha fazla_ şey var! O yüzden kemerlerinizi bağlayın! Bu kursu bitirdiğinizde internette bulabileceğiniz hemen hemen her web tasarımını yeniden yaratabileceksiniz... ki bu ileriye taşımak için önemli bir beceridir. Önyüz özel bir iş istemiyor olsanız bile, portföyünüzün güzel görünmesini sağlamak, kendinizi öne çıkarmak konusunda oldukça önemlidir.
 
 Müfredatın ilerleyen bölümlerinde bu dersin ikinci kısmında animasyonlar, erişilebilirlik ve duyarlı tasarım hakkında bilgi edineceksiniz.
 
