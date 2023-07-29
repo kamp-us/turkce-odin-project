@@ -45,7 +45,7 @@ Bir dala artık ihtiyacınız olmadığında, eğer dal `main` ile birleştirild
 
 Dalların kullanımı için bir başka durum da, ana dalınıza (veya özellik dalınıza) hiç işlemek istemeyebileceğiniz kodu başkalarıyla paylaşmaktır.
 
-Örneğin: üzerinde çalıştığınız yeni bir özellikte çözemediğiniz bir hata varsa ve bu hata kodunuzun bozulmasına neden oluyorsa, bu bozuk kodu işleyip projenizin "kalıcı kaydında" yer almasını istemezsiniz. Bunun yerine yeni bir geçici dal oluşturup o dala geçebilir ve kodunuzu bu yeni dala işleyebilirsiniz. Daha sonra bu yeni geçici dalı GitHub'a gönderirseniz, sorununuzu çözmenize yardımcı olabilecek diğer kişilerle paylaşabilirsiniz. Aşağıdaki ödevde yeni dallar oluşturma konusunda bazı uygulamalı pratikler yapacaksınız.
+Örneğin: üzerinde çalıştığınız yeni bir özellikte çözemediğiniz bir hata varsa ve kodunuzun bozulmasına neden oluyorsa, bu bozuk kodu commitleyip projenizin "kalıcı kaydında" olmasını istemezsiniz. Bunun yerine yeni bir geçici dal oluşturabilir, ona geçebilir ve kodunuzu bu yeni dala commitleyebilirsiniz. Daha sonra bu yeni geçici dalı GitHub'a gönderirseniz, sorununuzu çözmenize yardımcı olabilecek diğer kişilerle paylaşabilirsiniz. Aşağıdaki ödevde yeni dallar oluşturma konusunda bazı uygulamalı pratikler yapacaksınız.
 
 ### Ödev
 
