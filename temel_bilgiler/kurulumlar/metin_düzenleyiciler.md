@@ -8,7 +8,7 @@ Microsoft Word ve Libre-Office Writer gibi zengin metin düzenleyicileri bir mak
 
 ### Kod Editörleri
 
-Kod editörlerini özelleşmiş web geliştirme araçları olarak düşünebilirsiniz. Son derece özelleştirilebilirlerdir ve hayatınızı kolaylaştıracak birçok özellik sunarlar. Programınızın neden çalışmadığını anlamak için 2 saat harcadıktan sonra süslü parantezi kapamayı atladığınızı fark etmekten daha kötü bir şey yoktur. Eklentiler, söz dizimi vurgulama, parantez ve süslü parantezlerin otomatik olarak kapatılması ve linting, bir kod editörü kullanmanın faydalarından sadece birkaçıdır. Seçebileceğiniz birçok kod editörü var ancak biz Visual Studio Code ile başlamanızı öneririz.
+Kod editörlerini özelleşmiş web geliştirme araçları olarak düşünebilirsiniz. Son derece özelleştirilebilirlerdir ve hayatınızı kolaylaştıracak birçok özellik sunarlar. Programınızın neden çalışmadığını anlamak için 2 saat harcadıktan sonra süslü parantezi kapamayı atladığınızı fark etmekten daha kötü bir şey yoktur. Eklentiler, söz dizimi vurgulama, parantez ve süslü parantezlerin otomatik olarak kapatılması ve linting (oto-düzeltme), bir kod editör kullanmanın faydalarından sadece birkaçıdır. Seçebileceğiniz birçok kod editörü var ancak biz Visual Studio Code ile başlamanızı öneririz.
 
 **Visual Studio Code** ya da yaygın olarak kullanılan adıyla VSCode, mükemmel bir ücretsiz kod editörüdür. Olağanüstü eklenti desteğine ve harika bir Git entegrasyonuna sahiptir. VSCode, Odin'in öğrencileri ve moderatörleri arasında en popüler kod editörüdür. Bu nedenle toplulukta destek bulmak kolaydır.
 
