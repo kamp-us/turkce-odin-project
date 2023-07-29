@@ -53,7 +53,7 @@ Dalların kullanımı için bir başka durum da, ana dalınıza (veya özellik d
 
 1. Önceki Taş Kağıt Makas deponuzda yeni bir dal oluşturun
     1. Taş Kağıt Makas oyunumuz için bir kullanıcı arayüzü yapacağımızdan, yeni bir dal oluşturun ve `git checkout -b rps-ui` komutuyla bu dala geçin.
-    2. Artık yerel olarak `rps-ui` dalında çalışıyorsunuz. Ancak, bu dal henüz uzak deponuzda mevcut değil. Github repo sayfanıza giderseniz, sadece 1 dalınız olduğunu ve onun da `main` olduğunu göreceksiniz. Bu yeni dalı `git push origin rps-ui` komutu ile uzak deponuza itelim. Şimdi, GitHub deponuzda iki dal göreceksiniz! Aşağıdaki ekran görüntüsünde gösterilen açılır menüyü kullanarak GitHub'daki yeni dalı seçebilirsiniz.
+    2. Artık yerel olarak `rps-ui` dalında çalışıyorsunuz. Ancak, bu dal henüz uzak deponuzda mevcut değil. Github repo sayfanıza giderseniz, sadece 1 dalınız olduğunu ve onun da `main` olduğunu göreceksiniz. Bu yeni dalı `git push origin rps-ui` komutu ile uzak deponuza gönderin. Şimdi, GitHub deponuzda iki dal göreceksiniz! Aşağıdaki ekran görüntüsünde gösterilen açılır menüyü kullanarak GitHub'daki yeni dalı seçebilirsiniz.
 
          ![Github'da dalların bulunduğu açılır menü](https://cdn.statically.io/gh/TheOdinProject/curriculum/46c18d8445051e016b1e415fe0227a0fa33cc825/foundations/javascript_basics/revisiting_rock_paper_scissors/imgs/00.png)
 
