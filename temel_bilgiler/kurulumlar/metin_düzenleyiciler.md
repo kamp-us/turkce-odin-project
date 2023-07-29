@@ -101,4 +101,4 @@ code
 Bu alanda ilgili içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
 
 * [VSCode docs](https://code.visualstudio.com/docs), VSCode ile ilgili sorularınız için başvurabileceğiniz harika bir yerdir.
-* VSCode kısayolları üzerine olan bu kullanışlı ve küçük [shortcuts for linux](https://go.microsoft.com/fwlink/?linkid=832144) ve [shortcuts for macOS](https://go.microsoft.com/fwlink/?linkid=832143) PDF'leri, VSCode deneyiminizi daha sorunsuz ve daha verimli hale getirmenize yardımcı olacak harika kaynaklardır.
+* VSCode kısayolları üzerine olan bu küçük ve kullanışlı [linux kısayolları](https://go.microsoft.com/fwlink/?linkid=832144) ve [macOS kısayolları](https://go.microsoft.com/fwlink/?linkid=832143) PDF'leri, VSCode deneyiminizi daha sorunsuz ve daha verimli hale getirmenize yardımcı olacak harika kaynaklardır.
