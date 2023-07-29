@@ -20,7 +20,7 @@ Başka hiçbir argüman olmadan `git branch` kullanarak mevcut tüm dallarınız
 
 Özellik dalınız üzerinde çalışmayı tamamladığınızda ve bu dalda yaptığınız değişiklikleri ana (main) dalınıza taşımaya hazır olduğunuzda, `birleştirme (merge)` olarak bilinen işlemi gerçekleştirmeniz gerekecektir.
 
-Birleştirmeler `git merge <branch_name>` komutu kullanılarak yapılır, bu komut `branch_name`'de yaptığınız değişiklikleri alır ve o anda üzerinde bulunduğunuz dala ekler. Aşağıdaki diyagramda bir `develop` dalının oluşturulduğu, işlendiği ve ardından `main` ile birleştirildiği bir örnek görebilirsiniz.
+Birleştirmeler `git merge <branch_name>` komutu kullanılarak yapılır, bu komut `branch_name`'de yaptığınız commitleri alır ve o anda üzerinde bulunduğunuz dala ekler. Aşağıdaki diyagramda bir `develop` dalının oluşturulduğu, commit edildiği ve ardından `main` ile birleştirildiği bir örnek görebilirsiniz.
 
 <pre class="mermaid">
 ---
