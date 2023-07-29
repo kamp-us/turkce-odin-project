@@ -6,7 +6,7 @@ Taş Kağıt Makas projenizde değişiklik yapmaya başlamadan önce, mevcut ça
 
 Git'teki dallar, depo dosyalarınızın birden çok *alternatif gerçeklik* sürümünü aynı anda tutmasına olanak sağlar. Aslında (bir nevi) ilk commitinizi yaptığınızdan beri dalları kullanıyorsunuz, sadece bunu bilmiyor olabilirsiniz! [Git kurulumu](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/setting-up-git) dersinde `git config --global init.defaultBranch main` komutunu çalıştırdığınızda, repolarınız için *varsayılan* dal olarak adlandırılan dalın adını ayarlamıştınız. Varsayılan dal, bir projede ilk commiti yaptığınızda oluşturulan daldır ve bu komutta dal adını, mevcut standartta olduğu gibi, `main` olarak ayarlarız.
 
-Bir ağacın dalları gibi (adı buradan gelir), bir projenin tüm dalları da bir "gövdeden" (`main` dal) veya *diğer* dallardan kaynaklanır.
+Bir ağacın dalları gibi (adı buradan gelir), bir projenin tüm dalları da bir "gövdeden" (`main` dal) veya *diğer* dallardan çıkar.
 
 Belirli bir dalda değişiklik yaptığınızda, değişiklikler yalnızca **bu** dalda var olur ve diğer tüm dalları, onlardan ayrıldığınızdaki haliyle bırakır.
 
