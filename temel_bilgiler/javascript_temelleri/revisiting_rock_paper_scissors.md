@@ -8,7 +8,7 @@ Git'teki dallar, depo dosyalarınızın birden çok *alternatif gerçeklik* sür
 
 Bir ağacın dalları gibi (adı buradan gelir), bir projenin tüm dalları da bir "gövdeden" (`main` dal) veya *diğer* dallardan çıkar.
 
-Belirli bir dalda değişiklik yaptığınızda, değişiklikler yalnızca **bu** dalda var olur ve diğer tüm dalları, onlardan ayrıldığınızdaki haliyle bırakır.
+Belirli bir dalda commit yaptığınızda, değişiklikler yalnızca **bu** dalda var olur ve diğer tüm dalları, onlardan ayrıldığınızdaki haliyle bırakır.
 
 Bu, `main` dalınızı yalnızca düzgün çalıştığını bildiğiniz bitmiş özellikler için tutabileceğiniz ve her özelliği, *özellik (feature) dalları* olarak adlandırdığımız dalları kullanarak projenize ekleyebileceğiniz anlamına gelir.
 
@@ -18,7 +18,7 @@ Bu, `main` dalınızı yalnızca düzgün çalıştığını bildiğiniz bitmiş
 
 Başka hiçbir argüman olmadan `git branch` kullanarak mevcut tüm dallarınızı görebilirsiniz. Şu anda üzerinde bulunduğunuz dal bir yıldız işareti (*) ile gösterilecektir. Başka bir daldan `main` dalına geri dönmek isterseniz, `git checkout main` komutunu kullanarak başka bir dala geçer gibi geçebilirsiniz.
 
-Özellik dalınız üzerinde çalışmayı tamamladığınızda ve bu dalda yaptığınız değişiklikleri ana (main) dalınıza taşımaya hazır olduğunuzda, `birleştirme (merge)` olarak bilinen işlemi gerçekleştirmeniz gerekecektir.
+Özellik dalınız üzerinde çalışmayı tamamladığınızda ve bu dalda yaptığınız commitleri ana (main) dalınıza taşımaya hazır olduğunuzda, `birleştirme (merge)` olarak bilinen işlemi gerçekleştirmeniz gerekecektir.
 
 Birleştirmeler `git merge <branch_name>` komutu kullanılarak yapılır, bu komut `branch_name`'de yaptığınız commitleri alır ve o anda üzerinde bulunduğunuz dala ekler. Aşağıdaki diyagramda bir `develop` dalının oluşturulduğu, commit edildiği ve ardından `main` ile birleştirildiği bir örnek görebilirsiniz.
 
@@ -69,7 +69,7 @@ Dalların kullanımı için bir başka durum da, ana dalınıza (veya özellik d
     1. Birleştirmek istediğimiz dala, yani `main` dalına `git checkout main` komutu ile geçiş yapın.
     1. Şimdi `rps-ui` dalımızı `git merge rps-ui` ile mevcut dalımız olan `main` ile birleştirelim.
     1. Her şey yolunda gittiyse, `rps-ui` dalımız artık main ile başarıyla birleştirildi! `git log` komutunu kullanarak ana dalda yaptığınız değişiklikler dışında özellik (feature)  dalında yaptığınız tüm değişiklikleri görebileceksiniz. Şimdi son adımımız için!
-    1. Şimdi `git push origin main` komutunu çalıştırarak `main` dalımızı uzak depomuzla birleştirelim. GitHub reponuza gidin ve `main` dalının `rps-ui` dalında yaptığı tüm değişiklikleri ve işlemleri içerdiğini göreceksiniz. Tebrikler! İlk özelliğinizi üretim dalınıza başarıyla gönderdiniz!
+    1. Şimdi `git push origin main` komutunu çalıştırarak `main` dalımızı uzak depomuzla birleştirelim. GitHub reponuza gidin ve `main` dalının `rps-ui` dalında yaptığı tüm değişiklikleri ve commitleri içerdiğini göreceksiniz. Tebrikler! İlk özelliğinizi üretim dalınıza başarıyla gönderdiniz!
     1. Şimdi tüm kodumuz ana dalda olduğuna göre, artık `rps-ui` dalına gerçekten ihtiyacımız yok. Hem yerel hem de uzak depoda biraz temizlik yapalım. Dalı yerel depomuzdan `git branch -d rps-ui` ile silin ve ayrıca GitHub'daki uzak depodan `git push --delete origin rps-ui` ile silin. Tebrikler, temizliği tamamladık!
 1. Projeyi GitHub Pages'da yayınladığınızdan ve [proje dersi](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/rock-paper-scissors) bölümüne canlı önizleme bağlantısı eklediğinizden emin olun.
 
