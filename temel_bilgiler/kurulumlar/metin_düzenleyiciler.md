@@ -93,7 +93,7 @@ code
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. VSCode'a aşina olmanız zamandan tasarruf etmenizi ve daha üretken olmanızı sağlayacaktır. Bu [Yeni Başlayanlar için VSCode Eğitimi](https://youtu.be/ORrELERGIHs?t=103) videosunu izleyerek, VSCode'un sunduğu tüm özellikler hakkında bir fikir edinebilirsiniz. Videoyla birlikte kod yazmaya çalışmayın, sadece VSCode'un video boyunca nasıl kullanıldığını izleyin.
+  1. VSCode'a aşina olmanız zamandan tasarruf etmenizi ve daha üretken olmanızı sağlayacaktır. Bu [Yeni Başlayanlar için VSCode Eğitimi](https://youtu.be/ORrELERGIHs?t=103) videosunu izleyerek, VSCode'un sunduğu tüm özellikler hakkında bir fikir edinebilirsiniz. Videoyla birlikte kod yazmanıza gerek yok, sadece VSCode'un video boyunca nasıl kullanıldığını izleyin.
 </div>
 
 ### Ek Kaynaklar
