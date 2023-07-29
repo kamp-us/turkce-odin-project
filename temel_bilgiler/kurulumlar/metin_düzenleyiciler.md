@@ -4,7 +4,7 @@ Bir metin düzenleyici, ne tür bir geliştirici olduğunuzdan bağımsız olara
 
 ### Neden Microsoft Word kullanamıyorum?
 
-Microsoft Word ve Libre-Office Writer gibi zengin metin düzenleyicileri bir makale yazmak için harikadır ancak onları güzel biçimlendirilmiş belgeler oluşturmada iyi yapan özellikler onları kod yazmak için uygun kılmamaktadır. Bu zengin metin düzenleyicileriyle oluşturulan bir metin belgesi, dosyaya gömülü metinden daha fazlasına yer verir. Bu dosyalar ayrıca metnin ekranda nasıl görüntüleneceğine dair bilgiler ve belgeye gömülü grafiklerin nasıl görüntüleneceğine dair veriler içerir. Buna karşılık, VSCode ve Sublime gibi yalın metin düzenleyicileri dosyaya herhangi bir ek bilgi kaydetmez. Sadece metni kaydetmek, Ruby'nin yorumlayıcısı gibi diğer programların dosyayı kod olarak okuyup çalıştırmasını sağlar.
+Microsoft Word ve Libre-Office Writer gibi zengin metin düzenleyicileri bir makale yazmak için harikadır ancak onları güzel biçimlendirilmiş belgeler oluşturmada iyi yapan özellikler, kod yazmak için uygun kılmamaktadır. Bu zengin metin düzenleyicileriyle oluşturulan bir metin belgesi, dosyaya gömülü metinden daha fazlasına yer verir. Bu dosyalar ayrıca metnin ekranda nasıl görüntüleneceğine dair bilgiler ve belgeye gömülü grafiklerin nasıl görüntüleneceğine dair veriler içerir. Buna karşılık, VSCode ve Sublime gibi yalın metin düzenleyicileri dosyaya herhangi bir ek bilgi kaydetmez. Sadece metni kaydetmek, Ruby'nin yorumlayıcısı gibi diğer programların dosyayı kod olarak okuyup çalıştırmasını sağlar.
 
 ### Kod Editörleri
 
