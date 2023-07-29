@@ -64,7 +64,7 @@ Dalların kullanımı için bir başka durum da, ana dalınıza (veya özellik d
     1. Sonuçları görüntülemek için bir `div` ekleyin ve tüm `console.log`larınızı DOM yöntemlerine dönüştürün.
     1. Devam eden skoru görüntüleyin ve bir oyuncu 5 puana ulaştığında oyunun galibini ilan edin.
     1. Bunun için orijinal kodunuzu yeniden düzenlemeniz (yeniden çalışmanız/yeniden yazmanız) gerekecektir. Sorun değil! Eski kodda yeniden çalışmak bir programcının hayatının önemli bir parçasıdır.
-1. Kullanıcı arayüzünüzü tamamladıktan ve her şeyin yolunda olduğundan emin olduktan sonra, tüm değişikliklerinizin `git status` ile `rps-ui` dalına işlendiğinden emin olun.
+1. Kullanıcı arayüzünüzü tamamladıktan ve her şeyin yolunda olduğundan emin olduktan sonra, tüm değişikliklerinizin `git status` ile `rps-ui` dalına commitlendiğinden emin olun.
 1. Şimdi `rps-ui` dalımızdaki değişiklikleri `main` dalımızla nasıl birleştirebileceğimize bir göz atalım.
     1. Birleştirmek istediğimiz dala, yani `main` dalına `git checkout main` komutu ile geçiş yapın.
     1. Şimdi `rps-ui` dalımızı `git merge rps-ui` ile mevcut dalımız olan `main` ile birleştirelim.
