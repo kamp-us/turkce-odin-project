@@ -39,7 +39,7 @@ gitGraph
 
 Bazen bir dosyadaki aynı satırlar iki farklı dal tarafından değiştirilmiş olabilir. Bu durumda, bu dalları birleştirmeye çalıştığınızda bir birleştirme çakışması (merge conflict) yaşarsınız. Dalları birleştirmek için önce çakışmayı çözmeniz gerekecektir, bu da gelecek bir derste ele alınacaktır.
 
-Bir dala artık ihtiyacınız olmadığında, eğer dal `main` ile birleştirildiyse `git branch -d <branch_name>` kullanılarak, birleştirilmediyse `git branch -D <branch_name>` kullanılarak silinebilir. Dallarla işiniz bittiğinde onları genellikle silmek istersiniz, aksi takdirde yığılabilirler ve ihtiyacınız olduğunda aradığınız dalı bulmanızı zorlaştırabilirler.
+Bir dala artık ihtiyacınız olmadığında, eğer dal `main` ile birleştirildiyse `git branch -d <branch_name>` kullanılarak, birleştirilmediyse `git branch -D <branch_name>` kullanılarak silinebilir. Dallarla işiniz bittiğinde onları genellikle silmek istersiniz, aksi takdirde dallar birikerek ihtiyaç duyduğunuzda aradığınız dalı bulmanızı zorlaştırabilir.
 
 ### Kod paylaşımı
 
