@@ -1,33 +1,33 @@
 ### Giriş
 
-Kod yazmayı öğrenmek inanılmaz derecede faydalı, ancak aynı zamanda zor ve sinir bozucu olabilir. Bilmeye değer her beceri gibi, edinilmesi zaman alır ve bir hafta sonu ya da bir ayda öğrenilemez. Bununla birlikte, zaman ve çaba harcamaya istekli oldukları sürece herkesin programlamayı öğrenebileceğine inanıyoruz.
+Kod yazmayı öğrenmek inanılmaz derecede faydalı ancak aynı zamanda zor ve sinir bozucu olabilir. Bilmeye değer her beceri gibi, edinilmesi zaman alır ve bir hafta sonu ya da bir ayda öğrenilemez. Bununla birlikte, zaman ve çaba harcamaya istekli oldukları sürece herkesin programlamayı öğrenebileceğine inanıyoruz.
 
-Müfredatın özüne girmeden önce, Odin Projesi'nden en iyi şekilde yararlanmanıza yardımcı olmak için aşağıdakilerin üzerinden geçeceğiz: kod yazmayı öğrenme hedefinizde başarılı olmanıza yardımcı olacak şeyler ve kaçınmaya çalışmanız gereken tuzaklar.
+Müfredatın özüne inmeden önce, Odin Projesi'nden en iyi şekilde yararlanmanıza yardımcı olmak için şunların üzerinden geçeceğiz: kod yazmayı öğrenme hedefinizde başarılı olmanıza yardımcı olacak şeyler ve kaçınmaya çalışmanız gereken tuzaklar.
 
 ### Motivasyon
 
 Neden programlama öğrenmeye karar verdiğinizi düşünmek için bir dakikanızı ayırın.
 
-- İyi kazandıran, tatmin edici bir kariyere sahip olmak ister miydiniz?
-- Programlamanın sağladığı yaratıcı yol sizi heyecanlandırıyor mu?
-- Aklınıza gelebilecek her türlü uygulamayı oluşturabilecek beceri ve yetenekleri geliştirmeye kararlı mısınız?
-- Bir uygulama fikrini gerçeğe dönüştürerek kendi şirketinizi kurmak ister misiniz?
+- İyi kazandıran, tatmin edici bir kariyere sahip olmak mı istiyorsunuz?
+- Programlamanın getirdiği yaratıcılık sizi heyecanlandırıyor mu?
+- Aklınıza gelebilecek her türlü uygulamayı oluşturabilecek beceri ve yetenekleri edinmeye kararlı mısınız?
+- Bir uygulama fikrini gerçeğe dönüştürerek kendi şirketinizi mi kurmak istiyorsunuz?
 
-Programlamayı öğrenme motivasyonunuz bu nedenlerin bir kombinasyonu veya tamamen başka bir şey olabilir. O şey her ne olursa olsun, motivasyonunuza sıkıca sarılın - sizi bu yolculuğun sonuna kadar götürebilecek şey motivasyonunuz olacak ve sizi yönelmeniz gereken kesin bir hedefe ulaştıracaktır.
+Programlamayı öğrenme motivasyonunuz bu nedenlerin bir kombinasyonu veya tamamen başka bir şey olabilir. O şey her ne olursa olsun, motivasyonunuza sıkıca sarılın - size ulaşmanız gereken kesin bir hedef verip bu yolculuğun sonuna kadar götürecek olan şey olacak.
 
-Motivasyonunuzu güçlendirmek istiyorsanız Discord kanalımızdaki [odin-success-stories](https://discord.com/channels/505093832157691914/705776663497277490) başarı hikayelerini okuyabilirsiniz.
+Motivasyonunuzu güçlendirmek istiyorsanız Discord kanalımızdaki [odin-success-stories](https://discord.com/channels/505093832157691914/705776663497277490) başarı hikayelerini (İngilizce) okuyabilirsiniz.
 
 ### Gelişim Zihniyeti
 
-Düşünce yapınız kendinize sadece programlama değil, _herhangi bir_ beceriyi öğretirken de çok önemlidir. Düşünce yapınız başarı şansınız üzerinde hemen hemen her şeyden daha fazla bir etkiye sahip olacaktır.
+Düşünce yapınız kendinize sadece programlama değil, _herhangi bir_ beceriyi öğretirken de çok önemlidir. Düşünce yapınız başarı şansınız üzerinde hemen hemen her şeyden daha fazla büyük bir etkiye sahip olacaktır.
 
 **Sabit zihniyet**e sahip kişiler, bir şeyi ilk denemelerinde başaramadıklarında hiçbir zaman başaramayacaklarına inanırlar. Bazı şeyleri yapabilecek veya anlayabilecek kadar yeterince zeki olmadıklarını düşünürler.
 
-Ancak, zeka düzeyinin sabit olmadığını, aksine geliştirilebileceğini gösteren geniş bir araştırma yelpazesi bulunmaktadır. **Gelişim odaklı zihniyet**e sahip birisi, çaba ve süreklilikle her konuda daha iyi olabileceğine inanır.
+Ancak zeka düzeyinin sabit olmadığını, aksine geliştirilebileceğini gösteren çeşitli araştırmalar bulunmaktadır. **Gelişim odaklı zihniyet**e sahip birisi, çaba ve süreklilikle her konuda daha iyi olabileceğine inanır.
 
 Bu sizin için ne anlama geliyor? Bu, **süreklilik ve azim** ile yeni beceriler öğrenebileceğinizi ve yeni yetenekler geliştirebileceğinizi gösterir.
 
-Odin Projesi müfredatı boyunca bir konsept veya programlama sorunu üzerinde takılıp kalacağınız ve programlamayı öğrenme yeteneğinizi sorgulayabileceğiniz zamanlar olacak. Bu durumda kendinize _henüz_ anlamamış olabileceğinizi, ancak süreklilik ve azimle başarabileceğinizi hatırlatabilirsiniz. Bir şeyle mücadele etmek büyüme anlamına gelir. Bir konsept veya projeyle ne kadar süre mücadele ettiğiniz önemli değildir;
+Odin Projesi müfredatı boyunca bir konsept veya programlama sorunu üzerinde takılıp kalacağınız ve programlamayı öğrenme yeteneğinizi sorgulayabileceğiniz zamanlar olacak. Bu durumda kendinize, _henüz_ anlamamış olabileceğinizi ancak süreklilik ve azimle başarabileceğinizi hatırlatın. Bir şeyle mücadele etmek, gelişme demektir. Bir konsept veya projeyle ne kadar süre mücadele ettiğiniz önemli değildir;
 önemli olan, kararlılık ve azme sahip olmanızdır.
 Gerçek öğrenme böyle gerçekleşir.
 
@@ -45,33 +45,33 @@ Gelişim zihniyeti hakkında daha fazla bilgi edinmek için bu kaynaklara göz a
 
 Kavramları öğrenmek ve ardından bunları uygulamak, işlerin nasıl yürüdüğünü ve birbirine nasıl uyduğunu daha iyi anlamanıza yardımcı olacaktır. Projeler, teorik anlayışınızın programlama kavramları ve tekniklerinin gerçekte nasıl işlediğiyle uyumlu olmasını sağlamak için en iyi yöntemdir.
 
-Öğrenirken, zihniniz sürekli olarak odak modu ve dağınık mod arasında geçiş yapabilir. **Odak modu** bilinçli olarak öğrenmeye, okumaya, video izlemeye veya bir proje üzerinde çalışmaya odaklandığınızda ortaya çıkar. **Dağınık mod** ise aktif olarak öğrenmediğiniz zamanlarda, örneğin bulaşık yıkarken, egzersiz yaparken veya uyurken bilinçaltınızda oluşur. Bu durumda, zihniniz öğrendiklerinizi bildiğiniz diğer şeylerle ilişkilendirme işine devam eder. Atılımların gerçekleştiği yer burasıdır.
+Öğrenirken, zihniniz sürekli olarak odak modu ve dağınık mod arasında geçiş yapabilir. **Odak modu** bilinçli olarak öğrenmeye, okumaya, video izlemeye veya bir proje üzerinde çalışmaya odaklandığınızda ortaya çıkar. **Dağınık mod** ise aktif olarak öğrenmediğiniz zamanlarda, örneğin bulaşık yıkarken, egzersiz yaparken veya uyurken bilinçaltınızda oluşur. Bu durumda zihniniz öğrendiklerinizi, bildiğiniz diğer şeylerle ilişkilendirme işine devam eder. Gelişimin gerçekleştiği yer burasıdır.
 
-Öğrenirken zihninizin bu iki durumdan geçtiğini bilmek önemlidir çünkü bunu öğrenmenizi daha verimli hale getirmek için kullanabilirsiniz. Bir kavram veya proje üzerinde takılıp kaldığınızda, yenilenmek ve bilinçaltınızın bağlantılar kurmak için çalışmasına izin vermek için ara vermek, çoğu zaman sorununuza bir çözüm getirir. İşin püf noktası, önce sorunu çözmek için çaba sarf etmek ve ardından ara vermektir.
+Öğrenirken zihninizin bu iki durumdan geçtiğini bilmek önemlidir çünkü bunu öğrenmenizi daha verimli hale getirmek için kullanabilirsiniz. Bir kavram veya proje üzerinde takılıp kaldığınızda, bilinçaltınızın bağlantılar kurmak için çalışmasına izin vermek için kısa bir ara vermek, çoğu zaman sorununuza bir çözüm getirir. İşin püf noktası, önce sorunu çözmek için çaba sarf etmek ve ardından ara vermektir.
 
 Kısacası, anlayın, uygulayın ve sonunda öğretin.
 
-Bildiklerinizi başkalarına öğretmek, öğrendiklerinizi sağlamlaştırmak için harika bir yoldur ve genellikle bilginizde başka türlü tespit edemeyeceğiniz boşlukları ortaya çıkarabilir.
+Bildiklerinizi başkalarına öğretmek, öğrendiklerinizi sağlamlaştırmak için harika bir yoldur ve genellikle başka türlü tespit edemeyeceğiniz bilgi eksikliklerinizi ortaya çıkarabilir.
 
-Bu öğrenme yöntemini toplumumuzdaki diğer kişilere yardım ederek uygulayabilirsiniz.
+Bu öğrenme yöntemini topluluğumuzdaki diğer kişilere yardım ederek uygulayabilirsiniz.
 
-- Öğrenmenin en iyi yolları hakkında bilgi edinmek için önemle tavsiye edilir: [learning how to learn on Coursera](https://www.coursera.org/learn/learning-how-to-learn).
+- Öğrenmenin en iyi yolları hakkında bilgi edinmek için önemle tavsiye edilir: [öğrenmeyi öğrenmek](https://www.coursera.org/learn/learning-how-to-learn).
 
-- Ruby Rogues'un bir podcast'i [podcast on How to Learn](https://topenddevs.com/podcasts/ruby-rogues/episodes/131-rr-how-to-learn) bulunmakta, bu podcast sizin için motive edici ve yararlı olabilir, bu nedenle öğrenmeyle ilgili bazı yararlı düşünceler için göz atabilirsiniz.
+- Ruby Rogues'un bir podcast'i [Öğrenmek üzerine podcast](https://topenddevs.com/podcasts/ruby-rogues/episodes/131-rr-how-to-learn) bulunmakta, bu podcast sizin için motive edici ve yararlı olabilir, bu nedenle öğrenmeyle ilgili bazı yararlı düşünceler için göz atabilirsiniz.
 
 ### Sıkıştığınızda Ne Yapmalısınız?
 
 Belki anlamakta güçlük çektiğiniz bir kavramdan, belki de bir projede yolunda gitmeyen bir şeyden dolayı müfredatın bir noktasında ister istemez takılıp kalabilirsiniz. Bu durumdan kurtulmak için aşağıdaki araçları kullanabilirsiniz:
 
-- Google'da aramak: Bir noktada sizinle aynı sorunla karşılaşan başka birilerinin olduğundan emin olabilirsiniz. Google araması yapmak genellikle bir çözüme yol açabilir.
+- Google'da aramak: Bir noktada sizinle aynı sorunla karşılaşan başka birilerinin olduğundan emin olabilirsiniz. Hızlı bir Google araması sizi çözüme götürebilir.
 - Mola vermek: Bilinçaltınızın sorun üzerinde çalışmasına izin verebilirsiniz.
 - [Discord Sohbet](https://discord.gg/fbFCkYabZB) kanallarımızda yardım istemek: Araştırma yaptıktan sonra Discord sohbetine gelip insanlara çözümü kendi başınıza bulmak için çaba gösterdiğinizi gösterip yardım istediğinizde, insanlar size yardım etmeye daha istekli olacaklardır.
 
 ### Yapay Zekaların Kod Oluşturması Üzerine Bir Not
 
-Teknoloji geliştikçe, kodlamayı hızlandırmaya yardımcı olabilecek bazı inanılmaz araçların ortaya çıktığını gördük. Yapay zekaların kod oluşturması son zamanlarda popülaritesi artan bir alan, kod tamamlama (GitHub Copilot gibi) ve kod oluşturma (ChatGPT gibi) Büyük Dil Modellerinin (LLM'ler) ve üretken yapay zekaların kullanılmasıdır.
+Teknoloji geliştikçe, kodlamayı hızlandırmaya yardımcı olabilecek bazı inanılmaz araçların ortaya çıktığını gördük. Son zamanlarda popülaritesi artan bir alan ise kod tamamlama (GitHub Copilot gibi) ve kod oluşturma (ChatGPT gibi) için büyük dil modellerinin (LLM'ler) ve üretken yapay zekaların kullanılmasıdır.
 
-Bu araçlar harika olsalar da, öğrenciler bu tür araçları kullanmanın temel yetkinlikler üzerindeki etkilerinin farkında olmalıdır. Bilgisayar bilimi profesörü olan David Humphrey [ChatGPT ve bunun temel eğitim üzerindeki potansiyel olumsuz etkileri hakkında yazı yazdı.](https://blog.humphd.org/cheatgpt/) Üretken yapay zekaları eğitim bağlamında kullanmanın beklenmedik zararları hakkında iyi bir yazıdır.
+Bu araçlar harika olsalar da öğrenciler bu tür araçları kullanmanın temel beceriler üzerindeki etkilerinin farkında olmalıdır. Bilgisayar bilimi profesörü olan David Humphrey [ChatGPT ve bunun temel eğitim üzerindeki potansiyel olumsuz etkileri hakkında yazı yazdı.](https://blog.humphd.org/cheatgpt/) Üretken yapay zekaları eğitim alanında kullanmanın beklenmedik zararları hakkında iyi bir yazı.
 
 Programlama konusunda yeni olan öğrenciler için ChatGPT veya GitHub Copilot gibi araçlar, bilgilerinizde bazı anlaşılmayan noktalara ve boşluklara neden olabilir.
 
@@ -79,7 +79,7 @@ Programlama konusunda yeni olan öğrenciler için ChatGPT veya GitHub Copilot g
 1. Soru sormayı öğrenmek sahip olunması gereken önemli bir beceridir ve insanlara soru sormayı (yardımsever Discord topluluğumuz gibi) atlayıp üretken yapay zeka kullanmak bu beceriyi geliştirmenizin gecikmesi anlamına gelir.
 1. Yazdığınız kod hakkında konuşmayı öğrenmek de bir başka önemli beceridir. Profesyonel bir ortamda, sunduğunuz şeyin nasıl ve nedenini açıklamanız gereken kod incelemeleri yapacak olmanız kuvvetle muhtemeldir.
 1. David Humphrey'in de belirttiği gibi, üretici yapay zekanın çıktısı yakından incelenmelidir ve programlamaya yeni başlayan öğrenciler genellikle çıktının iyi mi yoksa kötü mü olduğunu belirleyebilecek genel bir anlayışa sahip değildir.
-1. Bir yapay zeka aracına nasıl iyi komutların verileceğini öğrenmek bir beceri olsa da, temel programlama becerilerini geliştirmeye yardımcı olacaktır. Odin müfredatı, bu temel beceriyi öğretmeye çalışmaktadır.
+1. Bir yapay zeka aracına nasıl iyi komut verileceğini öğrenmek bir beceri olsa da temel programlama becerilerini geliştirmede ikinci plandadır. Odin müfredatı, bu temel beceriyi öğretmeye çalışmaktadır.
 1. Yapay Zeka araçları soruları yanıtlamak için tasarlanmış, öğrencilerin araştırma ve problem çözme becerilerini geliştirmelerinde yardımcı olmak için tasarlanmamıştır. Yapay zekadan bilgi isterseniz, size sadece bilgi sağlayacaktır. Bir insana sorarsanız, size sorunun çözümünü nasıl keşfedeceğiniz konusunda rehberlik sunabilir.
 1. Araştırma, problem çözme ve eleştirel düşünme pratiği olmadan, mülakatlar zor geçebilir çünkü başvuran kişilerin yapay zeka araçlarını kullanmalarına izin verilmeyeceği çok muhtemeldir.
 
@@ -89,11 +89,11 @@ Programlama konusunda yeni olan öğrenciler için ChatGPT veya GitHub Copilot g
 
 Odin üzerinde haftada bir kez çalışmak yerine **sürekli** zaman ayırırsanız daha başarılı olabilirsiniz. Her gün belirli bir saatte ve belirli bir hedefle çalışma alışkanlığı edinmek, tutarlı bir ilerleme kaydetmenizi sağlayacaktır.
 
-Kavramları anlamanız diğer insanlardan daha uzun sürebilir ya da daha az zamanınızı alabilir. Bu, diğerlerinden daha zeki olduğunuz veya olmadığınız anlamına gelmez. Bu farklı deneyimleriniz olduğu anlamına gelir. Bir mühendisin yanında büyüyen biri, büyümeyen birine göre bazı avantajlara sahip olabilir, ancak bu o becerileri öğrenemeyeceğiniz anlamına gelmediğini unutmamalıyız.
+Kavramları anlamanız diğer insanlardan daha uzun sürebilir ya da daha az zamanınızı alabilir. Bu, diğerlerinden daha zeki olduğunuz veya olmadığınız anlamına gelmez. Şu ana kadar sizi buna hazırlamış veya hazırlamamış olabilecek farklı hayat deneyimleriniz olduğu anlamına gelir. Bir mühendisin yanında büyüyen biri, büyümeyen birine göre bazı avantajlara sahip olabilir ancak bu o becerileri öğrenemeyeceğiniz anlamına gelmez.
 
-Odin Projesi kolej veya üniversite gibi değildir, kendi kendine ilerler ve devam etmeden önce kavramları gerçekten sağlam bir şekilde kavramanıza olanak tanır. Okulda, ayak uydurmaya zorlanırsınız ya da başarısız olursunuz. Burada farklı olan şey, Odin Projesi'ne girerken çok fazla bilgiye sahip olmanız beklenmiyor; ön koşul yok. Sadece bilgisayarında e-postalarını nasıl kontrol edeceklerini bilen insanların buraya gelerek başarılı olduklarını gördük. Odin Projesi'ni statik bir zaman çizelgesi gibi ele almanız anlaşılabilir, ancak bu yanlış beklentinin bir işaretidir. Henüz neyi bilmediğinizi bilmiyorsanız bu tamamen normal! Odin Projesi'nde hiçbir şey için son tarih yok, bu yüzden doğru yapmak ve konuları tartışmak için istediğiniz kadar zaman harcayabilirsiniz.
+Odin Projesi kolej veya üniversite gibi değildir, kendi hızınızda ilerlemenize ve devam etmeden önce kavramları gerçekten sağlam bir şekilde kavramanıza olanak tanır. Okulda, ya ayak uydurursunuz ya da başarısız olursunuz. Burada farklı olan şey, Odin Projesi'ne girerken çok fazla bilgiye sahip olmanız beklenmiyor; ön koşul yok. Sadece bilgisayarında e-postalarını nasıl kontrol edeceklerini bilen insanların buraya gelerek başarılı olduklarını gördük. Odin Projesi'ni takip ederken kendinize zaman sınırlaması koyabilirsiniz ancak bu yanlış beklentiler içine girdiğinizin bir işaretidir. Henüz neyi bilmediğinizi bilmiyorsunuz ve bu tamamen normal! Odin Projesi'nde hiçbir şey için son tarih yok, bu yüzden doğru yapmak ve konuları tartışmak için istediğiniz kadar zaman harcayabilirsiniz.
 
-Son teslim tarihleri (Deadlines) gereksiz strese neden olur. Odin Projesi ücretsiz ve açık bir platform olduğundan, bu müfredatta son teslim tarihi gibi bir şeye bağlı olmadığınızı belirtmek isteriz. Kendi teslim tarihlerinizi oluşturmak da aceleye getirilmemesi gereken kavramları aceleye getirmenize neden olabilir. Bu kurs daha çok araştırma tabanlıdır. Yani görevleri ve projeleri tamamlamak için araştırma yapmanız gerekecektir. Doğru şekilde size yardımcı olacak makaleyi veya gönderiyi ne kadar hızlı bulabileceğiniz veya kendinize teslim tarihi belirlediyseniz teslim tarihlerinize yetişebileceğiniz belli olmayabilir, ancak müfredat boyunca çok şey öğreneceğinize eminiz. Bu tür araştırmalar yapan ve daha iyi çözümler yazmak için çabalayan insanlar gelecekte daha iyi geliştiriciler olma eğilimindedir. Cevaplarınızı bulmak için bir şeyleri nasıl sorgulayacağınızı öğrenmenizin ne kadar süreceğini bilemezsiniz. Bu konuda sağlam bir kılavuz yoktur. Odin Projesi'ni _hemen şimdi_ yüksek maaşlı bir işe ihtiyacınız olduğu için yapıyorsanız, belirlediğiniz zaman dilimi içinde sağlam bir geliştirici olmayacaksınız. Stres ve kaygı da öğrenmenize yardımcı olmayacaktır. Sadece rahatlayın ve bu yolculuğun tadını çıkarın.
+Son teslim tarihleri (deadlines) gereksiz strese neden olur. Odin Projesi ücretsiz ve açık bir platform olduğundan, bu müfredatta son teslim tarihi gibi bir şeye bağlı olmadığınızı belirtmek isteriz. Kendi teslim tarihlerinizi oluşturmak da aceleye getirilmemesi gereken kavramları aceleye getirmenize neden olabilir. Bu kurs daha çok araştırma tabanlıdır. Yani görevleri ve projeleri tamamlamak için araştırma yapmanız gerekecektir. Size yardımcı olacak doğru makaleyi veya gönderiyi ne kadar hızlı bulabileceğiniz veya planladığınız tarihe kadar yetiştirip yetiştiremeyeceğiniz belli olmayabilir ancak müfredat boyunca çok şey öğreneceğinize eminiz. Bu tür araştırmalar yapan ve daha iyi çözümler yazmak için çabalayan insanlar, daha iyi bir geliştirici olma eğilimindedirler. Cevaplarınızı bulmak için bir şeyleri nasıl arayacağınızı öğrenmenizin ne kadar süreceğini bilemezsiniz. Bu işin bir kitabı yoktur. Odin Projesi'ni _hemen şimdi_ yüksek maaşlı bir işe ihtiyacınız olduğu için yapıyorsanız, belirlediğiniz zaman dilimi içinde sağlam bir geliştirici olmayacaksınız. Stres ve kaygı da öğrenmenize pek yardımcı olmayacaktır. Ağırdan alın ve yolculuğun tadını çıkarın.
 
 Uzun lafın kısası: Endişelenmeyin, sadece öğrenmeye devam edin!
 
@@ -103,9 +103,9 @@ Aşağıda, yeni başlayanların programlamayı öğrenirken sıklıkla karşıl
 
 #### Erteleme
 
-İlerleme kaydetmeye çalışırken erteleme yapmak en büyük düşmanınız olacaktır.
+Bir şeyleri ertelemeniz, gelişiminizdeki en büyük düşmanınızdır.
 
-**Çözümü:** [Pomodoro Tekniği](https://en.wikipedia.org/wiki/Pomodoro_Technique) odaklanmaya devam etmek için zamanınızı yönetmenin bir yoludur. Buradaki fikir, 25 dakika için bir zamanlayıcı ayarlamak ve zamanlayıcı bitene kadar çalışmaktır. Eğer 25 dakika boyunca dikkatiniz dağılır ya da işiniz yarıda kesilirse, 25 dakikalık çalışmaya yeniden başlarsınız. İşinize 25 dakika boyunca başarılı bir şekilde odaklandıktan sonra 5 dakika ara verirsiniz. Molanız bittiğinde, 25 dakikalık çalışmayı ve 5 dakikalık molayı tekrarlarsınız. Dört adet 25 dakikalık çalışma bloğunu tamamlandıktan sonra, 15-30 dakikalık daha uzun bir mola verirsiniz.
+**Çözümü:** [Pomodoro Tekniği](https://en.wikipedia.org/wiki/Pomodoro_Technique) odaklanmaya devam etmek için zamanınızı yönetmenin bir yoludur. Buradaki fikir, 25 dakika için bir zamanlayıcı ayarlamak ve zamanlayıcı bitene kadar çalışmaktır. Eğer 25 dakika boyunca dikkatiniz dağılır ya da işiniz yarıda kesilirse, 25 dakikalık çalışmaya yeniden başlayın. İşinize 25 dakika boyunca başarılı bir şekilde odaklandıktan sonra 5 dakika ara verin. Molanız bittiğinde, 25 dakikalık çalışmayı ve 5 dakikalık molayı tekrarlayın. Dört adet 25 dakikalık çalışma bloğunu tamamladıktan sonra, 15 ila 30 dakikalık daha uzun bir mola verin.
 
 Pomodoro tekniği, dikkatinizi dağıtan unsurlardan uzak durarak erteleme yapmanızı önlemek için harikadır. Çalışma süresi sadece 25 dakika olduğu için bunaltıcı olmayacak ve erteleme alışkanlığınızı yenmek için iyi bir yol olacaktır.
 
@@ -115,11 +115,11 @@ Denemek isterseniz, [TomatoTimer](http://tomato-timer.com/#) kullanımı kolay b
 
 #### Mola Vermemek
 
-Konulara daldıkça, uzun süre boyunca sürekli çalışmak zorunda hissedebilirsiniz. İlk başta daha fazla iş yapıyormuşsunuz gibi görünebilir, ancak bu genellikle tükenmişliğe yol açar ve sonuç olarak daha düşük üretkenlikle sonuçlanır.
+Konulara daldıkça, uzun süre boyunca sürekli çalışmak zorunda hissedebilirsiniz. İlk başta daha fazla iş yapıyormuşsunuz gibi görünebilir ancak bu genellikle tükenmişliğe yol açar ve nihayetinde daha düşük üretkenlikle sonuçlanır.
 
-Mantıklı gelmeyebilir, ancak beyninizi ve vücudunuzu yeniden şarj etmek için düzenli olarak mola verirseniz daha iyi bir çalışmayla daha fazlasını yaparsınız. Araştırmalar, uzun süreli tatillerden 30 saniyelik mikro molalara kadar her türlü moladan sonra performansın arttığını gösteriyor. Toronto üniversitesi'nde Yönetim Doçenti olan John Trougakos, zihinsel konsantrasyonun kaslara benzediğini söylüyor. Odak noktamız sürekli kullanımdan sonra yorulur ve tıpkı spor salonunda setler arasında dinlenen bir vücut geliştirmeci gibi iyileşmek için dinlenme süresine ihtiyaç duyar.
+İlk bakışta mantıklı gelmeyebilir ancak beyninizi ve vücudunuzu yeniden şarj etmek için düzenli olarak mola verirseniz daha fazlasını yaparsınız. Araştırmalar, uzun süreli tatillerden 30 saniyelik mikro molalara kadar her türlü aradan sonra performansın arttığını gösteriyor. Toronto Üniversitesi'nde İşletme doçenti olan John Trougakos, zihinsel konsantrasyonun kaslara benzediğini söylüyor. Odak noktamız sürekli kullanımdan sonra yorulur ve tıpkı spor salonunda setler arasında dinlenen bir vücut geliştirmeci gibi iyileşmek için dinlenme süresine ihtiyaç duyar.
 
-**Çözümü:** Hak ettiğiniz molaları ne sıklıkta ve ne kadar süreyle vereceğinizi zamanlamak için bahsettiğimiz Pomodoro Tekniğini kullanabilirsiniz. Farklı mola sıklıkları ve süreleri ile oynamaktan ve denemeler yapmaktan çekinmeyin.
+**Çözümü:**  Ne sıklıkta ve ne kadar süreyle mola vereceğinizi zamanlamak için bahsettiğimiz Pomodoro Tekniğini kullanın. Farklı mola sıklıkları ve sürelerini denemekten çekinmeyin.
 
 Mola sırasında ne yapmalı:
 
@@ -132,27 +132,27 @@ Mola sırasında ne yapmalı:
 
 Molalar ve üretkenlik hakkında daha fazla bilgi için [bu makaleyi](https://simpleprogrammer.com/taking-breaks-will-boost-productivity/) okuyabilirsiniz.
 
-#### Dijital Dikkat Dağıtıcı Şeyler
+#### Dikkati Dağıtan Dijital Şeyler
 
-Dijital dikkat dağıtıcılar, e-posta ve Facebook bildirimleri ile sosyal medya gibi zaman kaybettiren web siteleri ve uygulamalardır. Bu dikkat dağıtıcılar odağınızı bozar ve ertelemeyi cazip hale getirir. Bu nedenle, çalışma süresi boyunca bunlardan kaçınılmalıdır.
+Dikkat dağıtan dijitaller e-posta ve Facebook bildirimleri ile sosyal medya gibi zaman kaybettiren web siteleri ve uygulamalardır. Bu dikkat dağıtıcılar odağınızı bozar ve ertelemeyi cazip hale getirir. Bu nedenle, çalışma süresi boyunca bunlardan kaçınılmalıdır.
 
 **Çözümü:** Dikkat dağıtıcı web site ve uygulamalarda geçirdiğiniz zamanı sınırlamak için bildirimleri kapatabilir ve internetinize bir engelleyici ekleyebilirsiniz.
 
-#### Fiziksel Dikkat Dağıtıcı Şeyler
+#### Dikkati Dağıtan Fiziksel Şeyler
 
-Fiziksel dikkat dağıtıcılar, arka plandaki bir televizyon veya konuşan diğer insanlar gibi çevrenizden gelen dikkat dağıtıcı unsurlardır. Bu dikkat dağıtıcı unsurlar, odaklanmanıza dijital dikkat dağıtıcı unsurlar kadar zarar verebilir.
+Fiziksel dikkat dağıtıcılar, arka plandaki bir televizyon veya konuşan insanlar gibi çevrenizden gelen dikkat dağıtıcı unsurlardır. Bu dikkat dağıtıcı unsurlar, odaklanmanıza dijital dikkat dağıtıcı unsurlar kadar zarar verebilir.
 
-**Çözümü:** Evinizde odaklanmak için gidebileceğiniz sessiz bir çalışma yeri tercih edebilirsiniz. Bu bir seçenek değilse, çevrenizdeki gürültülü dikkat dağıtıcı unsurları engellemek için gürültü önleyici kulaklıklar kullanabilirsiniz.
+**Çözümü:** Evinizde odaklanmak için gidebileceğiniz sessiz bir çalışma yeri tercih edebilirsiniz. Bu bir seçenek değilse gürültü önleyici kulaklık kullanabilirsiniz.
 
-#### Tavşan Delikleri
+#### Dipsiz Kuyular
 
-Odin Projesi'nde çok fazla konu ele aldığımız ve çok sayıda yüksek kaliteli kurs ve araca bağlantı verdiğimiz için, öğrencilerin hazır olmadıkları ve kendilerine çok fazla fayda sağlamayacak bir konu hakkında bilinmesi gereken her şeyi öğrenmeye çalışarak zaman harcayarak tavşan deliklerine çekilmeleri mümkündür. **Müfredatı yapılandırmak için çok çaba sarf ettik**, böylece web geliştirme hakkında bilmeniz gereken tüm önemli şeyler tam olarak bilmeniz gereken zamanda ele alınmaktadır.
+Odin Projesi'nde çok fazla konu ele aldığımız ve çok sayıda yüksek kaliteli kurs ve araca bağlantı verdiğimiz için, öğrencilerin hazır olmadıkları ve kendilerine çok fazla fayda sağlamayacak bir konu hakkında bilinmesi gereken her şeyi öğrenmeye çalışarak dipsiz kuyulara inmesi mümkündür. Web geliştirme hakkında bilmeniz gereken tüm önemli şeyleri, bilmeniz gereken zamanda öğrenmeniz için  **müfredatı oluştururken için çok çaba sarf ettik**.
 
-**Çözümü:** Mümkün olduğunca belirlenen yola sadık kalın. Tavşan deliklerine girmek için harcadığınız zamanı sınırlamaya çalışmalısınız çünkü bu yan yollar ivmenizi mahvedebilir.
+**Çözümü:** Mümkün olduğunca belirlenen yola sadık kalın. Dipsiz kuyulara indiğiniz zamanı sınırlandırmaya çalışın çünkü öğrenme hızınızı mahvedebilir.
 
 #### Kendinizi Başkalarıyla Karşılaştırmak
 
-Öğrenciler genellikle kendilerini kodlama yolculuklarında daha ileride olan veya daha fazla deneyime sahip kişilerle karşılaştırırlar. Bu, depresyon ve hayal kırıklığının tarifidir.
+Öğrenciler genellikle kendilerini kodlama yolculuklarında daha ileride olan veya daha fazla deneyime sahip kişilerle karşılaştırırlar. Bu, depresyon ve hayal kırıklığından başka bir şey getirmez.
 
 **Çözümü:** Kendinizi sadece geçmişteki halinizle karşılaştırın. Yetenekleriniz ve bilginiz geçen hafta, geçen ay veya geçen yıl bulunduğunuz noktaya göre gelişti mi? Kaydettiğiniz ilerlemeden gurur duymalısınız!
 
@@ -164,8 +164,8 @@ Sonuç olarak herhangi bir yeni beceriyi öğrenmek, aşılması gereken engelle
 
 Bu bölüm, ilgili içeriklere yararlı bağlantılar içermektedir. Bu içeriklere bakmanız zorunlu değildir, ancak ilave olarak bunlara da bakmanızı tavsiye ediyoruz.
 
-- [Managing inspiration and motivation](https://markmanson.net/do-something)
-- [Learning to code when it gets dark](https://medium.freecodecamp.org/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje)
-- [Improve your typing skills with Keybr.com](https://www.keybr.com/) Yazma hızınızın sizi engellediğini düşünüyorsanız bu web sitesini kullanabilirsiniz. Bilgisayar başına geçtiğinizde her gün 5 dakika geçirmenizi öneririz.
-- [Practice typing with Monkeytype!](https://monkeytype.com/) Minimalist, özelleştirilebilir bir yazım web sitesi. Kendinizi çeşitli modlarda test edebilir, ilerlemenizi takip edebilir ve yazma hızınızı arttırabilirsiniz. Harika bir topluluğa sahip ve sık sık yeni özellikler eklenmektedir. Bu kadar çok özelliğe sahip olmasına rağmen, sunduğu deneyim hala çok iyi.
-- [Why Procrastinators Procrastinate](https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html) Learn about the Instant Gratification Monkey, Rational Decision Maker, Panic Monster, and how to navigate the Dark Playground. [Short video introduction from the same author](https://youtu.be/arj7oStGLkU)
+- [İlhamı ve motivasyonu yönetmek](https://markmanson.net/do-something)
+- [Kodlamayı Öğrenmek: Umutsuzluk Çöktüğünde](https://medium.freecodecamp.org/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje)
+- [Keybr.com ile yazma hızınızı geliştirin](https://www.keybr.com/) Yazma hızınızın sizi engellediğini düşünüyorsanız bu web sitesini kullanabilirsiniz. Bilgisayar başına geçtiğinizde her gün 5 dakika geçirmenizi öneririz.
+- [Monkeytype ile yazma alıştırması yapın!](https://monkeytype.com/) Minimalist, özelleştirilebilir bir yazım web sitesi. Kendinizi çeşitli modlarda test edebilir, ilerlemenizi takip edebilir ve yazma hızınızı arttırabilirsiniz. Harika bir topluluğa sahip ve sık sık yeni özellikler eklenmektedir. Bu kadar çok özelliğe sahip olmasına rağmen, sunduğu deneyim hala çok iyi.
+- [Sürekli erteleyenler neden erteler?](https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html) Anında Tatmin Maymunu, Mantıklı Karar Alan, Panik Canavarı kişiliklerini ve Karanlık Oyun Alanı'nda yolunuzu bulmayı öğrenin.[Aynı yazardan kısa bir giriş videosu](https://youtu.be/arj7oStGLkU)
