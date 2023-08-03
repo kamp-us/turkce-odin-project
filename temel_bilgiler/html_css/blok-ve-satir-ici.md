@@ -1,72 +1,70 @@
-### Introduction
+### Giriş
 
-The MDN box model article linked in the previous lesson mentions that different display types have subtly different box models. It also mentions that you can change how a box is calculated by changing the `display` property. We will explore the different display values you can use further in this lesson.
+Önceki derste bağlantısı verilen MDN kutu modeli makalesinde, farklı görüntüleme tiplerinin, aralarında küçük farklar bulunan kutu modellerine sahip olduklarından bahsedilmektedir. Ayrıca, `display` özelliği değiştiğinde, bir kutunun nasıl hesaplandığının değiştiğinden de bahseder. Bu derste, kullanabileceğiniz farklı görüntüleme değerlerini daha ayrıntılı olarak inceleyeceğiz.
 
-### Lesson Overview
+### Derse Genel Bakış
 
-This section contains a general overview of topics that you will learn in this lesson.
+Bu bölüm, bu derste öğreneceğiniz konulara genel bir bakış içerir.
 
-*   You'll learn about "Normal flow".
-*   You'll learn the difference between `block` and `inline` elements.
-*   You'll learn which elements default to `block` and which elements default to `inline`.
-*   You'll learn what divs and spans are.
+*   "Normal akış" hakkında bilgi edineceksiniz.
+*   `blok(block)` ve `satır içi(inline)` öğeler arasındaki farkı öğreneceksiniz.
+*   Hangi öğelerin varsayılan olarak `blok`, hangilerinin de `satır içi` olduğunu öğreneceksiniz.
+*   Div ve span'lerin ne olduğunu öğreneceksiniz.
 
-### Block vs Inline
+### Blok ve Satır İçi
 
-Most of the elements that you have learned about so far are block elements.  In other words, their default style is `display: block`. <span id="block-inline-difference"></span>By default, block elements will appear on the page stacked atop each other, each new element starting on a new line.
+Şimdiye kadar öğrendiğiniz öğelerin çoğu blok öğelerdir. Başka bir deyişle, varsayılan stilleri `display: block` şeklindedir. <span id="block-inline-difference"></span>Varsayılan olarak blok öğeleri, sayfada üst üste yığılmış halde görünür ve her yeni öğe yeni bir satırda başlar.
 
-Inline elements, however, do not start on a new line. They appear in line with whatever elements they are placed beside. A clear example of an inline element is a link, or `<a>` tag. If you stick one of these in the middle of a paragraph of text, it will behave like a part of the paragraph. ([Like this...](https://www.youtube.com/watch?v=dQw4w9WgXcQ)) The link's text will sit alongside other words in that paragraph. Additionally, padding and margin behave differently on inline elements. In general, you do not want to try to put extra padding or margin on inline elements.
+Ancak, satır içi öğeler yeni bir satırda başlamazlar. Yanına yerleştirildikleri öğelerle aynı satırda bulunurlar. Satır içi öğenin açık bir örneği, bir bağlantı veya `<a>` etiketidir. Bu tür bir öğeyi paragrafın ortasına yerleştirirseniz, o paragrafın bir parçası gibi davranır. ([Yani bu şekilde...](https://www.youtube.com/watch?v=dQw4w9WgXcQ)) Bağlantının metni, o paragraftaki diğer kelimelerle yan yana durur. Ek olarak, satır içi öğelerde padding(iç kenar boşluğu) ve margin(dış kenar boşluğu) farklı davranır. Genel olarak, satır içi öğelere fazladan padding veya margin koymaya çalışmak istemezsiniz.
 
-Inline-block elements behave like inline elements, but with block-style padding and margin. Inline-block is a useful tool to know about, but in practice, you'll probably end up reaching for flexbox more often if you're trying to line up a bunch of boxes. Flexbox will be covered in-depth in the next lesson.
+Satır içi blok öğeleri, satır içi öğeler gibi davranır, ancak blok stili padding ve margin'e sahiptir. Satır içi blok, bilinmesi yararlı bir araçtır, ancak pratikte, bir grup kutuyu sıralamaya çalışıyorsanız, muhtemelen flexbox'a daha sık başvuracaksınız. Flexbox bir sonraki derste derinlemesine ele alınacaktır.
 
-### Divs and Spans
+### Div'ler ve Span'ler
 
-We can't talk about block and inline elements without discussing divs and spans. All the other HTML elements we have encountered so far give meaning to their content. For example, paragraph elements tell the browser to display the text it contains as a paragraph. Strong elements tell the browser which texts within are important and so on. Yet, divs and spans give no particular meaning to their content. They are just generic boxes that can contain anything.
+Div ve span'lerden bahsetmeden blok ve satır içi öğeler hakkında konuşamayız. Şimdiye kadar karşılaştığımız diğer tüm HTML öğeleri içeriklerine anlam katarlar. Örneğin, paragraf öğeleri, tarayıcıya içerdiği metni bir paragraf olarak görüntülemesini söyler. Strong öğeleri, tarayıcıya içindeki metnin önemli olduğunu söyler. Ancak div'ler ve span'ler içeriklerine özel bir anlam katmazlar. Onlar sadece her şeyi içerebilen genel kutulardır.
 
-Having elements like this available to us is a lot more useful than it may first appear. We will often need elements that serve no other purpose than to be "hook" elements. We can give an id or class to target them for styling with CSS. Another use case we will face regularly is grouping related elements under one parent element to correctly position them on the page. Divs and spans provide us with the ability to do this.
+Bu tür öğelere sahip olmak, ilk bakışta göründüğünden çok daha kullanışlıdır. Sık sık, yalnızca "kanca" öğe olarak hizmet eden öğelere ihtiyaç duyarız. Onlara CSS ile stil vermek için bir id veya sınıf ekleyebiliriz. Sıkça karşılaşacağımız başka bir kullanım durumu da, ilgili öğeleri bir ana öğe altında gruplayarak sayfada doğru bir biçimde konumlandırmaktır. Div'ler ve span'ler bunu yapmamıza olanak sağlar.
 
-Div is a block-level element by default. It is commonly used as a container element to group other elements. Divs allow us to _divide_ the page into different blocks and apply styling to those blocks.
+Div, varsayılan olarak blok düzeyinde bir öğedir. Genellikle diğer öğeleri gruplandırmak için bir konteyner öğesi olarak kullanılır. Div'ler, sayfayı farklı bloklara _bölmemize_ ve bu bloklara stil uygulamamıza olanak tanır.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="KKXXbwR" data-preview="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/KKXXbwR">
-  block-inline-lesson-div-example</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
+  <span><a href="https://codepen.io">CodePen</a>'de TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>) tarafından oluşturulan<a href="https://codepen.io/TheOdinProjectExamples/pen/KKXXbwR">
+  block-inline-lesson-div-example</a> Pen örneğine göz atın.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Span is an inline-level element by default. It can be used to group text content and inline HTML elements for styling and should only be used when no other semantic HTML element is appropriate.
+Span, varsayılan olarak satır içi düzeyde bir öğedir. Metin içeriğini ve satır içi HTML öğelerini şekillendirmek amacıyla gruplamak için kullanılabilir ve sadec başka hiçbir anlamsal HTML öğesi uygun olmadığında kullanılmalıdır.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="abLLPor" data-preview="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/abLLPor">
-  Untitled</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
+  <span><a href="https://codepen.io">CodePen</a>'de TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>) tarafından oluşturulan<a href="https://codepen.io/TheOdinProjectExamples/pen/abLLPor">
+  block-inline-lesson-span-example</a> Pen örneğine göz atın.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-### Assignment
+### Ödev
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  The concept of "Normal flow" is implied in the box-model resources, but isn't laid out very specifically. Read ["Normal Flow" from MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Normal_Flow) to make sure you understand how elements lay themselves out by default.
-2.  W3 schools' ["HTML Block and Inline Elements"](https://www.w3schools.com/html/html_blocks.asp) has a description and a list of all the default block and inline elements.
-3.  The Digital Ocean tutorial ["Inline vs Inline-block Display in CSS"](https://www.digitalocean.com/community/tutorials/css-display-inline-vs-inline-block) has a couple of great examples that clarify the difference between `inline` and `inline-block`.
-4.  Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and do "01-margin-and-padding-1" and "02-margin-and-padding-2" in the `margin-and-padding` directory.
+1.  "Normal akış" kavramı, kutu modeli kaynaklarında ima edilir, ancak çok belirgin bir şekilde ortaya konmaz. Öğelerin varsayılan olarak nasıl davrandıklarını anladığınızdan emin olmak için [MDN'den "Normal Akış"](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Normal_Flow)ı okuyun.
+2.  W3 schools'un ["HTML Blok ve Satır İçi Öğeler"](https://www.w3schools.com/html/html_blocks.asp) sayfası, kısa bir açıklama ve tüm varsayılan blok ve satır içi öğelerin listesini içerir.
+3.  The Digital Ocean'ın ["CSS'de Satır İçi ve Satır İçi Blok Gösterimi"](https://www.digitalocean.com/community/tutorials/css-display-inline-vs-inline-block) dersi, `satır içi` ve `satır içi blok` arasındaki farkı netleştiren birkaç harika örnek içerir.
+4.  [CSS egzersizleri repository'mize](https://github.com/TheOdinProject/css-exercises) gidin ve `margin-and-padding` klasöründeki "01-margin-and-padding-1" ve "02-margin-and-padding-2" egzersizlerini yapın.
 
 </div>
 
-### Knowledge Check
+### Bilgi Ölçme
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+Bu bölüm, dersi anlayıp anlamadığınızı kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta zorlanıyorsanız, soruya tıklayıp yönlendirdiği materyali inceleyin.
 
-*   [What is the difference between a block element and an inline element?](#block-inline-difference)
-*   [What is the difference between an inline element and an inline-block element?](https://www.digitalocean.com/community/tutorials/css-display-inline-vs-inline-block)
-*   [Is an `h1` block or inline?](https://www.w3schools.com/html/html_blocks.asp)
-*   [Is `button` block or inline?](https://www.w3schools.com/html/html_blocks.asp)
-*   [Is `div` block or inline?](https://www.w3schools.com/html/html_blocks.asp)
-*   [Is `span` block or inline?](https://www.w3schools.com/html/html_blocks.asp)
+*   [Blok öğe ile satır içi öğenin farkı nedir?](#block-inline-difference)
+*   [Satır içi öğe ile satır içi blok öğenin farkı nedir?](https://www.digitalocean.com/community/tutorials/css-display-inline-vs-inline-block)
+*   [`h1` blok mudur, satır içi midir?](https://www.w3schools.com/html/html_blocks.asp)
+*   [`button` blok mudur, satır içi midir?](https://www.w3schools.com/html/html_blocks.asp)
+*   [`div` blok mudur, satır içi midir?](https://www.w3schools.com/html/html_blocks.asp)
+*   [`span` blok mudur, satır içi midir?](https://www.w3schools.com/html/html_blocks.asp)
 
-### Additional Resources
+### Ek Kaynaklar
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
 
-*   [This tutorial](https://learnlayout.com/no-layout.html) is a little dated at this point, but its examples are clear. The first 6 slides cover the material we've seen so far.
+*   [Bu ders](https://learnlayout.com/no-layout.html) biraz eski olmasına rağmen anlaşılır örnekler içerir. İlk 6 slayt, şu ana kadar gördüğümüz materyali kapsamaktadır.
