@@ -49,4 +49,5 @@ Erken ve sık sık commit yapmayı unutmayın! "Commit Message" dersine [buradan
 - Güzel görünsün! Bu, CSS becerilerinizi pratik yapmak için harika bir projedir. En azından işlemleri tuş takımı butonlarından farklı bir renk yapın.
 - “Geri al” tuşu ekleyin, böylece kullanıcı yanlış sayıya tıklarsa geri alabilir.
 - Klavye desteği ekleyin! (`/`) gibi tuşlar size sorun çıkartabilir. Bu sorunu çözmek için [bu dökümantasyonu](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault) okuyun.
+
 </div>
