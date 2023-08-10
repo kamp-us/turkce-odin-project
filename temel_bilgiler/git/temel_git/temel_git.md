@@ -9,14 +9,14 @@ geçireceksiniz. Eğer bunları öğrenebilirseniz, Git'te ustalaşma yolunun ya
 Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içerir.
 
 - GitHub'da depo nasıl oluşturulur.
-- GitHub'a dosya yükleme ve alma.
+- GitHub'a dosya yükleme ve GitHub'dan dosya indirme.
 - Kodunuzun "anlık görüntüsünü" alma.
 
 ### Ödev
 
 #### Başlamadan Önce!
 
-- Github kısa süre önce varsayılan dal adını değiştirdi. Bu yüzden git sürümünüzün yeni olduğundan emin olun (2.28 ya da
+- Github kısa süre önce varsayılan branch adını (dal) değiştirdi. Bu yüzden git sürümünüzün yeni olduğundan emin olun (2.28 ya da
   sonrası). Git sürümünüzü kontrol etmek için `git --version` komutunu kullanabilirsiniz.
 - Henüz yapmadıysanız, yerel varsayılan git dalınızı `main` olarak ayarlayın. Bunu yapmak
   için `git config --global init.defaultBranch main` komutunu kullanabilirsiniz.
@@ -25,27 +25,19 @@ Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içerir.
 
 #### Depo Oluşturma
 
-1. [Git Kurulumu](https://www.theodinproject.com/lessons/foundations-setting-up-git) dersinde bir GitHub hesabı
-   oluşturmuş olmalısınız. Eğer oluşturmadıysanız, [burdan](https://github.com/) oluşturun.
+1. [Git Kurulumu](https://www.theodinproject.com/lessons/foundations-setting-up-git) dersinde bir GitHub hesabı oluşturmuş olmalısınız. Eğer oluşturmadıysanız, [buradan](https://github.com/) oluşturun.
 2. Aşağıdaki ekran görüntüsünde gösterilen düğmeye tıklayarak yeni bir depo oluşturun.
    ![The GitHub Profile Screen](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/00.png)
-3. `Repository name` kısmından, depo adınıza "git_test" ismini verin."Add a README file" kutucuğunu işaretleyin. Ve
-   ardından sayfanın altındaki "Depo oluştur" düğmesine tıklayarak depoyu oluşturun .
+3. `Repository name` kısmından, depo adınıza "git_test" ismini verin."Add a README file" kutucuğunu işaretleyin. Ve ardından sayfanın altındaki "Depo oluştur" düğmesine tıklayarak depoyu oluşturun .
 
    ![Create new repo using GitHub](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/01.png)
 
-4. Bu sizi GitHub'daki yeni deponuza yönlendirecektir. Bu depoyu yerel makinenize kopyalamak (klonlamak) için, yeşil "
-   Code" düğmesine tıklayın. Ardından SSH seçeneğini seçin ve altındaki satırı kopyalayın. **NOT: Doğru URL'yi almak
-   için SSH seçeneğine tıklamalısınız.**
+4. Bu sizi GitHub'daki yeni deponuza yönlendirecektir. Bu depoyu yerel makinenize kopyalamak (klonlamak) için, yeşil "Code" düğmesine tıklayın. Ardından SSH seçeneğini seçin ve altındaki satırı kopyalayın. **NOT: Doğru URL'yi almak için SSH seçeneğine tıklamalısınız.**
 
    ![Copy SSH link using GitHub](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/02.png)
 
-5. Tüm Odin projeleriniz için yeni bir dizin oluşturmak için yerel makinenizdeki komut satırını kullanalım. Ana
-   klasörünüzde `mkdir` komutu ile `repos` adında bir dizin oluşturun. Ana klasörünüz `~` işareti ile temsil
-   edilir. [Navigating Files and Directories](https://swcarpentry.github.io/shell-novice/02-filedir.html#callout1) bazı
-   ana klasör varyasyonlarını göstermektedir - bazı zamanlar `~`, `/Users/your_username` yerine geçer, ya
-   da `/home/your_username`. Eğer ana klasörünüzde olduğunuzdan emin değilseniz, `cd ~` komutunu yazın. Klasör
-   oluşturulduktan sonra, `cd` komutunu kullanarak klasöre geçin.
+5. Tüm Odin projeleriniz için yeni bir dizin oluşturmak için yerel makinenizdeki komut satırını kullanalım. Ana klasörünüzde `mkdir` komutu ile `repos` adında bir dizin oluşturun. Ana klasörünüz `~` işareti ile temsil edilir.
+   [Dosya ve Dizinlerde Gezinme](https://swcarpentry.github.io/shell-novice/02-filedir.html#callout1) bazı ana klasör varyasyonlarını göstermektedir - bazı zamanlar `~`, `/users/sizin_adınız` yerine geçer ya da `/home/sizin_adınız`. Eğer ana klasörünüzde olduğunuzdan emin değilseniz, `cd ~` komutunu yazın. Klasör oluşturulduktan sonra, `cd` komutunu kullanarak klasöre geçin.
 
    ![Creating a new directory](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/03.png)
 
@@ -57,11 +49,11 @@ Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içerir.
 
    ![Clone the repo using CLI](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/04.png)
 
-7. <span id="origin-push"></span>Bu kadar! GitHub da açtığınız deponuzu başarılı bir şekilde bilgisayarınıza bağladınız.
+7. <span id="origin-push"></span>Bu kadar! GitHub'da açtığınız deponuzu başarılı bir şekilde bilgisayarınıza bağladınız.
    Bunu denemek için, yeni indirilen **git_test** klasörüne `cd` komutu ile geçiş yapabilirsiniz,
-   ardından `git remote -v` komutunu çalıştırın. Bu komut GitHub depo URL
+   ardından `git remote -v` komutunu çalıştırın. Bu komut GitHub depo URL'sini
    gösterecektir. <span id="default-remote"></span> `git remote -v` komutunun çıktısının başında **origin** kelimesi
-   dikkatinizi çekmiş olabilir, uzaktan bağlantınızın adını temsil eder. **origin** ismi uzaktan depolara verilen hem
+   dikkatinizi çekmiş olabilir, uzaktan bağlantınızın adını temsil eder. **Origin** ismi uzaktan depolara verilen hem
    varsayılan hem de geleneksel bir addır. Ama kolaylıkla "parti-papağanı" ya da "dans-eden-muz" olarakta
    isimlendirilebilirdi.(Şimdilik origin detaylarıyla kafanızı yormayın; bu dersin sonunda yine karşınıza çıkacak.)
 
@@ -74,15 +66,15 @@ Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içerir.
    ![Create hello_world.txt using CLI](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/06.png)
 
 2. <span id="git-status"></span>Terminalinize `git status` yazın. Çıktıda fark ettiğiniz üzere hello_world.txt dosyası
-   kırmızı olarak gözükmektedir. , bunun anlamı dosyanın hazırlanmamış(unstaged) olmasıdır.
+   kırmızı olarak gözükmektedir. , bunun anlamı dosyanın işaretlenmemiş (unstaged) olmasıdır.
 
    ![Check status of repo using CLI](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/07.png)
 
 3. <span id="git-add"></span><span id="two-stages"></span>Terminalinize `git add hello_world.txt` yazın. Bu komut
-   hello_world.txt dosyanızı Git'in hazırlanma(staged) bölgesine ekler. Hazırlanma(staging) bölgesi, iki aşamadan
-   oluşan, Git'te bir işlem(commit) yapmanın parçasıdır. Hazırlanma(staging) bölgesini, değiştirdiğiniz dosyaların Git
+   hello_world.txt dosyanızı Git'in işaretlenmişler (staged) kısmına ekler. İşaretlenmişler (staging) kısmı iki aşamadan
+   oluşan, Git'te bir işlem(commit) yapmanın parçasıdır. İşaretleme (staging) kısmını, değiştirdiğiniz dosyaların Git
    işlemlerini(commit) bekledikleri bir oda gibi düşünün. Şimdi, tekrar `git status` yazın. Çıktıda fark ettiğiniz üzere
-   dosyanız yeşil olarak gözüküyor, bu da dosyanın hazırlanma(staging) bölgesinde olduğunu gösteriyor.
+   dosyanız yeşil olarak gözüküyor, bu da dosyanın işaretleme (staging) bölgesinde olduğunu gösteriyor.
 
    ![Stage hello_world and check repo status again using CLI](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/08.png)
 
@@ -90,7 +82,7 @@ Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içerir.
    daha `git status` yazın. Göreceğiniz çıktı şu olmalıdır: "*nothing to commit, working tree clean*", bu kısaca
    yaptığınız değişikliklerin kaydedildiği anlamına gelir. Eğer sizin çıktınız "*upstream is gone*" gözüküyorsa, merak
    etmeyin. Bu normal, klonladığınız deponun başka bir dalı olmadığında gözükür. Projenin devamındaki adımları takip
-   ettiğiniz taktir de çözülecektir.
+   ettiğiniz takdirde çözülecektir.
 
 "_Your branch is ahead of 'origin/main' by 1 commit_" anlamı ise uzak(remote) depodaki değişikliklerinizden daha yeni "
 anlık görüntü"lerinizin bulunmasıdır. "Anlık görüntü"lerinizi dersin ileriki zamanlarında yükleyeceksiniz.
@@ -124,7 +116,7 @@ anlık görüntü"lerinizin bulunmasıdır. "Anlık görüntü"lerinizi dersin i
 
    ![Check repo status again using CLI](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/13.png)
 
-4. README.md dosyasını hazırlanma(staging) bölgesine eklemek için `git add README.md` yazın.
+4. README.md dosyasını işaretleme (staging) bölgesine eklemek için `git add README.md` yazın.
 
 
 5. `git status` yazın. README.md dosyasının yeşil renkte olduğunu göreceksiniz. Bu, README.md dosyasının hazırlanma
@@ -177,14 +169,14 @@ anlık görüntü"lerinizin bulunmasıdır. "Anlık görüntü"lerinizi dersin i
 ### Not/Uyarı
 
 Basit değişiklikler yapmaya çalışırken, örneğin README.md'deki yazım hatasını düzeltmeye çalışırken, bunu doğrudan
-Github üzerinden yapmaya çalışabilirsiniz. Ancak, bu, bu aşamada üzerinde durmak istemediğimiz daha gelişmiş Git bilgisi
+Github üzerinden yapmaya çalışabilirsiniz. Ancak bu durum, bu aşamada üzerinde durmak istemediğimiz daha gelişmiş Git bilgisi
 gerektiren sorunlara neden olacaktır (gelecekteki bir derste bu konuyu göreceksiniz), şimdilik hazır olduğunuzda yerel
 dosyalarınızı kullanarak herhangi bir değişiklik yapmanız ve ardından terminalinizde Git komutlarını kullanarak bunları
-taahhüt etmeniz önerilir.
+yüklemeniz etmeniz önerilir.
 
 ### Cheatsheet
 
-Bu bir referans listesidir. En sık kullanılan Git komutlarının bir listesidir. (Bu kullanışlı sayfayı yer imlerinize
+Bu liste en sık kullanılan Git komutlarının bir listesidir. (Bu kullanışlı sayfayı yer imlerinize
 eklemeyi düşünebilirsiniz.) Komutları en sonunda hepsini hatırlayabileceğiniz şekilde tanımaya çalışın:
 
 - Uzak depoyla ilgili komutlar:
@@ -197,7 +189,7 @@ eklemeyi düşünebilirsiniz.) Komutları en sonunda hepsini hatırlayabileceği
     - `git status`
     - `git log`
 
-Git basit sözdizimi `program | aksiyon | hedef`.
+Git komutlarının mantığı kısaca `program | aksiyon | hedef` şeklindedir.
 
 Mesela,
 
@@ -207,30 +199,29 @@ Mesela,
 
 ### Git En İyi Uygulamalar (Best Practices)
 
-Git kullanımı hakkında öğrenebileceğiniz çok şey var. Ancak, daha iyi bir işbirlikçi olmanız için bazı en iyi
-uygulamaları öğrenmelisiniz. Git, yalnızca diğerleriyle işbirliği yaparken değil, aynı zamanda bağımsız olarak
+Git kullanımı hakkında öğrenebileceğiniz çok şey var. Ancak daha iyi bir işbirlikçi olmanız için bazı iyi
+pratikleri öğrenmelisiniz. Git, yalnızca diğerleriyle işbirliği yaparken değil, aynı zamanda bağımsız olarak
 çalışırken de yararlıdır. Geçmişteki kodunuzu yeniden ziyaret ettiğinizde, işlem(commit) tarihinize daha fazla bel
 bağlayacaksınız.
 
-İki yardımcı en iyi uygulama **atomik işlemler** ve bu atomik işlemleri kullanarak işlemlerinizin(commit) gelecekteki
+Faydalı olabilecek bir pratik örneği, **atomik işlemler** ve bu atomik işlemleri kullanarak işlemlerinizin(commit) gelecekteki
 işbirlikçileriniz için daha yararlı olmasını sağlamaktır.
 
 Atomik işlem bir programınızın yalnızca bir özelliği veya göreviyle ilgili değişiklikleri içeren bir işlemdir. Bunu
 yapmanın iki temel nedeni vardır: ilk olarak, değiştirdiğiniz bir şeyin bazı sorunlara neden olduğu ortaya çıkarsa,
-diğer değişiklikleri kaybetmeden belirli değişikliği geri almak kolaydır; ve ikinci olarak, daha iyi bir işlem(commit)
+diğer değişiklikleri kaybetmeden belirli değişikliği geri almak kolaydır; ikinci olarak, daha iyi bir işlem(commit)
 mesajı yazmanıza olanak sağlar. İyi bir işlem(commit) mesajının nasıl göründüğünü gelecekteki derslerde daha iyi
 anlayacaksınız.
 
 ### Git Commit Mesaj Editörünü Değiştirme
 
 Eğer _Visual Studio Code_ kullanıyorsanız (bu müfredatı takip ediyorsanız kullanmalısınız), `git commit` komutunu mesaj
-bayrağını (`-m`) kullanmadan kullandığınızda [Vim](<https://en.wikipedia.org/wiki/Vim_(text_editor)>) ile commit
-mesajınızı yazmak zorunda kalmayacaksınız.
+bayrağı (`-m`) ile [Vim](<https://en.wikipedia.org/wiki/Vim_(text_editor)>)'de commit mesajı yazmak zorunda kalmayacağınız bir yöntem mevcut.
 
-Yanlışlıkla bayrağı atladığınızda, varsayılan mesaj editörünü değiştirmek, eğer Vim kullanmayı tercih etmiyorsanız iyi
+Mesaj bayrağını kullanmayı unutuyorsanız ve Vim kullanmak gibi bir niyetiniz yoksa, varsayılan mesaj düzenleyicinizi VSCode olarak değiştirmek iyi bir fikir olabilir.
 bir seçenek.
 
-Bunu değiştirmenin bir dezavantajı yoktur, çünkü işleme(commit) mesajlarınızı terminalde veya VS Code da yazma
+Bunu değiştirmenin bir dezavantajı yoktur çünkü işleme (commit) mesajlarınızı ister terminalde isterseniz de VSCode'da yazma
 seçeneğiniz olacaktır.
 
 Aşağıdaki komut bu ayarı yapmak içindir. Bu komutu terminalinize yazın (veya kopyalayıp yapıştırın) ve <kbd>Enter</kbd>

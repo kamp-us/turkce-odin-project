@@ -1,11 +1,11 @@
 ### Giriş
-Git, dosyalarınız ve dizinleriniz için **epik bir kaydetme düğmesi** gibidir. Resmi olarak Git bir sürüm kontrol sistemidir.
+Git, dosyalarınız ve dizinleriniz için **müthiş bir kaydetme düğmesi** gibidir. Git, resmi adıyla bir sürüm kontrol sistemidir.
 
-<span id="text-editor-and-git"></span>Bir metin düzenleyicide yapılan _kaydetme_ işlemi, bir belgedeki tüm sözcükleri tek bir dosya olarak kaydeder. Yinelenen kopyalar yapmadığınız sürece `makale.doc` gibi, dosyanın yalnızca bir kaydı verilir (ve birden fazla kopya yapmayı hatırlamak ve takip etmek zordur):
+<span id="text-editor-and-git"></span>Bir metin düzenleyicide yapılan _kaydetme_ işlemi, bir belgedeki tüm sözcükleri tek bir dosya olarak kaydeder. Kopyalarını oluşturmadığınız sürece `makale.doc` gibi, dosyanın yalnızca tek bir kaydı verilir (ve birden fazla kopya yapmayı hatırlamak ve takip etmek zordur):
 
 `makale-taslak1.doc`, `makale-taslak2.doc`, `makale-sonversiyon.doc`
 
-Fakat Git'teki bir _kayıt_, dosya ve klasörlerdeki farklılıkları kaydeder VE **her kaydın geçmiş kaydını** tutar. Bu çığar açıcı özellik, bireysel bir geliştirici olarak projenizin nasıl büyüdüğünü gözden geçirmenize ve geçmişteki dosya durumlarına kolayca bakmanıza veya geri yüklemenize olanak tanır. Bir ağa bağlandıktan sonra Git, projenizi GitHub'a veya Bitbucket, Beanstalk veya GitLab gibi diğer alternatiflere yüklemenize olanak tanır. Bu, projenizi başkalarıyla paylaşmanıza ve işbirliği yapmanızı kolaylaştırır.
+Fakat Git'teki bir _kaydetme işlemi_, dosya ve klasörlerdeki farklılıkları kaydeder VE **her kaydetme işleminin geçmiş kaydını** tutar. Bu çığır açıcı özellik, bir geliştirici olarak projenizin nasıl büyüdüğünü gözden geçirmenize ve geçmişteki dosya durumlarına kolayca bakmanıza veya geri yüklemenize olanak tanır. Bir ağa bağlandıktan sonra Git, projenizi GitHub'a veya Bitbucket, Beanstalk veya GitLab gibi diğer alternatiflere yüklemenize olanak tanır. Bu, projenizi başkalarıyla paylaşmanızı ve işbirliği yapmanızı kolaylaştırır.
 
 Müfredatımız dahilinde **yalnızca** GitHub'ı desteklediğimizi ve alternatiflerin sorunlarını gidermeye yardımcı olmayacağımızı lütfen unutmayın.
 
@@ -13,18 +13,18 @@ Müfredatımız dahilinde **yalnızca** GitHub'ı desteklediğimizi ve alternati
 
 Bu derste Git'in tarihçesini, ne olduğunu ve ne işe yaradığını kısaca inceleyeceğiz.
 
-Bir sonraki derste, Git'i kullanmak için temel iş akışının üzerinden geçeceğiz, bu daha da iyi anlamanızı sağlayacak ve Git'in neden bu kadar yararlı olduğunu gösterecektir.
+Bir sonraki derste, Git'i kullanmak için temel iş akışının üzerinden geçeceğiz, bu Git'i daha da iyi anlamanızı sağlayacak ve Git'in neden bu kadar yararlı olduğunu gösterecektir.
 
 Son olarak, Git ile gelecekteki projeleriniz için şablon görevi görecek bir proje kuracaksınız.
 
-Şimdilik Git'in ne olduğunu ve neden bu kadar güçlü olduğunu öğrenelim!
+Şimdiyse, Git'in ne olduğunu ve neden bu kadar güçlü olduğunu öğrenelim!
 
 ### Derse Genel Bakış:
 
 Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içerir.
 
 - Git ve GitHub'ın ne olduğunu ve ikisi arasındaki farkları açıklayın.
-- Git ile bir metin editörü arasındaki farkları, kaydettikleri ve kayıt tuttukları farklılıklar açısından açıklayın.
+- Git ile bir metin editörü arasındaki farkları, neyi kaydettiklerini ve neyin kaydını tuttuklarının farklarını açıklayın.
 - Git'in bireysel bir geliştirici ve geliştiricilerden oluşan bir ekip için neden yararlı olduğunu açıklayın.
 
 ### Ödev
@@ -36,7 +36,7 @@ Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içerir.
 
 4. Git'i henüz yüklemediyseniz, [Git Kurulumu dersini](https://www.theodinproject.com/lessons/foundations-setting-up-git) ziyaret edin.
 
-5. Tüm derslerin saklandığı The Odin Project'in kendi [GitHub deposuna](https://github.com/TheOdinProject/curriculum) bir göz atın. Oradayken, tüm [katkıda bulunanlarımıza](https://github.com/TheOdinProject/curriculum/graphs/contributors) bakın ve Git'in tüm işbirlikçilerin çabalarını nasıl kaydettiğini ve bunu nasıl görselleştirdiğine dikkat edin.
+5. Tüm derslerin saklandığı The Odin Project'in kendi [GitHub deposuna](https://github.com/TheOdinProject/curriculum) bir göz atın. Oradayken, tüm [katkıda bulunanlarımıza](https://github.com/TheOdinProject/curriculum/graphs/contributors) bakın ve Git'in tüm işbirlikçilerin çabalarını nasıl kaydettiğini ve GitHub'un bunu nasıl görselleştirdiğine dikkat edin.
 
 ### Bilgi Kontrolü
 Bu bölüm, dersi anlayıp anlamadığınızı kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta zorlanıyorsanız, soruya tıklayın ve yönlendirdiği materyali gözden geçirin.
