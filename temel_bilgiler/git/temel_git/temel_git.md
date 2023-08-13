@@ -1,8 +1,6 @@
 ### Giriş
 
-Bu derste, projelerinizi yönetmek ve çalışmalarınızı GitHub'a yüklemek için kullanılan yaygın Git komutlarını ele
-alacağız. Bu komutlara **temel Git iş akışı** diyoruz. Git kullanırken, zamanınızın %70-80'nini bu komutları kullanarak
-geçireceksiniz. Eğer bunları öğrenebilirseniz, Git'te ustalaşma yolunun yarısından fazlasını öğrenmiş olacaksınız!
+Bu derste, projelerinizi yönetmek ve çalışmalarınızı GitHub'a yüklemek için kullanılan yaygın Git komutlarını ele alacağız. Bu komutlara **temel Git iş akışı** diyoruz. Git kullanırken, zamanınızın %70-80'nini bu komutları kullanarak geçireceksiniz. Eğer bunları öğrenebilirseniz, Git'te ustalaşma yolunun yarısından fazlasını öğrenmiş olacaksınız!
 
 ### Derse Genel Bakış
 
@@ -55,8 +53,7 @@ Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içerir.
 
    ![Check status of repo using CLI](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/07.png)
 
-3. <span id="git-add"></span><span id="two-stages"></span>Terminalinize `git add hello_world.txt` yazın. Bu komut hello_world.txt dosyanızı Git'in işaretlenmişler (staged) kısmına ekler. İşaretlenmişler (staging) kısmı iki aşamadan oluşan, Git'te bir işlem(commit) yapmanın parçasıdır. İşaretleme (staging) kısmını, değiştirdiğiniz dosyaların Git
-   işlemlerini(commit) bekledikleri bir oda gibi düşünün. Şimdi, tekrar `git status` yazın. Çıktıda fark ettiğiniz üzere dosyanız yeşil olarak gözüküyor, bu da dosyanın işaretleme (staging) bölgesinde olduğunu gösteriyor.
+3. <span id="git-add"></span><span id="two-stages"></span>Terminalinize `git add hello_world.txt` yazın. Bu komut hello_world.txt dosyanızı Git'in işaretlenmişler (staged) kısmına ekler. İşaretlenmişler (staging) kısmı iki aşamadan oluşan, Git'te bir işlem(commit) yapmanın parçasıdır. İşaretleme (staging) kısmını, değiştirdiğiniz dosyaların Git işlemlerini(commit) bekledikleri bir oda gibi düşünün. Şimdi, tekrar `git status` yazın. Çıktıda fark ettiğiniz üzere dosyanız yeşil olarak gözüküyor, bu da dosyanın işaretleme (staging) bölgesinde olduğunu gösteriyor.
 
    ![Stage hello_world and check repo status again using CLI](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/08.png)
 
@@ -66,8 +63,7 @@ Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içerir.
 
 ![Commit hello_world and check repo status again using CLI](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/09.png)
 
-5. <span id="git-log"></span>`git log` yazın ve çıktıya dikkat edin. Yaptığınız "*Add hello_world.txt*" işleminiz için bir girdi görmelisiniz. Ayrıca bu işlem hakkında detaylı bilgileri burda görebilirsiniz. İşlemi kimin yaptığı, tarih ve saat gibi. Eğer terminaliniz aşağıda (END) yazan bir ekranda sıkışıp kalmışsa, "q" ya basın. Bunun ayarlarını
-   sonra yapabilirsiniz ama şu an dert etmeyin.
+5. <span id="git-log"></span>`git log` yazın ve çıktıya dikkat edin. Yaptığınız "*Add hello_world.txt*" işleminiz için bir girdi görmelisiniz. Ayrıca bu işlem hakkında detaylı bilgileri burda görebilirsiniz. İşlemi kimin yaptığı, tarih ve saat gibi. Eğer terminaliniz aşağıda (END) yazan bir ekranda sıkışıp kalmışsa, "q" ya basın. Bunun ayarlarını sonra yapabilirsiniz ama şu an dert etmeyin.
 
    ![Commit hello_world and check repo status again using CLI](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/10.png)
 
