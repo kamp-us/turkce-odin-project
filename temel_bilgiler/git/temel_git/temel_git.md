@@ -14,7 +14,7 @@ Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içerir.
 
 #### Başlamadan Önce!
 
-- Github kısa süre önce varsayılan branch adını (dal) değiştirdi. Bu yüzden git sürümünüzün yeni olduğundan emin olun (2.28 ya da sonrası). Git sürümünüzü kontrol etmek için `git --version` komutunu kullanabilirsiniz.
+- Github kısa süre önce varsayılan branch (dal) adını değiştirdi. Bu yüzden git sürümünüzün yeni olduğundan emin olun (2.28 ya da sonrası). Git sürümünüzü kontrol etmek için `git --version` komutunu kullanabilirsiniz.
 - Henüz yapmadıysanız, yerel varsayılan git dalınızı `main` olarak ayarlayın. Bunu yapmak için `git config --global init.defaultBranch main` komutunu kullanabilirsiniz.
 - Master'dan main'e geçiş hakkında daha fazla bilgi için [GitHub's Renaming Repository](https://github.com/github/renaming).
 
