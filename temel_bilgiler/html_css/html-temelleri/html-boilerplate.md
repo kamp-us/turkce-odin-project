@@ -142,7 +142,7 @@ Yukarıdaki yöntemlerden birini kullanarak üzerinde çalıştığımız index.
 </html>
 ~~~
 
-Şimdi tarayıcıda sayfayı yenilerseniz değişikliklerin etkili olduğunu ve "Merhaba Dünya!" başlığının görüntülendiğini göreceksiniz.
+Şimdi tarayıcıda sayfayı yenilerseniz değişikliklerin etkili olduğunu ve "Hello World!" başlığının görüntülendiğini göreceksiniz.
 
 ### VSCode Kısayolu 
 
