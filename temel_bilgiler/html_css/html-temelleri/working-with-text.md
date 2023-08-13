@@ -8,12 +8,12 @@ Bu derste, en çok kullanmanız muhtemel metin tabanlı öğeler hakkında bilgi
 
 Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içermektedir.
 
-*   Paragraflar nasıl oluşturulur
-*   Başlıklar nasıl oluşturulur
-*   Kalın metin nasıl oluşturulur
-*   İtalik metin nasıl oluşturulur
+*   Paragraflar nasıl oluşturulur?
+*   Başlıklar nasıl oluşturulur?
+*   Kalın metin nasıl oluşturulur?
+*   İtalik metin nasıl oluşturulur?
 *   İç içe geçmiş öğeler arasındaki ilişkiler
-*   HTML yorumları nasıl oluşturulur
+*   HTML yorumları nasıl oluşturulur?
 
 ### Paragraflar
 
@@ -33,9 +33,8 @@ Görünüşe göre iki paragraf metin gibi duruyor, bu nedenle onun bu şekilde 
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="xxrKqeV" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>
-  <a href="https://codepen.io">CodePen</a> aracılığıyla
-  TheOdinProject'te <a href="https://codepen.io/TheOdinProjectExamples/penxxrKqeV">paragraf-örneği</a>
-  'ni inceleyebilirsiniz (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+<a href="https://codepen.io">CodePen</a>'de
+TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>) tarafından hazırlanan <a href="https://codepen.io/TheOdinProjectExamples/pen/penxxrKqeV">paragraf-kullanılmayan-örneği</a>'ni inceleyebilirsiniz.
   </span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
@@ -49,10 +48,8 @@ HTML'de paragraflar oluşturmak istiyorsak, <span id='create-paragraph-element'>
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="mdwbmdp" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>
-  <a href="https://codepen.io">CodePen</a> aracılığıyla
-  TheOdinProject'te <a href="https://codepen.io/TheOdinProjectExamples/pen/mdwbmdp">
-  pargraph-örneği</a>
-  'ni inceleyebilirsiniz (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+<a href="https://codepen.io">CodePen</a>'de
+TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>) tarafından hazırlanan <a href="https://codepen.io/TheOdinProjectExamples/pen/mdwbmdp">paragraf-örneği</a>'ni inceleyebilirsiniz.
   </span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
@@ -66,28 +63,24 @@ Başlıklar diğer HTML kodlarından farklıdır: başlık olduklarını belirtm
 Başlıklar da paragraflar gibi tanımlanır. Örneğin, bir h1 başlığı oluşturmak için başlık metnimizi bir `<h1>` etiketi içine sararız.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="LYLPLbg" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span><a href="https://codepen.io">CodePen</a> aracılığıyla
-  TheOdinProject'te <a href="https://codepen.io/TheOdinProjectExamples/pen/LYLPLbg">
-  html-başlık-örneği</a>
-  'ni inceleyebilirsiniz (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+<a href="https://codepen.io">CodePen</a>'de
+TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>) tarafından hazırlanan <a href="https://codepen.io/TheOdinProjectExamples/pen/LYLPLbg">html-başlık-örneği</a>'ni inceleyebilirsiniz.
   </span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 Doğru başlık seviyesini kullanmak, içeriğe bir hiyerarşi sağladığından önemlidir. Genel sayfanın başlığı için her zaman h1 başlığı kullanılmalı ve daha düşük seviye başlıklar, sayfanın daha küçük bölümlerindeki içeriklerin başlıkları olarak kullanılmalıdır.
 
-### Güçlü Element
+### Strong öğesi
 
 `<strong>` öğesi metni kalın yapar. Ayrıca metni semantik olarak önemli olarak işaretler; bu, görme engelli kullanıcıların web sitenizi kullanmak için güvenecekleri ekran okuyucular gibi araçları etkiler. Bazı ekran okuyuculardaki ses tonu, güçlü bir öğe içindeki metnin önemini iletmek için değişecektir. Güçlü bir öğe tanımlamak için metin içeriğini bir `<strong>` etiketi içine sararız.
 
-Tek başına güçlü kullanabilirsiniz:
+Tek başına `strong` öğesini kullanabilirsiniz:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="qBjWXrB" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>
-  <a href="https://codepen.io">CodePen</a> aracılığıyla
-  TheOdinProject'te <a href="https://codepen.io/TheOdinProjectExamples/pen/qBjWXrB">
-  html-single-strong-örneği</a>
-  'ni inceleyebilirsiniz (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)</span>
+<a href="https://codepen.io">CodePen</a>'de
+TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>) tarafından hazırlanan <a href="https://codepen.io/TheOdinProjectExamples/pen/qBjWXrB">html-single-strong-örneği</a>'ni inceleyebilirsiniz.
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
@@ -95,17 +88,15 @@ Ancak muhtemelen kendinizi güçlü öğeyi diğer metin öğeleriyle birlikte d
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="wvewqJr" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>
-  <a href="https://codepen.io">CodePen</a> aracılığıyla
-  TheOdinProject'te <a href="https://codepen.io/TheOdinProjectExamples/pen/wvewqJr">
-  html-strong-paragraf-örneği</a>
-  'ni inceleyebilirsiniz (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+<a href="https://codepen.io">CodePen</a>'de
+TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>) tarafından hazırlanan <a href="https://codepen.io/TheOdinProjectExamples/pen/wvewqJr">html-strong-paragraf-örneği</a>'ni inceleyebilirsiniz.
   </span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 Bazen metni `<strong>` etiketi kullanmadan kalın yapmak isteyebilirsiniz. Bunu nasıl yapacağınızı müfredatın ilerleyen bölümlerindeki CSS derslerinde öğreneceksiniz.
 
-### Em Elemenı
+### Em öğesi
 
 `<em>` öğesi metni italik yapar. Ayrıca semantik olarak metne vurgu yapar, bu da yine ekran okuyucular gibi öğeleri etkileyebilir.
 
@@ -113,10 +104,8 @@ Tek başına `<em>` kullanmak için:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="wvewqpp" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>
-  <a href="https://codepen.io">CodePen</a> aracılığıyla
-  TheOdinProject'te <a href="https://codepen.io/TheOdinProjectExamples/pen/wvewqpp">
-  html-single-em-örneği</a>
-  'ni inceleyebilirsiniz (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+<a href="https://codepen.io">CodePen</a>'de
+TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>) tarafından hazırlanan <a href="https://codepen.io/TheOdinProjectExamples/pen/wvewqpp">html-single-em-örneği</a>'ni inceleyebilirsiniz.
 </span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
@@ -125,10 +114,8 @@ Yine strong öğesinde olduğu gibi, `<em>` öğesini de çoğunlukla diğer met
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="VwWZzyj" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>
-  <a href="https://codepen.io">CodePen</a> aracılığıyla
-  TheOdinProject'te <a href="https://codepen.io/TheOdinProjectExamples/pen/VwWZzyj">
-  html-em-ile-paragraf-örneği</a>
-  'ni inceleyebilirsiniz (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+<a href="https://codepen.io">CodePen</a>'de
+TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>) tarafından hazırlanan <a href="https://codepen.io/TheOdinProjectExamples/pen/VwWZzyj">html-em-ile-paragraf-örneği</a>'ni inceleyebilirsiniz.
 </span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
@@ -143,10 +130,8 @@ Aşağıdaki örnekte body öğesi üst öğe (ebevyn), paragraf ise alt öğedi
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="oNwjEvO" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>
-  <a href="https://codepen.io">CodePen</a> aracılığıyla
-  TheOdinProject'te <a href="https://codepen.io/TheOdinProjectExamples/pen/oNwjEvO">
-  html-nesting-parent-child</a>
-  'ni inceleyebilirsiniz (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+<a href="https://codepen.io">CodePen</a>'de
+TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>) tarafından hazırlanan <a href="https://codepen.io/TheOdinProjectExamples/pen/oNwjEvO">html-nesting-parent-child örneği</a>'ni inceleyebilirsiniz.
   </span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
@@ -157,10 +142,8 @@ Tıpkı insan ilişkilerinde olduğu gibi, HTML ana öğelerinin birçok çocuğ
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="ZEybrYx" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>
-  <a href="https://codepen.io">CodePen</a> aracılığıyla
-  TheOdinProject'te <a href="https://codepen.io/TheOdinProjectExamples/pen/ZEybrYx">
-  html-nesting-siblings</a>
-  'ni inceleyebilirsiniz (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+<a href="https://codepen.io">CodePen</a>'de
+TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>) tarafından hazırlanan <a href="https://codepen.io/TheOdinProjectExamples/pen/ZEybrYx">html-nesting-siblings örneği</a>'ni inceleyebilirsiniz.
 </span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
@@ -177,10 +160,8 @@ Bir HTML yorumu yazmak basittir: Yorumu sadece `<!--` ve `-->` etiketleri ile ç
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="abwoyBg" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>
-  <a href="https://codepen.io">CodePen</a> aracılığıyla
-  TheOdinProject'te <a href="https://codepen.io/TheOdinProjectExamples/pen/abwoyBg">
-  html-yorum-örneği</a>
-  'ni inceleyebilirsiniz (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+ <a href="https://codepen.io">CodePen</a>'de
+TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>) tarafından hazırlanan <a href="https://codepen.io/TheOdinProjectExamples/pen/abwoyBg">html-yorum-örneği</a>'ni inceleyebilirsiniz.
 </span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
@@ -197,7 +178,7 @@ Bir HTML yorumu yazmak basittir: Yorumu sadece `<!--` ve `-->` etiketleri ile ç
 
 ### Bilgi Kontrolü
   
-Bu bölüm, bu dersi kendi başınıza anlayıp anlamadığınızı kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta zorlanıyorsanız, soruya tıklayın ve bağlantı verdiği materyali gözden geçirin.
+Bu bölüm, bu dersi kendi başınıza anlayıp anlamadığınızı kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta zorlanıyorsanız, soruya tıklayın ve yönlendirdiği materyali inceleyin.
  
 *   [HTML'de bir paragraf nasıl oluşturulur?](#create-paragraph-element)
 *   [HTML'de nasıl başlık oluşturulur?](#headings)
