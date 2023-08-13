@@ -126,7 +126,8 @@ Bu dersteki tüm örneklerde, diğer öğelerin içinde yer alan öğeleri girin
 
 <span id='nested-relationship'>Elemanları diğer elemanların içine yerleştirdiğimizde, aralarında bir ebeveyn ve çocuk ilişkisi yaratırız. İç içe geçen elemanlar çocuk, iç içe geçtikleri eleman ise ebeveyndir.</span>
 
-Aşağıdaki örnekte body öğesi üst öğe (ebevyn), paragraf ise alt öğedir(çocuk):
+Aşağıdaki örnekte body öğesi üst öğe (ebeveyn), paragraf ise alt öğedir(çocuk):
+
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="oNwjEvO" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>
