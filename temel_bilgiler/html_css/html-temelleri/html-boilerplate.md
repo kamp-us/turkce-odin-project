@@ -76,7 +76,7 @@ Eğer bir `title` öğesi eklemeseydik, web sayfasının başlığı varsayılan
 
 HTML belgesinin `head` kısmına yerleştirilebilecek birçok başka öğe bulunmaktadır. Ancak şu anda burada ele aldığımız iki öğeyi bilmek önemlidir. Geri kalan eğitim sürecinde baş kısmına yerleştirilecek daha fazla öğeyi tanıtacağız.
 
-`index.html` dosyamıza geri dönelim ve içinde karakter kümesi meta öğesi ve bir başlık içeren bir `head` öğesi ekleyelim. `head` öğesi, HTML öğesinin içinde yer almalı ve açılış `<html>` etiketi altındaki ilk öğe olmalıdır.
+`index.html` dosyamıza geri dönelim ve içinde meta öğesi ve bir başlık içeren bir `head` öğesi ekleyelim. `head` öğesi, HTML öğesinin içinde yer almalı ve açılış `<html>` etiketi altındaki ilk öğe olmalıdır.
 
 ~~~html
 <!DOCTYPE html>
