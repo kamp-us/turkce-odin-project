@@ -156,7 +156,7 @@ Ancak notepad gibi (Allah korusun) bu kısayola sahip olmayan bir metin düzenle
 
 1. Kevin Powell'un harika [Building Your First Web Page](https://youtu.be/V8UAEoOvqFg?list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&t=93) videosunu izleyin ve adımları takip edin.
 
-2. Belleğinizdeki şablonu tekrar yazarak kas hafızası oluşturun. `index.html` dosyasının içeriğini silin ve şablonu tamamen hafızadan tekrar yazmaya çalışın. İlk birkaç kez takıldığınızda ders içeriğine göz atmanızda sakınca yok. Sadece hafızadan birkaç kez başarılı bir şekilde yapana kadar devam edin.
+2. Kas hafızası oluşturmak için `index.html` dosyasının içeriğini silin ve şablonu tamamen hafızadan tekrar yazmaya çalışın. İlk birkaç kez takıldığınızda ders içeriğine göz atmanızda sakınca yok. Sadece hafızadan birkaç kez başarılı bir şekilde yapana kadar devam edin.
 
 3. Şablonunuzu W3 [HTML validator](https://validator.w3.org/) veya alternatif olarak [HTML validator](https://www.freeformatter.com/html-validator.html) üzerinden çalıştırın. Doğrulayıcılar işaretlemenizin doğru olduğundan emin olmanızı sağlar. Eksik kapanış etiketleri ve HTML'deki fazladan boşluklar gibi sıklıkla yaptığınız ve farkında olmadığınız sözdizimi hataları hakkında geri bildirim sağlayarak mükemmel bir öğrenme aracıdır.
 
