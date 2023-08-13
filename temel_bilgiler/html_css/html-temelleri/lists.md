@@ -32,7 +32,8 @@ Sırasız bir listedeki her liste öğesi bir madde işaretiyle başlar:
 
 ### Sıralı Listeler
 
-Bunun dışında, bir yemek tarifi için adım adım talimatlar veya en sevdiğiniz 10 TV programı gibi sıralamanın *önemli* olduğu öğelerden oluşan bir liste oluşturmak istiyorsanız, ordered liste kullanabilirsiniz.
+Bunun dışında, bir yemek tarifi için adım adım talimatlar veya en sevdiğiniz 10 TV programı gibi sıralamanın *önemli* olduğu öğelerden oluşan bir liste oluşturmak istiyorsanız, sıralı (ordered) liste kullanabilirsiniz.
+
 
 Sıralı listeler `<ol>` öğesi kullanılarak oluşturulur. İçlerindeki her bir öğe yine `<li>` öğesi kullanılarak oluşturulur. Ancak, sıralı bir listedeki her liste öğesi bunun yerine bir sayıyla başlar:
 
