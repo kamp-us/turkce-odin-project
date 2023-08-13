@@ -58,7 +58,7 @@ Bu daha sonra JavaScript kullanarak HTML'yi manipüle etmeyi öğrendiğimizde d
 `<head>` öğesi web sayfalarımız **hakkında** önemli meta bilgilerini ve web sayfalarımızın tarayıcıda doğru bir şekilde görüntülenmesi için gereken şeyleri yerleştirdiğimiz yerdir.
 `<head>` içinde, web sayfasında içerik gösteren herhangi bir öğe kullanmamalıyız.
 
-#### Karakter kümesi meta öğesi
+#### Meta öğesi
 
 Web sayfasının karakter kümesi kodlaması için her zaman head öğesinde `<meta charset="utf-8">` meta etiketine sahip olmalıyız.
 
