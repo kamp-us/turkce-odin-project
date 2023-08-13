@@ -74,7 +74,7 @@ HTML belgesinin `head` kısmında her zaman yer alması gereken başka bir öğe
 
 Eğer bir `title` öğesi eklemeseydik, web sayfasının başlığı varsayılan olarak dosya adı olurdu. Bizim durumumuzda bu `index.html` olurdu ve kullanıcılar için çok anlamlı olmayan bir başlık olurdu; kullanıcının birçok tarayıcı sekmesi açık ise web sayfamızı bulmak oldukça zorlaşırdı.
 
-HTML belgesinin `head` kısmına yerleştirilebilecek birçok başka öğe bulunmaktadır. Ancak şu anda burada ele aldığımız iki öğeyi bilmek önemlidir. Geri kalan eğitim sürecinde baş kısmına yerleştirilecek daha fazla öğeyi tanıtacağız.
+HTML belgesinin `head` kısmına yerleştirilebilecek birçok başka öğe bulunmaktadır. Ancak şu anda burada ele aldığımız iki öğeyi bilmek önemlidir. Geri kalan eğitim sürecinde `head` kısmına yerleştirilecek daha fazla öğeyi tanıtacağız.
 
 `index.html` dosyamıza geri dönelim ve içinde meta öğesi ve bir başlık içeren bir `head` öğesi ekleyelim. `head` öğesi, HTML öğesinin içinde yer almalı ve açılış `<html>` etiketi altındaki ilk öğe olmalıdır.
 
