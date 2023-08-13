@@ -167,7 +167,7 @@ TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProj
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-### Görev
+### Ödev
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -177,7 +177,7 @@ TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProj
 
 </div>
 
-### Bilgi Kontrolü
+### Bilgi Ölçme
   
 Bu bölüm, bu dersi kendi başınıza anlayıp anlamadığınızı kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta zorlanıyorsanız, soruya tıklayın ve yönlendirdiği materyali inceleyin.
  
