@@ -66,7 +66,7 @@ Kodlamayı ayarlamak çok önemlidir çünkü bu web sayfasının tarayıcıda f
 
 #### Başlık öğesi
 
-HTML belgesinin baş kısmında her zaman yer alması gereken başka bir öğe, `title` öğesidir:
+HTML belgesinin `head` kısmında her zaman yer alması gereken başka bir öğe, `title` öğesidir:
 
  `<title>My First Webpage</title>`
 
