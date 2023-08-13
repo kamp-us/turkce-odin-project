@@ -158,7 +158,7 @@ Atomik işlem bir programınızın yalnızca bir özelliği veya göreviyle ilgi
 
 Eğer _Visual Studio Code_ kullanıyorsanız (bu müfredatı takip ediyorsanız kullanmalısınız), `git commit` komutunu mesaj bayrağı (`-m`) ile [Vim](<https://en.wikipedia.org/wiki/Vim_(text_editor)>)'de commit mesajı yazmak zorunda kalmayacağınız bir yöntem mevcut.
 
-Mesaj bayrağını kullanmayı unutuyorsanız ve Vim kullanmak gibi bir niyetiniz yoksa, varsayılan mesaj düzenleyicinizi VSCode olarak değiştirmek iyi bir seçenek olabilir.
+Mesaj yazmayı unutuyorsanız ve Vim kullanmak gibi bir niyetiniz yoksa, varsayılan mesaj düzenleyicinizi VSCode olarak değiştirmek iyi bir seçenek olabilir.
 
 Bunu değiştirmenin bir dezavantajı yoktur çünkü işleme (commit) mesajlarınızı ister terminalde isterseniz de VSCode'da yazma seçeneğiniz olacaktır.
 
