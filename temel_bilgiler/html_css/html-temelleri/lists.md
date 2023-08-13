@@ -19,7 +19,7 @@ Herhangi bir sırada satın alınabilecek öğelerden oluşan bir alışveriş l
 Sırasız listeler `<ul>` öğesi kullanılarak oluşturulur,  <span id="li"></span>liste içindeki her öğe `<li>` öğesi kullanılarak oluşturulur.
 
 
-Unordered bir listedeki her liste öğesi bir madde işaretiyle başlar:
+Sırasız bir listedeki her liste öğesi bir madde işaretiyle başlar:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="powjajd" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>
