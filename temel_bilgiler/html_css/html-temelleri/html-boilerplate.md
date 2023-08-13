@@ -148,7 +148,7 @@ Yukarıdaki yöntemlerden birini kullanarak üzerinde çalıştığımız index.
 
 VSCode'nun tek seferde tüm şablonu oluşturmak için kullanabileceğiniz yerleşik bir kısayolu vardır. Bu kısayolun yalnızca '.html' uzantılı bir dosyayı düzenlerken veya HTML dilinin zaten seçildiği bir metin dosyasını düzenlerken çalıştığını unutmayın. Kısayolu tetiklemek için `index.html` dosyasındaki her şeyi silin ve yalnızca ilk satıra `!` karakterini girin. Bu size birkaç seçenek sunacaktır. İlk seçeneği seçmek için <kbd>Enter</kbd> tuşuna basın ve işte size tamamen oluşturulmuş şablon.
 
-Ancak notepad gibi (Allah korusun) bu kısayola sahip olmayan bir metin düzenleyici kullanmanız durumunda şablonu kendiniz nasıl yazacağınızı bilmek iyi olacaktır. İlk birkaç HTML projenizde bu kısayolu kullanmamaya çalışın, böylece şablon kodunu yazarken biraz kas hafızası oluşturabilirsiniz.
+Ancak not defteri gibi (Allah korusun) bu kısayola sahip olmayan bir metin düzenleyici kullanmanız durumunda şablonu kendiniz nasıl yazacağınızı bilmek iyi olacaktır. İlk birkaç HTML projenizde bu kısayolu kullanmamaya çalışın, böylece şablon kodunu yazarken biraz kas hafızası oluşturabilirsiniz.
 
 ### Ödev
 
