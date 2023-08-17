@@ -70,7 +70,7 @@ Bu bölüm, derste öğreneceğiniz konulara genel bir bakış içermektedir.
 
 ### Komut Satırını Bir Profesyonel Gibi Kullanmak
 
-Programcılar hakkında bilmeniz gereken önemli bir şey var. Programcılar bir şeyi yapmanın kolay yolunu ararlar. Gerçekten. Bir şeyi tekrar tekrar yapmaya zorlandıklarında, bunun yerine otomatikleştirmenin bir yolunu bulma ihtimalleri yüksektir. İyi haber şu ki, programcıların bu güne kadar oluşturdukları birçok kısayoldan yararlanabileceksiniz. Komut satırını bir profesyonel gibi kullanmayı öğrenmenin zamanı geldi (yani, kısayollarla kolay bir şekilde).
+Programcılar hakkında bilmeniz gereken önemli bir şey var. Programcılar daima bir şeyi yapmanın kolay yolunu ararlar. Gerçekten. Bir şeyi tekrar tekrar yapmak zorunda kaldıklarında, büyük ihtimalle bunu otomatikleştirmenin bir yolunu bulacaklardır. İyi haber şu ki, programcıların bu güne kadar oluşturdukları birçok kısayoldan yararlanabileceksiniz. Komut satırını bir profesyonel gibi kullanmayı öğrenmenin zamanı geldi (yani, kısayollarla kolay bir şekilde).
 
 Öncelikle, komut satırı içinde kopyalama ve yapıştırmanın beklediğiniz şekilde çalışmadığını çoktan fark etmiş olabilirsiniz. Komut satırının içindeyken, kopyalamak için <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd> (Mac: <kbd>Cmd</kbd> + <kbd>C</kbd>) ve yapıştırmak için <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> (Mac: <kbd>Cmd</kbd> + <kbd>V</kbd>) tuşlarını kullanmanız gerekir. Örneğin, tarayıcınızdaki komutları kopyalayıp komut satırına yapıştırmak için komut metnini vurgulayıp her zamanki gibi <kbd>Ctrl</kbd> + <kbd>C</kbd> tuşlarını kullanacak ve ardından <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> tuşlarını kullanarak terminalinize yapıştıracaksınız. Deneyin bakalım!
 
