@@ -4,7 +4,7 @@ Komut satırından korkuyor musunuz? Yalnız değilsiniz. Aklımızda, şirketin
 
 Bu siyah ekran veya pencere, bilgisayarınızın sizin için çalıştıracağı komutları girebileceğiniz <span id="command-line">komut satırı arayüzüdür (CLI)</span>. Komut satırıyla çalışmak geliştiriciler için öğrenilmesi önemli bir beceridir. Komut satırı, diğer programları başlatabileceğimiz ve onlarla iletişime geçebileceğimiz operasyon üssü gibidir. Öğrenilmesi gereken kendine has bir sözdizimi vardır ancak aynı komutları onlarca kez gireceğiniz için ihtiyacınız olan komutları çabuk öğrenebileceksiniz.
 
-Komut satırına giriş niteliğindeki bu derste, bilgisayarınızda nasıl gezineceğinizi ve doğrudan komut satırının rahatlığıyla dosya ve dizinleri (klasörler olarak da bilinir) nasıl değiştireceğinizi öğreneceksiniz. Bunun sandığınız kadar zor olmadığını göreceksiniz. Bu derste öğreneceğiniz komutlar çok basittir. Bu nedenle, komut satırını ilk kez kullanmanızın sizi korkutmasına izin vermeyiniz.
+Komut satırına giriş niteliğindeki bu derste, bilgisayarınızda nasıl gezineceğinizi ve doğrudan komut satırının rahatlığıyla dosya ve dizinleri (klasörler olarak da bilinir) nasıl değiştireceğinizi öğreneceksiniz. Bunun sandığınız kadar zor olmadığını göreceksiniz. Bu derste öğreneceğiniz komutlar çok basittir. Bu nedenle, komut satırını ilk kez kullanmak sizi korkutmasın.
 
 ### Terminalinizi Test Edin
 
