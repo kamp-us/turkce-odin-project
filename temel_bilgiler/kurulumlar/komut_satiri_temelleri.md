@@ -96,7 +96,7 @@ Biraz daha yazdığınızda, adı sizin için tamamlayacak ve `cd Doc[tab]O[tab]
 
 ### Ek Kaynaklar
 
-Bu bölüm ilgili içeriklere yararlı bağlantılar içerir. Bu içeriklere bakmanız zorunlu değildir, ancak ilave olarak bunlara da bakmanızı tavsiye ediyoruz.
+Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
 
 - [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line#readme) başlangıç için birebirdir!. Açık kaynak git deposudur. Burada birçok profesyonel ipucu mevcut!
 - [Learn Enough Command Line to Be Dangerous](https://www.learnenough.com/command-line-tutorial) adlı çevrimiçi kitap, komut satırında uzmanlaşmak için harika bir kaynaktır. Bölüm 1 ve 2 ücretsizdir ve komut satırı araçlarına iyi bir giriş sağlar. Kitabın geri kalanı ücretsiz değildir ve bu noktada gerçekten ihtiyacınız olandan daha fazla derinliğe iner, ancak ilginizi çekerse kitabın geri kalanını satın almaktan ve okumaktan çekinmeyin.
