@@ -112,7 +112,7 @@ Bu bölüm, bu dersi kendi başınıza anlayıp anlamadığınızı kontrol etme
 - [Komut satırı nedir?](#command-line)
 - [Bilgisayarınızda komut satırını nasıl açarsınız?](#open-command-line)
 - [Belirli bir dizine nasıl girersiniz?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#sec-basics-cd)
-- [Where will `cd` on its own navigate you to?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#uid31)
+- [Tek başına `cd` sizi nereye yönlendirir?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#uid31)
 - [Where will `cd ..` navigate you to?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#uid30)
 - [How do you display the name of the directory you are currently in?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#sec-basics-pwd)
 - [How do you display the contents of the directory you are currently in?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#sec-basics-ls)
