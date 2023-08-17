@@ -110,7 +110,7 @@ Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir,
 Bu bölüm, bu dersi kendi başınıza anlayıp anlamadığınızı kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta zorlanıyorsanız, soruya tıklayın ve yönlendirdiği materyali gözden geçirin.
 
 - [Komut satırı nedir?](#command-line)
-- [How do you open the command line on your computer?](#open-command-line)
+- [Bilgisayarınızda komut satırını nasıl açarsınız?](#open-command-line)
 - [How can you navigate to a particular directory?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#sec-basics-cd)
 - [Where will `cd` on its own navigate you to?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#uid31)
 - [Where will `cd ..` navigate you to?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#uid30)
