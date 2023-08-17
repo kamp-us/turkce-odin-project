@@ -119,4 +119,4 @@ Bu bölüm, bu dersi kendi başınıza anlayıp anlamadığınızı kontrol etme
 - [Yeni bir dizin nasıl yaratılır?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#cid7)
 - [Yeni bir dosya nasıl oluşturulur?](https://swcarpentry.github.io/shell-novice/03-create.html#create-a-text-file)
 - [Bir dizin veya dosya nasıl silinir?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#cid9)
-- [How do you rename a directory or file?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#cid10)
+- [Bir dizin veya dosya nasıl yeniden adlandırılır?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#cid10)
