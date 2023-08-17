@@ -116,7 +116,7 @@ Bu bölüm, bu dersi kendi başınıza anlayıp anlamadığınızı kontrol etme
 - [`cd ..` sizi nereye yönlendirir?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#uid30)
 - [Şu anda bulunduğunuz dizinin ismini nasıl gösterirsiniz?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#sec-basics-pwd)
 - [Şu anda bulunduğunuz dizinin içeriklerini nasıl gösterirsiniz?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#sec-basics-ls)
-- [How do you create a new directory?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#cid7)
+- [Yeni bir dizin nasıl yaratılır?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#cid7)
 - [How do you create a new file?](https://swcarpentry.github.io/shell-novice/03-create.html#create-a-text-file)
 - [How do you destroy a directory or file?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#cid9)
 - [How do you rename a directory or file?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#cid10)
