@@ -1,6 +1,6 @@
 ### Giriş
 
-Komut satırından korkuyor musunuz? Yalnız değilsiniz. Şirketin ana bilgisayarını hacklemek için çılgınca anlaşılmaz komutlar girerken, beyaz veya yeşil metinlerin yanıp söndüğü siyah bir ekrana dikkatle bakan geliştiricilerin bu görüntüsüne sahibiz.
+Komut satırından korkuyor musunuz? Yalnız değilsiniz. Aklımızda, şirketin ana bilgisayarını hacklemek için çılgınca anlaşılmaz komutlar girerken, beyaz veya yeşil metinlerin yanıp söndüğü siyah bir ekrana dikkatle bakan geliştiricilerin imajı canlanıyor.
 
 Bu siyah ekran veya pencere, bilgisayarınızın sizin için çalıştıracağı komutları girebileceğiniz <span id="command-line">komut satırı arayüzüdür (CLI)</span>. Komut satırıyla çalışmak geliştiriciler için öğrenilmesi önemli bir beceridir. Komut satırı, diğer programları başlatabileceğimiz ve onlarla iletişime geçebileceğimiz operasyon üssü gibidir. Öğrenilmesi gereken kendine has bir sözdizimi vardır, ancak aynı komutları onlarca kez gireceğiniz için ihtiyacınız olan komutları çabuk öğrenebileceksiniz.
 
