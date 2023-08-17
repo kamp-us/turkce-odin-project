@@ -45,7 +45,7 @@ Bu bölüm, derste öğreneceğiniz konulara genel bir bakış içermektedir.
 
 **Not**: Bu kaynakların birçoğu Mac veya Linux ortamı kullandığınızı varsaymaktadır. Önceki kurulum dersimizi yaptıysanız, Linux'u çift önyükleme veya sanal bir makinede zaten kurmuş olmalısınız. Ya da MacOS kullanıyor olabilirsiniz. MacOS veya herhangi bir Linux sürümü yüklü değilse, lütfen [işletim sistemi kurulum kılavuzu](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/prerequisites) bölümüne geri dönün.
 
-1. Software Carpentry Foundation tarafından tasarlanan [The Unix Shell](https://swcarpentry.github.io/shell-novice/) kursuna göz atın. Orada CLI kullanımı ile ilgili tüm dersleri bulabilirsiniz, ancak şimdilik sadece aşağıdaki dersleri tamamlamaya odaklanalım:
+1. Software Carpentry Foundation tarafından tasarlanan [The Unix Shell](https://swcarpentry.github.io/shell-novice/) kursuna göz atın. Orada CLI kullanımı ile ilgili tüm dersleri bulabilirsiniz ancak şimdilik, sadece aşağıdaki dersleri tamamlamaya odaklanalım:
 
    - Kurulum (Sadece `Download files` bölümündeki talimatları izleyin, gerekli yazılıma zaten sahip olduğunuz için ihtiyacınız olan tek şey budur)
    - Shell Tanıtımı
