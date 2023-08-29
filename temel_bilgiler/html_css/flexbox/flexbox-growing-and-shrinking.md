@@ -91,7 +91,7 @@ Burada dikkat edilmesi gereken önemli bir husus, `flex-grow` veya `flex-shrink`
 
 Pratikte muhtemelen `flex-grow`, `flex-shrink` veya `flex-basis` için karmaşık değerler kullanmayacaksınız. Genel olarak, divlerin eşit şekilde büyümesini sağlamak için `flex: 1;` ve belirli divlerin küçülmesini önlemek için `flex-shrink: 0` gibi bildirimler kullanmanız muhtemeldir.
 
-Süslü olmak ve bazı sütunların birbirleriyle belirli bir oranda ilişkili olduğu düzenler kurmak mümkündür, bu nedenle başka değerler kullanabileceğinizi bilmek yararlıdır, ancak bunlar nispeten nadirdir.
+Gösterişli olmak ve bazı sütunların birbirleriyle belirli bir oranda ilişkili olduğu düzenler kurmak mümkündür, bu nedenle başka değerler kullanabileceğinizi bilmek yararlıdır, ancak bunlar nadiren rastlanan değerlerdir.
 
 <br>
 
@@ -123,6 +123,6 @@ Bu bölüm, bu dersi kendi başınıza anlayıp anlamadığınızı kontrol etme
 
 ### Ek Kaynaklar
 
-Bu bölüm, ilgili içeriğe yararlı bağlantılar içerir. Zorunlu değildir, bu nedenle tamamlayıcı olarak kabul edin.
+Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
 
 *  [Videoyu izleyiniz](https://www.youtube.com/watch?v=u044iM9xsWU&t=1s&pp=ugMICgJhchABGAE%3D) flexbox'ın nasıl ve neden çalıştığını açıklıyor.
