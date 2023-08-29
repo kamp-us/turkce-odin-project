@@ -150,7 +150,7 @@ Birçok durumda bu yöntem gayet iyi çalışır; ancak yine de beklenmeyen soru
 
 Mutlak ve göreceli bağlantılar iyi bir zihinsel model oluşturmak için karmaşık bir kavramdır bir metafor yardımcı olabilir:
 
-Alan adınızı (`sehir.com`) bir kasaba olarak düşünün, web sitenizin bulunduğu dizini (`/muzeler`) bir müze olarak ve web sitenizdeki her sayfayı (`/muzeler/film_odasi.html` ve `/muzeler/magazalar/kahve_dukkani.html`) müzedeki bir oda olarak düşünün. `./magazalar/kahve_dukkani.html` gibi göreceli bağlantılar, mevcut odadan (müze film odası `/muzeler/film_odasi.html`) diğer bir odaya (müze mağazası) yönerge niteliğindedir. Mutlak bağlantılar ise, protokolü (`https`), alan adını (`sehir.com`) ve bu alan adından gelen yolunu (`/muzeler/magazalar/kahve_dukkani.html`) içeren tam yol tarifleri olarak düşünülebilir: `https://sehir.com/muzeler/magazalar/kahve_dukkani.html`.
+Alan adınızı (`sehir.com`) bir kasaba olarak düşünün, web sitenizin bulunduğu dizini (`/muzeler`) bir müze olarak ve web sitenizdeki her sayfayı (`/muzeler/film_odasi.html` ve `/muzeler/magazalar/kahve_dukkani.html`) müzedeki bir oda olarak düşünün. `./magazalar/kahve_dukkani.html` gibi göreceli bağlantılar, mevcut odadan (müze film odası `/muzeler/film_odasi.html`) diğer bir odaya (müze mağazası) yönerge niteliğindedir. Mutlak bağlantılar ise protokolü (`https`), alan adını (`sehir.com`) ve bu alan adından gelen yolunu (`/muzeler/magazalar/kahve_dukkani.html`) içeren tam yol tarifleri olarak düşünülebilir: `https://sehir.com/muzeler/magazalar/kahve_dukkani.html`.
 
 ### Görseller
 
