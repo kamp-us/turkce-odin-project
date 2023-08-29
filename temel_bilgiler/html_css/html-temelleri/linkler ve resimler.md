@@ -57,7 +57,7 @@ Yukarıda gösterilen yöntem bağlantıları içerdikleri web sayfasının ayn�
 `href` hedef bağlantıyı belirtirken, `target` bağlantılı kaynağın nerede açılacağını belirtir. Eğer mevcut değilse varsayılan olarak `_self` değerini alır ve bağlantıyı mevcut sekmede açar. Bağlantıyı yeni bir sekmede veya pencerede açmak için (tarayıcı ayarlarına bağlı olarak) `_blank` olarak ayarlayabilirsiniz:
 
 ```html
-<a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">bana tıkla</a>
+<a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">Click me</a>
 ```
 
 <span id="target-security"></span> Yukarıda `rel` özniteliğini de gizlice eklediğimizi fark etmiş olabilirsiniz. Bu öznitelik mevcut sayfa ile bağlantılı belge arasındaki ilişkiyi tanımlamak için kullanılır.
