@@ -50,6 +50,24 @@ Varsayılan olarak `href` niteliği olmadan bir anchor etiketiyle sarılmış me
 
 Ayrıca anchor etiketlerini yalnızca diğer HTML belgelerine değil, internet üzerindeki her türlü kaynağa bağlantı kurmak için de kullanabileceğinizi belirtmek önemlidir. Video, pdf dosyası, resim vb. gibi şeylere bağlantı kurabilirsiniz. Ancak çoğunlukla diğer HTML belgelerine bağlantı kuracaksınız.
 
+### Bağlantıları yeni bir sekmede açma
+
+Yukarıda gösterilen yöntem bağlantıları içerdikleri web sayfasının aynı sekmesinde açar. Bu çoğu tarayıcının varsayılan davranışıdır ve bunu oldukça kolay bir şekilde değiştirmek mümkündür. Tek ihtiyacımız olan başka bir öznitelik: `target` özniteliği.
+
+`href` hedef bağlantıyı belirtirken, `target` bağlantılı kaynağın nerede açılacağını belirtir. Eğer mevcut değilse varsayılan olarak `_self` değerini alır ve bağlantıyı mevcut sekmede açar. Bağlantıyı yeni bir sekmede veya pencerede açmak için (tarayıcı ayarlarına bağlı olarak) `_blank` olarak ayarlayabilirsiniz:
+
+```html
+<a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">bana tıkla</a>
+```
+
+<span id="target-security"></span> Yukarıda `rel` özniteliğini de gizlice eklediğimizi fark etmiş olabilirsiniz. Bu öznitelik mevcut sayfa ile bağlantılı belge arasındaki ilişkiyi tanımlamak için kullanılır.
+
+`noopener` değeri, açılan bağlantının onu açan web sayfasına erişim kazanmasını engeller. `noreferrer` değeri, açılan bağlantının kendisine bir bağlantısı (veya 'referansı') olan web sayfasını veya kaynağı bilmemesini sağlar. Bu aynı zamanda `noopener` davranışını içerir ve bu nedenle tek başına da kullanılabilir.
+
+Bağlantıları yeni sekmelerde açarken neden bu eklenmiş davranışa ihtiyaç duyarız? Güvenlik nedenleri. `noopener` tarafından neden olunan erişimin engellenmesi açılan bağlantının orijinal web sayfasını kullanıcıları kandırmak için farklı bir sayfaya değiştirebileceği [kimlik avı saldırıları](https://www.ibm.com/topics/phishing)ni önler. Buna [tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbing) denir. `noreferrer` değerini eklemek açılan bağlantının kendi web sayfanızın ona bağlantı verdiğini bilmemesini sağlamak istiyorsanız yapılabilir.
+
+Unutursanız bile `rel="noopener noreferrer"` eklememeniz sorun olmayabilir çünkü daha yeni tarayıcı sürümleri [yalnızca `target="_blank"` varsa](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#security_and_privacy), bu güvenliği sağlar. Bununla birlikte iyi kodlama uygulamalarına uygun olarak ve daha güvenli bir yaklaşım benimseyerek her zaman `target="_blank"` ile `rel="noopener noreferrer"` özniteliklerini bir arada kullanmanız önerilir.
+
 ### Mutlak ve göreceli bağlantılar
 
 Genel olarak oluşturacağımız bağlantılar şunlardır:
@@ -67,7 +85,7 @@ Zaten bir mutlak bağlantıyı kullanırken görmüştük. Daha önce The Odin P
 
 #### Göreceli bağlantılar
 
-Kendi web sitemizdeki diğer sayfalara bağlantılar göreceli bağlantılar olarak adlandırılır. Göreceli bağlantılar, domain ismini içermez çünkü aynı site içindeki başka bir sayfa olduğu varsayılır ve bağlantıyı oluşturduğumuz sayfanın domain isminin aynı olacağı düşünülür.
+Kendi web sitemizdeki diğer sayfalara bağlantılar göreceli bağlantılar olarak adlandırılır. Göreceli bağlantılar domain ismini içermez çünkü aynı site içindeki başka bir sayfa olduğu varsayılır ve bağlantıyı oluşturduğumuz sayfanın domain isminin aynı olacağı düşünülür.
 
 Göreceli bağlantılar yalnızca diğer sayfaya olan dosya yolunu içerir ve bu yol bağlantıyı oluşturduğunuz sayfaya göre *göreceli* olarak belirlenir. Bu kavram biraz soyut olabilir bir örnek üzerinden görelim.
 
@@ -108,7 +126,7 @@ Ancak genellikle web sitesi dizinlerimizi biraz daha iyi organize etmek isteyece
 
 Tarayıcıdaki index sayfasını yenileyin ve ardından about bağlantısına tıklayın. Şimdi bağlantı çalışmayacak. Bunun nedeni about sayfasının dosya konumunun değişmiş olmasıdır.
 
-Bunu düzeltmek için about bağlantısının href değerini güncellememiz yeterlidir. İndex dosyasına *göreceli* olarak about dosyasının yeni konumu olan `pages/` dizinini dahil etmemiz gerekmektedir. ---------------devam edeceğim------------
+Bunu düzeltmek için about bağlantısının href değerini güncellememiz yeterlidir. İndex dosyasına *göreceli* olarak about dosyasının yeni konumu olan `pages/` dizinini dahil etmemiz gerekmektedir. 
 
 ~~~html
 <body>
@@ -119,7 +137,7 @@ Bunu düzeltmek için about bağlantısının href değerini güncellememiz yete
 
 Tarayıcıda index sayfasını yenileyin ve about bağlantısına tekrar tıklayın, şimdi düzgün çalışması gerekmelidir.
 
-Birçok durumda, bu yöntem gayet iyi çalışır; ancak, yine de beklenmeyen sorunlarla karşılaşabilirsiniz. Bağlantıdan önce `./` eklemek, çoğu durumda bu tür sorunların önüne geçecektir. `./` ekleyerek, kodunuza dosya/dizin aramaya *göreceli* olarak `mevcut` dizinden başlaması gerektiğini belirtmiş olursunuz.
+Birçok durumda bu yöntem gayet iyi çalışır; ancak yine de beklenmeyen sorunlarla karşılaşabilirsiniz. Bağlantıdan önce `./` eklemek, çoğu durumda bu tür sorunların önüne geçecektir. `./` ekleyerek, kodunuza dosya/dizin aramaya *göreceli* olarak `mevcut` dizinden başlaması gerektiğini belirtmiş olursunuz.
 
 ~~~html
 <body>
@@ -130,19 +148,19 @@ Birçok durumda, bu yöntem gayet iyi çalışır; ancak, yine de beklenmeyen so
 
 #### Bir metafor
 
-Mutlak ve göreceli bağlantılar, iyi bir zihinsel model oluşturmak için karmaşık bir kavramdır, bir metafor yardımcı olabilir:
+Mutlak ve göreceli bağlantılar iyi bir zihinsel model oluşturmak için karmaşık bir kavramdır bir metafor yardımcı olabilir:
 
 Alan adınızı (`sehir.com`) bir kasaba olarak düşünün, web sitenizin bulunduğu dizini (`/muzeler`) bir müze olarak ve web sitenizdeki her sayfayı (`/muzeler/film_odasi.html` ve `/muzeler/magazalar/kahve_dukkani.html`) müzedeki bir oda olarak düşünün. `./magazalar/kahve_dukkani.html` gibi göreceli bağlantılar, mevcut odadan (müze film odası `/muzeler/film_odasi.html`) diğer bir odaya (müze mağazası) yönerge niteliğindedir. Mutlak bağlantılar ise, protokolü (`https`), alan adını (`sehir.com`) ve bu alan adından gelen yolunu (`/muzeler/magazalar/kahve_dukkani.html`) içeren tam yol tarifleri olarak düşünülebilir: `https://sehir.com/muzeler/magazalar/kahve_dukkani.html`.
 
 ### Görseller
 
-Web siteleri, yalnızca metin görüntüleyebilseydi oldukça sıkıcı olurdu. Neyse ki, HTML, çeşitli medyaları görüntülemek için geniş bir element yelpazesi sunar. Bunların arasında en yaygın kullanılanı görüntü elementidir.
+Web siteleri yalnızca metin görüntüleyebilseydi oldukça sıkıcı olurdu. Neyse ki HTML çeşitli medyaları görüntülemek için geniş bir element yelpazesi sunar. Bunların arasında en yaygın kullanılanı görüntü elementidir.
 
-HTML'de bir görüntüyü görüntülemek için `<img>` elementini kullanırız. Diğer karşılaştığımız elementlerin aksine, `<img>` elementi kendini kapatan bir elementtir. Boş, kendini kapatan HTML elementlerine kapanış etiketi gerekmez.
+HTML'de bir görüntüyü görüntülemek için `<img>` elementini kullanırız. Diğer karşılaştığımız elementlerin aksine `<img>` elementi kendini kapatan bir elementtir. Kendini kapatan HTML elementlerine kapanış etiketi gerekmez.
 
-Açılış ve kapanış etiketiyle içeriği sarmak yerine, src özelliğini kullanarak bir görüntüyü sayfaya yerleştirir. src özelliği, tarayıcıya görüntü dosyasının nerede bulunduğunu söyler. src özelliği, bağlantı öğeleri için href özelliği gibi çalışır. Hem mutlak hem de göreceli yol kullanarak bir görüntü yerleştirebilir.
+Açılış ve kapanış etiketiyle içeriği sarmak yerine src özelliğini kullanarak bir görüntüyü sayfaya yerleştirir. src özelliği tarayıcıya görüntü dosyasının nerede bulunduğunu söyler. src özelliği bağlantı öğeleri için href özelliği gibi çalışır. Hem mutlak hem de göreceli yol kullanarak bir görüntü yerleştirebilir.
 
-Örneğin, The Odin Project sitesinde bulunan bir görüntüyü mutlak yol kullanarak görüntüleyebiliriz:
+Örneğin The Odin Project sitesinde bulunan bir görüntüyü mutlak yol kullanarak görüntüleyebiliriz:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="gORbExZ" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/gORbExZ">
@@ -159,7 +177,7 @@ Kendi web sitelerimizde bulunan görüntüleri kullanmak için göreceli bir yol
 
 3. Görüntüyü `dog.jpg` olarak yeniden adlandırın.
 
-Son olarak, görüntüyü `index.html` dosyasına ekleyin:
+Son olarak görüntüyü `index.html` dosyasına ekleyin:
 
 ~~~html
 <body>
@@ -186,17 +204,17 @@ Peki ya about sayfasında köpek görüntüsünü kullanmak istersek? İlk olara
 
 Bu durumu daha iyi anlamak için şu adımları izliyoruz:
 
-1. İlk olarak, pages dizininin üst dizinine yani `odin-links-and-images` dizinine gidiyoruz.
-2. Ardından, üst dizinden images dizinine geçiyoruz.
-3. Son olarak, `dog.jpg` dosyasına erişebiliyoruz.
+1. İlk olarak pages dizininin üst dizinine yani `odin-links-and-images` dizinine gidiyoruz.
+2. Ardından üst dizinden images dizinine geçiyoruz.
+3. Son olarak `dog.jpg` dosyasına erişebiliyoruz.
 
-Önceki metaforu kullanarak, bir dosya yolunda `../` kullanmak, bulunduğunuz odadan ana koridora çıkıp başka bir odaya gitmek gibi bir şeydir.
+Önceki metaforu kullanarak bir dosya yolunda `../` kullanmak, bulunduğunuz odadan ana koridora çıkıp başka bir odaya gitmek gibi bir şeydir.
 
 ### Alt özniteliği
 
-<span id="two-attributes"></span>Src özniteliğinin yanı sıra, her görüntü elementinin alt (alternatif metin) özniteliği olmalıdır.
+<span id="two-attributes"></span> Src özniteliğinin yanı sıra her görüntü elementinin alt (alternatif metin) özniteliği olmalıdır.
 
-Alt özniteliği, bir görüntüyü açıklamak için kullanılır. Eğer görüntü yüklenemezse, yerine kullanılır. Ayrıca, ekran okuyucularla birlikte kullanılarak görsel olarak engelli kullanıcılara görüntünün ne olduğunu açıklamak için kullanılır.
+Alt özniteliği bir görüntüyü açıklamak için kullanılır. Eğer görüntü yüklenemezse yerine kullanılır. Ayrıca ekran okuyucularla birlikte kullanılarak görsel olarak engelli kullanıcılara görüntünün ne olduğunu açıklamak için kullanılır.
 
 İşte daha önce kullandığımız The Odin Project logosu örneği alt özniteliği eklenmiş hali:
 
@@ -222,7 +240,7 @@ Biraz pratik yapmak için, `odin-links-and-images` projesine eklediğimiz köpek
 
 ### Bilgi kontrolü
 
-Bu bölümde, bu dersle ilgili anlama seviyenizi kendiniz kontrol etmek için sorular bulunmaktadır. Bir soruya cevap vermede zorluk yaşıyorsanız, üzerine tıklayarak bağlantı verilen materyali gözden geçirin.
+Bu bölümde bu dersle ilgili anlama seviyenizi kendiniz kontrol etmek için sorular bulunmaktadır. Bir soruya cevap vermede zorluk yaşıyorsanız, üzerine tıklayarak bağlantı verilen materyali gözden geçirin.
 
 *   [What element is used to create a link?](#anchor-elements)
 *   [What is an attribute?](#attribute)
@@ -235,7 +253,7 @@ Bu bölümde, bu dersle ilgili anlama seviyenizi kendiniz kontrol etmek için so
 
 ### Ek kaynaklar
 
-Bu bölüm, ilgili içeriklere yönelik yararlı bağlantılar içerir. Zorunlu değildir, bu nedenle ek bir kaynak olarak düşünün.
+Bu bölüm ilgili içeriklere yönelik yararlı bağlantılar içerir. Zorunlu değildir, bu nedenle ek bir kaynak olarak düşünün.
 
 -   [Interneting is hard's treatment on HTML links and images](https://internetingishard.netlify.app/html-and-css/links-and-images)
 -   [What happened the day Google decided links including (`/`) were malware](https://www.itpro.co.uk/609724/google-apologises-after-blacklisting-entire-internet)
