@@ -1,3 +1,9 @@
+### Giriş
+
+Programlamanın zorluklarından biri de büyük miktarda veri ile uğraşmaktır. Örneğin, sınıfınızdaki tüm öğrencilerin isimlerini saklamak istiyorsanız, bunu nasıl yaparsınız? Her isim için bir değişken oluşturabilirsiniz, ancak bu sıkıcı ve verimsiz olacaktır. Ayrıca yönetilmesi ve güncellenmesi de zor olacaktır. Ya isimleri daha sonra değiştirmek ya da erişmek isterseniz?
+
+Neyse ki bu sorunu çözmenin daha iyi bir yolu var. Bu derste, birden fazla değeri tek bir değişkende saklayabilen veri yapıları olan diziler hakkında bilgi edineceksiniz. Diziler, büyük miktarda veriyi düzenlemek ve işlemek için çok kullanışlıdır. Ayrıca, bir kod bloğunu tekrar tekrar çalıştırmanıza olanak tanıyan kontrol yapıları olan döngüler hakkında da bilgi edineceksiniz. Döngüler, bir dizinin her bir elemanı üzerinde aynı işlemi gerçekleştirmek için çok kullanışlıdır. Son olarak, kodun kendisini yazmadan önce kodunuz için testler yazma uygulaması olan Test Odaklı Geliştirme (TDD) ile tanışacaksınız.
+
 ### Derse Genel Bakış
 
 Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içerir.
@@ -33,26 +39,19 @@ Bu testleri gerçekten yazma sanatını size kursun ilerleyen bölümlerinde ö�
 ### Ödev
 
 <div class="lesson-content__panel" markdown="1">
-Başlamak için aşağıdaki adımları takip edin. Adım 1'i tamamladıktan sonra, bunları doğru bir şekilde yapmak için **_her bir egzersiz_** için README'yi kullandığınızdan emin olun.
 
-1. Dosyaları ve Jest'i [repository'nin README](https://github.com/TheOdinProject/javascript-exercises#readme)'sindeki talimatları dikkatlice izleyerek kurun.
-2. Şimdi repository'i klonladığınıza ve Jest'i kurmak için `npm install` çalıştırdığınıza göre, bu alıştırmaları aşağıdaki sırayla tamamlayın:
-    * helloWorld (Bu alıştırma, her şeyi düzgün bir şekilde kurduğunuzdan emin olmak için kasıtlı olarak çok basittir!)
-    * repeatString
-    * reverseString
-    * removeFromArray
-    * sumAll
-    * leapYears
-    * tempConversion
-3. Çalışan bir çözüme sahip olduğunuzda, alıştırmanın verilen çözümüne kıyasla nasıl olduğunu görün. Alıştırmaların çözümleri her alıştırmanın 'solution' klasöründe bulunabilir.
+1. [JavaScript alıştırmaları repomuza](https://github.com/TheOdinProject/javascript-exercises) gidin ve yerel ortamınızı kurmak için [reponun README](https://github.com/TheOdinProject/javascript-exercises#readme) dosyasını inceleyin. Repoyu klonladıktan ve Jest'i kurduktan sonra, aşağıdaki alıştırmaları sırasıyla tamamlamadan önce her bir README dosyasını gözden geçirin:
+    - `01_helloWorld` (Bu alıştırma, her şeyi düzgün bir şekilde kurduğunuzdan emin olmak için kasıtlı olarak çok basittir!)
+    - `02_repeatString`
+    - `03_reverseString`
+    - `04_removeFromArray`
+    - `05_sumAll`
+    - `06_leapYears`
+    - `07_tempConversion`
+
+    Not: Bu alıştırmaların çözümleri her alıştırmanın `solution` klasöründe bulunabilir.
 
 </div>
-
-### Ek Kaynaklar
-
-Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
-
-* Görünüşe göre bu dersin henüz herhangi bir ek kaynağı yok. Müfredatımıza katkıda bulunarak bu bölümü genişletmemize yardımcı olabilirsiniz.
 
 ### Bilgi Ölçme
 
@@ -68,3 +67,9 @@ Bu bölüm, bu dersi anlayıp anlamadığınızı kendi başınıza kontrol etme
 * [Break deyimi nedir?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#exiting_loops_with_break)
 * [Continue deyimi nedir?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#skipping_iterations_with_continue)
 * [Otomatik test yazmanın avantajı nedir?](#test-driven-development)
+
+### Ek Kaynaklar
+
+Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
+
+* Görünüşe göre bu dersin henüz herhangi bir ek kaynağı yok. Müfredatımıza katkıda bulunarak bu bölümü genişletmemize yardımcı olabilirsiniz.
