@@ -1,14 +1,14 @@
 ### Giriş
 
-Başardınız! Bu noktada JavaScript'in temellerini _gerçekten_ sağlam bir şekilde kavramış olmalısınız. Tabii ki öğrenilecek daha çok şey var, ancak şu an oldukça fazla şey oluşturabilmeniz gerekmektedir. Son projemiz, şimdiye kadar öğrendiklerinizi bir araya getirecek: JavaScript, HTML ve CSS kullanarak bir ekran üzerinde hesap makinesi yapacaksınız.
+Başardınız! Bu noktada JavaScript'in temellerini _gerçekten_ sağlam bir şekilde kavramış olmalısınız. Tabii ki öğrenilecek daha çok şey var ancak şu an oldukça fazla şey oluşturabiliyor olmalısınız. Son projemiz, şimdiye kadar öğrendiklerinizi bir araya getirecek: JavaScript, HTML ve CSS kullanarak bir ekran üzerinde hesap makinesi yapacaksınız.
 
-Her zamanki gibi bu proje de sizin için kolay olmayacak unsurlar var, ancak kursu şimdiye kadar takip ettiyseniz kesinlikle bitirmek için ihtiyacınız olan her şeye sahipsiniz. Size çeşitli adımları nasıl uygulayacağınızı göstereceğiz ancak yine de bunu nasıl uygulayacağınız size kalmış!
+Her zamanki gibi bu proje de sizin için kolay olmayacak unsurlar var ancak kursu şimdiye kadar takip ettiyseniz kesinlikle bitirmek için ihtiyacınız olan her şeye sahipsiniz. Size çeşitli adımları nasıl uygulayacağınızı göstereceğiz ancak yine de bunu nasıl uygulayacağınız size kalmış!
 
 ### Uyarı
 
 <div class="lesson-note" markdown="1">
 
-Bu hesap makinesi projesine başlamadan önce bir uyarıda bulunmamız gerekiyor. JavaScript'te karmaşık matematiksel ifadeleri nasıl değerlendireceğinizi araştırırken, muhtemelen cezbedici [`eval()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval) fonksiyonuyla karşılaşacaksınız. Ancak, bu fonksiyon çok tehlikeli olabilir ve [asla kullanılmamalıdır](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval#never_use_eval!)! Bu projenin bir parçası olarak ifadeleri hesaplayacak kendi fonksiyonlarınızı oluşturmanız gerekecektir. Aynı `eval()` ile benzer şekilde bu proje için de ifadelerin nasıl hesaplanacağını araştırırken, bir dizeyi değerlendiren bir `new Function()` döndürmenizi öneren çözümlerle karşılaşabilirsiniz. Aynı `eval()` gibi, bu da [güvenli olmayan verilerin değerlendirilmesindeki potansiyel tehlikeler nedeniyle](https://stackoverflow.com/questions/4599857/are-eval-and-new-function-the-same-thing) kullanılmamalıdır. Ayrıca, tüm işi sizin için yapan çözümlerin nerede eğlencesi var? Haydi başlayalım!
+Bu hesap makinesi projesine başlamadan önce bir uyarıda bulunmamız gerekiyor. JavaScript'te karmaşık matematiksel ifadeleri nasıl değerlendireceğinizi araştırırken, muhtemelen cezbedici [`eval()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval) fonksiyonuyla karşılaşacaksınız. Ancak bu fonksiyon çok tehlikeli olabilir ve [asla kullanılmamalıdır](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval#never_use_eval!)! Bu projenin bir parçası olarak ifadeleri hesaplayacak kendi fonksiyonlarınızı oluşturmanız gerekecektir. Aynı `eval()` ile benzer şekilde bu proje için de ifadelerin nasıl hesaplanacağını araştırırken, bir dizeyi değerlendiren bir `new Function()` döndürmenizi öneren çözümlerle karşılaşabilirsiniz. Aynı `eval()` gibi, bu da [güvenli olmayan verilerin değerlendirilmesindeki potansiyel tehlikeler nedeniyle](https://stackoverflow.com/questions/4599857/are-eval-and-new-function-the-same-thing) kullanılmamalıdır. Ayrıca, tüm işi sizin için yapan çözümlerin nesi eğlenceli? Haydi başlayalım!
 
 </div>
 
@@ -45,7 +45,7 @@ Erken ve sık sık commit yapmayı unutmayın! "Commit Message" dersine [buradan
 
 #### Bonus Ödevler
 
-- Kullanıcılar gerekli matematiği yaparlarsa ondalıklı sayılar alabilirler, ancak henüz ondalıklı sayıları yazamazlar. Bir `.` butonu ekleyin ve kullanıcıların ondalıklı sayı girmesine izin verin! Ancak birden fazla yazmalarına izin vermediğinizden emin olun: `12.3.56.5.` Bu sayılar üzerinde matematik işlemleri yapmak zordur. \(ekranda zaten bir tane varsa ondalık butonunu devre dışı bırakın\)
+- Kullanıcılar gerekli matematiği yaparlarsa ondalıklı sayılar alabilirler ancak henüz ondalıklı sayıları yazamazlar. Bir `.` butonu ekleyin ve kullanıcıların ondalıklı sayı girmesine izin verin! Ancak birden fazla yazmalarına izin vermediğinizden emin olun: `12.3.56.5.` Bu sayılar üzerinde matematik işlemleri yapmak zordur. \(ekranda zaten bir tane varsa ondalık butonunu devre dışı bırakın\)
 - Güzel görünsün! Bu, CSS becerilerinizi pratik yapmak için harika bir projedir. En azından işlemleri tuş takımı butonlarından farklı bir renk yapın.
 - “Geri al” tuşu ekleyin, böylece kullanıcı yanlış sayıya tıklarsa geri alabilir.
 - Klavye desteği ekleyin! (`/`) gibi tuşlar size sorun çıkartabilir. Bu sorunu çözmek için [bu dökümantasyonu](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault) okuyun.
