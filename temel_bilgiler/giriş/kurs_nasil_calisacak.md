@@ -48,4 +48,4 @@ Açıkça belirtilmediği sürece isteğe bağlı olarak kabul edilen tek şey e
 
 Bu bölümde ilgili içeriğe yönelik faydalı bağlantılar bulunmaktadır. Bu tür ek kaynaklar programı tamamlamak için gerekli değildir, bu yüzden tamamlayıcı olarak düşünebilirsiniz.
  
-- Görünüşe göre bu derste henüz ek kaynak yok. Müfredatımıza katkıda bulunarak bu bölümü genişletmemize yardımcı olun.
+- Görünüşe göre bu derste henüz ek kaynak yok. Müfredatımıza katkıda bulunarak bu bölümü genişletmemize yardımcı olabilirsiniz.
