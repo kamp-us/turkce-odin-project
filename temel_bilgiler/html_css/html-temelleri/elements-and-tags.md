@@ -4,7 +4,7 @@ HTML (HyperText Markup Language) internet sitelerinin yapılarını ve içerikle
 
 ### Derse Genel Bakış
 
-Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içerir.
+Bu bölüm, bu derste öğreneceğiniz konuların genel özetini içerir.
 
 *   HTML etiketlerinin ne olduğunu açıklar
 *   HTML elementlerinin ne olduğunu açıklar
@@ -33,9 +33,9 @@ Tamamlanmış bir paragraf etiketi şu şekilde gözükür:
 
 Elementleri içerik taşıyıcıları olarak düşünebilirsiniz. Açılış ve kapanış etiketleri tarayıcıya elementlerin ne taşıdığını bildirir. Tarayıcı böylece gelen içeriği nasıl göstereceğine karar verir.
 
-Bazı HTML elementleri kapanış etiketi içermez. Bu elementler genellikle böyle gözükür: `<br />`, `<img/>` ancak bazıları ileride göreceğiniz gibi eğik çizgi olmadan da kullanılabilir: `<br>`, `<img>`. Bu tip elementler kendiliğinden kapanan(self-closing) element veya boş element olarak da adlandırılabilirler, çünkü herhangi bir içerik çevrelemezler. Bunlardan bazılarını ileride göreceğiz fakat çoğun element hem açılış hem kapanış etiketine sahiptir.
+Bazı HTML elementleri kapanış etiketi içermez. Bu elementler genellikle böyle gözükür: `<br />`, `<img/>` ancak bazıları ileride göreceğiniz gibi eğik çizgi olmadan da kullanılabilir: `<br>`, `<img>`. Bu tip elementler kendiliğinden kapanan(self-closing) element veya boş element olarak da adlandırılabilirler, çünkü herhangi bir içerik çevrelemezler. Bunlardan bazılarını ileride göreceğiz fakat çoğu element hem açılış hem kapanış etiketine sahiptir.
 
-HTML size istediğiniz her şeyi üretmeniz için [önceden tanımlanmış elementlerin geniş listesine](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) sunar. İçerikleriniz için doğru etiketi kullanmak önemlidir. Doğru etiketleri kullanmak siteniz için şu iki konuda önemli bir etkiye sahiptir: sitenizin arama motorlarında nerede sıralandığı; sitenizin ekran koruyucu(screen reader) gibi eklentiler kullanan kullanıcılara ne kadar erişilebilir olduğu.
+HTML size istediğiniz her şeyi üretmeniz için [önceden tanımlanmış elementlerin geniş listesi](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) sunar. İçerikleriniz için doğru etiketi kullanmak önemlidir. Doğru etiketleri kullanmak siteniz için şu iki konuda önemli bir etkiye sahiptir: sitenizin arama motorlarında nerede sıralandığı; sitenizin ekran koruyucu(screen reader) gibi eklentiler kullanan kullanıcılara ne kadar erişilebilir olduğu.
 
 İçeriğiniz için doğru etiketler kullanmaya semantik HTML denir. Bunun hakkında detaylı bilgiyi ileride göreceğiz.
 
