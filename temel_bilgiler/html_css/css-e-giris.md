@@ -1,40 +1,40 @@
-### Introduction
+### Giriş
 
-In the previous lesson, you learned how to write the HTML that determines how a web page is structured. The next step is to make that structure look good with some _style_, which is exactly what CSS is for. In the next few lessons, we're going to focus on what we believe are some foundational CSS concepts, things that everyone should know from the beginning — whether they are just starting out or simply need a refresher.
+Önceki derste, bir internet sayfasının nasıl yapılandırıldığını belirleyen HTML'in nasıl yazıldığını öğrendiniz. Bir sonraki adım, bu yapının biraz _stil_ ile güzel görünmesini sağlamaktır. CSS de tam bu noktada devreye girer. Sonraki birkaç derste, bazı temel CSS kavramları olduğuna inandığımız ve herkesin en başından bilmesi gereken şeylere(ister yeni başlıyor olun, ister sadece bilgilerinizi tazelemek isteyin) odaklanacağız.
 
-### Lesson overview
+### Derse Genel Bakış
 
-This section contains a general overview of topics that you will learn in this lesson.
+Bu bölüm, bu derste öğreneceğiniz konulara genel bir bakış içerir.
 
-- Add styles to HTML with CSS.
-- Understand how to use the class and ID attributes.
-- Add styles to specific elements using the correct selectors.
+- CSS ile HTML'e stiller ekleyin.
+- Class ve ID niteliklerinin nasıl kullanılacağını anlayın.
+- Doğru seçicileri kullanarak belirli öğelere stiller ekleyin.
 
-For a more interactive explanation and example, try the following Scrim (let us know what you think of these):
+Daha interaktif bir açıklama ve örnek için aşağıdaki Scrim'i deneyin (bunlar hakkında ne düşündüğünüzü bize bildirin):
 
 <iframe src="https://scrimba.com/scrim/co12d4cf99cf2776f19e84a9d?embed=odin,mini-header,no-sidebar,no-next-up" sandbox="allow-scripts allow-same-origin allow-popups" width="100%" height="400"></iframe>
 
-### Basic syntax
+### Temel Sözdizimi
 
-At the most basic level, CSS is made up of various rules. These rules are made up of a selector (more on this in a bit) and a semi-colon separated list of declarations, with each of those declarations being made up of a property:value pair.
+CSS, en temel düzeyde çeşitli kurallardan oluşur. Bu kurallar, bir seçici(bu konuya birazdan değineceğiz) ve noktalı virgüllerle ayrılmış bir tanımlama listesiyle belirlenir. Bu tanımlamaların her biri özellik:değer(property:value) şeklinde yazılır.
 
-![Basic CSS syntax](https://cdn.statically.io/gh/TheOdinProject/curriculum/05ce472eabf8e04eeb2cc9139e66db884074fd7d/foundations/html_css/css-foundations/imgs/00.jpg)
+![Temel CSS Sözdizimi](https://cdn.statically.io/gh/TheOdinProject/curriculum/05ce472eabf8e04eeb2cc9139e66db884074fd7d/foundations/html_css/css-foundations/imgs/00.jpg)
 
 <div class="lesson-note" markdown="1">
 
-#### Note
+#### Not
  
-A `<div>` is one of the basic HTML elements. It is simply an empty container. In general, it is best to use other tags such as `<h1>` or `<p>` for content in your projects, but as we learn more about CSS you'll find that there are many cases where the thing you need is just a container for other elements. Many of our exercises use plain`<div>`s for simplicity. Later lessons will go into much more depth about when it is appropriate to use the various HTML elements.
+`<div>`, temel HTML öğelerinden biridir. En basit haliyle boş bir konteynerdir. Genellikle projelerinizdeki içerik için `<h1>` veya `<p>` gibi diğer etiketleri kullanmak en iyisidir. Ancak CSS hakkında daha fazla bilgi edindikçe, birçok durumda ihtiyacınız olan şeyin, yalnızca diğer öğeleri barındırmanızı sağlayan bir konteyner olduğunu göreceksiniz. Alıştırmalarımızın çoğunda basitlik için `<div>`ler kullanılmaktadır. Daha sonraki derslerde, çeşitli HTML öğelerinin ne zaman kullanılması gerektiği konusunda çok daha derinlemesine bilgi verilecektir.
 
 </div>
 
-### Selectors
+### Seçiciler(Selectors)
 
-Selectors simply refer to the HTML elements to which CSS rules apply; they're what is actually being "selected" for each rule. The following subsections don't cover every selector available, but they're by far the most common and the ones you should get comfortable using first.
+Seçiciler, CSS kurallarının uygulanması gereken HTML öğelerini belirtir. Her kural için hedefleri tanımlarlar. Aşağıdaki bölümlerde tüm seçicilere yer verilmemiştir. Ancak en yaygın ve başlangıçta rahatça kullanmanız gerekenler bunlardır.
 
-#### Universal selector
+#### Evrensel Seçici
 
-The universal selector will select elements of any type, hence the name "universal", and the syntax for it is a simple asterisk. In the example below, every element would have the `color: purple;` style applied to it.
+Evrensel seçici her türden öğeyi seçer, bu nedenle "evrensel"dir ve sözdizimi bir yıldız işaretidir. Aşağıdaki örnekte, her öğeye `color: purple;` stili uygulanacaktır.
 
 ~~~css
 * {
@@ -42,17 +42,17 @@ The universal selector will select elements of any type, hence the name "univers
 }
 ~~~
 
-#### Type selectors
+#### Tip Seçiciler
 
-A type selector (or element selector) will select all elements of the given element type, and the syntax is just the name of the element:
+Bir tip seçici(veya öğe seçici) verilen tipteki tüm öğeleri seçer ve sözdizimi yalnızca öğenin adıdır:
 
 ~~~html
 <!-- index.html -->
 
-<div>Hello, World!</div>
-<div>Hello again!</div>
-<p>Hi...</p>
-<div>Okay, bye.</div>
+<div>Merhaba dünya!</div>
+<div>Tekrar merhaba!</div>
+<p>Selam...</p>
+<div>Tamam, görüşürüz.</div>
 ~~~
 
 ~~~css
@@ -63,16 +63,16 @@ div {
 }
 ~~~
 
-Here, all three `<div>` elements would be selected, while the `<p>` element wouldn't be.
+Burada, üç `<div>` öğesi de seçilirken, `<p>` öğesi seçilmez.
 
-#### Class selectors
+#### Sınıf Seçiciler
 
-Class selectors will select all elements with the given class, which is just an attribute you place on an HTML element. Here's how you add a class to an HTML tag and select it in CSS:
+Sınıf seçiciler, aynı sınıfa(HTML öğelerine verilen niteliklerden biri) sahip tüm HTML öğelerini seçerler. Bir HTML öğesine nasıl sınıf ekleyeceğiniz ve bu sınıfı CSS'te nasıl seçeceğiniz aşağıda açıklanmıştır:
 
 ~~~html
 <!-- index.html -->
 
-<div class="alert-text">Please agree to our terms of service.</div>
+<div class="alert-text">Lütfen hizmet şartlarımızı kabul edin.</div>
 ~~~
 
 ~~~css
@@ -83,18 +83,18 @@ Class selectors will select all elements with the given class, which is just an 
 }
 ~~~
 
-Note the syntax for class selectors: a period immediately followed by the case-sensitive value of the class attribute. Classes aren't required to be specific to a particular element, so you can use the same class on as many elements as you want.
+Sınıf seçicilerin sözdizimine dikkat edin. Bir nokta ve hemen ardından hedeflenen sınıfın büyük/küçük harfe duyarlı değeri olarak kullanılır. Sınıfların belirli bir öğeye özel olması gerekmez. Bu nedenle aynı sınıfı istediğiniz sayıda öğeye ekleyebilirsiniz.
 
-Another thing you can do with the class attribute is to add multiple classes to a single element as a space-separated list, such as `class="alert-text severe-alert"`. Since whitespace is used to separate class names like this, you should never use spaces for multi-worded names and should use a hyphen instead.
+Sınıflarla yapabileceğiniz bir başka şey ise tek bir öğeye birden fazla sınıfı aralarında boşluk bırakarak liste halinde eklemektir. Örneğin `class="alert-text severe-alert"` şeklinde kullanabilirsiniz. Sınıfları ayırmak amacıyla boşluk kullanıldığı için, birden fazla kelimeyle tanımlanabilecek sınıfların isimlerinde asla boşluk kullanmamalı, bunun yerine kısa çizgi kullanılmalıdır.
 
-#### ID selectors
+#### ID Seçiciler
 
-ID selectors are similar to class selectors. They select an element with the given ID, which is another attribute you place on an HTML element. The major difference between classes and IDs is that an element can only have **one** ID. It cannot be repeated on a single page and should not contain any whitespace:
+ID seçiciler sınıf seçicilere benzer. HTML öğelerinin başka bir niteliği olan ID'ye sahip bir öğeyi seçerler. Sınıflar ve ID'ler arasındaki en büyük fark, bir öğenin yalnızca **bir** ID'ye sahip olabilmesidir. Bir sayfada tekrarlanamaz ve adında herhangi bir boşluk içermemelidir:
 
 ~~~html
 <!-- index.html -->
 
-<div id="title">My Awesome 90's Page</div>
+<div id="title">Muhteşem 90'lar Sayfam</div>
 ~~~
 
 ~~~css
@@ -105,27 +105,27 @@ ID selectors are similar to class selectors. They select an element with the giv
 }
 ~~~
 
-For IDs, instead of a period, we use a hashtag immediately followed by the case-sensitive value of the ID attribute. A common pitfall is people overusing the ID attribute when they don't necessarily need to, and when classes will suffice. While there are cases where using an ID makes sense or is needed, such as taking advantage of specificity or having links redirect to a section on the current page, you should use IDs **sparingly** (if at all).
+ID'ler için nokta yerine hashtag kullanılır. Hemen ardından ID'nin büyük/küçük harfe duyarlı değeri gelir. Sıkça yapılan bir hata, insanların ihtiyaç duymadığı ve sınıfların yeterli olacağı durumlarda ID özelliğini aşırı kullanmasıdır. ID kullanmanın anlamlı veya gerekli olduğu durumlar olsa da(örneğin, özgüllüğün avantajından yararlanmak veya bağlantıların geçerli sayfadaki bir bölüme yönlendirmesi) onları **idareli** kullanmalısınız.
 
-#### The grouping selector
+#### Gruplandırma seçici
 
-What if we have two groups of elements that share some of their style declarations?
+Peki ya stil tanımlamalarından bazılarını paylaşan iki grup öğemiz varsa ne yapmalıyız?
 
 ~~~css
 .read {
   color: white;
   background-color: black;
-  /* several unique declarations */
+  /* bu sınıfa özel tanımlamalar */
 }
 
 .unread {
   color: white;
   background-color: black;
-  /* several unique declarations */
+  /* bu sınıfa özel tanımlamalar */
 }
 ~~~
 
-Both our `.read` and `.unread` selectors share the `color: white;` and `background-color: black;` declarations, but otherwise have several of their own unique declarations. To cut down on the repetition, we can group these two selectors together as a comma-separated list:
+`.read` ve `.unread` seçicilerimiz `color: white;` ve `background-color: black;` tanımlamalarını paylaşırken bununla birlikte kendilerine özel birkaç tanımlamaya da sahiptirler. Tekrarlamayı azaltmak için bu iki seçiciyi virgülle ayrılmış bir liste olarak gruplayabiliriz:
 
 ~~~css
 .read,
@@ -135,28 +135,28 @@ Both our `.read` and `.unread` selectors share the `color: white;` and `backgrou
 }
 
 .read {
-  /* several unique declarations */
+  /* bu sınıfa özel tanımlamalar */
 }
 
 .unread {
-  /* several unique declarations */
+  /* bu sınıfa özel tanımlamalar */
 }
 ~~~
 
-Both of the examples above (with and without grouping) will have the same result, but the second example reduces the repetition of declarations and makes it easier to edit either the `color` or `background-color` for both classes at once.
+Yukarıdaki örneklerin her ikisi de (gruplandırmalı ve gruplandırmasız) aynı sonuca sahip olacaktır. Ancak ikinci örnek, tanımlamaların tekrarını azaltır ve her iki sınıf için `color` ve `background-color`ın aynı anda düzenlenmesini kolaylaştırır.
 
-#### Chaining selectors
+#### Zincirleme seçiciler
 
-Another way to use selectors is to chain them as a list without any separation. Let's say we had the following HTML:
+Seçicileri kullanmanın bir başka yolu da onları herhangi bir ayrım yapmadan liste halinde zincirlemektir. Diyelim ki aşağıdaki HTML'e sahibiz:
 
 ~~~html
 <div>
-  <div class="subsection header">Latest Posts</div>
-  <p class="subsection preview">This is where a preview for a post might go.</p>
+  <div class="subsection header">Son Gönderiler</div>
+  <p class="subsection preview">Bir gönderinin önizlemesi buraya gelebilir.</p>
 </div>
 ~~~
 
-We have two elements with the `subsection` class that have some sort of unique styles, but what if we only want to apply a separate rule to the element that also has `header` as a second class? Well, we could chain both the class selectors together in our CSS like so:
+Bir çeşit benzersiz stile sahip olan `subsection` sınıfına sahip iki öğemiz var. Ancak sadece ikinci bir sınıf olarak `header` sınıfına sahip olan öğeye ayrı bir kural uygulamak istersek ne yapacağız? CSS'imizde iki sınıf seçiciyi de şu şekilde zincirleyebiliriz:
 
 ~~~css
 .subsection.header {
@@ -164,20 +164,20 @@ We have two elements with the `subsection` class that have some sort of unique s
 }
 ~~~
 
-What `.subsection.header` does is it selects any element that has both the `subsection` _and_ `header` classes. Notice how there isn't any space between the `.subsection` and `.header` class selectors. This syntax basically works for chaining any combination of selectors, except for chaining more than one [type selector](#type-selectors).
+`.subsection.header`ın yaptığı şey, `subsection` _ve_ `header` sınıflarına sahip olan herhangi bir öğeyi seçmektir. `.subsection` ve `.header` sınıf seçicileri arasında boşluk olmadığına dikkat edin. Bu sözdizimi temel olarak, [tip seçiciler](#type-selectors) dışında herhangi bir seçici kombinasyonunun oluşturulmasında kullanılır.
 
-This can also be used to chain a class and an ID, as shown below:
+Aşağıda gösterildiği gibi bir sınıf ve ID'yi zincirlemek için de kullanılabilir:
 
 ~~~html
 <div>
-  <div class="subsection header">Latest Posts</div>
+  <div class="subsection header">Son Gönderiler</div>
   <p class="subsection" id="preview">
-    This is where a preview for a post might go.
+    Bir gönderinin önizlemesi buraya gelebilir.
   </p>
 </div>
 ~~~
 
-You can take the two elements above and combine them with the following:
+Yukarıdaki iki öğeyi alıp aşağıdaki şekilde birleştirebilirsiniz:
 
 ~~~css
 .subsection.header {
@@ -189,13 +189,13 @@ You can take the two elements above and combine them with the following:
 }
 ~~~
 
-In general, you can't chain more than one type selector since an element can’t be two different types at once. For example, chaining two type selectors like `div` and `p` would give us the selector `divp`, which wouldn't work since the selector would try to find a literal `<divp>` element, which doesn’t exist.
+Genel olarak, bir öğe aynı anda iki farklı tipte olamayacağı için birden fazla tip seçiciyi zincirleyemezsiniz. Örneğin, `div` ve `p` gibi iki tip seçiciyi zincirlemek, bize `divp` seçicisini verir. Seçici, var olmayan bir `<divp>` öğesi bulmaya çalışacağı için işe yaramaz.
 
-#### Descendant combinator
+#### Soydan Gelen Birleştirici
 
-Combinators allow us to combine multiple selectors differently than either grouping or chaining them, as they show a relationship between the selectors. There are four types of combinators in total, but for right now we're going to only show you the **descendant combinator**, which is represented in CSS by a single space between selectors. <span id="descendant-combinator-description">A descendant combinator will only cause elements that match the last selector to be selected if they also have an ancestor (parent, grandparent, etc) that matches the previous selector.</span>
+Birleştiriciler, seçiciler arasında bir ilişki belirttiği için, birden fazla seçiciyi, gruplamaktan veya zincirlemekten farklı bir şekilde birleştirmemize olanak tanır. Toplamda dört tür birleştirici vardır. Ancak şimdilik size yalnızca seçiciler arasında tek bir boşlukla temsil edilen **soydan gelen birleştiriciyi** göstereceğiz. <span id="descendant-combinator-description">Soydan gelen birleştirici, son seçiciyle eşleşen öğeleri, ondan önceki seçiciyle eşleşen bir ataya(ebeveyn, büyük ebeveyn vb.) sahip olduğu durumlarda seçer.</span>
 
-So something like `.ancestor .child` would select an element with the class `child` if it has an ancestor with the class `ancestor`. Another way to think of it is `child` will only be selected if it is nested inside of `ancestor`, no matter how deep. Take a quick look at the example below and see if you can tell which elements would be selected based on the CSS rule provided:
+Yani `.ancestor .child` gibi bir seçim, `child`(çocuk) sınıfına sahip bir öğeyi, ancak `ancestor`(ata) sınıfından bir atası varsa seçecektir. Bunu düşünmenin bir başka yolu da, ne sayıda katman olursa olsun, `child` yalnızca `ancestor`ın içinde yuvalanmışsa seçilecektir. Aşağıdaki örneğe hızlıca göz atın ve verilen CSS kuralına göre hangi öğelerin seçileceğini anlayıp anlayamadığınızı görün:
 
 ~~~html
 <!-- index.html -->
@@ -220,13 +220,13 @@ So something like `.ancestor .child` would select an element with the class `chi
 }
 ~~~
 
-In the above example, the first two elements with the `contents` class (B and C) would be selected, but that last element (D) wouldn't be. Was your guess correct?
+Yukarıdaki örnekte, `contents` sınıfına sahip ilk iki öğe (B ve C) seçilecektir. Ancak son öğe (D) seçilmeyecektir. Tahmininiz doğru muydu?
 
-There's really no limit to how many combinators you can add to a rule, so `.one .two .three .four` would be totally valid. This would just select an element that has a class of `four` if it has an ancestor with a class of `three`, and if that ancestor has its own ancestor with a class of `two`, and so on. You generally want to avoid trying to select elements that need this level of nesting, though, as it can get pretty confusing and long, and it can cause issues when it comes to specificity.
+Bir kurala kaç tane birleştirici ekleyebileceğiniz konusunda net bir sınır yoktur. Bu nedenle `.one .two .three .four` tamamen geçerli olacaktır. Bu seçim, `four` sınıfına sahip öğeyi ancak `three` sınıfına sahip bir atası varsa, o atanın `two`, onun atasının da `one` sınıfına sahip öğesi varsa seçecektir. Genellikle bu seviyede iç içe geçmeye ihtiyaç duyan öğeleri seçmeye çalışmaktan kaçınmak isteriz. Çünkü oldukça kafa karıştırıcı ve uzun olabilirler. Özgüllük konusunda sorunlara da neden olabilirler.
 
-### Order matters!
+### Sıralama Önemlidir!
 
-When two selectors have the same level of specificity, the rule that is defined last has the most precedence; that is, the last rule overrides any rules before it. Take a look at the following example:
+İki seçici aynı özgüllük düzeyine sahip olduğunda, en son tanımlanan kural önceliğe sahiptir. Yani son kural kendisinden önceki tüm kuralları geçersiz kılar. Aşağıdaki örneğe bir göz atın:
 
 ~~~css
 /* styles.css */
@@ -244,54 +244,54 @@ When two selectors have the same level of specificity, the rule that is defined 
 }
 ~~~
 
-In the above example, the selector last_declared would override the first_declared selector. Any html element with both of those classes would have the styles defined in .last_declared instead of .first_declared.
+Yukarıdaki örnekte, `.last_declared`(son tanımlanan) seçicisi `.first_declared`(ilk tanımlanan) seçicisini geçersiz kılacaktır. Bu sınıfların her ikisine de sahip olan herhangi bir html öğesi, `.first_declared` yerine `.last_declared`da tanımlanan stillere sahip olacaktır.
 
-### Properties to get started with
+### Başlamak için özellikler
 
-There are some CSS properties that you're going to be using all the time, or at the very least more often than not. We're going to introduce you to several of these properties, though this is by no means a complete list. Learning the following properties will simply be enough to help get you started.
+Her zaman ya da diğerlerine göre daha sık kullanacağınız bazı CSS özellikleri vardır. Size bu özelliklerden birkaçını tanıtacağız. Bu hiçbir şekilde tam bir liste olmamakla beraber, aşağıdaki özellikleri öğrenmek, başlamanıza yardımcı olmak için yeterli olacaktır.
 
-#### Color and background-color
+#### Color ve background-color özellikleri
 
-The `color` property sets an element's text color, while `background-color` sets, well, the background color of an element. I guess we're done here?
+`color` özelliği bir öğenin metin rengini ayarlarken, `background-color`, bir öğenin arka plan rengini ayarlar. Burada işimiz bitti mi?
 
-Almost. Both of these properties can accept one of several kinds of values. A common one is a keyword, such as an actual color name like `red` or the `transparent` keyword. They also accept HEX, RGB, and HSL values, which you may be familiar with if you've ever used a photoshop program or a site where you could customize your profile colors.
+Neredeyse. Bu özelliklerin her ikisi de birkaç farklı tipte değeri kabul edebilir. Anahtar kelimeler, yaygın değer türlerinden biridir. `red`(kırmızı) gibi gerçek bir renk adı veya `transparent`(şeffaf) gibi bir anahtar kelime kullanılabilir. Ayrıca HEX, RGB ve HSL değerlerini de kabul ederler; daha önce bir photoshop programı ya da profil renklerinizi özelleştirebileceğiniz bir site kullandıysanız bu değerlere aşina olabilirsiniz.
 
 ~~~css
 p {
-  /* hex example: */
+  /* hex örneği: */
   color: #1100ff;
 }
 
 p {
-  /* rgb example: */
+  /* rgb örneği: */
   color: rgb(100, 0, 127);
 }
 
 p {
-  /* hsl example: */
+  /* hsl örneği: */
   color: hsl(15, 82%, 56%);
 }
 ~~~
 
-Take a quick look at [CSS Legal Color Values](https://www.w3schools.com/cssref/css_colors_legal.asp) to see how you can adjust the opacity of these colors by adding an alpha value.
+Bir alfa değeri ekleyerek bu renklerin opaklığını nasıl ayarlayabileceğinizi görmek için [CSS Yasal Renk Değerleri](https://www.w3schools.com/cssref/css_colors_legal.asp) adresine hızlıca göz atın.
 
-#### Typography basics and text-align
+#### Tipografi temelleri ve metin hizalama
 
-`font-family` can be a single value or a comma-separated list of values that determine what font an element uses. Each font will fall into one of two categories, either a "font family name" like `"Times New Roman"` (we use quotes due to the whitespace between words) or a "generic family name" like `sans-serif` (generic family names never use quotes).
+`font-family`(yazı tipi ailesi) tek bir değer olabileceği gibi, bir öğenin hangi yazı tipini kullanacağını belirleyen değerlerin bir listesi de olabilir. Her yazı tipi iki kategoriden birine girer, ya `"Times New Roman"` gibi bir "yazı tipi ailesi adı"(kelimeler arasındaki boşluklar nedeniyle tırnak işareti kullanırız) ya da `sans-serif` gibi bir "genel aile adı"dır(genel aile adlarında asla tırnak işareti kullanılmaz).
 
-If a browser cannot find or does not support the first font in a list, it will use the next one, then the next one and so on until it finds a supported and valid font. This is why it's best practice to include a list of values for this property, starting with the font you want to be used most and ending with a generic font family as a fallback, e.g. `font-family: "Times New Roman", sans-serif;`
+Bir tarayıcı, listedeki ilk yazı tipini bulamazsa veya onu desteklemiyorsa, desteklenen ve geçerli bir yazı tipi bulana kadar listeden sonraki tiplerini deneyerek devam eder. Bu nedenle, en çok kullanılmasını istediğiniz yazı tipiyle başlayıp, yedek olarak genel bir yazı tipi ailesiyle biten bir liste oluşturmak en iyisidir, örneğin `font-family: "Times New Roman", sans-serif;`
 
-`font-size` will, as the property name suggests, set the size of the font. When giving a value to this property, the value should not contain any whitespace, e.g. `font-size: 22px` has no space between "22" and "px".
+`font-size`(yazı tipi boyutu) özelliği, adından da anlaşılacağı gibi yazı tipinin boyutunu ayarlar. Bu özelliğe bir değer verirken, değer herhangi bir boşluk içermemelidir. Örneğin `font-size: 22px` tanımlaması, "22" ve "px" arasında boşluk içermez.
 
-`font-weight` affects the boldness of text, assuming the font supports the specified weight. This value can be a keyword, e.g. `font-weight: bold`, or a number between 1 and 1000, e.g. `font-weight: 700` (the equivalent of `bold`). Usually, the numeric values will be in increments of 100 up to 900, though this will depend on the font.
+`font-weight`(yazı tipi ağırlığı) fontun belirtilen ağırlığı desteklediği varsayılarak metnin kalınlığını belirler. Bu değer `font-weight: bold` gibi bir anahtar kelime olabilir ya da `font-weight: 700` (`bold` eşdeğeri) gibi 1 ile 1000 arasında bir sayı olabilir. Genellikle, sayısal değerler 100'den 900'e kadar 100'lük artışlarda görülür. Bu yine de fonta bağlıdır.
 
-`text-align` will align text horizontally within an element, and you can use the common keywords you may have come across in word processors as the value for this property, e.g. `text-align: center`.
+`text-align`(metin hizalama) bir öğe içindeki metni yatay düzlemde hizalar ve bu özelliğin değeri olarak Word programlarında karşılaşabileceğiniz `text-align: center` gibi yaygın anahtar kelimeleri kullanabilirsiniz.
 
-#### Image height and width
+#### Resim yüksekliği ve genişliği
 
-Images aren't the only elements that we can adjust the height and width on, but we want to focus on them specifically in this case.
+Yüksekliğini ve genişliğini ayarlayabileceğimiz öğeler yalnızca resimler değildir. Ancak bu durumda özellikle onlara odaklanmak istiyoruz.
 
-By default, an `<img>` element's `height` and `width` values will be the same as the actual image file's height and width. If you wanted to adjust the size of the image without causing it to lose its proportions, you would use a value of "auto" for the `height` property and adjust the `width` value:
+Varsayılan olarak, bir `<img>` öğesinin `height`(yükseklik) ve `width`(genişlik) değerleri, gerçek görüntü dosyasının yükseklik ve genişliğiyle aynı olacaktır. Resmin boyutunu, oranlarını kaybetmeden ayarlamak istersek, `height` özelliği için "auto" değerini kullanıp `width` değerini ayarlayabiliriz:
 
 ~~~css
 img {
@@ -300,17 +300,17 @@ img {
 }
 ~~~
 
-For example, if an image's original size was 500px height and 1000px width, using the above CSS would result in a height of 250px.
+Örneğin, bir resmin orijinal boyutu 500 piksel yükseklik ve 1000 piksel genişlikte ise, yukarıdaki CSS kuralları kullanıldığında 250 piksellik bir yükseklik elde edilir.
 
-It's best to include both of these properties for `<img>` elements, even if you don't plan on adjusting the values from the image file's original ones. When these values aren't included, if an image takes longer to load than the rest of the page contents, the image won't take up any space on the page at first, but will suddenly cause a drastic shift of the other page contents once it does load in. Explicitly stating a `height` and `width` prevents this from happening, as space will be "reserved" on the page and will just appear as a blank space until the image loads.
+Resim dosyasının orijinal değerlerini değiştirmeyi planlamıyorsak bile `<img>` öğeleri için bu özelliklerin her ikisini de dahil etmek en iyisidir. Bu değerler dahil edilmediğinde, bir resmin yüklenmesi sayfa içeriğinin geri kalanından daha uzun sürerse resim ilk başta sayfada hiç yer kaplamaz. Ancak yüklendikten sonra diğer sayfa içeriklerinde aniden ciddi bir kayma oluşur. `height` ve `width` belirlemek bunu önler. Çünkü öğenin kaplayacağı alan sayfada "rezerve edilmiş" olacak ve resim yüklenene kadar yalnızca boş bir alan olarak görünecektir.
 
-### Adding CSS to HTML
+### HTML'e CSS Ekleme
 
-Now that we've learned some basic syntax, you might be wondering _how_ to add all this CSS to our HTML. There are three methods to do so.
+Artık bazı temel sözdizimlerini öğrendiğimize göre, tüm bu CSS'i HTML'imize _nasıl_ ekleyeceğimizi merak ediyor olabilirsiniz. Bunu üç yöntemle yapabiliriz.
 
-#### External CSS
+#### Harici CSS
 
-External CSS is the most common method you will come across, and it involves creating a separate file for the CSS and linking it inside of an HTML's opening and closing `<head>` tags with a self-closing `<link>` element:
+Harici CSS karşılaşacağınız en yaygın yöntemdir. CSS için ayrı bir dosya oluşturmayı ve bunu HTML'in `<head>` etiketlerinin içine kendi kendini kapatan bir `<link>` öğesiyle bağlamayı içerir:
 
 ~~~html
 <!-- index.html -->
@@ -333,22 +333,22 @@ p {
 }
 ~~~
 
-First, we add a self-closing `<link>` element inside of the opening and closing `<head>` tags of the HTML file. The `href` attribute is the location of the CSS file, either an absolute URL or, what you'll be utilizing, a URL relative to the location of the HTML file. In our example above, we are assuming both files are located in the same directory. The `rel` attribute is required, and it specifies the relationship between the HTML file and the linked file.
+İlk olarak, HTML dosyasının `<head>` etiketinin içine kendi kendini kapatan bir `<link>` öğesi ekleriz. `href` niteliği CSS dosyasının konumudur. Ya mutlak bir URL'e ya da şimdi kullanacağınız gibi HTML dosyasının konumuna göreli bir URL'e sahiptir. Yukarıdaki örneğimizde, her iki dosyanın da aynı dizinde bulunduğunu varsayıyoruz. `rel` niteliği gereklidir ve HTML dosyası ile bağlantılı dosya arasındaki ilişkiyi belirtir.
 
-Then inside of the newly created `styles.css` file, we have the selector (the `div` and `p`), followed by a pair of opening and closing curly braces, which create a "declaration block". Finally, we place any declarations inside of the declaration block. `color: white;` is one declaration, with `color` being the property and `white` being the value, and `background-color: black;` is another declaration.
+Örnek olarak, yeni oluşturulan `styles.css` dosyasının içine, `div` ve `p` seçicileri ekledik. Bu seçiciler, açma ve kapama küme parantezleri ile "tanımlama blokları" oluştururlar. Son olarak, tüm tanımlamaları bu blokların içine yerleştiririz. `color: white;` bir tanımlamadır, `color` özellik ve `white` değerdir ve `background-color: black;` de başka bir tanımlamadır.
 
-A note on file names: `styles.css` is just what we went with as the file name here. You can name the file whatever you want as long as the file type is `.css`, though "style" or "styles" is most commonly used.
+Dosya isimleri hakkında bir not: Burada dosya adını `styles.css` olarak belirledik. Dosya türü `.css` olduğu sürece dosyayı istediğiniz gibi isimlendirebilirsiniz. Ancak "style" ve "styles" en yaygın kullanılan isimlerdir.
 
-A couple of the pros to this method are:
+Bu yöntemin bazı avantajları şunlardır:
 
-1. It keeps our HTML and CSS separated, which results in the HTML file being smaller and making things look cleaner.
-2. We only need to edit the CSS in _one_ place, which is especially handy for websites with many pages that all share similar styles.
+1. HTML ve CSS'i ayrı tutar. Böylece HTML dosyasının daha küçük olmasını ve her şeyin daha temiz görünmesini sağlar.
+2. CSS'i yalnızca _bir_ yerde düzenlememiz gerekir. Böylece, özellikle benzer stilleri paylaşan birçok sayfası olan internet siteleri için kullanışlıdır.
 
-#### Internal CSS
+#### Dahili CSS
 
-Internal CSS (or embedded CSS) involves adding the CSS within the HTML file itself instead of creating a completely separate file. With the internal method, you place all the rules inside of a pair of opening and closing `<style>` tags, which are then placed inside of the opening and closing `<head>` tags of your HTML file. Since the styles are being placed directly inside of the `<head>` tags, we no longer need a `<link>` element that the external method requires.
+Dahili CSS(gömülü CSS), tamamen ayrı bir dosya oluşturmak yerine CSS'i HTML dosyasının içine eklemeyi içerir. Dahili yöntemle, tüm kurallar bir `<style>` etiketinin içine yerleştirilir. Bunlar da HTML dosyanızın `<head>` etiketine yerleştirilir. Stiller doğrudan `<head>` etiketinin içine yerleştirildiği için harici yöntemin gerektirdiği `<link>` öğesine ihtiyaç duyulmaz.
 
-Besides these differences, the syntax is exactly the same as the external method (selector, curly braces, declarations):
+Bu farklılıklar dışında sözdizimi, harici yöntemle tamamen aynıdır(seçici, küme parantezler, tanımlamalar):
 
 ~~~html
 <head>
@@ -368,11 +368,11 @@ Besides these differences, the syntax is exactly the same as the external method
 </body>
 ~~~
 
-This method can be useful for adding unique styles to a _single page_ of a website, but it doesn't keep things separate like the external method, and depending on how many rules and declarations there are it can cause the HTML file to get pretty big.
+Bu yöntem, bir internet sitesinin _tek bir sayfasına_ benzersiz stiller eklemek için yararlı olabilir. Ancak harici yöntem gibi her şeyi ayrı tutmaz. Kural ve tanımlama sayısına bağlı olarak HTML dosyasının oldukça büyük olmasına neden olabilir.
 
-#### Inline CSS
+#### Satır İçi CSS
 
-Inline CSS makes it possible to add styles directly to HTML elements, though this method isn't as recommended:
+Satır içi CSS, stilleri doğrudan HTML öğelerine eklemeyi sağlar. Ancak bu yöntem genellikle önerilmez:
 
 ~~~html
 <body>
@@ -380,35 +380,35 @@ Inline CSS makes it possible to add styles directly to HTML elements, though thi
 </body>
 ~~~
 
-The first thing to note is that we don't actually use any selectors here, since the styles are being added directly to the opening `<div>` tag itself. Next, we have the `style=` attribute, with its value within the pair of quotation marks being the declarations.
+Burada dikkat edilmesi gereken şey, herhangi bir seçici kullanılmamasıdır. Çünkü stiller doğrudan açılıştaki `<div>` etiketine eklenir. Tanımlamalar, `style=` niteliğinde tırnak işaretleri içine eklenir.
 
-If you need to add a _unique_ style for a _single_ element, this method can work just fine. Generally, though, this isn't exactly a recommended way for adding CSS to HTML for a few reasons:
+_Tek bir_ öğeye _benzersiz_ bir stil eklemeniz gerekiyorsa bu yöntemi kullanabilirsiniz. Ancak bu yöntem, birkaç sebepten dolayı HTML'e CSS eklemek için önerilen bir yol değildir:
 
-- It can quickly become pretty messy once you start adding a _lot_ of declarations to a single element, causing your HTML file to become unnecessarily bloated.
-- If you want many elements to have the same style, you would have to copy + paste the same style to each individual element, causing lots of unnecessary repetition and more bloat.
-- Any inline CSS will override the other two methods, which can cause unexpected results. (While we won't dive into it here, this can actually be taken advantage of).
+- Tek bir öğeye _çok_ sayıda tanımlama eklemeye başladığınızda HTML dosyanız gereksiz yere şişmeye başlar. Böylece projeniz hızlıca dağınık bir hale gelebilir.
+- Aynı stili birçok öğeye eklemek isterseniz o stili kopyalayıp her bir öğeye yapıştırmanız gerekir. Bu da çok sayıda gereksiz tekrara ve daha fazla şişkinliğe neden olur.
+- Herhangi bir satır içi CSS, diğer iki yöntemi geçersiz kılar. Bu da beklenmedik sonuçlara neden olabilir. (Burada bu konuya girmeyecek olsak da aslında bundan faydanabileceğimiz durumlar da vardır).
 
-### Assignment
+### Ödev
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises), read the README, and only do the exercises in the `foundations` directory in the order they're listed, starting with `01-css-methods` and ending with `05-descendant-combinator`.
+1.  [CSS alıştırmaları repository'mize](https://github.com/TheOdinProject/css-exercises) gidin, README dosyasını okuyun ve `01-css-methods` ile başlayıp `05-descendant-combinator` ile bitecek şekilde `foundations` dizinindeki alıştırmaları sırasıyla yapın.
 
 </div>
 
-### Knowledge check
+### Bilgi Ölçme
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+Bu bölüm, dersi anlayıp anlamadığınızı kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta zorlanıyorsanız, soruya tıklayıp yönlendirdiği materyali inceleyin.
 
-- <a class="knowledge-check-link" href="#class-selectors">What is the syntax for class and ID selectors?</a>
-- <a class="knowledge-check-link" href="#the-grouping-selector">How would you apply a single rule to two different selectors?</a>
-- <a class="knowledge-check-link" href="#chaining-selectors">Given an element that has an id of `title` and a class of `primary`, how would you use both attributes for a single rule?</a>
-- <a class="knowledge-check-link" href="#descendant-combinator-description">What does the descendant combinator do?</a>
-- <a class="knowledge-check-link" href="#adding-css-to-html">What are the names of the three ways to add CSS to HTML?</a>
-- <a class="knowledge-check-link" href="#external-css">What are the main differences between the three ways of adding CSS to HTML?</a>
+- <a class="knowledge-check-link" href="#class-selectors">Sınıf ve ID seçiciler için sözdizimi nasıldır?</a>
+- <a class="knowledge-check-link" href="#the-grouping-selector">Tek bir kuralı iki farklı seçiciye nasıl uygularsınız?</a>
+- <a class="knowledge-check-link" href="#chaining-selectors">ID'si `title` ve sınıfı `primary` olan bir öğe verildiğinde, tek bir CSS kuralı için her iki niteliği nasıl kullanırsınız?</a>
+- <a class="knowledge-check-link" href="#descendant-combinator-description">Soydan gelen birleştirici ne işe yarar?</a>
+- <a class="knowledge-check-link" href="#adding-css-to-html">HTML'e CSS eklemek için kullanılan üç yöntemin isimleri nelerdir?</a>
+- <a class="knowledge-check-link" href="#external-css">HTML'e CSS eklemenin üç yöntemi arasındaki temel farklar nelerdir?</a>
 
-### Additional resources
+### Ek Kaynaklar
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
 
-- [Mozilla CSS values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) can be used to learn the various types of values possible in absolute or relative terms.
+- [Mozilla CSS değerleri ve birimleri](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) mutlak veya göreli olarak mümkün olan çeşitli değer türlerini öğrenmek için kullanılabilir.
