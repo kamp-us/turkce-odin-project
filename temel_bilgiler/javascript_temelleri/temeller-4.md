@@ -1,14 +1,14 @@
 ### Giriş
 
-Programlamanın zorluklarından biri de büyük miktarda veri ile uğraşmaktır. Örneğin, sınıfınızdaki tüm öğrencilerin isimlerini saklamak istiyorsanız, bunu nasıl yaparsınız? Her isim için bir değişken oluşturabilirsiniz, ancak bu sıkıcı ve verimsiz olacaktır. Ayrıca yönetilmesi ve güncellenmesi de zor olacaktır. Ya isimleri daha sonra değiştirmek ya da erişmek isterseniz?
+Programlamanın zorluklarından biri de büyük miktarda veri ile uğraşmaktır. Örneğin, sınıfınızdaki tüm öğrencilerin isimlerini depolamak istiyorsanız, bunu nasıl yaparsınız? Her isim için bir değişken oluşturabilirsiniz, ancak bu sıkıcı ve verimsiz olacaktır. Ayrıca yönetilmesi ve güncellenmesi de zor olacaktır. Ya isimleri daha sonra değiştirmek ya da erişmek isterseniz?
 
-Neyse ki bu sorunu çözmenin daha iyi bir yolu var. Bu derste, birden fazla değeri tek bir değişkende saklayabilen veri yapıları olan diziler hakkında bilgi edineceksiniz. Diziler, büyük miktarda veriyi düzenlemek ve işlemek için çok kullanışlıdır. Ayrıca, bir kod bloğunu tekrar tekrar çalıştırmanıza olanak tanıyan kontrol yapıları olan döngüler hakkında da bilgi edineceksiniz. Döngüler, bir dizinin her bir elemanı üzerinde aynı işlemi gerçekleştirmek için çok kullanışlıdır. Son olarak, kodun kendisini yazmadan önce kodunuz için testler yazma uygulaması olan Test Odaklı Geliştirme (TDD) ile tanışacaksınız.
+Neyse ki bu sorunu çözmenin daha iyi bir yolu var. Bu derste, birden fazla değeri tek bir değişkende depolayabilen veri yapıları olan diziler hakkında bilgi edineceksiniz. Diziler, büyük miktarda veriyi düzenlemek ve işlemek için çok kullanışlıdır. Ayrıca, bir kod bloğunu tekrar tekrar çalıştırmanıza olanak tanıyan kontrol yapıları olan döngüler hakkında da bilgi edineceksiniz. Döngüler, bir dizinin her bir elemanı üzerinde aynı işlemi gerçekleştirmek için çok kullanışlıdır. Son olarak, kodun kendisini yazmadan önce kodunuz için testler yazma yöntemi olan Test Odaklı Geliştirme (TDD) ile tanışacaksınız.
 
 ### Derse Genel Bakış
 
 Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içerir.
 
-* Dizileri(arrays) kullanma.
+* Dizileri kullanma.
 * Yerleşik dizi yöntemlerini kullanma.
 * Döngüleri kullanma.
 * TDD alıştırmaları ile pratik yapma.
@@ -25,14 +25,14 @@ Dizeler ve sayılar yapı taşlarımız olabilir, ancak komut dosyalarınız dah
 
 Bilgisayarlar yorulmazlar ve gerçekten çok hızlıdırlar! Bu nedenle, hesaplamaların birden fazla kez yapılmasını gerektiren problemleri çözmek için çok uygundurlar. Bazı durumlarda, bir bilgisayar, bir insanın saatler sürebileceği bir görevi sadece birkaç saniye içinde _binlerce_ hatta _milyonlarca_ kez tekrarlayabilir. \(Açıkçası, buradaki hız hesaplamanın karmaşıklığına ve bilgisayarın hızına bağlıdır\). Bir bilgisayara tekrarlayan bir görev yaptırmanın bir yolu **döngü** kullanmaktır.
 
-1. Bu ingilizce [MDN makalesini](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code) okuyun. Bu daha uzun bir makale, ancak sayfanın altındaki 'Active Learning' bölümlerini ele aldığınızdan emin olun.
+1. Bu ingilizce [MDN makalesini](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code) okuyun. Bu daha uzun bir makale, ancak sayfanın altındaki 'Active Learning' bölümlerini çözmeye çalıştınızdan emin olun.
 2. Bir kez daha, aynı bilgi, [JavaScript.info](http://javascript.info/while-for)'dan biraz farklı içerik. \(Her şeyi bildiğinizi düşünüyorsanız bilgileri gözden geçirin, ancak **sayfanın sonundaki görevleri unutmayın**. En iyi _yaparak_ öğrenirsiniz.\)
 
 ### Test Odaklı Geliştirme
 
-Test Odaklı Geliştirme \(TDD\), geliştirme dünyasında sıkça duyduğunuz bir ifadedir. Siz kodu gerçekten yazmadan önce kodunuzun nasıl çalışması gerektiğini açıklayan otomatik testler yazma pratiğini ifade eder. Örneğin, birkaç sayıyı toplayan bir işlev yazmak istiyorsanız, önce işlevi kullanan ve beklenen çıktıyı sağlayan bir test yazarsınız. Kodunuzu yazmadan önce test başarısız olacaktır ve test geçtiğinde kodunuzun doğru çalıştığını bilmeniz gerekir.
+Test Odaklı Geliştirme \(TDD\), geliştirme dünyasında sıkça duyduğunuz bir ifadedir. Siz kodu gerçekten yazmadan önce kodunuzun nasıl çalışması gerektiğini açıklayan otomatik testler yazma yöntemini ifade eder. Örneğin, birkaç sayıyı toplayan bir fonksiyon yazmak istiyorsanız, önce fonksiyonu kullanan ve beklenen çıktıyı sağlayan bir test yazarsınız. Kodunuzu yazmadan önce test başarısız olacaktır ve test geçtiğinde kodunuzun doğru çalıştığını bilmeniz gerekir.
 
-Birçok açıdan TDD, testler olmadan kod yazmaktan çok daha verimlidir. Yukarıdaki toplama fonksiyonu için testimiz olmasaydı, kodu kendimiz tekrar tekrar çalıştırmamız ve çalıştığından emin olana kadar farklı sayılar girmemiz gerekirdi... basit bir `add(2, 2)` için büyük bir sorun değil, ancak birisinin tic tac toe oyununu kazanıp kazanmadığını kontrol etmek gibi daha karmaşık fonksiyonlar için bunu yapmak zorunda olduğunuzu hayal edin: \(`game_win(["o", null, "x",null, "x",null, "x", "o", "o"])`). TDD yapmadıysanız, fonksiyonun doğru çalışıp çalışmadığını test etmek için kendinize karşı birden fazla oyun oynamanız gerekebilir!
+Birçok açıdan TDD, testler olmadan kod yazmaktan çok daha verimlidir. Yukarıdaki toplama fonksiyonu için testimiz olmasaydı, kodu kendimiz tekrar tekrar çalıştırmamız ve çalıştığından emin olana kadar farklı sayılar girmemiz gerekirdi... basit bir `add(2, 2)` fonksiyonu için büyük bir sorun değil, ancak birisinin tic tac toe oyununu kazanıp kazanmadığını kontrol etmek gibi daha karmaşık fonksiyonlar için bunu yapmak zorunda olduğunuzu hayal edin: \(`game_win(["o", null, "x",null, "x",null, "x", "o", "o"])`). TDD yapmadıysanız, fonksiyonun doğru çalışıp çalışmadığını test etmek için kendinize karşı birden fazla oyun oynamanız gerekebilir!
 
 Bu testleri gerçekten yazma sanatını size kursun ilerleyen bölümlerinde öğreteceğiz. Aşağıdaki alıştırmada testler sizin için zaten yazılmış durumda. Tek yapmanız gereken test ortamını kurmak, özellikleri okumak ve geçmelerini sağlayacak kodu yazmak!
 
