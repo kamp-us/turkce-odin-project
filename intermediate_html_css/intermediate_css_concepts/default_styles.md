@@ -1,6 +1,6 @@
 ### Giriş
 
-Tarayıcılar, varsayılan olarak web projelerinize biraz stil enjekte ederler. Belki bunu özellikle düşünmemiş olabilirsiniz, ancak kesinlikle karşılaşmışsınızdır.
+Tarayıcılar, varsayılan olarak web projelerinize biraz stil enjekte ederler. Belki bunu özellikle düşünmemiş olabilirsiniz ancak kesinlikle karşılaşmışsınızdır.
 
 ### Öğrenme Çıktıları
 
