@@ -11,7 +11,7 @@ Tarayıcılar, varsayılan olarak web projelerinize biraz stil enjekte ederler. 
 
 İlk olarak [HTML Tarifler Projesini](https://www.theodinproject.com/lessons/foundations-recipes) yaptığınızda, bazı elementlerin zaten üzerlerine biraz stil uygulandığını fark etmiş olmalısınız. Bir `h1` başlığı, örneğin, normal metinden daha büyük ve kalındır. Bağlantılar (`a`), mavi renkte ve altı çizgilidir. Listeler (`ul` ve `ol`), etraflarında bir sürü dolgu bulunan bir yapıya sahiptir. Tarayıcılar, her web sayfasına biraz CSS ekleyerek bunu yaparlar. [İşte Chrome'un varsayılan HTML stil-sayfası](https://chromium.googlesource.com/chromium/blink/+/refs/heads/main/Source/core/css/html.css)
 
-Bununla ilgili sorun, farklı tarayıcıların her şeyi aynı şekilde biçimlendireceğinin garantisi olmamasıdır. Genel olarak, tutarsızlıklar oldukça küçük olacak, ancak GERÇEKTEN varlar. Ayrıca, birçok durumda bir geliştirici olarak, sitenizin tam olarak hayal ettiğiniz gibi görünmesini sağlamak için tüm bu varsayılan stili geri alacak veya yeniden yapacaksınız.
+Bununla ilgili sorun, farklı tarayıcıların her şeyi aynı şekilde biçimlendireceğinin garantisi olmamasıdır. Genel olarak, tutarsızlıklar oldukça küçük olacak ancak yine de VAR OLACAKLAR. Ayrıca, birçok durumda bir geliştirici olarak, sitenizin tam olarak hayal ettiğiniz gibi görünmesini sağlamak için tüm bu varsayılan stili geri alacak veya yeniden yapacaksınız.
 
 Buna karşı birçok geliştirici, projelerine "CSS Sıfırlama" ile başlar; tarayıcı varsayılanlarını geri alarak her elementin her tarayıcıda aynı şekilde davranmasını sağlayan bir dosya. 
 
