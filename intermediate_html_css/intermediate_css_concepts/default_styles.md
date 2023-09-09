@@ -24,7 +24,7 @@ CSS sıfırlama kullanmak zorunda değilsiniz. Birçok durumda, size sunulan sı
 1.  [Meyer Sıfırlaması](https://meyerweb.com/eric/tools/css/reset/) muhtemelen en popüler olanıdır. Çok basittir ve temelde tüm varsayılan stilleri kaldırır.
 2.  [Normalize.css](http://nicolasgallagher.com/about-normalize-css/) başka popüler bir seçenektir. Tüm varsayılan stilleri kaldırmaz, ancak tarayıcıların tutarlı olmasını sağlamak için onları hafifçe düzenler.
 3.  [Reboot, Resets and Reasoning](https://css-tricks.com/reboot-resets-reasoning/) CSS hileleri makalesi, biraz daha derine iner ve birkaç diğer popüler sıfırlamayı anlatır.
-4.  Belki de daha çok eğlenceli olup işe yaramaz, bu [Tarayıcı Varsayılan Stiller](https://browserdefaultstyles.com/) sitesiyle oynayabilirsiniz.
+4.  İşe yararlığından ziyade eğlence için bu [Tarayıcı Varsayılan Stiller](https://browserdefaultstyles.com/) sitesiyle oynayabilirsiniz.
 
 </div>
 
