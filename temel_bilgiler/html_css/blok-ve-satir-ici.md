@@ -11,7 +11,7 @@ Bu bölüm, bu derste öğreneceğiniz konulara genel bir bakış içerir.
 *   Hangi öğelerin varsayılan olarak `blok`, hangilerinin de `satır içi` olduğunu öğreneceksiniz.
 *   Div ve span'lerin ne olduğunu öğreneceksiniz.
 
-### Blok ve Satır İçi
+### Block ve Inline
 
 Şimdiye kadar öğrendiğiniz öğelerin çoğu blok öğelerdir. Başka bir deyişle, varsayılan stilleri `display: block` şeklindedir. <span id="block-inline-difference"></span>Varsayılan olarak blok öğeleri, sayfada üst üste yığılmış halde görünür ve her yeni öğe yeni bir satırda başlar.
 
