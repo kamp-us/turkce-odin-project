@@ -37,7 +37,7 @@ Veya bir sütunu bu şekilde:
 
 Flex tek boyutlu düzenler için, float'lara veya CSS kurnazlıklarına gerek kalmadan, bize öğelerimizi hizalamamız için kullanışlı bir araç sunar.
 
-İki boyutlu düzenler için, flex öğelerinizi bir sonraki satıra wraplamanızı sağlayan `flex-wrap` hakkında biraz bilgi edinmiştiniz. Bu, başka bir satıra wraplayan bir satır ile veya başka bir sütuna wraplayan bir sütun ile yapılabilir.
+İki boyutlu düzenler için, flex öğelerinizi bir sonraki satıra kaydırmanızı sağlayan `flex-wrap` hakkında biraz bilgi edinmiştiniz. Bu, başka bir satıra sarılan bir satır ile veya başka bir sütuna sarılan bir sütun ile yapılabilir.
 
 Kart Düzeni egzersizini çözerken ne kadar eğlenmiştiniz, hatırlıyor musunuz?
 
