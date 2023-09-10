@@ -70,7 +70,7 @@ CSS Grid'in Flexbox'un yerini almak için geldiğini düşünen bazı insanlar o
 
 Bu bölüm, sizin bu dersi ne kadar anladığınızı kontrol etmek için sorular içerir. Aşağıdaki soruları kendi başınıza cevaplamakta zorlanıyorsanız, cevapları bulmak için yukarıdaki materyali gözden geçirin.
 
-- [Flex'i iki boyutlu düzende nasıl kullanabilirsin?](#flex'e-bir-geri-bakış)
+- [Flex'i iki boyutlu düzende nasıl kullanabilirsin?](#flexe-bir-geri-bakış)
 - [CSS Grid neden tanıtıldı?](#grid-nedir)
 - [Konteynerde eşit boyutlu öğeleri kolayca oluşturmak için hangi CSS düzen modülünü kullanırsınız?](#grid-nedir)
 
