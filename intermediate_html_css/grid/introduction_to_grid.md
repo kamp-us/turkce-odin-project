@@ -15,7 +15,7 @@ Bu dersin sonunda şunları yapabiliyor olmalısınız:
 
 Temel Bilgiler kursunda Flexbox hakkında çok şey öğrendiniz. Eğer Flex'i yol boyunca orada burada kullandıysanız, bu bölüm sizin için Grid'e giriş yapmadan önce hızlı bir hatırlatıcı olacak. Eğer Flex konusunda tamamen kaybolduysanız [Flex](https://www.theodinproject.com/lessons/foundations-introduction-to-flexbox) derslerini tekrar etmek hızlanmak için yardımcı olabilir.
 
-Flex dersleri, öğelerin iki [esken](https://www.theodinproject.com/lessons/foundations-axes) üzerinde konumlandırmasını ve [hizalandırmasını](https://www.theodinproject.com/lessons/foundations-alignment) ele aldı. Ayrıca flex öğelerinizde [grow, shrink veya boyut değiştirme](https://www.theodinproject.com/lessons/foundations-growing-and-shrinking) özelliklerinin nasıl kullanıldığını öğrendiniz. Öğeler flex ile büyüyebilir veya küçülebilir, işte Flexbox'ın güzelliği bu.
+Flex dersleri, öğelerin iki [eksen](https://www.theodinproject.com/lessons/foundations-axes) üzerinde konumlandırmasını ve [hizalandırmasını](https://www.theodinproject.com/lessons/foundations-alignment) ele aldı. Ayrıca flex öğelerinizde [grow, shrink veya boyut değiştirme](https://www.theodinproject.com/lessons/foundations-growing-and-shrinking) özelliklerinin nasıl kullanıldığını öğrendiniz. Öğeler flex ile büyüyebilir veya küçülebilir, işte Flexbox'ın güzelliği bu.
 
 Hatırlarsınız ki, güzel bir satır flex öğesini, bu şekilde hizalayabilirsiniz:
 
