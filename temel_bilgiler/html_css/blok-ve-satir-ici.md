@@ -47,7 +47,7 @@ Span, varsayılan olarak satır içi düzeyde bir öğedir. Metin içeriğini ve
 
 1.  "Normal akış" kavramı, kutu modeli kaynaklarında ima edilir, ancak çok belirgin bir şekilde ortaya konmaz. Öğelerin varsayılan olarak nasıl davrandıklarını anladığınızdan emin olmak için [MDN'den "Normal Akış"](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Normal_Flow)ı okuyun.
 2.  W3 schools'un ["HTML Blok ve Satır İçi Öğeler"](https://www.w3schools.com/html/html_blocks.asp) sayfası, kısa bir açıklama ve tüm varsayılan blok ve satır içi öğelerin listesini içerir.
-3.  The Digital Ocean'ın ["CSS'de Satır İçi ve Satır İçi Blok Gösterimi"](https://www.digitalocean.com/community/tutorials/css-display-inline-vs-inline-block) dersi, `satır içi` ve `satır içi blok` arasındaki farkı netleştiren birkaç harika örnek içerir.
+3.  The Digital Ocean'ın ["CSS'de Satır İçi ve Satır İçi Blok Gösterimi"](https://www.digitalocean.com/community/tutorials/css-display-inline-vs-inline-block) dersi, `inline` ve `inline-block` arasındaki farkı netleştiren birkaç harika örnek içerir.
 4.  [CSS egzersizleri repository'mize](https://github.com/TheOdinProject/css-exercises) gidin ve `margin-and-padding` klasöründeki "01-margin-and-padding-1" ve "02-margin-and-padding-2" egzersizlerini yapın.
 
 </div>
