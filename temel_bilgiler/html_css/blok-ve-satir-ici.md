@@ -8,7 +8,7 @@ Bu bölüm, bu derste öğreneceğiniz konulara genel bir bakış içerir.
 
 *   "Normal akış" hakkında bilgi edineceksiniz.
 *   `block(blok)` ve `inline(satır içi)` öğeler arasındaki farkı öğreneceksiniz.
-*   Hangi öğelerin varsayılan olarak `blok`, hangilerinin de `satır içi` olduğunu öğreneceksiniz.
+*   Hangi öğelerin varsayılan olarak `block`, hangilerinin de `inline` olduğunu öğreneceksiniz.
 *   Div ve span'lerin ne olduğunu öğreneceksiniz.
 
 ### Block ve Inline
