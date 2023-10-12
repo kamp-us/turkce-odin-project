@@ -1,36 +1,36 @@
-### Introduction
+### Giriş
 
-In the previous lesson, we covered basic CSS syntax and selectors. Now, it's time to combine our knowledge of selectors with the *C* of CSS - the cascade.
+Bir önceki derste temel CSS sözdizimini ve seçicileri ele almıştık. Şimdi seçiciler hakkındaki bilgilerimizi CSS'in *C*'si olan cascade(basamaklama) ile birleştirmenin zamanı geldi.
 
-### Lesson overview
+### Derse Genel Bakış
 
-This section contains a general overview of topics that you will learn in this lesson.
+Bu bölüm, bu derste öğreneceğiniz konulara genel bir bakış içerir.
 
-*   What the cascade does.
-*   Specificity and combining CSS selectors.
-*   How inheritance affects certain properties.
+*   Basamaklama ne yapar?
+*   Özgüllük ve CSS seçicilerinin birleştirilmesi.
+*   Kalıtım, belirli özellikleri nasıl etkiler?
 
-### The cascade of CSS
+### CSS'in Basamaklandırılması
 
-Sometimes we may have rules that conflict with one another, and we end up with some unexpected results. "But I wanted *these* paragraphs to be blue, why are they red like these other paragraphs?!" As frustrating as this can be, it's important to understand that CSS doesn't just *do* things against our wishes. CSS only does what we tell it to do. One exception to this is the default styles that are provided by a browser. These default styles vary from browser to browser, and they are why some elements create a large "gap" between themselves and other elements, or why buttons look the way they do, despite us not writing any CSS rules to style them that way.
+Bazen birbiriyle çelişen kurallarımız olabilir. Böylece beklenmedik sonuçlarla karşılaşabiliriz. "Ama ben *bu* paragrafların mavi olmasını istemiştim, neden diğer paragraflar gibi kırmızılar?!" Bu durum her ne kadar sinir bozucu olsa da, CSS'in bizim isteğimiz dışında kafasına göre bir şeyler *yapmadığını* anlamak önemlidir. CSS, yalnızca bizim ondan istediğimiz şeyleri yapar. Bu durumun istisnalarından biri, tarayıcı tarafından sağlanan varsayılan stillerdir. Bu varsayılan stiller tarayıcıdan tarayıcıya değişir. Bazı öğelerin diğer öğelerle aralarında büyük bir "boşluk" olmasını ya da butonları o şekilde göstermek için herhangi bir CSS kuralı yazmamamıza rağmen o şekilde görünmesini sağlar.
 
-So if you end up with some unexpected behavior like this it's either because of these default styles, not understanding how a property works, or not understanding this little thing called the cascade.
+Dolayısıyla, bunun gibi beklenmedik bir davranışla karşılaşırsanız, bunun nedeni varsayılan stiller, bir özelliğin nasıl çalıştığını anlamamak ya da basamaklama adı verilen bu konsepti anlamamaktır.
 
-The cascade is what determines which rules actually get applied to our HTML. There are different factors that the cascade uses to determine this. We will examine three of these factors, which will hopefully help you avoid those frustrating "I hate CSS" moments.
+Basamaklama, HTML'imize hangi kuralların uygulanacağını belirler.Basamaklamanın bunu belirlemek için kullandığı farklı faktörler vardır. Şimdi bu faktörlerden üçünü inceleyeceğiz. Bunların üstünden geçmek, CSS'ten nefret ettiğiniz anlardan kaçınmanıza yardımcı olacaktır.
 
 
-#### Specificity
+#### Özgüllük
 
-A CSS declaration that is more specific will take precedence over less specific ones. Inline styles, which we went over in the previous lesson, have the highest specificity compared to selectors, while each type of selector has its own specificity level that contributes to how specific a declaration is. Other selectors contribute to specificity, but we're focusing only on the ones we've gone over so far:
+Daha özgül bir CSS tanımlaması, ondan daha az özgül olanlardan önceliklidir. Önceki derste ele aldığımız satır içi stiller, seçicilere kıyasla en yüksek özgüllüğe sahipken, her seçici türünün bir tanımlamanın ne kadar özgül olduğuna katkıda bulunan kendi özgüllük düzeyi vardır. Diğer seçiciler de özgüllüğe katkıda bulunurlar. Ancak biz yalnızca şu ana kadar üstünde durduklarımıza odaklanacağız:
 
-1. ID selectors (most specific selector)
-2. Class selectors
-3. Type selectors
+1. ID seçiciler (en özgül seçici)
+2. Sınıf seçiciler
+3. Tip seçiciler
 
-Specificity will only be taken into account when an element has multiple, conflicting declarations targeting it, sort of like a tie-breaker. An ID selector will always beat any number of class selectors, <span id="high-specificity-class-type">a class selector will always beat any number of type selectors</span>, and a type selector will always beat any number of anything less specific than it. When no declaration has a selector with a higher specificity, a larger amount of a single selector will beat a smaller amount of that same selector.
+Özgüllük yalnızca bir öğeyi hedefleyen birden fazla çakışan tanımlama olduğunda dikkate alınır. Bir tür eşitlik bozucu olarak düşünebiliriz. Bir ID seçici her zaman herhangi bir sayıdaki sınıf seçiciden öncelikli olur. <span id="high-specificity-class-type">Benzer şekilde bir sınıf seçici her zaman herhangi bir sayıdaki tip seçiciden</span> ve bir tip seçici her zaman kendisinden daha az özgül olan herhangi sayıdaki seçiciden öncelikli olur. Tanımlamada daha yüksek özgüllüğe sahip bir seçici olmadığında, tek bir seçicinin daha büyük bir miktarı, aynı seçicinin daha küçük bir miktarından öncelikli olacaktır.
 
-Let's take a look at a few quick examples to visualize how specificity works. 
-Consider the following HTML and CSS code:
+Özgüllüğün nasıl çalıştığını görselleştirmek için birkaç hızlı örneğe göz atalım. 
+Aşağıdaki HTML ve CSS koduyla başlayalım:
 
 ~~~html
 <!-- index.html -->
@@ -41,20 +41,20 @@ Consider the following HTML and CSS code:
 ~~~
 
 ~~~css
-/* rule 1 */
+/* kural 1 */
 .subsection {
   color: blue;
 }
 
-/* rule 2 */
+/* kural 2 */
 .main .list {
   color: red;
 }
 ~~~
 
-In the example above, both rules are using only class selectors, but rule 2 is more specific because it is using more class selectors, so the `color: red;` declaration would take precedence.
+Yukarıdaki örnekte, her iki kural da yalnızca sınıf seçicileri kullanmaktadır. Ancak 2. kural daha özgüldür. Çünkü daha fazla sınıf seçicisi kullanmaktadır, bu nedenle `color: red;` tanımlaması öncelikli olacaktır.
 
-Now, let's change things a little bit:
+Şimdi, birkaç şeyi değiştirelim:
 
 ~~~html
 <!-- index.html -->
@@ -64,39 +64,39 @@ Now, let's change things a little bit:
 </div>
 ~~~
 ~~~css
-/* rule 1 */
+/* kural 1 */
 #subsection {
   color: blue;
 }
 
-/* rule 2 */
+/* kural 2 */
 .main .list {
   color: red;
 }
 ~~~
 
-In the example above, despite rule 2 having more class selectors than ID selectors, rule 1 is more specific because ID beats class. In this case, the `color: blue;` declaration would take precedence.
+Yukarıdaki örnekte, kural 2'de ID seçici sayısından daha fazla sınıf seçicisi vardır. Ancak ID, sınıftan öncelikli olduğu için kural 1 daha özgüldür. Bu durumda, `color: blue;` tanımlaması öncelikli olacaktır.
 
 ~~~css
-/* rule 1 */
+/* kural 1 */
 #subsection {
   background-color: yellow;
   color: blue;
 }
 
-/* rule 2 */
+/* kural 2 */
 .main #subsection {
  color: red;
 }
 ~~~
 
-In this final example, the first rule uses an ID selector, while the second rule combines an ID selector with a class selector. Therefore, neither rule is using a more specific selector than the other. The cascade then checks the number of each selector type. Both rules have only one ID selector, but rule 2 has a class selector in addition to the ID selector, so rule 2 has a higher specificity!
+Bu son örnekte, ilk kural bir ID seçici kullanırken, ikinci kural bir ID seçici ile sınıf seçiciyi birleştirir. Dolayısıyla iki kural da aynı özgüllükte seçiciler kullanır. Bu durumda basamaklandırma, her bir seçici türünün sayısını kontrol eder. Her iki kuralda da birer ID seçici vardır. Ancak kural 2'de ID seçiciye ek olarak bir sınıf seçici vardır. Bu nedenle kural 2 daha yüksek bir özgüllüğe sahiptir.
 
-While the `color: red` declaration would take precedence, the `background-color: yellow` declaration would still be applied since there's no conflicting declaration for it.
+`color: red` tanımlaması öncelikli olsa da, `background-color: yellow` ile çelişen herhangi bir tanımlama olmadığı için bu tanımlama yine de uygulanacaktır.
 
 <div class="lesson-note" markdown="1">
-##### Not everything adds to specificity
-When comparing selectors, you may come across special symbols for the universal selector (`*`) as well as combinators (`+`, `~`, `>`, and an empty space). These symbols do not add any specificity in and of themselves.
+##### Her şey özgüllüğe katkıda bulunmaz
+Seçicileri karşılaştırırken, evrensel seçici (`*`) ve birleştiriciler (`+`, `~`, `>` ve boşluk) için özel sembollerle karşılaşabilirsiniz. Bu semboller kendi başlarına herhangi bir özgüllük katmaz.
 </div>
 
 ~~~css
@@ -111,7 +111,7 @@ When comparing selectors, you may come across special symbols for the universal 
 }
 ~~~
 
-Here both rule 1 and rule 2 have the same specificity. Rule 1 uses a chaining selector (no space) and rule 2 uses a descendant combinator (the empty space). But both rules have two classes and the combinator symbol itself does not add to the specificity.
+Burada kural 1 de kural 2 de aynı özgüllüğe sahiptir. Kural 1 bir zincirleme seçici(boşluk yok) ve kural 2 de soydan gelen birleştirici(boşluk var) kullanır. Ancak her iki kuralın da iki sınıfı vardır ve birleştirici sembolünün kendisi özgüllüğe katkıda bulunmaz.
 
 ~~~css
 /* rule 1 */
@@ -125,7 +125,7 @@ Here both rule 1 and rule 2 have the same specificity. Rule 1 uses a chaining se
 }
 ~~~
 
-This example shows the same thing. Even though rule 2 is using a child combinator (`>`), this does not change the specificity value. Both rules still have two classes so they have the same specificity values.
+Bu örnek de aynı şeyi göstermektedir. Kural 2 bir alt birleştirici(`>`) kullanıyor olsa da, bu kullanım özgüllük değerini değiştirmez. Her iki kural da hala iki sınıfa sahiptir. Bu nedenle aynı özgüllük değerlerine sahiptirler.
 
 ~~~css
 /* rule 1 */
@@ -139,13 +139,13 @@ h1 {
 }
 ~~~
 
-In this example, rule 2 would have higher specificity and the `orange` value would take precedence for this element. Rule 2 uses a type selector, which has the lowest specificity value. But rule 1 uses the universal selector (`*`) which has no specificity value.
+Bu örnekte, kural 2 daha yüksek özgüllüğe sahip olacak ve `orange` değeri bu öğe için öncelikli olacaktır. Kural 2, en düşük özgüllük değerine sahip olan bir tip seçici kullanır. Ancak kural 1, özgüllük değeri olmayan evrensel seçiciyi(`*`) kullanır.
 
-#### Inheritance
+#### Kalıtım
 
-Inheritance refers to certain CSS properties that, when applied to an element, are inherited by that element's descendants, even if we don't explicitly write a rule for those descendants. Typography based properties (`color`, `font-size`, `font-family`, etc.) are usually inherited, while most other properties aren't.
+Kalıtım, bir öğeye CSS özellikleri uygulandığında, bu öğenin içindeki öğeler için açıkça bir kural yazmasak bile, onlar tarafından miras alınan belirli CSS özelliklerini ifade eder. Tipografi tabanlı özellikler(`color`, `font-size`, `font-family`, vb.) genellikle miras alınırken, diğer özelliklerin çoğu miras alınmaz.
 
-The exception to this is when directly targeting an element, as this always beats inheritance:
+Bu durumun istisnası, bir öğeyi doğrudan hedeflemektir. Çünkü doğrudan hedeflemek her zaman kalıtımı yener:
 
 ~~~html
 <!-- index.html -->
@@ -166,13 +166,13 @@ The exception to this is when directly targeting an element, as this always beat
 }
 ~~~
 
-Despite the `parent` element having a higher specificity with an ID, the `child` element would have the `color: blue` style applied since that declaration directly targets it, while `color: red` from the parent is only inherited.
+`parent` öğesi bir ID ile seçildiği için daha yüksek bir özgüllüğe sahip olmasına rağmen, `child` öğesine `color: blue` stili uygulanır. Çünkü bu tanımlama doğrudan onu hedef alır. Ancak ebeveynden gelen `color: red` tanımlaması yalnızca miras olarak alınır.
 
-#### Rule order
+#### Kural Sırası
 
-The final factor, the end of the line, the tie-breaker of the tie-breaker. Let's say that after every other factor has been taken into account, there are still multiple conflicting rules targeting an element. How does the cascade determine which rule to apply?
+Son faktöre geldik. Diğer tüm faktörler dikkate alındıktan sonra, bir öğeyi hedefleyen birden fazla çelişkili kural olduğunu varsayalım. Bu durumda basamaklama, hangi kuralın uygulanacağını nasıl belirler?
 
-Really simply, actually. Whichever rule was the *last* defined is the winner.
+Aslında oldukça basit. Hangi kural *en son* tanımlanmışsa o kazanır.
 
 ~~~css
 /* styles.css */
@@ -186,36 +186,34 @@ Really simply, actually. Whichever rule was the *last* defined is the winner.
 }
 ~~~
 
-For an element that has both the `alert` and `warning` classes, the cascade would run through every other factor, including inheritance (none here) and specificity (neither rule is more specific than the other). Since the `.warning` rule was the last one defined, and no other factor was able to determine which rule to apply, it's the one that gets applied to the element.
+Hem `alert` hem de `warning` sınıflarına sahip bir öğe için basamaklama, kalıtım(bu durumda bulunmuyor) ve özgüllük(iki kural da aynı özgüllüğe sahip) dahil olmak üzere diğer tüm faktörlerin üstünden geçer. `warning` kuralı en son tanımlanan kural olduğu için ve başka hiçbir faktör hangi kuralın uygulanacağını belirleyemediği için öğeye uygulanacak olan kural `warning` kuralıdır.
 
-### Assignment
+### Ödev
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and navigate to the `foundations` directory. Review the README and complete the final exercise:
-    - `06-cascade-fix`
+1.  [CSS alıştırmaları repository'mize](https://github.com/TheOdinProject/css-exercises) geri dönün. `foundations` dizinindeki son alıştırma olan `06-cascade-fix` isimli alıştırmayı yapın.
+    Not: Alıştırmaların çözümleri her alıştırmanın `solution` klasöründe bulunur.
 
-    Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
-
-2.  Remember the Recipe page you created as practice from the HTML Foundations section? Well, it's rather *plain* looking, isn't it? Let's fix that by adding some CSS to it!
-    - How you actually style it is completely open, but you should use the external CSS method (for this practice and moving forward). You should also try to use several of the properties mentioned in the previous lesson (color, background color, typography properties, etc). Take some time to play around with the various properties to get a feel for what they do. For now, don't worry at all about making it look *good*. This is just to practice and get used to writing CSS, not to make something to show off on your resume.
-    - We haven't covered how to use a custom font for the `font-family` property yet, so for now take a look at [CSS Fonts](https://www.w3schools.com/Css/css_font.asp) for a list of generic font families to use, and [CSS Web Safe Fonts](https://www.w3schools.com/cssref/css_websafe_fonts.asp) for a list of fonts that are web safe. Web safe means that these are fonts that are installed on basically every computer or device (but be sure to still include a generic font family as a fallback).
+2.  "HTML Temelleri" bölümünde alıştırma olarak oluşturduğunuz tarif sayfasını hatırlıyor musunuz? Oldukça *sade* görünüyor değil mi? Hadi bunu biraz CSS ekleyerek düzeltelim!
+    - Nasıl isterseniz öyle biçimlendirebilirsiniz. Ancak harici CSS yöntemini kullanmalısınız(bu pratik ve ilerisi için). Ayrıca önceki derste bahsedilen özelliklerden birkaçını(renk, arka plan rengi, tipografi özellikleri, vb.) kullanmaya çalışmalısınız. Çeşitli özelliklerin ne işe yaradıklarını anlamak için onlara biraz zaman ayırın. Şimdilik *iyi* görünmesi hakkında hiç endişelenmeyin. Bu yalnızca pratik yapmak ve CSS yazmaya alışmak içindir. Özgeçmişinizde gösterecek bir şey yapmak için değil.
+    - Henüz `font-family` özelliği için özel bir fontun nasıl kullanılacağından bahsetmedik. Bu nedenle şimdilik kullanılacak genel font ailelerinin bir listesi için [CSS Fontlar](https://www.w3schools.com/Css/css_font.asp) ve internet güvenli fontların bir listesi için [CSS İnternet Güvenli Fontlar](https://www.w3schools.com/cssref/css_websafe_fonts.asp) adreslerine bir göz atın. İnternet güvenli fontlar, her bilgisayarda veya cihazda yüklü olan fontlardır(ancak yine de yedek olarak genel bir font ailesi eklediğinizden emin olun).
 
 </div>
 
-### Knowledge check
+### Bilgi Ölçme
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+Bu bölüm, dersi anlayıp anlamadığınızı kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta zorlanıyorsanız, soruya tıklayıp yönlendirdiği materyali inceleyin.
 
-*   <a class="knowledge-check-link" href="#high-specificity-class-type">Between a rule that uses one class selector and a rule that uses three type selectors, which rule has the higher specificity?</a>
+*   <a class="knowledge-check-link" href="#high-specificity-class-type">Sınıf seçici kullanan bir kural ile üç adet tip seçici kullanan bir kural arasında hangisi daha yüksek özgüllüğe sahiptir?</a>
 
-### Additional resources
+### Ek Kaynaklar
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
 
-*   [The CSS Cascade](https://wattenberger.com/blog/css-cascade) is a great, interactive read that goes a little more in detail about other factors that affect what CSS rules actually end up being applied.
-*   [Changing the Font Family](https://www.digitalocean.com/community/tutorials/how-to-load-and-use-custom-fonts-with-css#finding-and-loading-a-font-file-from-a-hosted-service) describes a few different approaches to using custom fonts.
-*   [CSS Specificity Explained](https://www.youtube.com/watch?v=c0kfcP_nD9E) from Kevin Powell goes through various specificity examples and gives some advice on avoiding wrestling with specificity.
-*   [CSS Specificity Calculator](https://specificity.keegan.st/) allows you to fill in your own selectors and have their specificity calculated and visualized.
-*   [Mozilla CSS Properties Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference) can be used to learn if a particular CSS property is inherited or not; simply look for the **Inherited** field inside the **Formal Definition** section. [Here's an example](https://developer.mozilla.org/en-US/docs/Web/CSS/color#formal_definition) for the CSS `color` property.
-*   [Interactive Scrim on the CSS Cascade.](https://scrimba.com/scrim/c9gwmnAR)
+*   [CSS Basamaklama](https://wattenberger.com/blog/css-cascade), CSS kurallarının uygulanmasını etkileyen diğer faktörler hakkında biraz daha ayrıntılı bilgi veren harika, etkileşimli bir kaynaktır.
+*   [Yazı Tipi Ailesini Değiştirme](https://www.digitalocean.com/community/tutorials/how-to-load-and-use-custom-fonts-with-css#finding-and-loading-a-font-file-from-a-hosted-service) özel yazı tipleri kullanmaya yönelik birkaç farklı yaklaşımı açıklamaktadır.
+*   Kevin Powell'dan [CSS Özgüllükleri](https://www.youtube.com/watch?v=c0kfcP_nD9E) çeşitli özgüllük örneklerini inceleyip özgüllükle boğuşmaktan kaçınmak için bazı tavsiyeler vermektedir.
+*   [CSS Özgüllük Hesaplayıcı](https://specificity.keegan.st/) kendi seçicilerinizi doldurmanıza ve bunların özgüllüklerinin hesaplanıp görselleştirilmesini sağlar.
+*   [Mozilla CSS Özellikleri Referansı](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference) belirli bir CSS özelliğinin miras alınıp alınmadığını öğrenmek için kullanılabilir. Herhangi bir öğenin sayfasına gidip **Formal Definition** bölümü içinde **Inherited** alanına göz atmanız yeterlidir. Örneğin [`color` özelliğinin sayfasına](https://developer.mozilla.org/en-US/docs/Web/CSS/color#formal_definition) gidersek miras alınıp alınmadığını görebiliriz.
+*   [CSS Basamaklama Üzerine İnteraktif Scrim.](https://scrimba.com/scrim/c9gwmnAR)
