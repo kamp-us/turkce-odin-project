@@ -1,6 +1,6 @@
 ### Giriş
 
-Temellerdeki son derslerden birine geldiğiniz için tebrikler! Bu noktaya kadar JavaScript'in temellerinin çoğunu öğrendiniz. Bu derste, anahtar-değer(key-value) çiftlerinden oluşan bir koleksiyon olan Nesnelerin yanı sıra daha güçlü ve yaygın olarak kullanılan bazı dizi yöntemlerini öğreneceksiniz. Bunu bilmeden önce, nesnelerin ve dizilerin ne kadar güçlü olduğunu ve her ikisinin de JavaScript araç kitinizin vazgeçilmez bir parçası olabileceğini daha iyi anlayacaksınız!
+Javascript Temelleri'ndeki son derslerden birine geldiğiniz için tebrikler! Bu noktaya kadar JavaScript'in temellerinin çoğunu öğrendiniz. Bu derste, anahtar-değer(key-value) çiftlerinden oluşan bir koleksiyon olan Nesnelerin yanı sıra daha güçlü ve yaygın olarak kullanılan bazı dizi yöntemlerini öğreneceksiniz. Bunu bilmeden önce, nesnelerin ve dizilerin ne kadar güçlü olduğunu ve her ikisinin de JavaScript araç kitinizin vazgeçilmez bir parçası olabileceğini daha iyi anlayacaksınız!
 
 ### Derse Genel Bakış
 
