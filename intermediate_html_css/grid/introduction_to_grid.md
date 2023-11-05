@@ -11,7 +11,7 @@ Bu dersin sonunda şunları yapabiliyor olmalısınız:
 - Flexbox ve Grid arasındaki temelleri karşılaştırabilme.
 - Flexbox yerine Grid kullanabileceğimiz bir durumu açıklayabilme.
 
-### Flex'e bir geri bakış
+### Flex'e geri bakış
 
 Temel Bilgiler kursunda Flexbox hakkında çok şey öğrendiniz. Eğer Flex'i yol boyunca orada burada kullandıysanız, bu bölüm sizin için Grid'e giriş yapmadan önce hızlı bir hatırlatıcı olacak. Eğer Flex konusunda tamamen kaybolduysanız [Flex](https://www.theodinproject.com/lessons/foundations-introduction-to-flexbox) derslerini tekrar etmek hızlanmak için yardımcı olabilir.
 
