@@ -36,7 +36,7 @@ Bir karar vermenize yardımcı olmak için, her bir teknolojinin bazı avantajla
 - Ayrıntılı
   - Bu teknolojilerle ilgili bir sihir yoktur. Her şeyi anlamak için kendinizi eğitmeniz gerekecek.
   - Bilgisayarın kodunuzu nasıl okuduğunu daha yakından kavramanıza yardımcı olur.
-- Önyüz ve arkayüz için aynı dil
+- Front end ve Back end için aynı dil
   - Dilin tutarlı kalması, tüm uygulamanızda tutarlı bir kod yazmanıza yardımcı olabilir.
   - Optimize etme amacıyla tarayıcıda ve sunucuda çalışan kod yazma gibi harika şeyler yapmanıza izin verir.
 
