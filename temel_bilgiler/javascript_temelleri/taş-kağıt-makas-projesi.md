@@ -15,7 +15,7 @@ Son olarak, bu sizin sıfırdan oluşturduğunuz ilk JavaScript programı olduğ
 Erken ve sık sık commit atmayı unutmayın! [Commit Mesajı dersine buradan](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/commit-messages) bakabilirsiniz!
 
 1. Projeniz için yeni bir Git deposu oluşturun.
-2. Bir boş HTML belgesi oluşturun ve bir script etiketi oluşturun (İpucu: dış bir .js dosyası bağlamak en iyi uygulamadır). Bu oyun sadece konsoldan oynanacak, bu yüzden başka bir şey hakkında endişelenmeyin.
+2. Bir boş HTML belgesi oluşturun ve bir script etiketi oluşturun (İpucu: harici bir .js dosyasını kullanmak en iyi yöntemdir). Bu oyun sadece konsoldan oynanacak, bu yüzden başka bir şey hakkında endişelenmeyin.
 3. Oyununuz bilgisayara karşı oynanacak, bu yüzden rastgele 'Taş', 'Kağıt' veya 'Makas' döndürecek "getComputerChoice" adlı bir fonksiyonla başlayın. Bu fonksiyonu oyunda bilgisayarın oynaması için kullanacağız. *İpucu: bir sonraki adıma geçmeden önce bu özelliğin beklenen çıktıyı döndürdüğünden emin olmak için konsolu kullanın!*
 4. Taş Kağıt Makas'ın tek bir turunu oynayan bir fonksiyon yazın. Fonksiyon, iki parametre almalıdır - "playerSelection" ve "computerSelection" - ve ardından turun kazananını belirten bir dize döndürmelidir: `"Kaybettin! Kağıt, Taşı yener"` gibi.
     * Fonksiyonunuzun playerSelection parametresini büyük-küçük harf duyarsız hale getirin (kullanıcılar 'taş', 'TAŞ', 'TaŞ' veya başka herhangi bir varyasyonu girebilirler).
