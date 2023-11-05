@@ -66,7 +66,7 @@ Bu bölüm, bu dersi anlayıp anlamadığınızı kendi başınıza kontrol etme
 * [Döngüler ne işe yarar?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#why_bother)
 * [Break deyimi nedir?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#exiting_loops_with_break)
 * [Continue deyimi nedir?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#skipping_iterations_with_continue)
-* [Otomatik test yazmanın avantajı nedir?](#test-driven-development)
+* [Otomatik çalışan test yazmanın avantajı nedir?](#test-odakli-gelistirme)
 
 ### Ek Kaynaklar
 
