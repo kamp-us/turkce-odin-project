@@ -66,7 +66,7 @@ Ahh, bu daha iyi! :) Şimdi, geliştiriciler bu commit mesajını daha iyi anlay
 
 Bir commit'i düşünmenin iyi bir yolu, kodunuzun yapıldığı andaki "anlık görüntüsü" gibidir. Kodunuzun o noktaya kadar olan versiyonu, geri dönmeniz veya tekrar bakmanız için kaydedilecektir.
 
-Kod yazarken, kodda anlamlı bir değişiklik yaptığınızda her seferinde commit etmek en iyi uygulama olarak kabul edilir. Bu, ilerlemenizin bir zaman çizelgesini oluşturacak ve bitmiş kodunuzun bir anda ortaya çıkmadığını gösterecektir.
+Kod yazarken, kodda anlamlı bir değişiklik yaptığınızda her seferinde değişiklikleri commitlemek en iyi uygulama olarak kabul edilir. Bu, ilerlemenizin bir zaman çizelgesini oluşturacak ve bitmiş kodunuzun bir anda ortaya çıkmadığını gösterecektir.
 
 Başka bir deyişle, üzerinde çalıştığınız bir kod parçasının istediğiniz gibi çalışmasını sağladığınızda, bir yazım hatasını düzelttiğinizde veya bir hatayı giderdiğinizde bir commit yapın.Deneyim kazandıkça, hangi değişikliklerin commit edilmesi gerektiği konusunda daha iyi bir anlayış geliştireceksiniz!
 
