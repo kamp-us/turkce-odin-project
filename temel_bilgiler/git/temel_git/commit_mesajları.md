@@ -59,7 +59,7 @@ Ekran okuyucular, bu bilgi olmadan engelli kullanıcılara görüntüleri okumay
 Ahh, bu daha iyi! :) Şimdi, geliştiriciler bu commit mesajını daha iyi anlayabilirler çünkü bu commit mesajı aşağıdakileri sağlar:
 
 - Kodunuzun eylemini belirten bir başlık sağlar (örneğin, "Şirket logosuna eksik bağlantı ve alternatif metin ekleme")
-- Commit'ın neden yapılması gerektiğine dair kısa ama net bir açıklama sağlayan bir gövde içerir (örneğin, "Ekran okuyucular, bu bilgi olmadan görüntüleri engelli kullanıcılara okumayacaktır")
+- Commitin neden yapılması gerektiğine dair kısa ama net bir açıklama sağlayan bir gövde içerir (örneğin, "Ekran okuyucular, bu bilgi olmadan görüntüleri engelli kullanıcılara okumayacaktır")
 - Konuyu gövdeden yeni/boş bir satırla ayırır. Bu, takip etmenizi şiddetle tavsiye ettiğimiz bir en iyi uygulamadır. Diğer geliştiricilerin commit mesajlarını okumasını kolaylaştırır.
 
 ### Ne zaman commit yapılmalıdır
