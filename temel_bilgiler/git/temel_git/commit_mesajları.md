@@ -56,7 +56,7 @@ Artık iyi bir commit mesajı oluşturmanın sırrını öğrendiğimize göre, 
 Ekran okuyucular, bu bilgi olmadan engelli kullanıcılara görüntüleri okumayacaktır
 ```
 
-Ahh, bu daha iyi! :) Şimdi, geliştiriciler bu commit mesajını daha iyi anlayabilirler çünkü aşağıdakileri yapar:
+Ahh, bu daha iyi! :) Şimdi, geliştiriciler bu commit mesajını daha iyi anlayabilirler çünkü bu commit mesajı aşağıdakileri sağlar:
 
 - Kodunuzun eylemini belirten bir başlık sağlar (örneğin, "Şirket logosuna eksik bağlantı ve alternatif metin ekleme")
 - Commit'ın neden yapılması gerektiğine dair kısa ama net bir açıklama sağlayan bir gövde içerir (örneğin, "Ekran okuyucular, bu bilgi olmadan görüntüleri engelli kullanıcılara okumayacaktır")
