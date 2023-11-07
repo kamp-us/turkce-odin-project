@@ -64,7 +64,7 @@ Ahh, bu daha iyi! :) Şimdi, geliştiriciler bu commit mesajını daha iyi anlay
 
 ### Ne zaman commit yapılmalıdır
 
-Bir commit'i düşünmenin iyi bir yolu, kodunuzun yapıldığı andaki "anlık görüntüsü" gibidir. Kodunuzun o noktaya kadar olan versiyonu, geri dönmeniz veya tekrar bakmanız için kaydedilecektir.
+Bir commiti düşünmenin iyi bir yolu, kodunuzun yapıldığı andaki "anlık görüntüsü" gibidir. Kodunuzun o noktaya kadar olan versiyonu, geri dönmeniz veya tekrar bakmanız için kaydedilecektir.
 
 Kod yazarken, kodda anlamlı bir değişiklik yaptığınızda her seferinde değişiklikleri commitlemek en iyi uygulama olarak kabul edilir. Bu, ilerlemenizin bir zaman çizelgesini oluşturacak ve bitmiş kodunuzun bir anda ortaya çıkmadığını gösterecektir.
 
