@@ -45,7 +45,7 @@ Kod tabanında yaptığım değişiklik.
 Ne yaptığınıza dair kısa ama net bir açıklama.
 
 ```
-Commit'inizin hangi sorunu nasıl çözdüğünü açıklayın.
+Commitinizin hangi sorunu nasıl çözdüğünü açıklayın.
 ```
 
 Artık iyi bir commit mesajı oluşturmanın sırrını öğrendiğimize göre, daha önceki commit mesajını düzeltmeye çalışalım:
