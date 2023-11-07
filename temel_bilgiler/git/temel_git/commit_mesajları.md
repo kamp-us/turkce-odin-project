@@ -85,7 +85,7 @@ Bir projede çalışırken, SONUNDA bir şeyi tam olarak düzgün hale getirdiğ
 - VSCode'u metin düzenleyiciniz olarak kullanmak (bunu Git Temelleri bölümünde ayarlamış olmalısınız), çok satırlı commit mesajlarını kolayca oluşturmanıza, her satırın karakter uzunluğunu kolayca görmenize ve yazımınızın doğru olduğundan emin olmak için [VSCode spell check extensions](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) kullanmanıza olanak tanır.
 - Aktif bir dil kullanın: "Kart üreticiyi düzelt"
 - "Kaydedildi" veya "güncellendi" gibi belirsiz commit mesajlarından kaçının
-- Erken ve sık sık commit yapın!
+- Değişikliklerinizi erken ve sık sık commitleyin!
 
 ### Bilgi ölçme
 
