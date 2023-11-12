@@ -28,7 +28,7 @@ Odin Projesi, dünyanın her yerinden nasıl geliştirici olunacağını öğren
 
 Bu hazırlığın bir başka parçası olarak, hemen anlamadığınız konu ve terimlere ekstra zaman ayırmanızı *şiddetle* öneriyoruz. Ayrıca, bu konuları kendi ana dilinizde öğreten ek kaynaklar aramanızı da öneririz, böylece bunları daha iyi anlayabilirsiniz.
 
-Buna ek olarak müfredatımızın yanı sıra kendi dilinizde bir çeviri sözlüğü kullanmayı da düşünebilirsiniz böylece böylece ilerledikçe bu kelimelere kolayca referans verebilirsiniz. Dünya çapında çok çeşitli diller konuşulduğu için bunlarla ilgili herhangi bir önerimiz yok; bunlardan birini bulmak belki de arama yaparak yararlı araçları çevrimiçi olarak nasıl bulacağınızı öğrenmede iyi bir ilk adım olabilir. Bu, geliştirici olmayı öğrenme sürecinizde ilerledikçe kullanacağınız ve geliştireceğiniz bir beceridir.
+Buna ek olarak müfredatımızın yanı sıra kendi dilinizde bir çeviri sözlüğü kullanmayı da düşünebilirsiniz böylece  ilerledikçe bu kelimelere kolayca referans verebilirsiniz. Dünya çapında çok çeşitli diller konuşulduğu için bunlarla ilgili herhangi bir önerimiz yok; bunlardan birini bulmak belki de arama yaparak yararlı araçları çevrimiçi olarak nasıl bulacağınızı öğrenmede iyi bir ilk adım olabilir. Bu, geliştirici olmayı öğrenme sürecinizde ilerledikçe kullanacağınız ve geliştireceğiniz bir beceridir.
 
 ### Sırada ne var
 
