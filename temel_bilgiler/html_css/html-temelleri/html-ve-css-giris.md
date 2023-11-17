@@ -1,6 +1,6 @@
 ### Giriş
 
-İşte geldik: Artık _bir şeyler yapmaya_ başlamanın zamanı geldi. Bu bölüm, internetteki neredeyse her şeyin temel yapı taşları olan HTML ve CSS'nin temellerini öğretecektir.
+İşte Burada: Artık _bir şeyler yapmaya_ başlamanın zamanı geldi. Bu bölüm, internetteki neredeyse her şeyin temel yapı taşları olan HTML ve CSS'nin temellerini öğretecektir.
 
 ### Derse Genel Bakış
 
