@@ -6,7 +6,7 @@
 
 Bu bölüm, bu derste öğreneceğiniz konulara ilişkin genel bir bakış içerir.
 
-- HTML, CSS ve iki teknolojiyle birlikte nasıl çalıştığına ilişkin temel bir genel bakış edineceksiniz.
+- HTML, CSS ve iki teknolojinin birlikte nasıl çalıştığına ilişkin temel bir genel bakış edineceksiniz.
 
 ### HTML ve CSS
 
