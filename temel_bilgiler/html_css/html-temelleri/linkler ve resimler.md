@@ -46,13 +46,13 @@ Belki fark etmişsinizdir bu linke tıkladığınızda hiçbir şey olmuyor. Bun
 <a href="https://www.theodinproject.com/about">click me</a>
 ~~~
 
-Varsayılan olarak `href` niteliği olmadan bir anchor etiketiyle sarılmış metin düz metin gibi görünecektir. Eğer `href` özniteliği mevcutsa tarayıcı metne mavi bir renk ve alt çizgi vererek onun bir link olduğunu belirtir.
+Varsayılan olarak `href` niteliği olmadan bir anchor etiketiyle sarılmış metin düz metin gibi görünecektir. Eğer `href` niteliği mevcutsa tarayıcı metne mavi bir renk ve alt çizgi vererek onun bir link olduğunu belirtir.
 
 Sadece diğer HTML belgelerine değil, internet üzerindeki her türlü kaynağa link vermek için anchor etiketlerini kullanabileceğinizi belirtmek gerekir. Videolara, pdf dosyalarına, resimlere ve benzerlerine link verebilirsiniz, ancak çoğunlukla diğer HTML belgelerine link vereceksiniz.
 
 ### Linkleri yeni bir sekmede açma
 
-Yukarıda gösterilen yöntem, linkleri, onları içeren web sayfasıyla aynı sekmede açar. Bu çoğu tarayıcının varsayılan davranışıdır ve bunu oldukça kolay bir şekilde değiştirmek mümkündür. Tek ihtiyacımız olan başka bir öznitelik: `target` özniteliği.
+Yukarıda gösterilen yöntem, linkleri, onları içeren web sayfasıyla aynı sekmede açar. Bu çoğu tarayıcının varsayılan davranışıdır ve bunu oldukça kolay bir şekilde değiştirmek mümkündür. Tek ihtiyacımız olan başka bir nitelik: `target` niteliği.
 
 `href` hedef linki belirtirken, `target` linkli kaynağın nerede açılacağını belirtir. Eğer mevcut değilse varsayılan olarak `_self` değerini alır ve linki mevcut sekmede açar. Linki yeni bir sekmede veya pencerede açmak için (tarayıcı ayarlarına bağlı olarak) `_blank` olarak ayarlayabilirsiniz:
 
@@ -66,7 +66,7 @@ Yukarıda gösterilen yöntem, linkleri, onları içeren web sayfasıyla aynı s
 
 Linkleri yeni sekmelerde açarken neden bu eklenmiş davranışa ihtiyaç duyarız? Güvenlik nedenlerinden dolayı. `noopener` tarafından neden olunan erişimin engellenmesi açılan linkin orijinal web sayfasını kullanıcıları kandırmak için farklı bir sayfaya değiştirebileceği [kimlik avı saldırıları](https://www.ibm.com/topics/phishing)nı önler. Buna [tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbing) denir. `noreferrer` değerinin eklenmesi, açılan linkin web sayfanıza link verdiğini bilmemesini istiyorsanız yapılabilir.
 
-Unutursanız bile `rel="noopener noreferrer"` eklememeniz sorun olmayabilir çünkü daha yeni tarayıcı sürümleri [yalnızca `target="_blank"` varsa](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#security_and_privacy), bu güvenliği sağlar. Bununla birlikte iyi kodlama uygulamalarına uygun olarak ve daha güvenli bir yaklaşım benimseyerek her zaman `target="_blank"` ile `rel="noopener noreferrer"` özniteliklerini bir arada kullanmanız önerilir.
+Unutursanız bile `rel="noopener noreferrer"` eklememeniz sorun olmayabilir çünkü daha yeni tarayıcı sürümleri [yalnızca `target="_blank"` varsa](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#security_and_privacy), bu güvenliği sağlar. Bununla birlikte iyi kodlama uygulamalarına uygun olarak ve daha güvenli bir yaklaşım benimseyerek her zaman `target="_blank"` ile `rel="noopener noreferrer"` niteliklerini bir arada kullanmanız önerilir.
 
 ### Mutlak ve göreceli linkler
 
@@ -210,13 +210,13 @@ Bu durumu daha iyi anlamak için şu adımları izliyoruz:
 
 Önceki metaforu kullanarak bir dosya yolunda `../` kullanmak, bulunduğunuz odadan ana koridora çıkıp başka bir odaya gitmek gibi bir şeydir.
 
-### Alt özniteliği
+### Alt niteliği
 
-<span id="two-attributes"></span> Src özniteliğinin yanı sıra her görüntü elementinin alt (alternatif metin) özniteliği olmalıdır.
+<span id="two-attributes"></span> Src niteliğinin yanı sıra her görüntü elementinin alt (alternatif metin) niteliği olmalıdır.
 
-Alt özniteliği bir görüntüyü açıklamak için kullanılır. Eğer görüntü yüklenemezse yerine kullanılır. Ayrıca ekran okuyucularla birlikte kullanılarak görsel olarak engelli kullanıcılara görüntünün ne olduğunu açıklamak için kullanılır.
+Alt niteliği bir görüntüyü açıklamak için kullanılır. Eğer görüntü yüklenemezse yerine kullanılır. Ayrıca ekran okuyucularla birlikte kullanılarak görsel olarak engelli kullanıcılara görüntünün ne olduğunu açıklamak için kullanılır.
 
-İşte daha önce kullandığımız The Odin Project logosu örneği alt özniteliği eklenmiş hali:
+İşte daha önce kullandığımız The Odin Project logosu örneği alt niteliği eklenmiş hali:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="ExXjoEp" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/ExXjoEp">
@@ -225,16 +225,32 @@ Alt özniteliği bir görüntüyü açıklamak için kullanılır. Eğer görün
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Biraz pratik yapmak için, `odin-links-and-images` projesine eklediğimiz köpek görüntüsüne bir alt özniteliği ekleyelim.
+Biraz pratik yapmak için, `odin-links-and-images` projesine eklediğimiz köpek görüntüsüne bir alt niteliği ekleyelim.
+
+### Görsel boyutu nitelikleri
+
+Kesinlikle gerekli olmamakla birlikte, yükseklik ve genişlik belirtmek
+görsel(img) etiketlerindeki nitelikler, sayfanın atlamasına ve yanıp sönmesine neden olmadan tarayıcının sayfayı düzenlemesine yardımcı olur.
+
+Görüntü doğru boyutta olsa veya değiştirmek için CSS kullanıyor olsanız bile, her görüntüde bu nitelikleri her zaman belirtmek iyi bir alışkanlıktır.
+
+İşte yükseklik ve genişlik etiketleri içeren Odin Project logo örneğimiz:
+
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="PoXJKvy" data-user="FabulousPBB" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span><a href="https://codepen.io">CodePen</a>'de Brian Lister (<a href="https://codepen.io/FabulousPBB">@FabulousPBB</a>) tarafından yazılan <a href="https://codepen.io/FabulousPBB/pen/PoXJKvy">Görüntü Yükseklik ve Genişlik Özelliklerine </a> bakın</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+Hadi devam et ve `odin-links-and-images` projesindeki köpek görüntüsünü genişlik ve yükseklik etiketleri ile güncelle.
 
 ### Ödev
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  [Watch Kevin Powell's HTML Links Video](https://www.youtube.com/watch?v=tsEQgGjSmkM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=5).
-2.  [Watch Kevin Powell's HTML Images Video](https://www.youtube.com/watch?v=0xoztJCHpbQ&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=6).
-3.  [Watch Kevin Powell's File Structure Video](https://www.youtube.com/watch?v=ta3Oxx7Yqbo&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=7).
-4.  [Read about the four main image formats that can be used on the web](https://internetingishard.netlify.app/html-and-css/links-and-images/#image-formats).
+1.  [Kevin Powell'ın HTML Linkleri adlı İngilizce Videosunu İzleyin](https://www.youtube.com/watch?v=tsEQgGjSmkM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=5).
+2.  [Kevin Powell'ın HTML Görüntüleri adlı İngilizce Videosunu İzleyin](https://www.youtube.com/watch?v=0xoztJCHpbQ&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=6).
+3.  [Kevin Powell'ın Dosya Yapısı adlı İngilizce Videosunu İzleyin](https://www.youtube.com/watch?v=ta3Oxx7Yqbo&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=7).
+4.  [Web'de kullanılabilecek dört ana görüntü formatı hakkında olan ingilizce makaleye göz atın](https://internetingishard.netlify.app/html-and-css/links-and-images/#image-formats).
 
 </div>
 
@@ -242,27 +258,20 @@ Biraz pratik yapmak için, `odin-links-and-images` projesine eklediğimiz köpek
 
 Bu bölüm, bu dersi kendi başınıza anlayıp anlamadığınızı kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta zorlanıyorsanız, soruya tıklayın ve linki verilen materyali gözden geçirin.
 
-*   [What element is used to create a link?](#anchor-elements)
-*   [What is an attribute?](#attribute)
-*   [What attribute tells links where to go to?](#where-to-go)
-*   [What is the difference between an absolute and relative link?](#absolute-and-relative-links)
-*   [Which element is used to display an image?](#images)
-*   [What two attributes do images always need to have?](#two-attributes)
-*   [How do you access a parent directory in a filepath?](#parent-filepath)
-*   [What are the four main image formats that you can use for images on the web?](https://internetingishard.netlify.app/html-and-css/links-and-images/#image-formats)
+-   [Link oluşturmak için hangi öğe kullanılır?](#anchor-elements)
+-   [Bir nitelik nedir?](#attribute)
+-   [Hangi nitelik linklere nereye gideceklerini söyler?](#where-to-go)
+-   [Linkleri yeni bir sekmede/pencerede açmak için target niteliğini kullanmak isterseniz hangi güvenlik hususlarına dikkat etmeniz gerekir?](#target-security)
+-   [Mutlak ve göreceli link arasındaki fark nedir?](#absolute-and-relative-links)
+-   [Bir görseli görüntülemek için hangi öğe kullanılır?](#images)
+-   [Görüntülerin her zaman hangi iki özelliğe sahip olması gerekir?](#two-attributes)
+-   [Bir dosya yolundaki bir üst dizine nasıl erişirsiniz?](#parent-filepath)
+-   [Web'deki görseller için kullanabileceğiniz dört ana görsel formatı nedir?](https://internetingishard.netlify.app/html-and-css/links-and-images/#image-formats)
 
 ### Ek kaynaklar
 
 Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
 
--   [Interneting is hard's treatment on HTML links and images](https://internetingishard.netlify.app/html-and-css/links-and-images)
--   [What happened the day Google decided links including (`/`) were malware](https://www.itpro.co.uk/609724/google-apologises-after-blacklisting-entire-internet)
-
-
-
-
-
-
-
-
-
+-   [İnternette HTML linkleri ve görseller üzerinde çalışmak zordur adlı ingilizce makaleye bakın](https://internetingishard.netlify.app/html-and-css/links-and-images)
+-   [Google'ın (`/`) içeren linklerin kötü amaçlı yazılım olduğuna karar verdiği gün ne olduğuna bu ingilizce makaleden bakın ](https://www.itpro.co.uk/609724/google-apologises-after-blacklisting-entire-internet)
+-   [Chris Coyier'in CSS-Tricks'teki target="_blank" ne zaman kullanılmalı? adlı ingilizce makalesine bakın](https://css-tricks.com/use-target_blank/)
