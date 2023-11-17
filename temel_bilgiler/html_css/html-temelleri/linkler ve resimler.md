@@ -1,21 +1,21 @@
 ### Giriş
 
-Bağlantılar HTML'nin temel özelliklerinden biridir. Bize web üzerindeki diğer HTML sayfalarına bağlantı kurma imkanı sağlar. Aslında bu yüzden web olarak adlandırılır.
+Linkler HTML'nin temel özelliklerinden biridir. Bize web üzerindeki diğer HTML sayfalarıyla bağlantı kurma imkanı sağlar. Aslında bu yüzden web olarak adlandırılır.
 
-Bu derste bağlantıları nasıl oluşturacağımızı ve görüntülere HTML kullanarak bazı görsel detaylar ekleyerek web sitelerimize nasıl caziplik katabileceğimizi öğreneceğiz.
+Bu derste, nasıl link oluşturacağımızı ve resim ekleyerek web sitelerimize nasıl görsel bir hava katacağımızı öğreneceğiz.
 
 ### Ders genel bakışı
 
 Bu bölüm öğreneceğiniz konuların genel bir özetini içerir.
 
-*   İnternet üzerindeki diğer web sitelerindeki sayfalara bağlantı nasıl oluşturulur
-*   Kendi web sitenizdeki diğer sayfalara nasıl bağlantı oluşturulur
-*   Mutlak ve göreceli bağlantılar arasındaki fark
+*   İnternet üzerindeki diğer web sitelerindeki sayfalara nasıl link oluşturulur?
+*   Kendi web sitelerinizdeki diğer sayfalara nasıl link oluşturulur?
+*   Mutlak ve göreceli linkler arasındaki fark
 *   HTML kullanarak bir web sayfasında resim nasıl görüntülenir
 
 ### Hazırlık
 
-Bu derste bağlantılar ve görüntüler kullanarak alıştırma yapmak için bir HTML projesine ihtiyacımız var.
+Bu derste linkler ve görüntüler kullanarak alıştırma yapmak için bir HTML projesine ihtiyacımız var.
 
 1.  `odin-links-and-images` adında yeni bir dizin oluşturun.
 2.  Bu dizin içinde `index.html` adında yeni bir dosya oluşturun.
@@ -28,7 +28,7 @@ Bu derste bağlantılar ve görüntüler kullanarak alıştırma yapmak için bi
 
 ### Anchor öğeleri
 
-HTML'de bir bağlantı oluşturmak için anchor öğesini kullanırız. Bir anchor öğesi bir metni veya bir HTML öğesini bağlantı olarak belirlemek için `<a>` etiketiyle sarmalanarak tanımlanır.
+HTML'de bir linkler oluşturmak için anchor öğesini kullanırız. Bir anchor öğesi bir metni veya bir HTML öğesini link olarak belirlemek için `<a>` etiketiyle sarmalanarak tanımlanır.
 
 Oluşturduğumuz `index.html` sayfasının body bölümüne aşağıdakini ekleyin ve tarayıcıda açın:
 
@@ -36,9 +36,9 @@ Oluşturduğumuz `index.html` sayfasının body bölümüne aşağıdakini ekley
 <a>click me</a>
 ~~~
 
-Belki fark etmişsinizdir bu linke tıkladığınızda hiçbir şey olmuyor. Bunun nedeni yalnız başına bir anchor etiketinin nereye bağlantı yapmak istediğimizi bilememesidir. Ona gitmek istediğimiz bir hedefi söylememiz gerekiyor. Bunun için bir HTML niteliği kullanırız.
+Belki fark etmişsinizdir bu linke tıkladığınızda hiçbir şey olmuyor. Bunun nedeni, bir anchor etiketinin tek başına nereye link vermek istediğimizi bilmemesidir. Ona gitmek istediğimiz bir hedefi söylememiz gerekiyor. Bunun için bir HTML niteliği kullanırız.
 
-<span id="attribute"></span> Bir HTML niteliği, bir HTML öğesine ek bilgi verir ve her zaman öğenin açılış etiketine yerleştirilir. Bir nitelik genellikle iki kısımdan oluşur; bir isim ve bir değer. Ancak tüm niteliklerin bir değere ihtiyacı yoktur. <span id="where-to-go"></span> Bizim durumumuzda önceki oluşturduğumuz `anchor` etiketine bir `href` (hiperlink referansı) niteliği eklememiz gerekiyor. href niteliğinin değeri bağlantımızın gitmesini ve istediğimiz hedefi temsil eder.
+<span id="attribute"></span> Bir HTML niteliği, bir HTML öğesine ek bilgi verir ve her zaman öğenin açılış etiketine yerleştirilir. Bir nitelik genellikle iki kısımdan oluşur; bir isim ve bir değer. Ancak tüm niteliklerin bir değere ihtiyacı yoktur. <span id="where-to-go"></span> Bizim durumumuzda önceki oluşturduğumuz `anchor` etiketine bir `href` (hiperlink referansı) niteliği eklememiz gerekiyor. href niteliğinin değeri, linkimizin gitmesini istediğimiz hedeftir.
 
 Önceden oluşturduğumuz anchor öğesine aşağıdaki href niteliğini ekleyin ve tekrar tıklamayı deneyin. Tarayıcıyı yenilemeyi unutmayın. Böylece yeni değişiklikler uygulanabilir.
 
@@ -46,48 +46,48 @@ Belki fark etmişsinizdir bu linke tıkladığınızda hiçbir şey olmuyor. Bun
 <a href="https://www.theodinproject.com/about">click me</a>
 ~~~
 
-Varsayılan olarak `href` niteliği olmadan bir anchor etiketiyle sarılmış metin düz metin gibi görünecektir. Eğer `href` özniteliği mevcutsa tarayıcı metne mavi bir renk ve alt çizgi vererek onun bir bağlantı olduğunu belirtir.
+Varsayılan olarak `href` niteliği olmadan bir anchor etiketiyle sarılmış metin düz metin gibi görünecektir. Eğer `href` özniteliği mevcutsa tarayıcı metne mavi bir renk ve alt çizgi vererek onun bir link olduğunu belirtir.
 
-Ayrıca anchor etiketlerini yalnızca diğer HTML belgelerine değil, internet üzerindeki her türlü kaynağa bağlantı kurmak için de kullanabileceğinizi belirtmek önemlidir. Video, pdf dosyası, resim vb. gibi şeylere bağlantı kurabilirsiniz. Ancak çoğunlukla diğer HTML belgelerine bağlantı kuracaksınız.
+Sadece diğer HTML belgelerine değil, internet üzerindeki her türlü kaynağa link vermek için anchor etiketlerini kullanabileceğinizi belirtmek gerekir. Videolara, pdf dosyalarına, resimlere ve benzerlerine link verebilirsiniz, ancak çoğunlukla diğer HTML belgelerine link vereceksiniz.
 
-### Bağlantıları yeni bir sekmede açma
+### Linkleri yeni bir sekmede açma
 
-Yukarıda gösterilen yöntem bağlantıları içerdikleri web sayfasının aynı sekmesinde açar. Bu çoğu tarayıcının varsayılan davranışıdır ve bunu oldukça kolay bir şekilde değiştirmek mümkündür. Tek ihtiyacımız olan başka bir öznitelik: `target` özniteliği.
+Yukarıda gösterilen yöntem, linkleri, onları içeren web sayfasıyla aynı sekmede açar. Bu çoğu tarayıcının varsayılan davranışıdır ve bunu oldukça kolay bir şekilde değiştirmek mümkündür. Tek ihtiyacımız olan başka bir öznitelik: `target` özniteliği.
 
-`href` hedef bağlantıyı belirtirken, `target` bağlantılı kaynağın nerede açılacağını belirtir. Eğer mevcut değilse varsayılan olarak `_self` değerini alır ve bağlantıyı mevcut sekmede açar. Bağlantıyı yeni bir sekmede veya pencerede açmak için (tarayıcı ayarlarına bağlı olarak) `_blank` olarak ayarlayabilirsiniz:
+`href` hedef linki belirtirken, `target` linkli kaynağın nerede açılacağını belirtir. Eğer mevcut değilse varsayılan olarak `_self` değerini alır ve linki mevcut sekmede açar. Linki yeni bir sekmede veya pencerede açmak için (tarayıcı ayarlarına bağlı olarak) `_blank` olarak ayarlayabilirsiniz:
 
 ```html
 <a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">Click me</a>
 ```
 
-<span id="target-security"></span> Yukarıda `rel` özniteliğini de gizlice eklediğimizi fark etmiş olabilirsiniz. Bu öznitelik mevcut sayfa ile bağlantılı belge arasındaki ilişkiyi tanımlamak için kullanılır.
+<span id="target-security"></span> Yukarıda `rel` niteliğini araya sıkıştırdığımızı fark etmiş olabilirsiniz. Bu nitelik, geçerli sayfa ile linki verilen belge arasındaki ilişkiyi tanımlamak için kullanılır.
 
-`noopener` değeri, açılan bağlantının onu açan web sayfasına erişim kazanmasını engeller. `noreferrer` değeri, açılan bağlantının kendisine bir bağlantısı (veya 'referansı') olan web sayfasını veya kaynağı bilmemesini sağlar. Bu aynı zamanda `noopener` davranışını içerir ve bu nedenle tek başına da kullanılabilir.
+`noopener` değeri, açılan linkin açıldığı web sayfasına erişim kazanmasını engeller. `noreferrer` değeri, açılan linkin hangi web sayfasına veya kaynağa linki (veya 'referansı') olduğunu bilmesini engeller. Bu aynı zamanda `noopener` davranışını içerir ve bu nedenle tek başına da kullanılabilir.
 
-Bağlantıları yeni sekmelerde açarken neden bu eklenmiş davranışa ihtiyaç duyarız? Güvenlik nedenleri. `noopener` tarafından neden olunan erişimin engellenmesi açılan bağlantının orijinal web sayfasını kullanıcıları kandırmak için farklı bir sayfaya değiştirebileceği [kimlik avı saldırıları](https://www.ibm.com/topics/phishing)ni önler. Buna [tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbing) denir. `noreferrer` değerini eklemek açılan bağlantının kendi web sayfanızın ona bağlantı verdiğini bilmemesini sağlamak istiyorsanız yapılabilir.
+Linkleri yeni sekmelerde açarken neden bu eklenmiş davranışa ihtiyaç duyarız? Güvenlik nedenlerinden dolayı. `noopener` tarafından neden olunan erişimin engellenmesi açılan linkin orijinal web sayfasını kullanıcıları kandırmak için farklı bir sayfaya değiştirebileceği [kimlik avı saldırıları](https://www.ibm.com/topics/phishing)nı önler. Buna [tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbing) denir. `noreferrer` değerinin eklenmesi, açılan linkin web sayfanıza link verdiğini bilmemesini istiyorsanız yapılabilir.
 
 Unutursanız bile `rel="noopener noreferrer"` eklememeniz sorun olmayabilir çünkü daha yeni tarayıcı sürümleri [yalnızca `target="_blank"` varsa](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#security_and_privacy), bu güvenliği sağlar. Bununla birlikte iyi kodlama uygulamalarına uygun olarak ve daha güvenli bir yaklaşım benimseyerek her zaman `target="_blank"` ile `rel="noopener noreferrer"` özniteliklerini bir arada kullanmanız önerilir.
 
-### Mutlak ve göreceli bağlantılar
+### Mutlak ve göreceli linkler
 
-Genel olarak oluşturacağımız bağlantılar şunlardır:
+Genel olarak oluşturacağımız linkler şunlardır:
 
-1.  İnternet üzerindeki diğer web sitelerindeki sayfalara bağlantılar
-2.  Kendi web sitelerimizde bulunan sayfalara bağlantılar
+1.  İnternet üzerindeki diğer web sitelerindeki sayfalara linkler
+2.  Kendi web sitelerimizde bulunan sayfalara linkler
 
-#### Mutlak bağlantılar
+#### Mutlak linkler
 
-İnternet üzerindeki diğer web sitelerindeki sayfalara bağlantılar, mutlak bağlantılar olarak adlandırılır. Tipik bir mutlak bağlantı aşağıdaki bileşenlerden oluşur: `protokol://alan/yol`. Bir mutlak bağlantı her zaman hedefin protokolünü ve domain'ini içerir.
+İnternet üzerindeki diğer web sitelerindeki sayfalara linkler, mutlak linkler olarak adlandırılır. Tipik bir mutlak link aşağıdaki bileşenlerden oluşur: `protokol://alan/yol`. Bir mutlak link her zaman hedefin protokolünü ve domain'ini içerir.
 
-Zaten bir mutlak bağlantıyı kullanırken görmüştük. Daha önce The Odin Project'in Hakkında sayfasına oluşturduğumuz bağlantı protokol ve domain içerdiği için bir mutlak bağlantıydı.
+Zaten bir mutlak linki kullanırken görmüştük. Daha önce The Odin Project'in Hakkında sayfasına oluşturduğumuz link protokol ve domain içerdiği için bir mutlak linkdi.
 
 `https://www.theodinproject.com/about`
 
-#### Göreceli bağlantılar
+#### Göreceli linkler
 
-Kendi web sitemizdeki diğer sayfalara bağlantılar göreceli bağlantılar olarak adlandırılır. Göreceli bağlantılar domain ismini içermez çünkü aynı site içindeki başka bir sayfa olduğu varsayılır ve bağlantıyı oluşturduğumuz sayfanın domain isminin aynı olacağı düşünülür.
+Kendi web sitemizdeki diğer sayfalara linkler göreceli linkler olarak adlandırılır. Göreceli linkler domain ismini içermez çünkü aynı site içindeki başka bir sayfa olduğu varsayılır ve linki oluşturduğumuz sayfanın domain isminin aynı olacağı düşünülür.
 
-Göreceli bağlantılar yalnızca diğer sayfaya olan dosya yolunu içerir ve bu yol bağlantıyı oluşturduğunuz sayfaya göre *göreceli* olarak belirlenir. Bu kavram biraz soyut olabilir bir örnek üzerinden görelim.
+Göreceli linkler yalnızca diğer sayfaya olan dosya yolunu içerir ve bu yol linki oluşturduğunuz sayfaya göre *göreceli* olarak belirlenir. Bu kavram biraz soyut olabilir bir örnek üzerinden görelim.
 
 `odin-links-and-images` dizini içinde, `about.html` adında başka bir HTML dosyası oluşturun ve aşağıdaki kodu içine yapıştırın:
 
@@ -105,7 +105,7 @@ Göreceli bağlantılar yalnızca diğer sayfaya olan dosya yolunu içerir ve bu
 </html>
 ~~~
 
-İndex sayfasına dönün ve about sayfasına bir bağlantı oluşturmak için aşağıdaki anchor öğesini ekleyin:
+İndex sayfasına dönün ve about sayfasına bir link oluşturmak için aşağıdaki anchor öğesini ekleyin:
 
 ~~~html
 <body>
@@ -116,17 +116,17 @@ Göreceli bağlantılar yalnızca diğer sayfaya olan dosya yolunu içerir ve bu
 </body>
 ~~~
 
-Tarayıcıda index dosyasını açın ve bağlantıya tıklayarak tümünün doğru bir şekilde bağlandığından emin olun. Bağlantıya tıkladığınızda yeni oluşturduğumuz about sayfasına gitmelidir.
+Tarayıcıda index dosyasını açın ve linke tıklayarak tümünün doğru bir şekilde bağlandığından emin olun. Linke tıkladığınızda yeni oluşturduğumuz about sayfasına gitmelidir.
 
-Bu index ve about sayfasının aynı dizinde olduğu için işe yarıyor. Bu durumda bağlantının href değeri olarak sadece dosyanın adını (`about.html`) kullanabiliriz.
+Bu index ve about sayfasının aynı dizinde olduğu için işe yarıyor. Bu durumda linkin href değeri olarak sadece dosyanın adını (`about.html`) kullanabiliriz.
 
 Ancak genellikle web sitesi dizinlerimizi biraz daha iyi organize etmek isteyeceğiz. Normalde yalnızca index.html dosyasını kök dizinde bulundurur ve tüm diğer HTML dosyalarını kendi dizinlerine yerleştiririz.
 
 `odin-links-and-images` dizini içinde `pages` adında bir dizin oluşturun ve `about.html` dosyasını bu yeni dizine taşıyın.
 
-Tarayıcıdaki index sayfasını yenileyin ve ardından about bağlantısına tıklayın. Şimdi bağlantı çalışmayacak. Bunun nedeni about sayfasının dosya konumunun değişmiş olmasıdır.
+Tarayıcıdaki index sayfasını yenileyin ve ardından about linkine tıklayın. Şimdi link çalışmayacak. Bunun nedeni about sayfasının dosya konumunun değişmiş olmasıdır.
 
-Bunu düzeltmek için about bağlantısının href değerini güncellememiz yeterlidir. İndex dosyasına *göreceli* olarak about dosyasının yeni konumu olan `pages/` dizinini dahil etmemiz gerekmektedir. 
+Bunu düzeltmek için about linkinin href değerini güncellememiz yeterlidir. İndex dosyasına *göreceli* olarak about dosyasının yeni konumu olan `pages/` dizinini dahil etmemiz gerekmektedir. 
 
 ~~~html
 <body>
@@ -135,9 +135,9 @@ Bunu düzeltmek için about bağlantısının href değerini güncellememiz yete
 </body>
 ~~~
 
-Tarayıcıda index sayfasını yenileyin ve about bağlantısına tekrar tıklayın, şimdi düzgün çalışması gerekmelidir.
+Tarayıcıda index sayfasını yenileyin ve about linkine tekrar tıklayın, şimdi düzgün çalışması gerekmelidir.
 
-Birçok durumda bu yöntem gayet iyi çalışır; ancak yine de beklenmeyen sorunlarla karşılaşabilirsiniz. Bağlantıdan önce `./` eklemek, çoğu durumda bu tür sorunların önüne geçecektir. `./` ekleyerek, kodunuza dosya/dizin aramaya *göreceli* olarak `mevcut` dizinden başlaması gerektiğini belirtmiş olursunuz.
+Birçok durumda bu yöntem gayet iyi çalışır; ancak yine de beklenmeyen sorunlarla karşılaşabilirsiniz. Linkden önce `./` eklemek, çoğu durumda bu tür sorunların önüne geçecektir. `./` ekleyerek, kodunuza dosya/dizin aramaya *göreceli* olarak `mevcut` dizinden başlaması gerektiğini belirtmiş olursunuz.
 
 ~~~html
 <body>
@@ -148,9 +148,9 @@ Birçok durumda bu yöntem gayet iyi çalışır; ancak yine de beklenmeyen soru
 
 #### Bir metafor
 
-Mutlak ve göreceli bağlantılar iyi bir zihinsel model oluşturmak için karmaşık bir kavramdır bir metafor yardımcı olabilir:
+Mutlak ve göreceli linkler iyi bir zihinsel model oluşturmak için karmaşık bir kavramdır bir metafor yardımcı olabilir:
 
-Alan adınızı (`sehir.com`) bir kasaba olarak düşünün, web sitenizin bulunduğu dizini (`/muzeler`) bir müze olarak ve web sitenizdeki her sayfayı (`/muzeler/film_odasi.html` ve `/muzeler/magazalar/kahve_dukkani.html`) müzedeki bir oda olarak düşünün. `./magazalar/kahve_dukkani.html` gibi göreceli bağlantılar, mevcut odadan (müze film odası `/muzeler/film_odasi.html`) diğer bir odaya (müze mağazası) yönerge niteliğindedir. Mutlak bağlantılar ise protokolü (`https`), alan adını (`sehir.com`) ve bu alan adından gelen yolunu (`/muzeler/magazalar/kahve_dukkani.html`) içeren tam yol tarifleri olarak düşünülebilir: `https://sehir.com/muzeler/magazalar/kahve_dukkani.html`.
+Alan adınızı (`sehir.com`) bir kasaba olarak düşünün, web sitenizin bulunduğu dizini (`/muzeler`) bir müze olarak ve web sitenizdeki her sayfayı (`/muzeler/film_odasi.html` ve `/muzeler/magazalar/kahve_dukkani.html`) müzedeki bir oda olarak düşünün. `./magazalar/kahve_dukkani.html` gibi göreceli linkler, mevcut odadan (müze film odası `/muzeler/film_odasi.html`) diğer bir odaya (müze mağazası) yönerge niteliğindedir. Mutlak linkler ise protokolü (`https`), alan adını (`sehir.com`) ve bu alan adından gelen yolunu (`/muzeler/magazalar/kahve_dukkani.html`) içeren tam yol tarifleri olarak düşünülebilir: `https://sehir.com/muzeler/magazalar/kahve_dukkani.html`.
 
 ### Görseller
 
@@ -158,7 +158,7 @@ Web siteleri yalnızca metin görüntüleyebilseydi oldukça sıkıcı olurdu. N
 
 HTML'de bir görüntüyü görüntülemek için `<img>` elementini kullanırız. Diğer karşılaştığımız elementlerin aksine `<img>` elementi kendini kapatan bir elementtir. Kendini kapatan HTML elementlerine kapanış etiketi gerekmez.
 
-Açılış ve kapanış etiketiyle içeriği sarmak yerine src özelliğini kullanarak bir görüntüyü sayfaya yerleştirir. src özelliği tarayıcıya görüntü dosyasının nerede bulunduğunu söyler. src özelliği bağlantı öğeleri için href özelliği gibi çalışır. Hem mutlak hem de göreceli yol kullanarak bir görüntü yerleştirebilir.
+Açılış ve kapanış etiketiyle içeriği sarmak yerine src özelliğini kullanarak bir görüntüyü sayfaya yerleştirir. src özelliği tarayıcıya görüntü dosyasının nerede bulunduğunu söyler. src özelliği link öğeleri için href özelliği gibi çalışır. Hem mutlak hem de göreceli yol kullanarak bir görüntü yerleştirebilir.
 
 Örneğin The Odin Project sitesinde bulunan bir görüntüyü mutlak yol kullanarak görüntüleyebiliriz:
 
@@ -240,7 +240,7 @@ Biraz pratik yapmak için, `odin-links-and-images` projesine eklediğimiz köpek
 
 ### Bilgi kontrolü
 
-Bu bölümde bu dersle ilgili anlama seviyenizi kendiniz kontrol etmek için sorular bulunmaktadır. Bir soruya cevap vermede zorluk yaşıyorsanız, üzerine tıklayarak bağlantı verilen materyali gözden geçirin.
+Bu bölüm, bu dersi kendi başınıza anlayıp anlamadığınızı kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta zorlanıyorsanız, soruya tıklayın ve linki verilen materyali gözden geçirin.
 
 *   [What element is used to create a link?](#anchor-elements)
 *   [What is an attribute?](#attribute)
@@ -253,7 +253,7 @@ Bu bölümde bu dersle ilgili anlama seviyenizi kendiniz kontrol etmek için sor
 
 ### Ek kaynaklar
 
-Bu bölüm ilgili içeriklere yönelik yararlı bağlantılar içerir. Zorunlu değildir, bu nedenle ek bir kaynak olarak düşünün.
+Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
 
 -   [Interneting is hard's treatment on HTML links and images](https://internetingishard.netlify.app/html-and-css/links-and-images)
 -   [What happened the day Google decided links including (`/`) were malware](https://www.itpro.co.uk/609724/google-apologises-after-blacklisting-entire-internet)
