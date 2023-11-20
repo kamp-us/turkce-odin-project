@@ -28,7 +28,7 @@ Bu derste linkler ve görüntüler kullanarak alıştırma yapmak için bir HTML
 
 ### Anchor öğeleri
 
-HTML'de bir linkler oluşturmak için anchor öğesini kullanırız. Bir anchor öğesi bir metni veya bir HTML öğesini link olarak belirlemek için `<a>` etiketiyle sarmalanarak tanımlanır.
+HTML'de bir link oluşturmak için anchor öğesini kullanırız. Bir anchor öğesi bir metni veya bir HTML öğesini link olarak belirlemek için `<a>` etiketiyle sarmalanarak tanımlanır.
 
 Oluşturduğumuz `index.html` sayfasının body bölümüne aşağıdakini ekleyin ve tarayıcıda açın:
 
@@ -79,7 +79,7 @@ Genel olarak oluşturacağımız linkler şunlardır:
 
 İnternet üzerindeki diğer web sitelerindeki sayfalara linkler, mutlak linkler olarak adlandırılır. Tipik bir mutlak link aşağıdaki bileşenlerden oluşur: `protokol://alan/yol`. Bir mutlak link her zaman hedefin protokolünü ve domain'ini içerir.
 
-Zaten bir mutlak linki kullanırken görmüştük. Daha önce The Odin Project'in Hakkında sayfasına oluşturduğumuz link protokol ve domain içerdiği için bir mutlak linkdi.
+Zaten bir mutlak linki kullanırken görmüştük. Daha önce The Odin Project'in Hakkında sayfasına oluşturduğumuz link protokol ve domain içerdiği için bir mutlak linkti.
 
 `https://www.theodinproject.com/about`
 
@@ -137,7 +137,7 @@ Bunu düzeltmek için about linkinin href değerini güncellememiz yeterlidir. �
 
 Tarayıcıda index sayfasını yenileyin ve about linkine tekrar tıklayın, şimdi düzgün çalışması gerekmelidir.
 
-Birçok durumda bu yöntem gayet iyi çalışır; ancak yine de beklenmeyen sorunlarla karşılaşabilirsiniz. Linkden önce `./` eklemek, çoğu durumda bu tür sorunların önüne geçecektir. `./` ekleyerek, kodunuza dosya/dizin aramaya *göreceli* olarak `mevcut` dizinden başlaması gerektiğini belirtmiş olursunuz.
+Birçok durumda bu yöntem gayet iyi çalışır; ancak yine de beklenmeyen sorunlarla karşılaşabilirsiniz. Linkten önce `./` eklemek, çoğu durumda bu tür sorunların önüne geçecektir. `./` ekleyerek, kodunuza dosya/dizin aramaya *göreceli* olarak `mevcut` dizinden başlaması gerektiğini belirtmiş olursunuz.
 
 ~~~html
 <body>
