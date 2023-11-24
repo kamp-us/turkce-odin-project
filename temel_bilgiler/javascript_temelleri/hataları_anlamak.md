@@ -82,7 +82,7 @@ aşağıdaki hatayı verecektir, çünkü `console.log()` için parantezleri unu
 
 ![Sözdizimi Hatası Örneği](https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/foundations/javascript_basics/understanding_errors/imgs/02.png)
 
-[MDN - Syntax error ingilizce makalesi](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError)
+[MDN - SyntaxError ingilizce makalesi](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError)
 
 #### Referans hatası(Reference Error)
 
