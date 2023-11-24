@@ -27,7 +27,7 @@ const b = "World"
 console.log(c)
 ```
 
-Bu kod çalışacak, ancak bir hata oluşturacaktır. Teknik terimlerle buna hata "vermek" denir. Bir hatanın ilk kısmı hatanın türünü gösterir. Bu, neyle karşı karşıya olduğunuza dair ilk ipucunu sağlar. Dersin ilerleyen bölümlerinde farklı hata türleri hakkında daha fazla bilgi edineceğiz. Bu örnekte, bir `ReferenceError` hatamız var.
+Bu kod çalışacak, ancak bir hata oluşturacaktır. Teknik olarak ele aldığımızda, bu işleme hata "fırlatmak" denir. Bir hatanın ilk kısmı hatanın türünü gösterir. Bu, neyle karşı karşıya olduğunuza dair ilk ipucunu sağlar. Dersin ilerleyen bölümlerinde farklı hata türleri hakkında daha fazla bilgi edineceğiz. Bu örnekte, bir `ReferenceError` hatamız var.
 
 ![Referans Hatası(Reference Error) Örneği](https://cdn.statically.io/gh/TheOdinProject/curriculum/175b5ef2a1b4758a7b75f4ef43d7e27203e5707b/foundations/javascript_basics/understanding_errors/imgs/00.png)
 
