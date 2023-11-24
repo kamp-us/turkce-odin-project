@@ -112,7 +112,7 @@ const message = str1.push(str2);
 
 Burada, `str1.push is not a function`(str1.push bir fonksiyon değildir) şeklinde bir mesaj içeren bir `TypeError` alıyoruz. Bu, öğrencilerin kafasını karıştıran yaygın bir hata mesajıdır, çünkü `.push()`un kesinlikle bir fonksiyon olduğunu biliyoruz!(muhtemelen daha önce _dizilere_ öğe eklemek için kullandınız). Ancak önemli olan kısım - `.push()` bir dize yöntemi değil, bir dizi yöntemidir. Dolayısıyla, bir dize metodu olarak bulabileceğiniz "bir fonksiyon değildir". Eğer `.push()` metodunu uygun bir dize metodu olan `.concat()` ile değiştirirsek, kodumuz amaçlandığı gibi çalışır! Bir `TypeError` ile karşılaştığınızda aklınızda bulundurmanız gereken iyi bir not, bir yöntemi veya işlemi çalıştırmaya çalıştığınız veri türünü göz önünde bulundurmaktır. Muhtemelen düşündüğünüz gibi olmadığını ya da işlemin veya yöntemin bu türle uyumlu olmadığını göreceksiniz.
 
-[MDN - Tür Hatası İngilizce Makalesi](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError)
+[MDN - TypeError ingilizce makalesi](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError)
 
 ### Hataları çözmek için ipuçları
 
