@@ -146,4 +146,4 @@ Bu bölüm, bu dersi kendi kendinize anlayıp anlamadığınızı kontrol etmeni
 
 Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
 
--   [MDN Javascript Hataları Referansı İngilizce Makalesi](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors)
+-   [MDN Javascript Errors Reference ingilizce makalesi](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors)
