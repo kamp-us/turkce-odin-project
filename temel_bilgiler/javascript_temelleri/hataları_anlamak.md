@@ -88,7 +88,7 @@ aşağıdaki hatayı verecektir, çünkü `console.log()` için parantezleri unu
 
 Bu dersteki ilk örnekte referans hatalarını ele aldık, ancak bunların referans vermeye çalıştığınız değişken mevcut olmadığı (mevcut kapsam dahilinde) veya yanlış yazıldığı için ortaya çıktığını hatırlamak önemlidir!
 
-[MDN - Referans Hatası ingilizce makalesi](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError)
+[MDN - ReferenceError ingilizce makalesi](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError)
 
 #### Tür hatası(Type Error)
 
