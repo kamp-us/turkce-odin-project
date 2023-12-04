@@ -33,12 +33,15 @@ Ne yaptığınızı açıklasa da, mesaj çok belirsizdir ve bu da ekibinizdeki 
 Etkili commitler iki ayrı bölümden oluşur: bir konu başlığı ve bir gövde:
 
 #### Konu başlığı
-
-Projede yaptığınız değişikliğin kısa bir özeti. **Not:** GitHub, commit başlıkları için 72 karakter sınırına sahiptir, bu nedenle commit başlığınızı bu sınırlar içinde tutmanızı öneririz.
+Projede yaptığınız değişikliğin kısa bir özeti. 
 
 ```
 Kod tabanında yaptığım değişiklik.
 ```
+
+<div class="lesson-note lesson-note--tip" markdown=1>
+GitHub, commit başlıkları için 72 karakter sınırına sahiptir, bu nedenle commit başlığınızı bu sınırlar içinde tutmanızı öneririz.
+</div>
 
 #### Gövde
 
@@ -58,13 +61,16 @@ Ekran okuyucular, bu bilgi olmadan engelli kullanıcılara görüntüleri okumay
 
 Ahh, bu daha iyi! :) Şimdi, geliştiriciler bu commit mesajını daha iyi anlayabilirler çünkü bu commit mesajı aşağıdakileri sağlar:
 
-- Kodunuzun eylemini belirten bir başlık sağlar (örneğin, "Şirket logosuna eksik bağlantı ve alternatif metin ekleme")
-- Commitin neden yapılması gerektiğine dair kısa ama net bir açıklama sağlayan bir gövde içerir (örneğin, "Ekran okuyucular, bu bilgi olmadan görüntüleri engelli kullanıcılara okumayacaktır")
-- Konuyu gövdeden yeni/boş bir satırla ayırır. Bu, takip etmenizi şiddetle tavsiye ettiğimiz bir en iyi uygulamadır. Diğer geliştiricilerin commit mesajlarını okumasını kolaylaştırır.
+* Kodunuzun eylemini belirten bir başlık sağlar (örneğin, "Şirket logosuna eksik bağlantı ve alternatif metin ekleme")
+* Commitin neden yapılması gerektiğine dair kısa ama net bir açıklama sağlayan bir gövde içerir (örneğin, "Ekran okuyucular, bu bilgi olmadan görüntüleri engelli kullanıcılara okumayacaktır")
+* Konuyu gövdeden yeni/boş bir satırla ayırır. Bu, takip etmenizi şiddetle tavsiye ettiğimiz bir en iyi uygulamadır. Diğer geliştiricilerin commit mesajlarını okumasını kolaylaştırır.
+
+
 
 ### Ne zaman commit yapılmalıdır
 
 Bir commiti düşünmenin iyi bir yolu, kodunuzun yapıldığı andaki "anlık görüntüsü" gibidir. Kodunuzun o noktaya kadar olan versiyonu, geri dönmeniz veya tekrar bakmanız için kaydedilecektir.
+
 
 Kod yazarken, kodda anlamlı bir değişiklik yaptığınızda her seferinde değişiklikleri commitlemek en iyi uygulama olarak kabul edilir. Bu, ilerlemenizin bir zaman çizelgesini oluşturacak ve bitmiş kodunuzun bir anda ortaya çıkmadığını gösterecektir.
 
@@ -79,6 +85,7 @@ Bir projede çalışırken, SONUNDA bir şeyi tam olarak düzgün hale getirdiğ
 1.  Bu makale, [How to Write a Git Commit Message](https://cbea.ms/git-commit), iyi commit mesajlarının nasıl yazılacağına dair tüm ana temelleri kapsamaktadır. Makalenin tamamı harika ve bilgilendirici ancak asıl önemli kısmı “The seven rules of a great commit message.”
 
 </div>
+
 
 ### İpuçları ve hatırlanması gerekenler:
 
@@ -99,5 +106,4 @@ Bu bölüm, bu dersi kendi başınıza anlayıp anlamadığınızı kontrol etme
 Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
 
 - Yüksek bilgi içeren commit mesajlarını formüle etmenin bir yolu da bir şablonu takip etmektir. [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/), keşfedebileceğiniz birçok commit mesajı şablonundan biridir.
-
-- Conventional Commits (Geleneksel Commitler) hakkındaki bu harika eğitim videosunu keşfedin ➔ [Tam Video Bağlantısı](https://www.youtube.com/watch?v=OJqUWvmf4gg).. Videoda, Yarn (bir paket yöneticisi) ve sürüm oluşturma dahil olmak üzere en iyi commit mesajı uygulamaları gösterilmektedir. Yarn ve sürüm oluşturma bilgileri Temeller için henüz gerekli olmayabilir, ancak şimdilik bu konuda endişelenmenize gerek yok. Bu nedenle, commit mesajlarınızı ve geliştirme iş akışınızı keşfetmekten ve geliştirmekten çekinmeyin.
+- Conventional Commits (Geleneksel Commitler) hakkındaki bu harika ingilizce eğitim videosunu keşfedin ➔ [Tam Video Bağlantısı](https://www.youtube.com/watch?v=OJqUWvmf4gg). Videoda, Yarn (bir paket yöneticisi) ve sürüm oluşturma dahil olmak üzere en iyi commit mesajı uygulamaları gösterilmektedir. Yarn ve sürüm oluşturma bilgileri Temeller için henüz gerekli olmayabilir, ancak şimdilik bu konuda endişelenmenize gerek yok. Bu nedenle, commit mesajlarınızı ve geliştirme iş akışınızı keşfetmekten ve geliştirmekten çekinmeyin.

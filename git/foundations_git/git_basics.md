@@ -2,48 +2,55 @@
 
 Bu derste, projelerinizi yönetmek ve çalışmalarınızı GitHub'a yüklemek için kullanılan yaygın Git komutlarını ele alacağız. Bu komutlara **temel Git iş akışı** diyoruz. Git kullanırken, zamanınızın %70-80'nini bu komutları kullanarak geçireceksiniz. Eğer bunları öğrenebilirseniz, Git'te ustalaşma yolunun yarısından fazlasını öğrenmiş olacaksınız!
 
-### Derse Genel Bakış
+### Derse genel bakış
 
 Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içerir.
 
-- GitHub'da depo nasıl oluşturulur.
+- GitHub'da repo nasıl oluşturulur.
 - GitHub'a dosya yükleme ve GitHub'dan dosya indirme.
 - Kodunuzun "anlık görüntüsünü" alma.
 
 ### Ödev
 
-#### Başlamadan Önce!
+<div class="lesson-content__panel" markdown="1">
+
+#### Başlamadan önce!
 
 - Github kısa süre önce varsayılan branch (dal) adını değiştirdi. Bu yüzden git sürümünüzün yeni olduğundan emin olun (2.28 ya da sonrası). Git sürümünüzü kontrol etmek için `git --version` komutunu kullanabilirsiniz.
+
 - Henüz yapmadıysanız, yerel varsayılan git dalınızı `main` olarak ayarlayın. Bunu yapmak için `git config --global init.defaultBranch main` komutunu kullanabilirsiniz.
+
 - Master'dan main'e geçiş hakkında daha fazla bilgi için [GitHub's Renaming Repository](https://github.com/github/renaming).
 
-#### Depo Oluşturma
+#### Repo Oluşturma
 
 1. [Git Kurulumu](https://www.theodinproject.com/lessons/foundations-setting-up-git) dersinde bir GitHub hesabı oluşturmuş olmalısınız. Eğer oluşturmadıysanız, [buradan](https://github.com/) oluşturun.
-2. Aşağıdaki ekran görüntüsünde gösterilen düğmeye tıklayarak yeni bir depo oluşturun.
+
+2. Aşağıdaki ekran görüntüsünde gösterilen düğmeye tıklayarak yeni bir repo oluşturun.
+
    ![The GitHub Profile Screen](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/00.png)
-3. `Repository name` kısmından, depo adınıza "git_test" ismini verin."Add a README file" kutucuğunu işaretleyin. Ve ardından sayfanın altındaki "Depo oluştur" düğmesine tıklayarak depoyu oluşturun .
+
+3. `Repository name` kısmından, repo adınıza "git_test" ismini verin."Add a README file" kutucuğunu işaretleyin. Ve ardından sayfanın altındaki "repo oluştur" düğmesine tıklayarak repoyu oluşturun .
 
    ![Create new repo using GitHub](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/01.png)
 
-4. Bu sizi GitHub'daki yeni deponuza yönlendirecektir. Bu depoyu yerel makinenize kopyalamak (klonlamak) için, yeşil "Code" düğmesine tıklayın. Ardından SSH seçeneğini seçin ve altındaki satırı kopyalayın. **NOT: Doğru URL'yi almak için SSH seçeneğine tıklamalısınız.**
+4. Bu sizi GitHub'daki yeni reponuza yönlendirecektir. Bu repoyu yerel makinenize kopyalamak (klonlamak) için, yeşil "Code" düğmesine tıklayın. Ardından SSH seçeneğini seçin ve altındaki satırı kopyalayın. **NOT: Doğru URL'yi almak için SSH seçeneğine tıklamalısınız.**
 
    ![Copy SSH link using GitHub](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/02.png)
 
 5. Tüm Odin projeleriniz için yeni bir dizin oluşturmak için yerel makinenizdeki komut satırını kullanalım. Ana klasörünüzde `mkdir` komutu ile `repos` adında bir dizin oluşturun. Ana klasörünüz `~` işareti ile temsil edilir. [Dosya ve Dizinlerde Gezinme](https://swcarpentry.github.io/shell-novice/02-filedir.html#callout1) bazı ana klasör varyasyonlarını göstermektedir - bazı zamanlar `~`, `/users/sizin_adınız` yerine geçer ya da `/home/sizin_adınız`. Eğer ana klasörünüzde olduğunuzdan emin değilseniz, `cd ~` komutunu yazın. Klasör oluşturulduktan sonra, `cd` komutunu kullanarak klasöre geçin.
 
-   ![Creating a new directory](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/03.png)
+   ![Creating a new directory](https://cdn.statically.io/gh/TheOdinProject/curriculum/e6f531e5c65077fe5897d36c270a90f0b4d7da7b/git/foundations_git/git_basics/imgs/01.png)
 
-6. <span id="github-to-local"></span>Artık GitHub deponuzu bilgisayarınıza kopyalama zamanı geldi, `git clone` komutunun ardından kopyaladığınız URL komut satırına yapıştırın. Yazdığınız komut bu komuta benzemelidir, `git clone git@github.com:USER-NAME/REPOSITORY-NAME.git`. Eğer URL buna benziyorsa `https://github.com/USER-NAME/REPOSITORY-NAME.git`, HTTPS seçeneğini seçmişsiniz demektir, gerekli olan SSH'yi değil.
+6. <span id="github-to-local"></span>Artık GitHub reponuzu bilgisayarınıza kopyalama zamanı geldi, `git clone` komutunun ardından kopyaladığınız URL komut satırına yapıştırın. Yazdığınız komut bu komuta benzemelidir, `git clone git@github.com:USER-NAME/REPOSITORY-NAME.git`. Eğer URL buna benziyorsa `https://github.com/USER-NAME/REPOSITORY-NAME.git`, HTTPS seçeneğini seçmişsiniz demektir, gerekli olan SSH'yi değil.
 
    ![Clone the repo using CLI](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/04.png)
 
-7. <span id="origin-push"></span>Bu kadar! GitHub'da açtığınız deponuzu başarılı bir şekilde bilgisayarınıza bağladınız. Bunu denemek için, yeni indirilen **git_test** klasörüne `cd` komutu ile geçiş yapabilirsiniz, ardından `git remote -v` komutunu çalıştırın. Bu komut GitHub depo URL'sini gösterecektir. <span id="default-remote"></span> `git remote -v` komutunun çıktısının başında **origin** kelimesi dikkatinizi çekmiş olabilir, uzaktan bağlantınızın adını temsil eder. **Origin** ismi uzaktan depolara verilen hem varsayılan hem de geleneksel bir addır. Ama kolaylıkla "parti-papağanı" ya da "dans-eden-muz" olarakta isimlendirilebilirdi.(Şimdilik origin detaylarıyla kafanızı yormayın; bu dersin sonunda yine karşınıza çıkacak.)
+7. <span id="origin-push"></span>Bu kadar! GitHub'da açtığınız reponuzu başarılı bir şekilde bilgisayarınıza bağladınız. Bunu denemek için, yeni indirilen **git_test** klasörüne `cd` komutu ile geçiş yapabilirsiniz, ardından `git remote -v` komutunu çalıştırın. Bu komut GitHub repo URL'sini gösterecektir. <span id="default-remote"></span> `git remote -v` komutunun çıktısının başında **origin** kelimesi dikkatinizi çekmiş olabilir, uzaktan bağlantınızın adını temsil eder. **Origin** ismi uzaktan repolara verilen hem varsayılan hem de geleneksel bir addır. Ama kolaylıkla "parti-papağanı" ya da "dans-eden-muz" olarakta isimlendirilebilirdi.(Şimdilik origin detaylarıyla kafanızı yormayın; bu dersin sonunda yine karşınıza çıkacak.)
 
    ![Check repo remotes using CLI](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/05.png)
 
-#### Git İş Akışı Kullanımı
+#### Git iş akışı kullanımı
 
 1. `touch hello_world.txt` komutu ile `git_test` klasöründe "hello_world.txt" adında yeni bir dosya oluşturun.
 
@@ -57,9 +64,9 @@ Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içerir.
 
    ![Stage hello_world and check repo status again using CLI](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/08.png)
 
-4. <span id="git-commit"></span>Terminale `git commit -m "Add hello_world.txt"` yazın, ardından bir kez daha `git status` yazın. Göreceğiniz çıktı şu olmalıdır: "*nothing to commit, working tree clean*", bu kısaca yaptığınız değişikliklerin kaydedildiği anlamına gelir. Eğer sizin çıktınız "*upstream is gone*" gözüküyorsa, merak etmeyin. Bu normal, klonladığınız deponun başka bir dalı olmadığında gözükür. Projenin devamındaki adımları takip ettiğiniz takdirde çözülecektir.
+4. <span id="git-commit"></span>Terminale `git commit -m "Add hello_world.txt"` yazın, ardından bir kez daha `git status` yazın. Göreceğiniz çıktı şu olmalıdır: "*nothing to commit, working tree clean*", bu kısaca yaptığınız değişikliklerin kaydedildiği anlamına gelir. Eğer sizin çıktınız "*upstream is gone*" gözüküyorsa, merak etmeyin. Bu normal, klonladığınız reponun başka bir dalı olmadığında gözükür. Projenin devamındaki adımları takip ettiğiniz takdirde çözülecektir.
 
-"_Your branch is ahead of 'origin/main' by 1 commit_" anlamı ise uzak(remote) depodaki değişikliklerinizden daha yeni" anlık görüntü"lerinizin bulunmasıdır. "Anlık görüntü"lerinizi dersin ileriki zamanlarında yükleyeceksiniz.
+"_Your branch is ahead of 'origin/main' by 1 commit_" anlamı ise uzak(remote) repodaki değişikliklerinizden daha yeni" anlık görüntü"lerinizin bulunmasıdır. "Anlık görüntü"lerinizi dersin ileriki zamanlarında yükleyeceksiniz.
 
 ![Commit hello_world and check repo status again using CLI](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/09.png)
 
@@ -79,12 +86,13 @@ Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içerir.
 
    ![Edit README using text editor](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/12.png)
 
+<!--  -->
+
 3. Terminale geri dönün veya Visual Studio Code kullanıyorsanız, Ctrl + ` (backtick) tuşlarına basarak dahili terminali açabilirsiniz. Ardından `git status` yazın. README.md dosyasının değiştiğini göreceksiniz.
 
    ![Check repo status again using CLI](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/13.png)
 
 4. README.md dosyasını işaretleme (staging) bölgesine eklemek için `git add README.md` yazın.
-
 
 5. `git status` yazın. README.md dosyasının yeşil renkte olduğunu göreceksiniz. Bu, README.md dosyasının hazırlanma bölgesine eklendiği anlamına gelir. hello_world.txt dosyası görünmeyecektir çünkü son commit işleminizden beri değiştirilmedi.
 
@@ -102,11 +110,11 @@ Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içerir.
 
    ![Git Log](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/17.png)
 
-#### Uzak Depoya Yükleme
+#### Uzak repoya Yükleme
 
-Çalışmanızı son olarak bu dersin başında oluşturduğunuz GitHub deposuna yükleyelim.
+Çalışmanızı son olarak bu dersin başında oluşturduğunuz GitHub reposuna yükleyelim.
 
-1. <span id="git-push"></span> `git push` yazalım. Daha spesifik olmak gerekirse, `git push origin main` yazın. Başka bir dal (main dışında) veya farklı bir uzak depo (yukarıda bahsedildiği gibi) ile uğraşmadığınızdan, birkaç tuşa basarak bırakabilirsiniz. **NOT: Eğer bu noktada "Support for password authentication was removed on August 13, 2021.
+1. <span id="git-push"></span> `git push` yazalım. Daha spesifik olmak gerekirse, `git push origin main` yazın. Başka bir dal (main dışında) veya farklı bir uzak repo (yukarıda bahsedildiği gibi) ile uğraşmadığınızdan, birkaç tuşa basarak bırakabilirsiniz. **NOT: Eğer bu noktada "Support for password authentication was removed on August 13, 2021.
    Please use a personal access token instead." şeklinde bir mesaj alırsanız, adımları yanlış takip etmişsiniz demektir ve
    HTTPS ile değil SSH ile klonlamışsınız demektir. Lütfen [bu adımları](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#switching-remote-urls-from-https-to-ssh) takip ederek uzak bağlantınızı SSH'ye çevirin ve Github'a yüklemeyi tekrar deneyin.**
 
@@ -116,7 +124,7 @@ Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içerir.
 
    ![Check repo status again to confirm local repo is up to date with remote using CLI](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/19.png)
 
-3. GitHub'daki depoyu yenilediğinizde, yerel makinenizden GitHub'a yeni yüklediğiniz README.md ve hello_world.txt dosyalarını görmelisiniz.
+3. GitHub'daki repoyu yenilediğinizde, yerel makinenizden GitHub'a yeni yüklediğiniz README.md ve hello_world.txt dosyalarını görmelisiniz.
 
    ![Verify repo changes are on GitHub](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/20.png)
 
@@ -128,7 +136,7 @@ Basit değişiklikler yapmaya çalışırken, örneğin README.md'deki yazım ha
 
 Bu liste en sık kullanılan Git komutlarının bir listesidir. (Bu kullanışlı sayfayı yer imlerinize eklemeyi düşünebilirsiniz.) Komutları en sonunda hepsini hatırlayabileceğiniz şekilde tanımaya çalışın:
 
-- Uzak depoyla ilgili komutlar:
+- Uzak repoyla ilgili komutlar:
     - `git clone git@github.com:USER-NAME/REPOSITORY-NAME.git`
     - `git push` ya da `git push origin main` (Bu bağlamda her ikisi de aynı amaca ulaşır)
 - İş akışıyla ilgili komutlar:
@@ -142,11 +150,11 @@ Git komutlarının mantığı kısaca `program | aksiyon | hedef` şeklindedir.
 
 Mesela,
 
-- `git add .` ,  `git | add | .` olarak okunur, nokta bulunduğu depodaki her şeyi temsil eder;
+- `git add .` ,  `git | add | .` olarak okunur, nokta bulunduğu repodaki her şeyi temsil eder;
 - `git commit -m "message"`  `git | commit -m | "message"` olarak; and
 - `git status` ise `git | status | (no destination)` olarak okunur.
 
-### Git En İyi Uygulamalar (Best Practices)
+### Git en iyi uygulamalar (Best practices)
 
 Git kullanımı hakkında öğrenebileceğiniz çok şey var. Ancak daha iyi bir işbirlikçi olmanız için bazı iyi pratikleri öğrenmelisiniz. Git, yalnızca diğerleriyle işbirliği yaparken değil, aynı zamanda bağımsız olarak çalışırken de yararlıdır. Geçmişteki kodunuzu yeniden ziyaret ettiğinizde, işlem(commit) tarihinize daha fazla bel bağlayacaksınız.
 
@@ -154,13 +162,11 @@ Faydalı olabilecek bir pratik örneği, **atomik işlemler** ve bu atomik işle
 
 Atomik işlem bir programınızın yalnızca bir özelliği veya göreviyle ilgili değişiklikleri içeren bir işlemdir. Bunu yapmanın iki temel nedeni vardır: ilk olarak, değiştirdiğiniz bir şeyin bazı sorunlara neden olduğu ortaya çıkarsa, diğer değişiklikleri kaybetmeden belirli değişikliği geri almak kolaydır; ikinci olarak, daha iyi bir işlem(commit) mesajı yazmanıza olanak sağlar. İyi bir işlem(commit) mesajının nasıl göründüğünü gelecekteki derslerde daha iyi anlayacaksınız.
 
-### Git Commit Mesaj Editörünü Değiştirme
+### Git commit mesaj editörünü değiştirme
 
 Eğer _Visual Studio Code_ kullanıyorsanız (bu müfredatı takip ediyorsanız kullanmalısınız), `git commit` komutunu mesaj bayrağı (`-m`) ile [Vim](<https://en.wikipedia.org/wiki/Vim_(text_editor)>)'de commit mesajı yazmak zorunda kalmayacağınız bir yöntem mevcut.
 
-Mesaj yazmayı unutuyorsanız ve Vim kullanmak gibi bir niyetiniz yoksa, varsayılan mesaj düzenleyicinizi VSCode olarak değiştirmek iyi bir seçenek olabilir.
-
-Bunu değiştirmenin bir dezavantajı yoktur çünkü işleme (commit) mesajlarınızı ister terminalde isterseniz de VSCode'da yazma seçeneğiniz olacaktır.
+Mesaj yazmayı unutuyorsanız ve Vim kullanmak gibi bir niyetiniz yoksa, varsayılan mesaj düzenleyicinizi VSCode olarak değiştirmek iyi bir seçenek olabilir.Bunu değiştirmenin bir dezavantajı yoktur çünkü işleme (commit) mesajlarınızı ister terminalde isterseniz de VSCode'da yazma seçeneğiniz olacaktır.
 
 Aşağıdaki komut bu ayarı yapmak içindir. Bu komutu terminalinize yazın (veya kopyalayıp yapıştırın) ve <kbd>Enter</kbd> tuşuna basın.
 
@@ -186,11 +192,11 @@ Eğer bazı komutları bilmiyorsanız ya da hafızanızda kalmıyorsa endişelen
 
 Şimdilik, burada öğrendiğiniz Git'in temellerini, bundan sonra tüm projelerinizde kullanmaya odaklanın. Yakında temel Git komutlarının her birini hafızanızdan yazabileceksiniz!
 
-### Bilgi Kontrolü
+### Bilgi kontrolü
 
-Bu bölüm, dersi anlayıp anlamadığınızı kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta zorlanıyorsanız, soruya tıklayın ve yönlendirdiği materyali gözden geçirin.
+Bu bölüm, bu dersi kendi kendinize anlayıp anlamadığınızı kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta zorlanıyorsanız, soruya tıklayın ve bağlantılı olduğu materyali gözden geçirin.
 
-- [GitHub da nasıl yeni bir depo açarız ?](#new-github-repo)
+- [GitHub da nasıl yeni bir depo açarız ?](#repo-oluşturma)
 - [GitHub dan bilgisayarınıza nasıl depo kopyalarsınız ?](#github-to-local)
 - [Bağlantınızın varsayılan adı nedir ?](#default-remote)
 - [`git push origin main` komutundaki `origin` komutunu açıklayın.](#origin-push)
@@ -202,8 +208,10 @@ Bu bölüm, dersi anlayıp anlamadığınızı kontrol etmeniz için sorular iç
 - [GitHub daki deponuza değişiklikleri nasıl yüklersiniz(push)?](#git-push)
 - [İşlem(commit) geçmişinize nasıl bakarsınız ?](#git-log)
 
-### Ekstra Kaynaklar
+### Ek kaynaklar
 
 Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
 
-- [Sıfırdan Git ve GitHub kursu](https://www.youtube.com/watch?v=apGV9Kg7ics) - by Kunal Kushwaha
+- Kunal Kushwaha'ın [Complete Git and GitHub Tutorial adlı ingilizce videosu](https://www.youtube.com/watch?v=apGV9Kg7ics)
+- [Git - Reference adlı ingilizce git dökümantasyonu](https://git-scm.com/docs)
+- [GitHub'a yerel olarak barındırılan kod ekleme hakkındaki bu ingilizce makale](https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github), yerel bir klasörden git deposu oluşturma ve GitHub'a ekleme konusunda size yol gösterecektir.
