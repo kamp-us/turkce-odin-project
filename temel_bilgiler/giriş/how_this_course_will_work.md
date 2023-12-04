@@ -46,6 +46,6 @@ Açıkça belirtilmediği sürece isteğe bağlı olarak kabul edilen tek şey e
 
 ### Ek kaynaklar
 
-Bu bölümde ilgili içeriğe yönelik faydalı bağlantılar bulunmaktadır. Bu tür ek kaynaklar programı tamamlamak için gerekli değildir, bu yüzden tamamlayıcı olarak düşünebilirsiniz.
+Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
  
 - Görünüşe göre bu derste henüz ek kaynak yok. Müfredatımıza katkıda bulunarak bu bölümü genişletmemize yardımcı olabilirsiniz.

@@ -1,8 +1,8 @@
 ### Giriş
 
-Diğer insanlarla çalışmak ve işbirliği yapmak, bir web geliştiricisi olarak çalışmanın önemli bir parçasıdır. Bu nedenle, The Odin Project olarak sizi aşağıda daha ayrıntılı olarak bahsedeceğimiz çevrimiçi sohbet topluluğumuza katılmaya teşvik ediyoruz. Topluluğa katılarak, diğer Odin öğrencileriyle birlikte gelişebilir ve birbirinizin web geliştirmeyi öğrenmesine yardımcı olabilirsiniz. Hazır başlamışken, [Facebook](https://www.facebook.com/theodinproject/), [Twitter](https://twitter.com/TheOdinProject) ve [Instagram](https://www.instagram.com/theodinproject/) sayfalarımıza göz atabilirsiniz. Odin Projesi ilerlemenizi, güncellemeleri, düşüncelerinizi paylaşmak ve diğer Odin öğrencilerinin neler yaptığını görmek için #TheOdinProject'i kullanın!
+Diğer insanlarla çalışmak ve işbirliği yapmak, bir web geliştiricisi olarak çalışmanın önemli bir parçasıdır. Bu nedenle, The Odin Project olarak sizi aşağıda daha ayrıntılı olarak bahsedeceğimiz çevrimiçi sohbet topluluğumuza katılmaya teşvik ediyoruz. Topluluğa katılarak, diğer Odin öğrencileriyle birlikte gelişebilir ve birbirinizin web geliştirmeyi öğrenmesine yardımcı olabilirsiniz. Hazır başlamışken, [Facebook](https://www.facebook.com/theodinproject/), [X](https://x.com/TheOdinProject) ve [Instagram](https://www.instagram.com/theodinproject/) sayfalarımıza göz atabilirsiniz. Odin Projesi ilerlemenizi, güncellemeleri, düşüncelerinizi paylaşmak ve diğer Odin öğrencilerinin neler yaptığını görmek için #TheOdinProject'i kullanın!
 
-### Bir Topluluk Sizin İçin Neden Harika?
+### Bir topluluk sizin için neden harika?
 
 Web geliştirmeyi öğrenmek uzun ve zahmetli bir yolculuk olacak, ancak Discord topluluğumuza katılarak bu yolculuğu çok daha eğlenceli hale getirebilirsiniz. Müfredatımızı hangi hızda yaparsanız yapın, her zaman birkaç adım önünüzde yardım etmeye istekli insanlar olacaktır. Ayrıca, sizden birkaç adım geride olanlara yardım etmek, kendi anlayışınızı derinleştirmenin ve öğrenmenizi kalıcı hale getirmenin harika bir yoludur.
 
@@ -10,11 +10,11 @@ Kodunuzun çalışmadığı ve hatta sizin için bir anlam ifade etmediği [umut
 
 Çözmek için çok uğraştığınız ve bitirmekten gurur duyduğunuz projeyi hatırlıyor musunuz? Topluluğumuz aracılığıyla, çalışmanızı ve ilerlemenizi, bir projeye ne kadar çok emek harcandığını tamamiyle anlayabilecek insanlarla paylaşabileceksiniz.
 
-### Bir Topluluk Odin İçin Neden Harika?
+### Bir topluluk Odin için neden harika?
 
 Mevcut dersleri güncellemek ve yeni içerikler üretmek için çok çalışıyoruz, bu nedenle dersler ve projeler hakkındaki geri bildirimlerinizi duymak isteriz. Dersleri eğlenceli, ilgi çekici ve bilgilendirici bulacağınızı ve projeleri zorlayıcı ama başarılabilir bulacağınızı umuyoruz. Bu yüzden lütfen düşüncelerinizi bize bildirin!
 
-### Yardım İstemeden Önce
+### Yardım istemeden önce
 
 Projelerin çoğu sizi sınırlarınızı zorlamanız için tasarlandığından, lütfen her zaman başvurabileceğiniz bir topluluk olduğunu unutmayın! Her sorunu hemen nasıl çözeceğinizi bilmenize gerek yok, ANCAK sorunun ne olduğu konusunda genel bir fikriniz olması gerekiyor. Sorularınızı sorarken bu gerçekten önemlidir çünkü bazen sorun kodunuz değil **sizin yaklaşımınızdır**.
 
@@ -24,7 +24,7 @@ Sorununuzla ilgili bilgileri bulmak için bir [Google araması](https://www.goog
 
 Eğer bu yöntemler sizin için bir çözüm sağlamıyorsa, Odin topluluğuna ulaşıp yardım istemenin zamanı geldi.
 
-### Yardım İstemek
+### Yardım istemek
 
 Sorunu kendi başınıza çözmek için biraz zaman harcadınız ve şimdi Odin Discord'u açıp yardım isteme zamanı. Akılda tutulması gereken ilk şey [sormak için sorma](https://dontasktoask.com/). Bu basit bir fikir olsa da (oldukça akılda kalıcı bir özlü söz ile!), sorularınıza çok daha hızlı yanıt almanıza yardımcı olabilir ve başkalarının size yardım teklif etmesini kolaylaştırır.
 
@@ -32,11 +32,11 @@ Ayrıca, sorularınızı sorarken harika bir soru oluşturarak topluluğun size 
 
 Sorunuzu sorarken, lütfen ayrıntı eklemeyi unutmayın:
 
-*   Problemin ne olduğunu düşünüyorsunuz?
-*   Tam olarak ne olmasını istiyorsunuz?
-*   Aslında ne oluyor?
-*   O sonuca nasıl ulaştınız?
-*   Şimdiye kadar ne denediniz?
+- Problemin ne olduğunu düşünüyorsunuz?
+- Tam olarak ne olmasını istiyorsunuz?
+- Aslında ne oluyor?
+- O sonuca nasıl ulaştınız?
+- Şimdiye kadar ne denediniz?
 
 Sorunu tam olarak belirleyemezseniz bir **ekran görüntüsü** paylaşabilirsiniz. Bu, özellikle komutların çıktısını komut satırında göstermek için kullanışlıdır. Discord'da, ekran görüntüsü yüklemek için resim dosyanızı sohbet kutusuna sürükleyip bırakın veya PrtScn'yi kullanın ve klavye kısayollarıyla yapıştırın. Bilgisayarınızda nasıl ekran görüntüsü alacağınızı bilmiyorsanız [Google'a](https://google.com) sormanın tam zamanı.
 
@@ -44,7 +44,7 @@ Ekran görüntüleri, komutların çıktılarını veya komut satırındaki hata
 
 Bazen sorununuzla ilgili size yardımcı olacak kimse olmayabilir. [Discord arama işlevine](https://support.discordapp.com/hc/en-us/articles/115000468588-Using-Search) aşina olmak için ideal zaman budur. Daha önce başka birinin benzer bir sorunu olup olmadığını ve sorunu nasıl çözdüğünü görmek için belirli anahtar kelimeleri veya hata mesajlarını arayın!
 
-### Sorularınızı Düzenleme
+### Sorularınızı düzenleme
 
 Sorularınızı okunabilir bir biçimde sormak, herkesin sorularda daha iyi hata ayıklamasına yardımcı olur. İşte bununla ilgili bazı yollar:
 
@@ -66,63 +66,62 @@ Sohbet odalarında, ABD ve İngiltere klavyelerinde Tab tuşunun üzerinde bulun
 
 Dili belirterek çok satırlı kodunuza renk eklemek için _kod vurgulama_ özelliğini de kullanabilirsiniz:
 
-\`\`\`**javascript**
+\`\`\`**js** or **javascript**
 
 Birden Çok Satırlı Renkli Kodunuz
 
 \`\`\`
 
-### Sohbet Özellikleri
+### Sohbet özellikleri
 
-*   Giphys ile eğlenin: herkese merhaba demek için `/giphy hi` yazın.
-*   Sohbet komutları hakkında daha fazla bilgi için `!help` yazın.
-*   `@username ++` ile size yardımcı olanlara minnettarlığınızı gösterin.
-*   Mevcut tüm odaları ziyaret etmeyi unutmayın!
+- Giphys ile eğlenin: herkese merhaba demek için `/gif hi` yazın.
+- Sohbet komutları hakkında daha fazla bilgi için `!help` yazın.
+- `@username ++` ile size yardımcı olanlara minnettarlığınızı gösterin.
+- Mevcut tüm odaları ziyaret etmeyi unutmayın!
 
+### Başkalarının kodlama sorunlarını çözmesine nasıl yardımcı olabilirsiniz?
 
-### Başkalarının Kodlama Sorunlarını Çözmesine Nasıl Yardımcı Olabilirsiniz?
+Sadece nasıl etkili bir soru sorulacağını bilmek önemli değil ama aynı zamanda başkalarına etkili bir şekilde nasıl yardım edileceğini bilmek de önemlidir. Lütfen bu yönergeleri gözden geçirmek zaman ayırın, böylece Discord topluluğumuzdan alabileceğiniz yardımla ilgili doğru beklentilere sahip olabilirsiniz. Ayrıca, başkalarına yardım etmeye hazır olduğunuzda geri gelip bu yönergeleri gözden geçirin.
 
-Sadece nasıl etkili bir soru sorulacağını bilmek önemli değil, aynı zamanda başkalarına etkili bir şekilde nasıl yardım edileceğini bilmek de önemlidir. Lütfen bu yönergeleri gözden geçirmek zaman ayırın, böylece Discord topluluğumuzdan alabileceğiniz yardımla ilgili doğru beklentilere sahip olabilirsiniz. Ayrıca, başkalarına yardım etmeye hazır olduğunuzda geri gelip bu yönergeleri gözden geçirin.
-
-#### 1.  Soruyu Yanıtlamak Yerine, Cevap için rehberlik edin
+#### 1. Soruyu yanıtlamak yerine, cevap için rehberlik edin
 
 Sorun basit bir yazım hatası veya sözdizimi hatası olmadığı sürece, soru soranlara kendi yanıtlarını bulmaları için rehberlik etmek daha faydalıdır. Bu yaklaşım onlara iyi hata ayıklama becerileri öğretecek ve gelecekteki sorunları çözme becerilerini artıracaktır.
 
 "Daha önce ne denediniz?", "Bu fonksiyonun ne yapmasını bekliyorsunuz?" veya "Bu hatanın ne anlama geldiğini düşünüyorsunuz?" gibi araştırma soruları sorarak başlayın.
 
-#### 2.  Yalnızca Yanıttan Emin Olduğunuzda Yardım Edin
+#### 2. Yalnızca yanıttan emin olduğunuzda yardım edin
 
 Cevaptan %100 emin değilseniz, faydadan çok zarar verebilirsiniz, bu yüzden lütfen başka birinin cevaplamasına izin verin.
 
 Birisinin bir cevap için ne kadar beklemesi gerektiği konusunda endişelenmeyin. Doğru cevap beklemeye değer.
 
-#### 3.  Yalnızca Şu Anda Başka Kimse Yardım Etmiyorsa Yardım Edin
+#### 3. Yalnızca şu anda başka kimse yardım etmiyorsa yardım edin
 
 Birisi zaten yardım alıyorsa, konuşmanın ortasına atlamayın. İyi niyetli olduğunuzu biliyoruz, ancak yardım alan kişinin birden fazla konuşmayı takip etmesi bunaltıcı olacaktır.
 
-#### 4.  Yalnızca Bol Vaktiniz Olduğunda Yardım Edin
+#### 4. Yalnızca bol Vaktiniz olduğunda yardım edin
 
 Yardım etmek için fazla zamanınız yoksa, lütfen soruyu başka birinin yanıtlamasına izin verin.
 
-#### 5.  Beklentilerinizi Düzeylerine Göre Ayarlayın
+#### 5. Beklentilerinizi düzeylerine göre ayarlayın
 
 Soru, müfredatta nerede olduklarını ortaya çıkarmıyorsa, beklentilerinizi bilgi düzeylerine göre ayarlayabilmeniz için onlara sorun.
 
-#### 6.  Açıklama İsteyin
+#### 6. Açıklama isteyin
 
-Soru kafa karıştırıcı veya belirsiz görünüyorsa, daha fazla netlik isteyin veya soruyu kibarca [Kodlama soruları sormakta nasıl harika olunur](https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603) makalesine bağlanan bot komutumuz `!question` ile ilişkilendirin.
+Soru kafa karıştırıcı veya belirsiz görünüyorsa, daha fazla netlik isteyin veya soruyu kibarca [Kodlama soruları sormakta nasıl harika olunur](https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603) makalesine bağlanan bot komutumuz `/question` ile ilişkilendirin.
 
-#### 7.  Canlı Olarak Kod Yazılmasını İste
+#### 7. Canlı olarak kod yazılmasını iste
 
 Sorunun tam olarak anlaşılması veya hata ayıklaması için canlı olarak kod yazılması gerekiyorsa soruyu sağlamak için [replit](https://replit.com) kullanmalarını isteyin. Sorunu yalıtmak zorsa, sorunu yalıtılmış kodla yeniden oluşturmaları gerekir.
 
-#### 8.  Google'ın Cevaplayabileceği Soruları Yanıtlamayın
+#### 8. Google'ın cevaplayabileceği soruları yanıtlamayın
 
 Bu soruların nasıl araştırılacağını öğrenmek, geliştiriciler için çok önemli bir beceridir bu yüzden onları kendi cevaplarını bulmaları için güçlendirmemiz gerekiyor. Bu soruları yanıtladığımızda, bu onların kişisel gelişimlerini engeller ve onları topluluğumuza bağımlı hale getirir.
 
-Bu soruları yanıtlamak yerine kibarca sorularını Google'da aramalarını veya arama terimleriyle bot komutumuz olan !google'ı kullanmalarını isteyin.
+Bu soruları yanıtlamak yerine kibarca sorularını Google'da aramalarını veya arama terimleriyle bot komutumuz olan `/google`'ı kullanmalarını isteyin.
 
-#### 9.  Müfredatımızdaki Soruları Cevaplamayın
+#### 9. Müfredatımızdaki soruları cevaplamayın
 
 Cevabın müfredatımızda verildiğini biliyorsanız, onlara müfredatın neresinde olduklarını sorun.
 
@@ -130,33 +129,33 @@ Müfredatın o kısmına ulaşmamışlarsa, gelecekte öğreneceklerini bilmeler
 
 Müfredatın o kısmından geçmişlerse, kibarca o dersi gözden geçirmeleri için yönlendirin.
 
-#### 10.  Diğer Sorunlara İşaret Etmeden Önce Soruyu Cevaplayın
+#### 10. Diğer sorunlara işaret etmeden önce soruyu cevaplayın
 
 Birine yardım ederken, kodundaki diğer sorunları tespit etmek kolay olabilir. Dikkat edilmesi gereken diğer sorunlara işaret etmeden önce asıl soruyu çözün.
 
-#### 11.  Öğrencilere Hata Ayıklayıcı Kullanmaya Teşvik Edin
+#### 11. Öğrencilere hata ayıklayıcı kullanmaya teşvik edin
 
-Öğrencilerin, programlarının farklı noktalarında değişkenlerinin değerlerine bakmak için bir hata ayıklayıcı kullanmanın önemini anlamamaları yaygın bir durumdur. Öğrenciler beklenmedik değerler aldıklarında, bot komutumuz '!debug' ile onları bir hata ayıklayıcı kullanmaya kibarca teşvik edin.
+Öğrencilerin, programlarının farklı noktalarında değişkenlerinin değerlerine bakmak için bir hata ayıklayıcı kullanmanın önemini anlamamaları yaygın bir durumdur. Öğrenciler beklenmedik değerler aldıklarında, bot komutumuz `/debug` ile onları bir hata ayıklayıcı kullanmaya kibarca teşvik edin.
 
-#### 12.  Geri Adım Atması Gereken Öğrencilere Dikkat Edin
+#### 12. Geri adım atması gereken öğrencilere dikkat edin
 
 Öğrencilerin bir soruna çok fazla odaklanması ve her şeyi net bir şekilde görememesi yaygın bir durumdur. Bu durum ortaya çıktığında, onları kibarca sorundan geri adım atmaya ve ara vermeye teşvik edin. Çoğu zaman, bir problemden uzaklaşmak, onların daha büyük resmi görmelerine ve onu nasıl çözeceklerine yardımcı olur.
 
-#### 13.  Bildiğini Zanneden Öğrencilere dikkat edin
+#### 13. Bildiğini zanneden öğrencilere dikkat edin
 
 Öğrencilerin bir dersi/projeyi atlaması veya gerçekte olduğundan daha fazlasını bildiğini düşünmesi yaygın bir durumdur. Bu durum ortaya çıktığında, müfredatın bir bölümünü daha fazla anlamaları için geri dönüp yeniden okumaları için kibarca teşvik edin.
 
-#### 14.  Sorun Mevcut Bilginizin Ötesine Geçtiğinde Kabullenin
+#### 14. Sorun mevcut bilginizin ötesine geçtiğinde kabullenin
 
 Asıl sorunun ilk sorunun ötesine geçmesi yaygın bir durumdur. Mevcut bilginizin ötesine geçiyorsa, doğru cevaptan emin olmadığınızı kabul etmeniz ve başka birinin yardım etmesine izin vermeniz önemlidir.
 
 Sorunu derinlemesine inceledikten sonra, kendi başlarına sorun gidermeye devam edebilirler veya daha deneyimli birinin yardım etmesini bekleyebilirler.
 
-#### 15.  Sabırlı Olun
+#### 15. Sabırlı olun
 
 Başkalarının bir sorunu çözmesine yardımcı olmak her zaman kolay değildir. Sorunla mücadele ederken sabırlı olmayı unutmayın.
 
-#### 16.  Sinirlenirseniz Konuşmadan Kaçın
+#### 16. Sinirlenirseniz konuşmadan kaçın
 
 Bazen yanlış anlaşılmalar olur ve etkileşimler kötü gider. Siz bir gönüllüsünüz ve işler kontrolden çıktığında yardım etmek zorunda değilsiniz. Kibarca sohbetten çekilin ve başka birinin öne çıkmasına izin verin.
 
@@ -169,21 +168,21 @@ Bazen yanlış anlaşılmalar olur ve etkileşimler kötü gider. Siz bir gönü
 
 2.  Şimdi [Discord sunucumuzda](https://discord.gg/fbFCkYabZB) oturum açın. İçeri girin ve merhaba deyin! Kendinizi tanıtmak için harika bir yer olan bir tanıtım odası oluşturduk ve yeni topluluk üyelerini ağırlamaktan her zaman mutluluk duyarız. Müfredatımızın kapsadığı her geliştirme konusu için sohbet odalarımız var. Sohbete giriş yapın ve keşfetmeye başlayın!  
 
-    *   **GitHub'ınızı Discord profilinize bağlayın:** `Discord Ayarları > Bağlantılar`a gidin, ardından GitHub simgesini tıklayın. Açılan yeni sekmede "Erişime İzin Ver"i tıklayın, ardından Discord'a geri dönün "Profilde görüntüle" seçeneğinin açık olduğundan emin olun. Bu, başkalarının ne üzerinde çalıştığınızı görmesini sağlar ve bunun tam tersi de geçerlidir!
+    - **GitHub'ınızı Discord profilinize bağlayın:** `Discord Ayarları > Bağlantılar`a gidin, ardından GitHub simgesini tıklayın. Açılan yeni sekmede "Erişime İzin Ver"i tıklayın, ardından Discord'a geri dönün "Profilde görüntüle" seçeneğinin açık olduğundan emin olun. Bu, başkalarının ne üzerinde çalıştığınızı görmesini sağlar ve bunun tam tersi de geçerlidir!
 
 3.  Dalışa geçmeden önce işte bazı yönergeler:
 
-    *   **Bir amaç ile etiketleyin (@kullanıcı):** Sadece gerektiğinde başka bir kullanıcıyı @'leyin. Sorunuzu veya yorumunuzu mesaja ekleyin. Tekrar etiketlemeden önce cevap verene kadar bekleyin.
-    *   **Sohbetleri bombalamayın** Art arda birden fazla mesaj göndermeyin; tüm mesajınızı yazın, ardından gönder düğmesine basın.
-    *   **Kimseyi dışlamayın** Bunlar herkese açık sohbetlerdir; birisi bir sohbete katılırsa, onu da dahil edin!
-    *   **Kodla İlgili Yardım İstedikten Sonra Hemen Ortadan Kaybolmayın:** Bir soru gönderiyorsanız, yardım etmeye çalışanlarla fikir alışverişi yapmak için zamanınız olduğundan emin olun!
-    *   **İnsan Olduklarını Hatırlayın:** Her kullanıcı adının arkasında duyguları olan bir kişi vardır! Nazik ol! Söyleyecek güzel bir şeyin yoksa, hiçbir şey söyleme.
-    *   **Ağza alınmayacak lafları burada da kullanma:** Sade ve basit.
-    *   **Kuralları ve SSS'yi okuyun:** Katıldıktan sonra kurallarımızı okumak zorunda kalacaksınız. Lütfen kurallarımızı ve SSS bölümümüzü okumak ve anlamak için zaman ayırın.
-
+    - **Kuralları ve SSS'yi okuyun:** Lütfen kurallarımızı ve SSS'yi okumak ve anlamak için zaman ayırın. Discord'da sol kenar çubuğunda `TOP META`-> `kurallar` ve `sorular` bölümlerine gidin.
+    - **İnsan Olduklarını Hatırlayın:** Her kullanıcı adının arkasında duyguları olan bir kişi vardır! Nazik ol! Söyleyecek güzel bir şeyin yoksa, hiçbir şey söyleme.
+    - **Ağza alınmayacak lafları burada da kullanma:** Sade ve basit.
+    - **Bir amaç ile etiketleyin (@kullanıcı):** Sadece gerektiğinde başka bir kullanıcıyı @'leyin. Sorunuzu veya yorumunuzu mesaja ekleyin. Tekrar etiketlemeden önce cevap verene kadar bekleyin.
+    - **Sohbetleri bombalamayın** Art arda birden fazla mesaj göndermeyin; tüm mesajınızı yazın, ardından gönder düğmesine basın.
+    - **Kimseyi dışlamayın** Bunlar herkese açık sohbetlerdir; birisi bir sohbete katılırsa, onu da dahil edin!
+    - **Kodla İlgili Yardım İstedikten Sonra Hemen Ortadan Kaybolmayın:** Bir soru gönderiyorsanız, yardım etmeye çalışanlarla fikir alışverişi yapmak için zamanınız olduğundan emin olun!
+    
 </div>
 
-### Ek Kaynaklar
+### Ek kaynaklar
 
 Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
 

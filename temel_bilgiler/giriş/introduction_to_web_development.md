@@ -2,25 +2,29 @@
 
 Web geliştiricileri ne yapar? Kısaca, websitesi oluşturur ve bakımını yaparlar.
 
-Web geliştiriciler, genelde ürünlerini veya hizmetlerini internet ağına taşımaya çalışan müşteriler için çalışırlar. Çalışma genelde proje odaklıdır ve müşterinin ihtiyaçlarını son ürüne uyarlamakla sorumlu bir takımla çalışmayı gerektirir. Müşteri bir teknoloji şirketi, bir organizasyon veya bir hükümet olabilir. İş önyüz, arkayüz veya full stack alanlarında web geliştirmeyi gerektirebilir.
+Web geliştiriciler, genelde ürünlerini veya hizmetlerini internet ağına taşımaya çalışan müşteriler için çalışırlar. 
+Çalışma genelde proje odaklıdır ve müşterinin ihtiyaçlarını son ürüne uyarlamakla sorumlu bir takımla çalışmayı gerektirir. Müşteri bir teknoloji şirketi, bir organizasyon veya bir hükümet olabilir. İş önyüz, arkayüz veya full stack alanlarında web geliştirmeyi gerektirebilir.
 
-Eğer mantıksal problemleri çözmeyi, yararlı şeyler inşa etmeyi ve yeni teknolojiler deneyimlemeyi seviyorsanız; web geliştirme sizin için iyi bir meslek olabilir. Web geliştiriciler genelde iyi bir iş-yaşam dengesine sahiptir, dolgun maaş alırlar ve yüksek talep görürler. Yaşadığınız yerdeki web geliştirme işi fırsatları hakkında daha iyi fikir sahibi olmak için Google'da arama yapın.
+Eğer mantıksal problemleri çözmeyi, yararlı şeyler inşa etmeyi ve yeni teknolojiler deneyimlemeyi seviyorsanız; web geliştirme sizin için iyi bir meslek olabilir. 
+Web geliştiriciler genelde iyi bir iş-yaşam dengesine sahiptir, dolgun maaş alırlar ve yüksek talep görürler. Yaşadığınız yerdeki web geliştirme işi fırsatları hakkında daha iyi fikir sahibi olmak için Google'da arama yapın.
 
 Daha fazla bilgi için [bu blog yazısını](https://tr.wix.com/blog/makale/web-tasarim-nedir) okuyabilirsiniz.
 
-### Web Geliştirici Türleri
+### Web geliştirici türleri
 
 Biraz önce web geliştirme işinin önyüz, arkayüz veya full stack olabileceğinden bahsettik. Bu terimler tam olarak ne anlama geliyor?
 
-**Önyüz**, tarayıcınızda açık olan internet sitesinde sunulan içeriğin yanı sıra, gezinti çubuğu gibi kullanıcı arayüzü elemanları da dahil olmak üzere gördüğünüz her şeydir. Önyüz geliştiricileri HTML, CSS, JavaScript ve ilgili uygulama çatılarını (framework) kullanarak içeriğin etkili bir şekilde sunulduğundan ve kullanıcıların kusursuz bir deneyim yaşadığından emin olurlar.
+**Önyüz**, tarayıcınızda açık olan internet sitesinde sunulan içeriğin yanı sıra, gezinti çubuğu gibi kullanıcı arayüzü elemanları da dahil olmak üzere gördüğünüz her şeydir. 
+Önyüz geliştiricileri HTML, CSS, JavaScript ve ilgili uygulama çatılarını (framework) kullanarak içeriğin etkili bir şekilde sunulduğundan ve kullanıcıların kusursuz bir deneyim yaşadığından emin olurlar.
 
-**Arkayüz**, uygulamanın sunucuda yaşayan iç kısmını ifade eder. Arkayüz, önyüzün ihtiyaç duyduğu şeyleri sağlamak için program verilerini depolar ve sunar. Bir internet sitesinin milyonlarca kullanıcısı olduğunda bu süreç çok karmaşıklaşabilir. Arkayüz geliştiricileri verilerle çalışmak için Java, Python, Ruby ve JavaScript gibi programlama dillerini kullanır.
+**Arkayüz**, uygulamanın sunucuda yaşayan iç kısmını ifade eder. Arkayüz, önyüzün ihtiyaç duyduğu şeyleri sağlamak için program verilerini depolar ve sunar. Bir internet sitesinin milyonlarca kullanıcısı olduğunda bu süreç çok karmaşıklaşabilir. 
+Arkayüz geliştiricileri verilerle çalışmak için Java, Python, Ruby ve JavaScript gibi programlama dillerini kullanır.
 
 **Full stack** geliştiricileri hem önyüz hem de arkayüz ile çalışmaya alışıktır. Odin Projesi'nde, web geliştirmenin tüm yönlerini ele alan full stack geliştirmeyi öğretmeye odaklanıyoruz .
 
 Daha fazla detay için, Udacity'nin bu konu hakkında İngilizce yazılmış harika bir blog yazısı var: [3 Web Dev Careers Decoded: Front-End vs Back-End vs Full Stack](https://www.udacity.com/blog/2020/12/front-end-vs-back-end-vs-full-stack-web-developers.html)
 
-### Kariyer Türleri
+### Kariyer türleri
 
 Farklı web geliştirme türlerini öğrenmiş olduğunuza göre önceden bahsettiğimiz üzere çalışabileceğiniz müşteri ve işveren türlerine bir bakalım
 
@@ -48,7 +52,8 @@ Aşağıda yaygın olarak kullanılan bazı araçlar var. Şu anda ne oldukları
 
 ### Motivasyon
 
-Kod yazmayı öğrenmek inanılmaz derecede ödüllendirici olduğu kadar zor ve sinir bozucu da olabilir. Bir öğrenci olarak sahip olabileceğiniz en güçlü özellikler; bir şeyler inşa etme isteği, problem çözme yeteneği ve engeller karşısında kararlı olmaktır.
+Kod yazmayı öğrenmek inanılmaz derecede ödüllendirici olduğu kadar zor ve sinir bozucu da olabilir. 
+Bir öğrenci olarak sahip olabileceğiniz en güçlü özellikler; bir şeyler inşa etme isteği, problem çözme yeteneği ve engeller karşısında kararlı olmaktır.
 
 Web geliştirme endüstrisi tarihinde, farklı geçmişlere sahip onlarca başarılı geliştirici vardır. Bu nedenle, genellikle insanlar oraya nasıl geldiğinizden ziyade **ne yaptığınızı** önemser.
 
@@ -74,7 +79,7 @@ Bu "Temel Bilgiler" kursunda, eninde sonuna bilmeniz gereken konulara doğru bir
 
 Sonraki kurslar da bu konulara derinlemesine dalacak. İşe alınmanızı sağlayacak becerileri sağlamlaştırmak için onlarca satır kod yazacak, proje geliştirecek ve web sitesi oluşturacaksınız.
 
-Tüm bunları bitirmek zorlu olacak. Aslında önünüzdeki maceranın nasıl olacağını anlamanız için bu blog yazısını ["Why Learning to Code is So Damn Hard"](https://www.thinkful.com/blog/why-learning-to-code-is-so-damn-hard/) okusanız iyi olur. Sonuçta öğrenmeye değer olup da kolay olan şey var mı hiç?
+Tüm bunları bitirmek zorlu olacak. Aslında önünüzdeki maceranın nasıl olacağını anlamanız için bu ingilizce blog yazısını ["Why Learning to Code is So Damn Hard"](https://web.archive.org/web/20230630111131/https://www.thinkful.com/blog/why-learning-to-code-is-so-damn-hard/) okusanız iyi olur. Sonuçta öğrenmeye değer olup da kolay olan şey var mı hiç?
 
 Evet, zorlu olacak.
 
@@ -88,10 +93,9 @@ _Neyi bekliyorsun?_
 
 Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
 
-- [Quora: How can I Become a Really Good Web Developer?](http://www.quora.com/Computer-Programming/How-can-I-become-a-really-good-Web-Developer-starting-from-now-at-age-20-before-age-25)
-- [Quora: What makes a great web developer?](http://www.quora.com/What-makes-a-great-web-developer)
-- [Jared the Nerd: What makes a good web developer?](http://jaredthenerd.com/2013/05/What-Makes-A-Good-Developer/)
-- [FreeCodeCamp: Things I Wish Someone Had Told Me When I Was Learning How To Code](https://www.freecodecamp.org/news/things-i-wish-someone-had-told-me-when-i-was-learning-how-to-code-565fc9dcb329/)
-- [TechCrunch: Don't Believe Anyone who Tells you Learning to Code is Easy](http://techcrunch.com/2014/05/24/dont-believe-anyone-who-tells-you-learning-to-code-is-easy/)
-- [Code Quizzes: Deliberate Programming Practice](https://codequizzes.wordpress.com/2013/04/28/deliberate-programming-practice/)
-- [Roadmap to becoming a web developer in 2022](https://github.com/kamranahmedse/developer-roadmap)
+- [Quora: How can I Become a Really Good Web Developer? adlı ingilizce makale](http://www.quora.com/Computer-Programming/How-can-I-become-a-really-good-Web-Developer-starting-from-now-at-age-20-before-age-25)
+- [Quora: What makes a great web developer? adlı ingilizce makale](http://www.quora.com/What-makes-a-great-web-developer)
+- [Jared the Nerd: What makes a good web developer? adlı ingilizce makale](http://jaredthenerd.com/2013/05/What-Makes-A-Good-Developer/)
+- [FreeCodeCamp: Things I Wish Someone Had Told Me When I Was Learning How To Code adlı ingilizce makale](https://www.freecodecamp.org/news/things-i-wish-someone-had-told-me-when-i-was-learning-how-to-code-565fc9dcb329/)
+- [TechCrunch: Don't Believe Anyone who Tells you Learning to Code is Easy adlı ingilizce makale](http://techcrunch.com/2014/05/24/dont-believe-anyone-who-tells-you-learning-to-code-is-easy/)
+- [Code Quizzes: Deliberate Programming Practice adlı ingilizce makale](https://codequizzes.wordpress.com/2013/04/28/deliberate-programming-practice/)

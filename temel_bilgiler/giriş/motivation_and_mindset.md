@@ -169,7 +169,7 @@ Sonuç olarak herhangi bir yeni beceriyi öğrenmek, aşılması gereken engelle
 
 ### Ek kaynaklar
 
-Bu bölüm, ilgili içeriklere yararlı bağlantılar içermektedir. Bu içeriklere bakmanız zorunlu değildir, ancak ilave olarak bunlara da bakmanızı tavsiye ediyoruz.
+Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
 
 - [Becoming a TOP Success Story adlı ingilizce Odin bloğu](https://dev.to/theodinproject/becoming-a-top-success-story-mindset-3dp2)
 - [Managing inspiration and motivation adlı ingilizce makale](https://markmanson.net/do-something)
@@ -179,4 +179,4 @@ Bu bölüm, ilgili içeriklere yararlı bağlantılar içermektedir. Bu içerikl
   - [typing.com](https://www.typing.com/)
   - [TypingClub.com](https://www.typingclub.com)
   - [Monkeytype](https://monkeytype.com/)
-- [Why Procrastinators Procrastinate? adlı ingilizce makale](https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html) Anında Tatmin Maymunu, Mantıklı Karar Alan, Panik Canavarı kişiliklerini ve Karanlık Oyun Alanı'nda yolunuzu bulmayı öğrenin.[Aynı yazardan kısa bir ingilizce giriş videosu](https://youtu.be/arj7oStGLkU)
+- [Why Procrastinators Procrastinate? adlı ingilizce makale](https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html). Anında Tatmin Maymunu, Mantıklı Karar Alan, Panik Canavarı kişiliklerini ve Karanlık Oyun Alanı'nda yolunuzu bulmayı öğrenin. [Aynı yazardan kısa bir ingilizce giriş videosu](https://youtu.be/arj7oStGLkU)
