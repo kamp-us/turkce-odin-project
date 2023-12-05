@@ -52,7 +52,7 @@ Hazır olun, çünkü bu sadece başlangıç. Şimdi temellerle örtülü alanla
 
 Yolculuk yeni başlıyor!
 
-### Ek Kaynaklar
+### Ek kaynaklar
 
 Bu bölüm, ilgili içeriğe yönlendiren faydalı linkler içermektedir. Zorunlu değildir, bu yüzden tamamlayıcı gözü ile bakın.
 

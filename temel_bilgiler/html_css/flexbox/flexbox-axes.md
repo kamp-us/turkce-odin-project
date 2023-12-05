@@ -2,7 +2,7 @@
 
 Bir flex konteynerindeki öğelerin yönünün `flex-direction` özelliği kullanılarak nasıl kontrol edilebileceğini görelim.
 
-### Derse Genel Bakış
+### Derse genel bakış
 
 Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içerir.
 
@@ -44,21 +44,20 @@ Konudan biraz saptık... flex-direction ve eksenlerden bahsediyorduk. Konuya dö
 
 > Yukarıdan aşağıya veya sağdan sola yazılan bir dil kullanıyorsanız, flex-direction davranışının değişebileceği durumlar bulunur. Ancak Arapça veya İbranice bir web sitesi yapmaya hazır olana dek bu konuda endişelenmenize gerek yok. 
 
-Eksenlerin flexbox ile nasıl çalıştığına dair etkileşimli bir demo için şu Scrim'e göz atın:
 
-<iframe src="https://scrimba.com/learn/flexbox/main-axis-and-cross-axis-flexbox-tutorial-cz94MT8?embed=odin,mini-header,no-big-play,no-next-up" sandbox="allow-scripts allow-same-origin" width="100%" height="400"></iframe>
+### Bilgi ölçme
 
-### Bilgi Ölçme
-
-Bu bölüm, bu dersi anlayıp anlamadığınızı kendi başınıza kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta sorun yaşıyorsanız, soruya tıklayın ve bağlantının verdiği materyali inceleyin.
+Bu bölüm, bu dersi kendi kendinize anlayıp anlamadığınızı kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta zorlanıyorsanız, soruya tıklayın ve bağlantılı olduğu materyali gözden geçirin.
 
 -   [Flex öğelerin yatay yerine dikey olarak düzenlenmesini nasıl sağlarsınız?](#flex-vertical)
 -   [Bir `column` flex-container'da, `flex-basis` neyi ifade eder?](#column-flex-basis)
 -   [Bir `row` flex-container'da, `flex-basis` neyi ifade eder?](#row-flex-basis)
 -   [Önceki iki sorunun neden farklı yanıtları var?](#flex-axes)
 
-### Ek Kaynaklar
+### Ek kaynaklar
 
 Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
 
 *   [Bu flexbox cheatsheet](https://flexbox.malven.co/)'i, flex ve özellikleri için bazı faydalı kaynaklara sahiptir.
+
+* Etkileşimli bir demo için şu Flexbox eksenleri üzerine olan [Scrim](https://scrimba.com/learn/flexbox/main-axis-and-cross-axis-flexbox-tutorial-cz94MT8?embed=odin,mini-header,no-big-play,no-next-up)'e göz atın. Bu Scrim'leri görüntülemek için Scrimba'da oturum açmanız gerektiğini unutmayın.

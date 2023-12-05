@@ -6,7 +6,7 @@ Birçok çevrimiçi geliştirme kursu, sadece o anki görevi tamamlamalık araç
 
 Size yalan söylemeyeceğiz. Paketler, kod düzenleyiciler ve hatta koca işletim sistemlerini yüklemek oldukça sinir bozucu olabilir. Ancak yazacağınız kodu çalıştırmak için bir geliştirme ortamı kurma deneyimi; kariyeriniz boyunca yanınızda taşıyacağınız, paha biçilmez bir gerçek yaşam becerisidir.
 
-### Kurulum Planı
+### Kurulum planı
 
 Aşağıdaki bölümlerde, geliştirme ortamınızı kurmak için gerekli adımları ele alacağız. Bu derste bir şeyler yüklemenize gerek yok, bu ders yalnızca bilgi sağlamak içindir. Bu bölümler, tüm müfredatın **en önemli adımlarıdır**. **Aldığınız notları tekrar kontrol etmek** için ekstra zaman ayırın, aksi takdirde kendinize ileride daha fazla iş çıkartabilirsiniz. 
 
@@ -25,13 +25,13 @@ Sıradaki dersin sonunda, kod yazmak ve kodu çalıştırmak için gereken birç
 
 Chromebook kullanıcıları, cihazınız için en uygun işletim sistemi çoktan belirlenip yüklenmiştir. Ancak cihazınız Linux Beta'yı [destekliyorsa,](https://www.chromium.org/chromium-os/chrome-os-systems-supporting-linux) bir sonraki derste cihazınızda bunu nasıl kuracağınıza dair talimatlar bulunur.
 
-### İşletim Sistemi(OS) Seçenekleri
+### İşletim Sistemi(OS) seçenekleri
 
 #### macOS
 
 Eğer bir Mac kullanıyorsanız, harika bir durumdasınız. Odin Project talimatları, Unix tabanlı bir sistem varsayılarak yazılmıştır. Sadece birkaç program yükleyerek, eğitiminize hemen başlayabilirsiniz!
 
-#### Linux (Resmi Ubuntu Sürümleri)
+#### Linux (Resmi ubuntu sürümleri)
 
 [Linux,](https://en.wikipedia.org/wiki/Linux) tüm programlama dilleriyle iyi çalışan ücretsiz ve açık kaynak kodlu bir işletim sistemidir. Çoğu geliştirme aracı, Linux ile doğal olarak çalışacak şekilde yazılmıştır. Araçlarınız muhtemelen daha sık güncellenecektir, genel olarak Linux'ta daha sorunsuz çalışacaktır ve bir sorunla karşılaşmanız durumunda daha çok kaynak bulabileceksinizdir. Biz, en popüler ve kullanıcı dostu dağıtımlardan biri olan Ubuntu veya onun daha hafif alternatifi olan Xubuntu'yu kullanacağız. **Eğer bir Mac kullanmıyorsanız, Linux kullanmanızı öneririz**. Bu kadar basit.
 
@@ -39,15 +39,21 @@ Eğer bir Mac kullanıyorsanız, harika bir durumdasınız. Odin Project talimat
 
 Windows, Odin Project tarafından **yerel olarak desteklenmiyor** ve Discord sunucumuzda da yardım sunulmuyor. Ancak şu anda Windows kullanıyorsanız, sanal makine veya dual boot kullanarak Windows kurulumunuzu koruyabilir ve Linux'ta geliştirme ortamınızı oluşturabilirsiniz.
 
+* Bir VirtualBox Sanal Makinesi
+* Dual-boot Ubuntu kurulumu
+* Linux için Windows Alt Sistemi (WSL)
+
 **Sanal makine**, mevcut işletim sisteminizin içinde çalışan bir bilgisayar emülasyonudur. Mevcut işletim sisteminizin içindeki bir programla başka bir işletim sistemi kullanmanızı sağlar (örneğin: Windows içinde Linux çalıştırmak). Sanal makineler, herhangi bir program gibi yüklemesi basit ve risksizdir. Linux'u sevmezseniz, sanal makineyi kolaylıkla kaldırabilirsiniz. Sanal makineler, yeni geliştiricilerin hızlı bir şekilde başlaması için harika bir yoldur.
 
- - Sanal makineler konusunda genel bir fikir edinmek için [bu videoyu](https://youtu.be/yIVXjl4SwVo) izleyin. 
+ - Sanal makineler konusunda genel bir fikir edinmek için [bu ingilizce videoyu](https://youtu.be/yIVXjl4SwVo) izleyin. 
 
 **Dual-booting**, bilgisayarınıza iki işletim sistemi kurarak, bilgisayarınız ilk açıldığında Linux veya Windows'u başlatma seçeneği sunabilir. Sanal makineye kıyasla dual-booting'in avantajı, işletim sisteminin bilgisayarın tüm kaynaklarını kullanabilmesi ve böylece çok daha hızlı çalışmasıdır. Hard disk bölümlerini değiştirdiğiniz için bir dual-boot sistemi kurmakta biraz risk vardır ancak zaman ayırıp talimatları okursanız sorun yaşamazsınız.
 
 Dual-booting, bir flash sürücüsü takıp birkaç tuşa basmak kadar kolaydır. Dual-booting'in faydaları saymakla bitmez. Linux'un donanımınızın tam kapasitesine erişmesine izin verecek, kodlama için temiz ve dikkat dağıtmayan bir ortam sağlayacak ve birçok üst düzey geliştirici ve sunucu tarafından kullanılan platformu öğreneceksiniz.
 
-### Yeni Bir İşletim Sistemi Kurmakta Endişeli misiniz?
+**Linux için Windows Alt Sistemi**, mevcut bir Windows kurulumu içinden tam teşekküllü bir Linux ortamı çalıştırmanıza olanak tanıyarak sanal bir makine çalıştırmanıza veya çift önyükleme yapmanıza gerek kalmadan Linux'un tüm avantajlarından yararlanmanızı sağlar. Müfredat kapsamında WSL'nin WSL2 olarak bilinen 2. sürümünü kullanacağız.
+
+### Yeni bir işletim sistemi kurmakta endişeli misiniz?
 
 "Bir saniye, ben işletim sistemimden oldukça memnunum!"
 
@@ -71,7 +77,7 @@ Devam edebilmemiz için öncelikle önemli bir ayrıntıyı vurgulamamız gereki
 
 Bu ayrıntıyı belirttikten sonra, uygun bir geliştirme ortamı kurmaya geçebiliriz!
 
-### Ek Kaynaklar
+### Ek kaynaklar
 
 Bu alanda ilgili içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
 

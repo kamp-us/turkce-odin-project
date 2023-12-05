@@ -15,7 +15,7 @@ Sık sık ve erkenden commit etmeyi unutmayın! Commit Mesajları dersini burada
 2.  16x16 kare div'lerden oluşan grid bir web sayfası oluşturun.
     *   JavaScript kullanarak div'leri oluşturun. HTML dosyanızda kopyala yapıştır yaparak bunları elle oluşturmaya çalışmayın!
     *   Grid karelerinizi başka bir "kapsayıcı" div'in içine koymanız iyi olur \(böylece doğrudan HTML'nize eklenebilir\).
-    *   Div'lerin bir grid olarak \(her satırda yalnızca bir tane olması yerine\)  görünmesini sağlamalısınız. Bu, flexbox hakkında öğrendiklerinizi uygulamak için mükemmel bir fırsat.
+    *   Div'lerin bir grid olarak \(her satırda yalnızca bir tane olması yerine\)  görünmesini sağlamalısınız. İsmine rağmen, temeller kursundan sonra Grid öğretileceğinden, bunun için CSS Grid'i araştırmak / kullanmak cazip gelmesin. Bu, özellikle flexbox için daha fazla pratik yapmak için bir fırsat!
     *   Karelerin boyutuna etki edebildikleri için border'lara (kenar çizgilerine) ve margin'lere (dış kenar boşluklarına) dikkat edin!
     *   "Aman Tanrım, neden grid oluşturamıyorum ???"
         *   CSS stil sayfanızı bağladınız mı?
@@ -34,7 +34,7 @@ Sık sık ve erkenden commit etmeyi unutmayın! Commit Mesajları dersini burada
     *   Örneğin diyaloğa "64" girebilmeniz ve kullanılan toplam piksel miktarını değiştirmeden yepyeni bir 64x64 grid'inin oluşturulabilmesi gerekir.
 5.  Projenizi GitHub'a aktarın!
 
-#### Ekstra Kredi
+#### Bonus ödevler
 Farenizle bir dizi değişiklik yaparak bir karenin davranışını değiştirin.
 
 1. Siyahtan beyaza basit bir renk değişikliği yerine her etkileşim, karenin RGB (Kırmızı Yeşil Mavi) değerini rastgele değiştirmelidir. 

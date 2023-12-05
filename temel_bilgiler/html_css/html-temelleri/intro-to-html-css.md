@@ -2,7 +2,7 @@
 
 İşte Burada: Artık _bir şeyler yapmaya_ başlamanın zamanı geldi. Bu bölüm, internetteki neredeyse her şeyin temel yapı taşları olan HTML ve CSS'nin temellerini öğretecektir.
 
-### Derse Genel Bakış
+### Derse genel bakış
 
 Bu bölüm, bu derste öğreneceğiniz konulara ilişkin genel bir bakış içerir.
 
@@ -22,16 +22,16 @@ Birçok harika kaynak, HTML ve CSS'yi _programlama dilleri_ olarak sürekli bahs
 
 </div>
 
-### Bilgi Ölçme
+### Bilgi ölçme
 
 Bu bölüm, bu dersi kendi kendinize anlayıp anlamadığınızı kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta zorlanıyorsanız, soruya tıklayın ve bağlantılı olduğu materyali gözden geçirin.
 
-- [HTML ve CSS ne anlamına geliyor? adlı ingilizce makale](https://brytdesigns.com/html-css-javascript-whats-the-difference/#What_is_HTML)
+- [HTML ve CSS ne anlamına geliyor? bunu öğrenmek için bu ingilizce makaleye göz atın.](https://brytdesigns.com/html-css-javascript-whats-the-difference/#What_is_HTML)
 - [HTML ve CSS arasında, bir web sayfasında metin paragrafları eklemek için hangisini kullanırsınız?](#html-and-css)
 - [HTML ve CSS arasında, bir düğmenin yazı tipini ve arka plan rengini değiştirmek için hangisini kullanırsınız?](#html-and-css)
-- [HTML, CSS ve JavaScript arasındaki farklar nelerdir?](https://brytdesigns.com/html-css-javascript-whats-the-difference/)
+- [HTML, CSS ve JavaScript arasındaki farklar nelerdir? bunu öğrenmek için bu ingilizce makaleye göz atın.](https://brytdesigns.com/html-css-javascript-whats-the-difference/)
 
-### Ek Kaynaklar
+### Ek kaynaklar
 
 Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
 

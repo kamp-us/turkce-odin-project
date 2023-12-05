@@ -8,23 +8,23 @@ Bu derste, nasıl link oluşturacağımızı ve resim ekleyerek web sitelerimize
 
 Bu bölüm öğreneceğiniz konuların genel bir özetini içerir.
 
-*   İnternet üzerindeki diğer web sitelerindeki sayfalara nasıl link oluşturulur?
-*   Kendi web sitelerinizdeki diğer sayfalara nasıl link oluşturulur?
-*   Mutlak ve göreceli linkler arasındaki fark
-*   HTML kullanarak bir web sayfasında resim nasıl görüntülenir
+- İnternet üzerindeki diğer web sitelerindeki sayfalara nasıl link oluşturulur.
+- Kendi web sitelerinizdeki diğer sayfalara nasıl link oluşturulur.
+- Mutlak ve göreceli linkler arasındaki fark.
+- HTML kullanarak bir web sayfasında resim nasıl görüntülenir.
 
 ### Hazırlık
 
 Bu derste linkler ve görüntüler kullanarak alıştırma yapmak için bir HTML projesine ihtiyacımız var.
 
 1.  `odin-links-and-images` adında yeni bir dizin oluşturun.
-2.  Bu dizin içinde `index.html` adında yeni bir dosya oluşturun.
-3.  Dosyayı VS Code'da açın ve standart HTML şablonunu ekleyin.
-4.  Son olarak aşağıdaki h1 etiketini body içine ekleyin:
+1.  Bu dizin içinde `index.html` adında yeni bir dosya oluşturun.
+1.  Dosyayı VS Code'da açın ve standart HTML şablonunu ekleyin.
+1.  Son olarak aşağıdaki h1 etiketini body içine ekleyin:
 
-~~~html
+```html
 <h1>Homepage</h1>
-~~~
+```
 
 ### Anchor öğeleri
 
@@ -32,19 +32,19 @@ HTML'de bir link oluşturmak için anchor öğesini kullanırız. Bir anchor ö�
 
 Oluşturduğumuz `index.html` sayfasının body bölümüne aşağıdakini ekleyin ve tarayıcıda açın:
 
-~~~html
+```html
 <a>click me</a>
-~~~
+```
 
 Belki fark etmişsinizdir bu linke tıkladığınızda hiçbir şey olmuyor. Bunun nedeni, bir anchor etiketinin tek başına nereye link vermek istediğimizi bilmemesidir. Ona gitmek istediğimiz bir hedefi söylememiz gerekiyor. Bunun için bir HTML niteliği kullanırız.
 
-<span id="attribute"></span> Bir HTML niteliği, bir HTML öğesine ek bilgi verir ve her zaman öğenin açılış etiketine yerleştirilir. Bir nitelik genellikle iki kısımdan oluşur; bir isim ve bir değer. Ancak tüm niteliklerin bir değere ihtiyacı yoktur. <span id="where-to-go"></span> Bizim durumumuzda önceki oluşturduğumuz `anchor` etiketine bir `href` (hiperlink referansı) niteliği eklememiz gerekiyor. href niteliğinin değeri, linkimizin gitmesini istediğimiz hedeftir.
+<span id="attribute"></span> Bir HTML niteliği, bir HTML öğesine ek bilgi verir ve her zaman öğenin açılış etiketine yerleştirilir. Bir nitelik genellikle iki kısımdan oluşur; bir isim ve bir değer. Ancak tüm niteliklerin bir değere ihtiyacı yoktur. <span id="where-to-go"></span> Bizim durumumuzda önceki oluşturduğumuz `anchor` etiketine bir `href` (hipertext referansı) niteliği eklememiz gerekiyor. href niteliğinin değeri, linkimizin gitmesini istediğimiz hedeftir.
 
 Önceden oluşturduğumuz anchor öğesine aşağıdaki href niteliğini ekleyin ve tekrar tıklamayı deneyin. Tarayıcıyı yenilemeyi unutmayın. Böylece yeni değişiklikler uygulanabilir.
 
-~~~html
+```html
 <a href="https://www.theodinproject.com/about">click me</a>
-~~~
+```
 
 Varsayılan olarak `href` niteliği olmadan bir anchor etiketiyle sarılmış metin düz metin gibi görünecektir. Eğer `href` niteliği mevcutsa tarayıcı metne mavi bir renk ve alt çizgi vererek onun bir link olduğunu belirtir.
 
@@ -72,8 +72,8 @@ Unutursanız bile `rel="noopener noreferrer"` eklememeniz sorun olmayabilir çü
 
 Genel olarak oluşturacağımız linkler şunlardır:
 
-1.  İnternet üzerindeki diğer web sitelerindeki sayfalara linkler
-2.  Kendi web sitelerimizde bulunan sayfalara linkler
+- İnternet üzerindeki diğer web sitelerindeki sayfalara linkler.
+- Kendi web sitelerimizde bulunan sayfalara linkler.
 
 #### Mutlak linkler
 
@@ -91,7 +91,7 @@ Göreceli linkler yalnızca diğer sayfaya olan dosya yolunu içerir ve bu yol l
 
 `odin-links-and-images` dizini içinde, `about.html` adında başka bir HTML dosyası oluşturun ve aşağıdaki kodu içine yapıştırın:
 
-~~~html
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -103,18 +103,18 @@ Göreceli linkler yalnızca diğer sayfaya olan dosya yolunu içerir ve bu yol l
     <h1>About Page</h1>
   </body>
 </html>
-~~~
+```
 
 İndex sayfasına dönün ve about sayfasına bir link oluşturmak için aşağıdaki anchor öğesini ekleyin:
 
-~~~html
+```html
 <body>
   <h1>Homepage</h1>
 	<a href="https://www.theodinproject.com/about">click me</a>
 
 	<a href="about.html">About</a>
 </body>
-~~~
+```
 
 Tarayıcıda index dosyasını açın ve linke tıklayarak tümünün doğru bir şekilde bağlandığından emin olun. Linke tıkladığınızda yeni oluşturduğumuz about sayfasına gitmelidir.
 
@@ -128,23 +128,24 @@ Tarayıcıdaki index sayfasını yenileyin ve ardından about linkine tıklayın
 
 Bunu düzeltmek için about linkinin href değerini güncellememiz yeterlidir. İndex dosyasına *göreceli* olarak about dosyasının yeni konumu olan `pages/` dizinini dahil etmemiz gerekmektedir. 
 
-~~~html
+```html
 <body>
   <h1>Homepage</h1>
   <a href="pages/about.html">About</a>
 </body>
-~~~
+```
 
 Tarayıcıda index sayfasını yenileyin ve about linkine tekrar tıklayın, şimdi düzgün çalışması gerekmelidir.
 
 Birçok durumda bu yöntem gayet iyi çalışır; ancak yine de beklenmeyen sorunlarla karşılaşabilirsiniz. Linkten önce `./` eklemek, çoğu durumda bu tür sorunların önüne geçecektir. `./` ekleyerek, kodunuza dosya/dizin aramaya *göreceli* olarak `mevcut` dizinden başlaması gerektiğini belirtmiş olursunuz.
 
-~~~html
+```html
 <body>
   <h1>Homepage</h1>
   <a href="./pages/about.html">About</a>
 </body>
-~~~
+```
+
 
 #### Bir metafor
 
@@ -171,15 +172,51 @@ Açılış ve kapanış etiketiyle içeriği sarmak yerine src özelliğini kull
 
 Kendi web sitelerimizde bulunan görüntüleri kullanmak için göreceli bir yol kullanabiliriz.
 
+<details markdown="block">
+<summary class="dropDown-header">Linux, macOS, ChromeOS
+</summary>
+
 1. `odin-links-and-images` projesi içinde `images` adında yeni bir dizin oluşturun.
+1. [Bu görüntüyü](https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640) indirin ve yeni oluşturduğumuz images dizinine taşıyın.
+1. Görüntüyü `dog.jpg` olarak yeniden adlandırın.
 
-2. [Bu görüntüyü](https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640) indirin ve yeni oluşturduğumuz images dizinine taşıyın.
+</details>
 
-3. Görüntüyü `dog.jpg` olarak yeniden adlandırın.
+<details markdown="block">
+<summary class="dropDown-header">WSL
+</summary>
+
+İnternetten bir dosya indirdiğinizde, Windows'un indirdiğiniz dosyayla aynı ada sahip gizli bir `Zone.Identifier` dosyası oluşturan bir güvenlik özelliği vardır ve `mypicture.jpg:Zone.Identifier` gibi görünür Bu dosya zararsızdır, ancak kopyalamaktan ve dizinlerimizi karıştırmaktan kaçınmak istiyoruz.
+
+1.  odin-links-and-images` projesi içinde `images` adında yeni bir dizin oluşturun.
+
+2.  Ardından, [bu stok köpek görselini indirin](https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640).
+
+3.  Chrome penceresinin altındaki yeni indirilen dosyaya sağ tıklayın ve "Klasörde göster" seçeneğini seçin.
+
+  1. Alternatif olarak, chrome penceresinin altında hiçbir şey görmüyorsanız, "Google Chrome menüsünü özelleştirin ve kontrol edin" menüsünü açın ve "İndirilenler" öğesini seçin. Bu, her biri kendi "Klasörde göster" düğmesiyle birlikte tüm indirmelerinizi gösterecektir.
+
+4.  Dosyayı indirilenler klasörünüzden VSCode'un dosya tarayıcısına yeni `images` dizinine sürükleyin.
+
+    1. Alternatif olarak, Ubuntu terminalinizi kullanarak, görüntüyü kopyalamak istediğiniz dizine gidin (örneğin `cd ~/odin-links-and-images`)
+
+    2. `cp <boşluk>` yazın
+
+    3. Windows Explorer penceresinden `dog.jpg` resmini sürükleyin ve terminal penceresine bırakın, `"/mnt/c/users/username/Downloads/dog.jpg"` şeklinde görünmelidir.
+
+    4. cp'ye dosyayı geçerli çalışma dizininize kopyalamak istediğinizi söylemek için `<boşluk>` yazın.
+
+        1. Komutun tamamı `cp "/mnt/c/kullanıcı/kullanıcı adı/Downloads/dog.jpg" .` gibi görünecektir.
+
+    5. Komutu tamamlamak için <kbd>Enter</kbd> tuşuna basın ve dosyanın artık var olduğunu doğrulamak için ls'yi kullanın.
+
+Dosyaları Windows'tan VSCode dosya tarayıcısına sürüklemek `Zone.Identifier` dosyalarının üzerine kopyalanmasını önler. Şu andan itibaren, bunun gibi resimleri veya indirilen diğer dosyaları WSL'ye kopyalamanız gerektiğinde, bunu bu şekilde yapabilirsiniz. Eğer bu `Zone.Identifier` dosyalarını yanlışlıkla WSL'ye kopyalarsanız, bunları herhangi bir sorun olmadan güvenle silebilirsiniz.
+
+</details>
 
 Son olarak görüntüyü `index.html` dosyasına ekleyin:
 
-~~~html
+```html
 <body>
   <h1>Homepage</h1>
 	<a href="https://www.theodinproject.com/about">click me</a>
@@ -188,7 +225,7 @@ Son olarak görüntüyü `index.html` dosyasına ekleyin:
 
 	<img src="./images/dog.jpg">
 </body>
-~~~
+```
 
 `index.html` dosyasını kaydedin ve tarayıcıda açarak Charles'ı tüm ihtişamıyla görüntüleyin.
 
@@ -197,16 +234,15 @@ Peki ya about sayfasında köpek görüntüsünü kullanmak istersek? İlk olara
 
 <span id="parent-filepath"></span>Üst dizine gitmek için göreceli dosya yolunda iki nokta (`../`) kullanmamız gerekiyor. Hadi bunu uygulamada görelim, `about.html` dosyasının içine, daha önce eklediğimiz başlığın altına aşağıdaki görüntüyü ekleyin:
 
-~~~html
+```html
 <img src="../images/dog.jpg">
-~~~
-
+```
 
 Bu durumu daha iyi anlamak için şu adımları izliyoruz:
 
 1. İlk olarak pages dizininin üst dizinine yani `odin-links-and-images` dizinine gidiyoruz.
-2. Ardından üst dizinden images dizinine geçiyoruz.
-3. Son olarak `dog.jpg` dosyasına erişebiliyoruz.
+1. Ardından üst dizinden images dizinine geçiyoruz.
+1. Son olarak `dog.jpg` dosyasına erişebiliyoruz.
 
 Önceki metaforu kullanarak bir dosya yolunda `../` kullanmak, bulunduğunuz odadan ana koridora çıkıp başka bir odaya gitmek gibi bir şeydir.
 
@@ -237,7 +273,9 @@ Görüntü doğru boyutta olsa veya değiştirmek için CSS kullanıyor olsanız
 İşte yükseklik ve genişlik etiketleri içeren Odin Project logo örneğimiz:
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="PoXJKvy" data-user="FabulousPBB" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span><a href="https://codepen.io">CodePen</a>'de Brian Lister (<a href="https://codepen.io/FabulousPBB">@FabulousPBB</a>) tarafından yazılan <a href="https://codepen.io/FabulousPBB/pen/PoXJKvy">Görüntü Yükseklik ve Genişlik Özelliklerine </a> bakın</span>
+  <span><a href="https://codepen.io">CodePen</a>'de Brian Lister 
+  (<a href="https://codepen.io/FabulousPBB">@FabulousPBB</a>) tarafından yazılan 
+  <a href="https://codepen.io/FabulousPBB/pen/PoXJKvy">Görüntü Yükseklik ve Genişlik Özelliklerine </a> bakın.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
@@ -247,10 +285,10 @@ Hadi devam et ve `odin-links-and-images` projesindeki köpek görüntüsünü ge
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  [Kevin Powell'ın HTML Linkleri adlı İngilizce Videosunu İzleyin](https://www.youtube.com/watch?v=tsEQgGjSmkM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=5).
-2.  [Kevin Powell'ın HTML Görüntüleri adlı İngilizce Videosunu İzleyin](https://www.youtube.com/watch?v=0xoztJCHpbQ&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=6).
-3.  [Kevin Powell'ın Dosya Yapısı adlı İngilizce Videosunu İzleyin](https://www.youtube.com/watch?v=ta3Oxx7Yqbo&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=7).
-4.  [Web'de kullanılabilecek dört ana görüntü formatı hakkında olan ingilizce makaleye göz atın](https://internetingishard.netlify.app/html-and-css/links-and-images/#image-formats).
+1.  [Kevin Powell'ın HTML Links adlı ingilizce videosunu izleyin](https://www.youtube.com/watch?v=tsEQgGjSmkM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=5).
+1.  [Kevin Powell'ın HTML Images adlı ingilizce videosunu izleyin](https://www.youtube.com/watch?v=0xoztJCHpbQ&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=6).
+1.  [Kevin Powell'ın File Structure adlı ingilizce videosunu izleyin](https://www.youtube.com/watch?v=ta3Oxx7Yqbo&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=7).
+1.  [Web'de kullanılabilecek dört ana görüntü formatı hakkında olan ingilizce makaleye göz atın](https://internetingishard.netlify.app/html-and-css/links-and-images/#image-formats).
 
 </div>
 
@@ -258,15 +296,15 @@ Hadi devam et ve `odin-links-and-images` projesindeki köpek görüntüsünü ge
 
 Bu bölüm, bu dersi kendi başınıza anlayıp anlamadığınızı kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta zorlanıyorsanız, soruya tıklayın ve linki verilen materyali gözden geçirin.
 
--   [Link oluşturmak için hangi öğe kullanılır?](#anchor-elements)
+-   [Link oluşturmak için hangi öğe kullanılır?](#anchor-öğeleri)
 -   [Bir nitelik nedir?](#attribute)
 -   [Hangi nitelik linklere nereye gideceklerini söyler?](#where-to-go)
 -   [Linkleri yeni bir sekmede/pencerede açmak için target niteliğini kullanmak isterseniz hangi güvenlik hususlarına dikkat etmeniz gerekir?](#target-security)
--   [Mutlak ve göreceli link arasındaki fark nedir?](#absolute-and-relative-links)
--   [Bir görseli görüntülemek için hangi öğe kullanılır?](#images)
+-   [Mutlak ve göreceli link arasındaki fark nedir?](#mutlak-ve-göreceli-linkler)
+-   [Bir görseli görüntülemek için hangi öğe kullanılır?](#görseller)
 -   [Görüntülerin her zaman hangi iki özelliğe sahip olması gerekir?](#two-attributes)
--   [Bir dosya yolundaki bir üst dizine nasıl erişirsiniz?](#parent-filepath)
--   [Web'deki görseller için kullanabileceğiniz dört ana görsel formatı nedir?](https://internetingishard.netlify.app/html-and-css/links-and-images/#image-formats)
+-   [Bir dosya yolundaki bir üst dizine nasıl erişirsiniz?](#üst-dizinler)
+-   [Web'deki görseller için kullanabileceğiniz dört ana görsel formatı nedir? bunu öğrenmek için bu ingilizce makaleye göz atın.](https://internetingishard.netlify.app/html-and-css/links-and-images/#image-formats)
 
 ### Ek kaynaklar
 

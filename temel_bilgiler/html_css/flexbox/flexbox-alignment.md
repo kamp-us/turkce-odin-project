@@ -2,7 +2,7 @@
 
 Şimdiye kadar flexbox ile değindiğimiz her şey, tüm flex öğelerde `flex: 1` kuralını kullandı; bu, öğelerin mevcut tüm alanı doldurmak için eşit şekilde büyümesini veya küçülmesini sağlar, ancak çoğu zaman bu istenen etki değildir. Flex, belirli bir boyuta sahip öğeleri düzenlemek için de çok kullanışlıdır.
 
-### Derse Genel Bakış
+### Derse genel bakış
 
 Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içerir.
 
@@ -33,16 +33,7 @@ Bir örneğe bakalım.
 
 ![centered](https://cdn.statically.io/gh/TheOdinProject/curriculum/495704c6eb6bf33bc927534f231533a82b27b2ac/html_css/v2/foundations/flexbox/imgs/08.png)
 
-`justify-content` ve `align-items` konteynerinizin ana ve çapraz eksenini temel aldığından, bir flex konteynerın `flex-direction`'nını değiştirdiğinizde davranışları değişir. Örneğin, `flex-direction`'ı `column` olarak değiştirdiğinizde, `justify-content` dikey olarak hizalar ve `align-items` yatay olarak hizalar. Bununla birlikte, en yaygın davranış varsayılandır, yani `justify-content` öğeleri yatay olarak hizalar (çünkü ana eksen varsayılan olarak yataydır) ve `align-items` öğeleri dikey olarak hizalar. Yeni başlayanların flexbox ile en çok karşılaştığı zorluklardan biri, bu davranış değişikliğidir.
-
-`justify-content` ve farklı özelliklerinin nasıl davrandığına dair etkileşimli bir demo için bu kısa video(Scrim)'ya göz atın:
-
-<iframe src="https://scrimba.com/learn/flexbox/justify-content-flexbox-tutorial-cVWPacR?embed=odin,mini-header,no-big-play,no-next-up" sandbox="allow-scripts allow-same-origin" width="100%" height="400"></iframe>
-
-Bir sonraki Scrim, `align-items` davranışını, flexbox kullanarak bir öğenin sayfada mükemmel bir şekilde nasıl ortalanacağını ve çok daha fazlasını kapsar:
-
-<iframe src="https://scrimba.com/learn/flexbox/align-items-flexbox-tutorial-cJqymH9?embed=odin,mini-header,no-big-play,no-next-up" sandbox="allow-scripts allow-same-origin" width="100%" height="400"></iframe>
-
+`justify-content` ve `align-items` konteynerinizin ana ve çapraz eksenini temel aldığından, bir flex konteynerın `flex-direction`'nını değiştirdiğinizde davranışları değişir. Örneğin, `flex-direction`'ı `column` olarak değiştirdiğinizde, `justify-content` dikey olarak hizalar ve `align-items` yatay olarak hizalar. Bununla birlikte, en yaygın davranış varsayılandır, yani `justify-content` öğeleri yatay olarak hizalar (çünkü ana eksen varsayılan olarak yataydır) ve `align-items` öğeleri dikey olarak hizalar. Yeni başlayanların flexbox ile en çok karşılaştığı zorluklardan biri, bu davranış değişikliğidir. 
 
 #### Açıklık(Gap)
 
@@ -62,28 +53,32 @@ Okumaya ihtiyaç duyduğunuz kadar zaman ayırabilirsiniz. Burada zaten ele ald�
 ### Ödev
 
 <div class="lesson-content__panel" markdown="1">
+
 1.  Bu güzel [Etkileşimli Flexbox İngilizce Kılavuzu](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/), bilmeniz gereken her şeyi kapsıyor. Daha önce değindiğimiz kavramları gerçekten eğlenceli ve yaratıcı örneklerle pekiştirmeye yardımcı olacak. Burada biraz zaman geçirin, bir kısmı bu noktada gözden geçirilmelidir, ancak buradaki temeller önemlidir!
 2.  [Flexbox'ın tipik kullanım durumları](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Typical_Use_Cases_of_Flexbox), daha pratik ipuçlarını kapsayan İngilizce bir MDN makalesidir. İnteraktif bölümleri atlamayın! Bir şeylerle oynayarak, onu öğrenirsiniz!
 3.  CSS Tricks websitesinin ["Guide to Flexbox"](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) adlı İngilizce CSS kılavuzu bir klasiktir. Burada sizin için yeni bir bilgi yok, ancak resimler ve örnekler çok yardımcı oluyor. Bu, muhtemelen sık sık geri döneceğiniz harika bir cheatsheet. (Alıştırma egzersizleri için elinizin altında bulundurun!)
 4.  [CSS egzersiz veri havuzumuza](https://github.com/TheOdinProject/css-exercises) geri dönün (talimatların README'de olduğunu unutmayın). 'flex' dizinindeki egzersizleri listelendikleri sırayla yapın. Hepsini geçmeniz biraz zaman alabilir ve ilerledikçe zorluk artar. Ona bağlı kal! Hepsinin üstesinden gelebilirseniz, ileriye doğru _gerçekten_ iyi durumda olacaksınız.
-    -   01-flex-center
-    -   02-flex-header
-    -   03-flex-header-2
-    -   04-flex-information
-    -   05-flex-modal
-    -   06-flex-layout
-    -   07-flex-layout-2
+    - `01-flex-center`
+    - `02-flex-header`
+    - `03-flex-header-2`
+    - `04-flex-information`
+    - `05-flex-modal`
+    - `06-flex-layout`
+    - `07-flex-layout-2`
+
+    Not: Bu alıştırmaların çözümlerini alıştırmanın kendi `solution` klasöründe bulabilisiniz.
+
 </div>
 
-### Bilgi Ölçme
+### Bilgi ölçme
 
-Bu bölüm, bu dersi anlayıp anlamadığınızı kendi başınıza kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta sorun yaşıyorsanız, soruya tıklayın ve bağlantının verdiği materyali inceleyin.
+Bu bölüm, bu dersi kendi kendinize anlayıp anlamadığınızı kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta zorlanıyorsanız, soruya tıklayın ve bağlantılı olduğu materyali gözden geçirin.
 
 -   [`justify-content` ve `align-items` arasındaki fark nedir?](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container)
 -   [Bir div'i flex konteyner içinde tamamen ortalamak için flexbox'ı nasıl kullanırsınız?](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container)
 -   [`justify-content: space-between` ve `justify-content: space-around` arasındaki fark nedir?](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
-### Ek Kaynaklar
+### Ek kaynaklar
 
 Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
 
@@ -93,4 +88,4 @@ Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir,
 * [Flex konteynerdeki Öğeleri Hizalama](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container), eksenler ve `align-items` ve `justify-content` konularını daha derinlemesine ele alıyor.
 * Freecodecamp'tan bu İngilizce [Flexbox Eğitimi](https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/) başka bir iyi kaynaktır.
 * [Flexbox Crash Course](https://www.youtube.com/watch?v=3YW65K6LcIA), Traversy Media tarafından hazırlanan güzel bir kaynaktır.
-* Kevin Powell'ın [flexbox'ı kolay yoldan öğrenin](https://www.youtube.com/watch?v=u044iM9xsWU) adlı videosu flexbox'ı çok iyi açıklıyor.
+* Daha etkileşimli demolar için, `justify-content` anlatılan [bu kısa ingilizce video(Scrim)](https://scrimba.com/learn/flexbox/justify-content-flexbox-tutorial-cVWPacR?embed=odin,mini-header,no-big-play,no-next-up)'ya ve `align-items` anlatılan bu [Scrim](https://scrimba.com/learn/flexbox/justify-content-flexbox-tutorial-cVWPacR?embed=odin,mini-header,no-big-play,no-next-up)'e göz atın. Bu Scrim'leri görüntülemek için Scrimba'da oturum açmanız gerektiğini unutmayın.
