@@ -32,19 +32,19 @@ Web siteniz genelinde yazı tipi boyutlarını tanımlamak için `rem` gibi gör
 <div class="lesson-content__panel" markdown="1">
 1. [CSS values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) adlı ingilizce makale mevcut tüm birimleri kapsar.
 2. [CSS units](https://codyloyd.com/2021/css-units/) adlı ingilizce makale nasıl ve ne zaman `em`, `rem` veya `px` kullanabileceğinizi derinlemesine açıklar.
-3. [Fun with Viewport Units](https://css-tricks.com/fun-viewport-units/) `vh` ve `vw` ile yapabileceğiniz bazı ilginç şeyleri gösterir.
+3. [Fun with Viewport Units](https://css-tricks.com/fun-viewport-units/) adlı ingilizce makale `vh` ve `vw` ile yapabileceğiniz bazı ilginç şeyleri gösterir.
 </div>
 
 ### Bilgi kontrolü
 
-Bu bölüm, bu dersi anladığınızı kontrol etmeniz için sorular içermektedir. Aşağıdaki soruları kendi başınıza yanıtlamakta zorlanıyorsanız, yanıtı bulmak için yukarıdaki materyali gözden geçirin.
+Bu bölüm, bu dersi anladığınızı kontrol etmeniz için sorular içermektedir. Aşağıdaki soruları kendi kendinize yanıtlamakta zorlanıyorsanız, yanıtı bulmak için yukarıdaki materyali gözden geçirin.
 
 - [Yazı tipi boyutu için neden `px` yerine `em` veya `rem` kullanmak istiyorsunuz?](#em-ve-rem)
 - [`vh` ve `vw` kullanmak isteyebileceğiniz bazı durumlar nelerdir?](#görüntü-alanı-birimleri)
-- [Göreli bir birim yerine `px` kullanmak isteyebileceğiniz bazı durumlar nelerdir?](https://codyloyd.com/2021/css-units/)
+- [Göreli bir birim yerine `px` kullanmak isteyebileceğiniz bazı durumlar nelerdir? bunu öğrenmek için bu ingilizce makaleye göz atın.](https://codyloyd.com/2021/css-units/)
 
 ### Ek kaynaklar
 
-Bu bölüm diğer içeriklere yararlı bağlantılar içerir. Gerekli değildir, bu nedenle bir konuda daha derine inmeniz gerektiğinde tamamlayıcı olarak düşünün.
+Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, bu nedenle bir şeyi daha derinlemesine incelemeniz gerektiğinde bunu tamamlayıcı olarak düşünün.
 
-* Farklı durumlar için doğru CSS birimlerini seçme konusunda Kevin Powells'ın genel kurallarını öğrenmek istiyorsanız [are you using the right CSS unit?](https://www.youtube.com/watch?v=N5wpD9Ov_To).
+* Farklı durumlar için doğru CSS birimlerini seçme konusunda Kevin Powells'ın genel kurallarını öğrenmek istiyorsanız [are you using the right CSS unit?](https://www.youtube.com/watch?v=N5wpD9Ov_To) adlı ingilizce videosunu izleyin. 
