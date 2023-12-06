@@ -18,7 +18,7 @@ Göreli birimler, bağlamlarına göre değişebilen birimlerdir. Karşılaşman
 
 `em` ve `rem` genellikle CSS'de diğer boyutları tanımlamak için kullanılsalar da, her ikisi de bir yazı tipi boyutunu ifade eder. Her ikisini de sık sık göreceksiniz, bu yüzden her ikisini de açıklayacağız, ancak genel bir kural olarak `rem`'i tercih edin.
 
-`1em` bir öğenin (veya `font-size` ayarlamak için kullanıyorsanız öğenin ebeveyninin) `font-size` değeridir. Örneğin, bir öğenin `font-size` değeri `16px` ise, genişliğini `4em` olarak ayarlamak genişliğini `64px` yapacaktır (`16 * 4 == 64`).
+`1em` bir öğenin (veya `font-size` ayarlamak için kullanıyorsanız öğenin ebeveyninin) `font-size` değeridir. Örneğin, bir öğenin `font-size` değeri `16px` ise, öğenin genişliğini `4em` olarak ayarlamak genişliğini `64px` yapacaktır (`16 * 4 == 64`).
 
 `1rem` kök öğenin (ya `:root` ya da `html`) `font-size` değeridir. Matematiksel olarak, 'rem' ile 'em' aynı şekilde çalışır, ancak ebeveynin yazı tipi boyutunu takip etme karmaşıklığı olmadan çalışır. `em`'e güvenmek, bağlam değişirse belirli bir boyutun değişebileceği anlamına gelebilir, bu da büyük olasılıkla istediğiniz davranış değildir.
 
@@ -30,8 +30,8 @@ Web siteniz genelinde yazı tipi boyutlarını tanımlamak için `rem` gibi gör
 
 ### Ödev
 <div class="lesson-content__panel" markdown="1">
-1. [CSS values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) mevcut tüm birimleri kapsar.
-2. Makale [CSS units](https://codyloyd.com/2021/css-units/) nasıl ve ne zaman `em`, `rem` veya `px` kullanmak isteyebileceğinizi derinlemesine açıklar.
+1. [CSS values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) adlı ingilizce makale mevcut tüm birimleri kapsar.
+2. [CSS units](https://codyloyd.com/2021/css-units/) adlı ingilizce makale nasıl ve ne zaman `em`, `rem` veya `px` kullanabileceğinizi derinlemesine açıklar.
 3. [Fun with Viewport Units](https://css-tricks.com/fun-viewport-units/) `vh` ve `vw` ile yapabileceğiniz bazı ilginç şeyleri gösterir.
 </div>
 
