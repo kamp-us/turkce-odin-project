@@ -8,7 +8,7 @@ CSS'de boyutları tanımlamak için kullanabileceğiniz birçok farklı birim va
 
 ### Mutlak birimler
 
-Mutlak birimler, herhangi bir bağlamda her zaman aynı olan birimlerdir. `px` mutlak bir birimdir çünkü bir pikselin boyutu sayfadaki başka hiçbir şeye göre değişmez. Aslında `px` web projeleri için kullanmanız gereken tek mutlak birimdir. Diğerleri `in` (inç) ve `cm` (santimetre) gibi fiziksel birimlerle ilişkili oldukları için baskı ortamında daha anlamlıdır.
+Mutlak birimler, herhangi bir bağlamda her zaman aynı olan birimlerdir. `px` mutlak bir birimdir çünkü bir pikselin boyutu sayfadaki başka bir şeye göre değişmez. Aslında `px` web projeleri için kullanmanız gereken tek mutlak birimdir. Diğerleri `in` (inç) ve `cm` (santimetre) gibi fiziksel birimlerle ilişkili oldukları için baskı ortamında daha anlamlıdır.
 
 ### Göreli birimler
 
