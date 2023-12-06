@@ -1,5 +1,5 @@
 ### Giriş
-CSS'de boyutları tanımlamak için kullanabileceğiniz birçok farklı birim vardır. Bu ders sizin için en önemli olanları tanıtacak ve geri kalanı hakkında nereden öğrenebileceğinizi gösterecektir.
+CSS'de boyutları tanımlamak için kullanabileceğiniz birçok farklı birim vardır. Bu ders sizin için en önemli olanları tanıtacak ve geri kalanları nereden öğrenebileceğinizi gösterecektir.
 
 ### Öğrenme çıktıları
 
