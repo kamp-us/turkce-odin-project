@@ -16,7 +16,7 @@ Göreli birimler, bağlamlarına göre değişebilen birimlerdir. Karşılaşman
 
 #### em ve rem
 
-`em` ve `rem` her ikisi de bir yazı tipi boyutunu ifade eder, genellikle CSS'de diğer boyutları tanımlamak için kullanılırlar. Her ikisini de sık sık göreceksiniz, bu yüzden her ikisini de açıklayacağız, ancak genel bir kural olarak `rem`'i tercih edin.
+`em` ve `rem` genellikle CSS'de diğer boyutları tanımlamak için kullanılsalar da, her ikisi de bir yazı tipi boyutunu ifade eder. Her ikisini de sık sık göreceksiniz, bu yüzden her ikisini de açıklayacağız, ancak genel bir kural olarak `rem`'i tercih edin.
 
 `1em` bir öğenin (veya `font-size` ayarlamak için kullanıyorsanız öğenin ebeveyninin) `font-size` değeridir. Örneğin, bir öğenin `font-size` değeri `16px` ise, genişliğini `4em` olarak ayarlamak genişliğini `64px` yapacaktır (`16 * 4 == 64`).
 
