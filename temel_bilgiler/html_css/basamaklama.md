@@ -76,7 +76,7 @@ Yukarıdaki örnekte, her iki kural da yalnızca sınıf seçicileri kullanmakta
 
 Yukarıdaki örnekte, kural 2'de ID seçici sayısından daha fazla sınıf seçicisi vardır. Ancak ID, sınıftan öncelikli olduğu için kural 1 daha özgüldür. Bu durumda, `color: blue;` tanımlaması öncelikli olacaktır.
 
-~~~css
+```css
 /* kural 1 */
 #subsection {
   background-color: yellow;
@@ -87,7 +87,7 @@ Yukarıdaki örnekte, kural 2'de ID seçici sayısından daha fazla sınıf seç
 .main #subsection {
  color: red;
 }
-~~~
+```
 
 Bu son örnekte, ilk kural bir ID seçici kullanırken, ikinci kural bir ID seçici ile sınıf seçiciyi birleştirir. Dolayısıyla iki kural da aynı özgüllükte seçiciler kullanır. Bu durumda basamaklandırma, her bir seçici türünün sayısını kontrol eder. Her iki kuralda da birer ID seçici vardır. Ancak kural 2'de ID seçiciye ek olarak bir sınıf seçici vardır. Bu nedenle kural 2 daha yüksek bir özgüllüğe sahiptir.
 
