@@ -6,7 +6,7 @@
 
 Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içerir.
 
-- CSS ile HTML'e stiller ekleyin.
+- CSS ile HTML'e stiller eklemek.
 - Class ve ID niteliklerinin nasıl kullanılacağını anlayın.
 - Doğru seçicileri kullanarak belirli öğelere stiller ekleyin.
 
