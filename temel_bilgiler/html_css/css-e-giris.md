@@ -220,28 +220,6 @@ Yukarıdaki örnekte, `contents` sınıfına sahip ilk iki öğe (B ve C) seçil
 
 Bir kurala kaç tane birleştirici ekleyebileceğiniz konusunda net bir sınır yoktur. Bu nedenle `.one .two .three .four` tamamen geçerli olacaktır. Bu seçim, `four` sınıfına sahip öğeyi ancak `three` sınıfına sahip bir atası varsa, o atanın `two`, onun atasının da `one` sınıfına sahip öğesi varsa seçecektir. Genellikle bu seviyede iç içe geçmeye ihtiyaç duyan öğeleri seçmeye çalışmaktan kaçınmak isteriz. Çünkü oldukça kafa karıştırıcı ve uzun olabilirler. Özgüllük konusunda sorunlara da neden olabilirler.
 
-### Sıralama Önemlidir!
-
-İki seçici aynı özgüllük düzeyine sahip olduğunda, en son tanımlanan kural önceliğe sahiptir. Yani son kural kendisinden önceki tüm kuralları geçersiz kılar. Aşağıdaki örneğe bir göz atın:
-
-~~~css
-/* styles.css */
-.first_declared, .last_declared {
-  background-color: rgb(200, 50, 150);
-  font-weight: 800;
-}
-.first_declared {
-  color: rgb(50, 50, 200);
-  font-size: 32px;
-}
-.last_declared {
-  font-size: 14px;
-  font-weight: 800;
-}
-~~~
-
-Yukarıdaki örnekte, `.last_declared`(son tanımlanan) seçicisi `.first_declared`(ilk tanımlanan) seçicisini geçersiz kılacaktır. Bu sınıfların her ikisine de sahip olan herhangi bir html öğesi, `.first_declared` yerine `.last_declared`da tanımlanan stillere sahip olacaktır.
-
 ### Başlamak için özellikler
 
 Her zaman ya da diğerlerine göre daha sık kullanacağınız bazı CSS özellikleri vardır. Size bu özelliklerden birkaçını tanıtacağız. Bu hiçbir şekilde tam bir liste olmamakla beraber, aşağıdaki özellikleri öğrenmek, başlamanıza yardımcı olmak için yeterli olacaktır.
