@@ -31,15 +31,15 @@ Daha özgül bir CSS tanımlaması, ondan daha az özgül olanlardan önceliklid
 Özgüllüğün nasıl çalıştığını görselleştirmek için birkaç hızlı örneğe göz atalım. 
 Aşağıdaki HTML ve CSS koduyla başlayalım:
 
-~~~html
+```html
 <!-- index.html -->
 
 <div class="main">
   <div class="list subsection"></div>
 </div>
-~~~
+```
 
-~~~css
+```css
 /* kural 1 */
 .subsection {
   color: blue;
@@ -49,7 +49,7 @@ Aşağıdaki HTML ve CSS koduyla başlayalım:
 .main .list {
   color: red;
 }
-~~~
+```
 
 Yukarıdaki örnekte, her iki kural da yalnızca sınıf seçicileri kullanmaktadır. Ancak 2. kural daha özgüldür. Çünkü daha fazla sınıf seçicisi kullanmaktadır, bu nedenle `color: red;` tanımlaması öncelikli olacaktır.
 
