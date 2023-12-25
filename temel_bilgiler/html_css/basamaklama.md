@@ -18,7 +18,6 @@ Dolayısıyla, bunun gibi beklenmedik bir davranışla karşılaşırsanız, bun
 
 Basamaklama, HTML'imize hangi kuralların uygulanacağını belirler.Basamaklamanın bunu belirlemek için kullandığı farklı faktörler vardır. Şimdi bu faktörlerden üçünü inceleyeceğiz. Bunların üstünden geçmek, CSS'ten nefret ettiğiniz anlardan kaçınmanıza yardımcı olacaktır.
 
-
 #### Özgüllük
 
 Daha özgül bir CSS tanımlaması, ondan daha az özgül olanlardan önceliklidir. Önceki derste ele aldığımız satır içi stiller, seçicilere kıyasla en yüksek özgüllüğe sahipken, her seçici türünün bir tanımlamanın ne kadar özgül olduğuna katkıda bulunan kendi özgüllük düzeyi vardır. Diğer seçiciler de özgüllüğe katkıda bulunurlar. Ancak biz yalnızca şu ana kadar üstünde durduklarımıza odaklanacağız:
