@@ -407,4 +407,5 @@ Bu bölüm, dersi anlayıp anlamadığınızı kontrol etmeniz için sorular iç
 
 Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
 
-- [Mozilla CSS değerleri ve birimleri](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) mutlak veya göreli olarak mümkün olan çeşitli değer türlerini öğrenmek için kullanılabilir.
+- [Mozilla CSS values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) adlı ingilizce makale mutlak veya göreli olarak mümkün olan çeşitli değer türlerini öğrenmek için kullanılabilir.
+- [Bu ingilizce interaktif Scrim](https://scrimba.com/scrim/co12d4cf99cf2776f19e84a9d) dersteki materyallerin çoğunu interaktif bir biçimde ele almaktadır.
