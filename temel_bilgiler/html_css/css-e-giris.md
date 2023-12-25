@@ -379,7 +379,7 @@ _Tek bir_ öğeye _benzersiz_ bir stil eklemeniz gerekiyorsa bu yöntemi kullana
 
 ### Bilgi ölçme
 
-Bu bölüm, dersi anlayıp anlamadığınızı kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta zorlanıyorsanız, soruya tıklayıp yönlendirdiği materyali inceleyin.
+Bu bölüm, bu dersi kendi kendinize anlayıp anlamadığınızı kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta zorlanıyorsanız, soruya tıklayın ve bağlantılı olduğu materyali gözden geçirin.
 
 - <a class="knowledge-check-link" href="#class-selectors">Sınıf ve ID seçiciler için sözdizimi nasıldır?</a>
 - <a class="knowledge-check-link" href="#the-grouping-selector">Tek bir kuralı iki farklı seçiciye nasıl uygularsınız?</a>
