@@ -222,9 +222,9 @@ Bu bölüm, bu dersi kendi kendinize anlayıp anlamadığınızı kontrol etmeni
 
 Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
 
-*   [CSS Basamaklama](https://wattenberger.com/blog/css-cascade), CSS kurallarının uygulanmasını etkileyen diğer faktörler hakkında biraz daha ayrıntılı bilgi veren harika, etkileşimli bir kaynaktır.
-*   [Yazı Tipi Ailesini Değiştirme](https://www.digitalocean.com/community/tutorials/how-to-load-and-use-custom-fonts-with-css#finding-and-loading-a-font-file-from-a-hosted-service) özel yazı tipleri kullanmaya yönelik birkaç farklı yaklaşımı açıklamaktadır.
-*   Kevin Powell'dan [CSS Özgüllükleri](https://www.youtube.com/watch?v=c0kfcP_nD9E) çeşitli özgüllük örneklerini inceleyip özgüllükle boğuşmaktan kaçınmak için bazı tavsiyeler vermektedir.
-*   [CSS Özgüllük Hesaplayıcı](https://specificity.keegan.st/) kendi seçicilerinizi doldurmanıza ve bunların özgüllüklerinin hesaplanıp görselleştirilmesini sağlar.
-*   [Mozilla CSS Özellikleri Referansı](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference) belirli bir CSS özelliğinin miras alınıp alınmadığını öğrenmek için kullanılabilir. Herhangi bir öğenin sayfasına gidip **Formal Definition** bölümü içinde **Inherited** alanına göz atmanız yeterlidir. Örneğin [`color` özelliğinin sayfasına](https://developer.mozilla.org/en-US/docs/Web/CSS/color#formal_definition) gidersek miras alınıp alınmadığını görebiliriz.
-*   [CSS Basamaklama Üzerine İnteraktif Scrim.](https://scrimba.com/scrim/c9gwmnAR)
+ - [The CSS Cascade(CSS Basamaklama)](https://wattenberger.com/blog/css-cascade) adlı ingilizce makale, CSS kurallarının uygulanmasını etkileyen diğer faktörler hakkında biraz daha ayrıntılı bilgi veren harika, etkileşimli bir kaynaktır.
+ - [Yazı Tipi Ailesini Değiştirme](https://www.digitalocean.com/community/tutorials/how-to-load-and-use-custom-fonts-with-css#finding-and-loading-a-font-file-from-a-hosted-service) hakkında olan bu ingilizce makale, özel yazı tipleri kullanmaya yönelik birkaç farklı yaklaşımı açıklamaktadır.
+ - Kevin Powell'dan [CSS Specificity](https://www.youtube.com/watch?v=c0kfcP_nD9E) adlı bu ingilizce video, çeşitli özgüllük örneklerini inceleyip özgüllükle boğuşmaktan kaçınmak için bazı tavsiyeler vermektedir.
+ - [CSS Specificity Calculator](https://specificity.keegan.st/) adlı bu ingilizce website, kendi seçicilerinizi doldurmanıza ve bunların özgüllüklerinin hesaplanıp görselleştirilmesini sağlar.
+ - [Mozilla CSS Properties Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference) adlı ingilizce kaynak, belirli bir CSS özelliğinin miras alınıp alınmadığını öğrenmek için kullanılabilir. Herhangi bir öğenin sayfasına gidip **Formal Definition** bölümü içinde **Inherited** alanına göz atmanız yeterlidir. Örneğin [`color` özelliğinin sayfasına](https://developer.mozilla.org/en-US/docs/Web/CSS/color#formal_definition) gidersek miras alınıp alınmadığını görebiliriz.
+ - [CSS Basamaklama üzerine ingilizce bir interaktif Scrim.](https://scrimba.com/scrim/c9gwmnAR)
