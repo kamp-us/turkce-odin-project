@@ -6,9 +6,9 @@ Bir önceki derste temel CSS sözdizimini ve seçicileri ele almıştık. Şimdi
 
 Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içerir.
 
-*   Basamaklama ne yapar?
-*   Özgüllük ve CSS seçicilerinin birleştirilmesi.
-*   Kalıtım, belirli özellikleri nasıl etkiler?
+- Basamaklama ne yapar?
+- Özgüllük ve CSS seçicilerinin birleştirilmesi.
+- Kalıtım, belirli özellikleri nasıl etkiler?
 
 ### CSS'in Basamaklandırılması
 
