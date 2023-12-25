@@ -28,7 +28,7 @@ CSS, en temel düzeyde çeşitli kurallardan oluşur. Bu kurallar, bir seçici(b
 
 Seçiciler, CSS kurallarının uygulanması gereken HTML öğelerini belirtir. Her kural için hedefleri tanımlarlar. Aşağıdaki bölümlerde tüm seçicilere yer verilmemiştir. Ancak en yaygın ve başlangıçta rahatça kullanmanız gerekenler bunlardır.
 
-#### Evrensel Seçici
+#### Evrensel seçici
 
 Evrensel seçici her türden öğeyi seçer, bu nedenle "evrensel"dir ve sözdizimi bir yıldız işaretidir. Aşağıdaki örnekte, her öğeye `color: purple;` stili uygulanacaktır.
 
