@@ -201,7 +201,9 @@ Hem `alert` hem de `warning` sınıflarına sahip bir öğe için basamaklama, k
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  [Odin Project CSS alıştırmaları repository'sine](https://github.com/TheOdinProject/css-exercises) geri dönün. `foundations` dizinindeki son alıştırma olan `06-cascade-fix` isimli alıştırmayı yapın.
+1. [Odin Project CSS alıştırmaları repository'sine](https://github.com/TheOdinProject/css-exercises) geri dönün. `foundations` dizinindeki son alıştırma olan `06-cascade-fix` isimli alıştırmayı yapın.
+
+
     Not: Alıştırmaların çözümleri her alıştırmanın `solution` klasöründe bulunur.
 
 2.  "HTML Temelleri" bölümünde alıştırma olarak oluşturduğunuz tarif sayfasını hatırlıyor musunuz? Oldukça *sade* görünüyor değil mi? Hadi bunu biraz CSS ekleyerek düzeltelim!
