@@ -216,7 +216,7 @@ Hem `alert` hem de `warning` sınıflarına sahip bir öğe için basamaklama, k
 
 Bu bölüm, bu dersi kendi kendinize anlayıp anlamadığınızı kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta zorlanıyorsanız, soruya tıklayın ve bağlantılı olduğu materyali gözden geçirin.
 
-*   <a class="knowledge-check-link" href="#high-specificity-class-type">Sınıf seçici kullanan bir kural ile üç adet tip seçici kullanan bir kural arasında hangisi daha yüksek özgüllüğe sahiptir?</a>
+- <a class="knowledge-check-link" href="#high-specificity-class-type">Sınıf seçici kullanan bir kural ile üç adet tip seçici kullanan bir kural arasında hangisi daha yüksek özgüllüğe sahiptir?</a>
 
 ### Ek Kaynaklar
 
