@@ -98,7 +98,7 @@ Bu son örnekte, ilk kural bir ID seçici kullanırken, ikinci kural bir ID seç
 Seçicileri karşılaştırırken, evrensel seçici (`*`) ve birleştiriciler (`+`, `~`, `>` ve boşluk) için özel sembollerle karşılaşabilirsiniz. Bu semboller kendi başlarına herhangi bir özgüllük katmaz.
 </div>
 
-~~~css
+```css
 /* rule 1 */
 .class.second-class {
   font-size: 12px;
@@ -108,7 +108,7 @@ Seçicileri karşılaştırırken, evrensel seçici (`*`) ve birleştiriciler (`
 .class .second-class {
   font-size: 24px;
 }
-~~~
+```
 
 Burada kural 1 de kural 2 de aynı özgüllüğe sahiptir. Kural 1 bir zincirleme seçici(boşluk yok) ve kural 2 de soydan gelen birleştirici(boşluk var) kullanır. Ancak her iki kuralın da iki sınıfı vardır ve birleştirici sembolünün kendisi özgüllüğe katkıda bulunmaz.
 
