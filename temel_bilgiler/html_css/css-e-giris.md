@@ -32,32 +32,32 @@ Seçiciler, CSS kurallarının uygulanması gereken HTML öğelerini belirtir. H
 
 Evrensel seçici her türden öğeyi seçer, bu nedenle "evrensel"dir ve sözdizimi bir yıldız işaretidir. Aşağıdaki örnekte, her öğeye `color: purple;` stili uygulanacaktır.
 
-~~~css
+```css
 * {
   color: purple;
 }
-~~~
+```
 
 #### Tip seçiciler
 
 Bir tip seçici(veya öğe seçici) verilen tipteki tüm öğeleri seçer ve sözdizimi yalnızca öğenin adıdır:
 
-~~~html
+```html
 <!-- index.html -->
 
 <div>Merhaba dünya!</div>
 <div>Tekrar merhaba!</div>
 <p>Selam...</p>
 <div>Tamam, görüşürüz.</div>
-~~~
+```
 
-~~~css
+```css
 /* styles.css */
 
 div {
   color: white;
 }
-~~~
+```
 
 Burada, üç `<div>` öğesi de seçilirken, `<p>` öğesi seçilmez.
 
@@ -65,19 +65,19 @@ Burada, üç `<div>` öğesi de seçilirken, `<p>` öğesi seçilmez.
 
 Sınıf seçiciler, aynı sınıfa(HTML öğelerine verilen niteliklerden biri) sahip tüm HTML öğelerini seçerler. Bir HTML öğesine nasıl sınıf ekleyeceğiniz ve bu sınıfı CSS'te nasıl seçeceğiniz aşağıda açıklanmıştır:
 
-~~~html
+```html
 <!-- index.html -->
 
 <div class="alert-text">Lütfen hizmet şartlarımızı kabul edin.</div>
-~~~
+```
 
-~~~css
+```css
 /* styles.css */
 
 .alert-text {
   color: red;
 }
-~~~
+```
 
 Sınıf seçicilerin sözdizimine dikkat edin. Bir nokta ve hemen ardından hedeflenen sınıfın büyük/küçük harfe duyarlı değeri olarak kullanılır. Sınıfların belirli bir öğeye özel olması gerekmez. Bu nedenle aynı sınıfı istediğiniz sayıda öğeye ekleyebilirsiniz.
 
@@ -87,19 +87,19 @@ Sınıflarla yapabileceğiniz bir başka şey ise tek bir öğeye birden fazla s
 
 ID seçiciler sınıf seçicilere benzer. HTML öğelerinin başka bir niteliği olan ID'ye sahip bir öğeyi seçerler. Sınıflar ve ID'ler arasındaki en büyük fark, bir öğenin yalnızca **bir** ID'ye sahip olabilmesidir. Bir sayfada tekrarlanamaz ve adında herhangi bir boşluk içermemelidir:
 
-~~~html
+```html
 <!-- index.html -->
 
 <div id="title">Muhteşem 90'lar Sayfam</div>
-~~~
+```
 
-~~~css
+```css
 /* styles.css */
 
 #title {
   background-color: red;
 }
-~~~
+```
 
 ID'ler için nokta yerine hashtag kullanılır. Hemen ardından ID'nin büyük/küçük harfe duyarlı değeri gelir. Sıkça yapılan bir hata, insanların ihtiyaç duymadığı ve sınıfların yeterli olacağı durumlarda ID özelliğini aşırı kullanmasıdır. ID kullanmanın anlamlı veya gerekli olduğu durumlar olsa da(örneğin, özgüllüğün avantajından yararlanmak veya bağlantıların geçerli sayfadaki bir bölüme yönlendirmesi) onları **idareli** kullanmalısınız.
 
@@ -107,7 +107,7 @@ ID'ler için nokta yerine hashtag kullanılır. Hemen ardından ID'nin büyük/k
 
 Peki ya stil tanımlamalarından bazılarını paylaşan iki grup öğemiz varsa ne yapmalıyız?
 
-~~~css
+```css
 .read {
   color: white;
   background-color: black;
@@ -119,11 +119,11 @@ Peki ya stil tanımlamalarından bazılarını paylaşan iki grup öğemiz varsa
   background-color: black;
   /* bu sınıfa özel tanımlamalar */
 }
-~~~
+```
 
 `.read` ve `.unread` seçicilerimiz `color: white;` ve `background-color: black;` tanımlamalarını paylaşırken bununla birlikte kendilerine özel birkaç tanımlamaya da sahiptirler. Tekrarlamayı azaltmak için bu iki seçiciyi virgülle ayrılmış bir liste olarak gruplayabiliriz:
 
-~~~css
+```css
 .read,
 .unread {
   color: white;
@@ -137,7 +137,7 @@ Peki ya stil tanımlamalarından bazılarını paylaşan iki grup öğemiz varsa
 .unread {
   /* bu sınıfa özel tanımlamalar */
 }
-~~~
+```
 
 Yukarıdaki örneklerin her ikisi de (gruplandırmalı ve gruplandırmasız) aynı sonuca sahip olacaktır. Ancak ikinci örnek, tanımlamaların tekrarını azaltır ve her iki sınıf için `color` ve `background-color`ın aynı anda düzenlenmesini kolaylaştırır.
 
@@ -145,37 +145,37 @@ Yukarıdaki örneklerin her ikisi de (gruplandırmalı ve gruplandırmasız) ayn
 
 Seçicileri kullanmanın bir başka yolu da onları herhangi bir ayrım yapmadan liste halinde zincirlemektir. Diyelim ki aşağıdaki HTML'e sahibiz:
 
-~~~html
+```html
 <div>
   <div class="subsection header">Son Gönderiler</div>
   <p class="subsection preview">Bir gönderinin önizlemesi buraya gelebilir.</p>
 </div>
-~~~
+```
 
 Bir çeşit benzersiz stile sahip olan `subsection` sınıfına sahip iki öğemiz var. Ancak sadece ikinci bir sınıf olarak `header` sınıfına sahip olan öğeye ayrı bir kural uygulamak istersek ne yapacağız? CSS'imizde iki sınıf seçiciyi de şu şekilde zincirleyebiliriz:
 
-~~~css
+```css
 .subsection.header {
   color: red;
 }
-~~~
+```
 
 `.subsection.header`ın yaptığı şey, `subsection` _ve_ `header` sınıflarına sahip olan herhangi bir öğeyi seçmektir. `.subsection` ve `.header` sınıf seçicileri arasında boşluk olmadığına dikkat edin. Bu sözdizimi temel olarak, [tip seçiciler](#type-selectors) dışında herhangi bir seçici kombinasyonunun oluşturulmasında kullanılır.
 
 Aşağıda gösterildiği gibi bir sınıf ve ID'yi zincirlemek için de kullanılabilir:
 
-~~~html
+```html
 <div>
   <div class="subsection header">Son Gönderiler</div>
   <p class="subsection" id="preview">
     Bir gönderinin önizlemesi buraya gelebilir.
   </p>
 </div>
-~~~
+```
 
 Yukarıdaki iki öğeyi alıp aşağıdaki şekilde birleştirebilirsiniz:
 
-~~~css
+```css
 .subsection.header {
   color: red;
 }
@@ -183,7 +183,7 @@ Yukarıdaki iki öğeyi alıp aşağıdaki şekilde birleştirebilirsiniz:
 .subsection#preview {
   color: blue;
 }
-~~~
+```
 
 Genel olarak, bir öğe aynı anda iki farklı tipte olamayacağı için birden fazla tip seçiciyi zincirleyemezsiniz. Örneğin, `div` ve `p` gibi iki tip seçiciyi zincirlemek, bize `divp` seçicisini verir. Seçici, var olmayan bir `<divp>` öğesi bulmaya çalışacağı için işe yaramaz.
 
@@ -193,7 +193,7 @@ Birleştiriciler, seçiciler arasında bir ilişki belirttiği için, birden faz
 
 Yani `.ancestor .child` gibi bir seçim, `child`(çocuk) sınıfına sahip bir öğeyi, ancak `ancestor`(ata) sınıfından bir atası varsa seçecektir. Bunu düşünmenin bir başka yolu da, ne sayıda katman olursa olsun, `child` yalnızca `ancestor`ın içinde yuvalanmışsa seçilecektir. Aşağıdaki örneğe hızlıca göz atın ve verilen CSS kuralına göre hangi öğelerin seçileceğini anlayıp anlayamadığınızı görün:
 
-~~~html
+```html
 <!-- index.html -->
 
 <div class="ancestor">
@@ -206,15 +206,15 @@ Yani `.ancestor .child` gibi bir seçim, `child`(çocuk) sınıfına sahip bir �
 
 <div class="contents"></div>
 <!-- D -->
-~~~
+```
 
-~~~css
+```css
 /* styles.css */
 
 .ancestor .contents {
   /* some declarations */
 }
-~~~
+```
 
 Yukarıdaki örnekte, `contents` sınıfına sahip ilk iki öğe (B ve C) seçilecektir. Ancak son öğe (D) seçilmeyecektir. Tahmininiz doğru muydu?
 
@@ -230,7 +230,7 @@ Her zaman ya da diğerlerine göre daha sık kullanacağınız bazı CSS özelli
 
 Neredeyse. Bu özelliklerin her ikisi de birkaç farklı tipte değeri kabul edebilir. Anahtar kelimeler, yaygın değer türlerinden biridir. `red`(kırmızı) gibi gerçek bir renk adı veya `transparent`(şeffaf) gibi bir anahtar kelime kullanılabilir. Ayrıca HEX, RGB ve HSL değerlerini de kabul ederler; daha önce bir photoshop programı ya da profil renklerinizi özelleştirebileceğiniz bir site kullandıysanız bu değerlere aşina olabilirsiniz.
 
-~~~css
+```css
 p {
   /* hex örneği: */
   color: #1100ff;
@@ -245,7 +245,7 @@ p {
   /* hsl örneği: */
   color: hsl(15, 82%, 56%);
 }
-~~~
+```
 
 Bir alfa değeri ekleyerek bu renklerin opaklığını nasıl ayarlayabileceğinizi görmek için [CSS Legal Color Values](https://www.w3schools.com/cssref/css_colors_legal.asp) adlı ingilizce makaleye göz atın.
 
@@ -267,12 +267,12 @@ Yüksekliğini ve genişliğini ayarlayabileceğimiz öğeler yalnızca resimler
 
 Varsayılan olarak, bir `<img>` öğesinin `height`(yükseklik) ve `width`(genişlik) değerleri, gerçek görüntü dosyasının yükseklik ve genişliğiyle aynı olacaktır. Resmin boyutunu, oranlarını kaybetmeden ayarlamak istersek, `height` özelliği için "auto" değerini kullanıp `width` değerini ayarlayabiliriz:
 
-~~~css
+```css
 img {
   height: auto;
   width: 500px;
 }
-~~~
+```
 
 Örneğin, bir resmin orijinal boyutu 500 piksel yükseklik ve 1000 piksel genişlikte ise, yukarıdaki CSS kuralları kullanıldığında 250 piksellik bir yükseklik elde edilir.
 
@@ -286,15 +286,15 @@ Artık bazı temel sözdizimlerini öğrendiğimize göre, tüm bu CSS'i HTML'im
 
 Harici CSS karşılaşacağınız en yaygın yöntemdir. CSS için ayrı bir dosya oluşturmayı ve bunu HTML'in `<head>` etiketlerinin içine kendi kendini kapatan bir `<link>` öğesiyle bağlamayı içerir:
 
-~~~html
+```html
 <!-- index.html -->
 
 <head>
   <link rel="stylesheet" href="styles.css">
 </head>
-~~~
+```
 
-~~~css
+```css
 /* styles.css */
 
 div {
@@ -305,7 +305,7 @@ div {
 p {
   color: red;
 }
-~~~
+```
 
 İlk olarak, HTML dosyasının `<head>` etiketinin içine kendi kendini kapatan bir `<link>` öğesi ekleriz. `href` niteliği CSS dosyasının konumudur. Ya mutlak bir URL'e ya da şimdi kullanacağınız gibi HTML dosyasının konumuna göreli bir URL'e sahiptir. Yukarıdaki örneğimizde, her iki dosyanın da aynı dizinde bulunduğunu varsayıyoruz. `rel` niteliği gereklidir ve HTML dosyası ile bağlantılı dosya arasındaki ilişkiyi belirtir.
 
@@ -324,7 +324,7 @@ Dahili CSS(gömülü CSS), tamamen ayrı bir dosya oluşturmak yerine CSS'i HTML
 
 Bu farklılıklar dışında sözdizimi, harici yöntemle tamamen aynıdır(seçici, küme parantezler, tanımlamalar):
 
-~~~html
+```html
 <head>
   <style>
     div {
@@ -340,7 +340,7 @@ Bu farklılıklar dışında sözdizimi, harici yöntemle tamamen aynıdır(seç
 <body>
   ...
 </body>
-~~~
+```
 
 Bu yöntem, bir internet sitesinin _tek bir sayfasına_ benzersiz stiller eklemek için yararlı olabilir. Ancak harici yöntem gibi her şeyi ayrı tutmaz. Kural ve tanımlama sayısına bağlı olarak HTML dosyasının oldukça büyük olmasına neden olabilir.
 
@@ -348,11 +348,11 @@ Bu yöntem, bir internet sitesinin _tek bir sayfasına_ benzersiz stiller ekleme
 
 Satır içi CSS, stilleri doğrudan HTML öğelerine eklemeyi sağlar. Ancak bu yöntem genellikle önerilmez:
 
-~~~html
+```html
 <body>
   <div style="color: white; background-color: black;">...</div>
 </body>
-~~~
+```
 
 Burada dikkat edilmesi gereken şey, herhangi bir seçici kullanılmamasıdır. Çünkü stiller doğrudan açılıştaki `<div>` etiketine eklenir. Tanımlamalar, `style=` niteliğinde tırnak işaretleri içine eklenir.
 
