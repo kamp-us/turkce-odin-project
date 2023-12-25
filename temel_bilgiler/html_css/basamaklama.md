@@ -23,7 +23,7 @@ Basamaklama, HTML'imize hangi kuralların uygulanacağını belirler.Basamaklama
 Daha özgül bir CSS tanımlaması, ondan daha az özgül olanlardan önceliklidir. Önceki derste ele aldığımız satır içi stiller, seçicilere kıyasla en yüksek özgüllüğe sahipken, her seçici türünün bir tanımlamanın ne kadar özgül olduğuna katkıda bulunan kendi özgüllük düzeyi vardır. Diğer seçiciler de özgüllüğe katkıda bulunurlar. Ancak biz yalnızca şu ana kadar üstünde durduklarımıza odaklanacağız:
 
 1. ID seçiciler (en özgül seçici)
-2. Sınıf seçiciler
+2. Sınıf(class) seçiciler
 3. Tip seçiciler
 
 Özgüllük yalnızca bir öğeyi hedefleyen birden fazla çakışan tanımlama olduğunda dikkate alınır. Bir tür eşitlik bozucu olarak düşünebiliriz. Bir ID seçici her zaman herhangi bir sayıdaki sınıf seçiciden öncelikli olur. <span id="high-specificity-class-type">Benzer şekilde bir sınıf seçici her zaman herhangi bir sayıdaki tip seçiciden</span> ve bir tip seçici her zaman kendisinden daha az özgül olan herhangi sayıdaki seçiciden öncelikli olur. Tanımlamada daha yüksek özgüllüğe sahip bir seçici olmadığında, tek bir seçicinin daha büyük bir miktarı, aynı seçicinin daha küçük bir miktarından öncelikli olacaktır.
