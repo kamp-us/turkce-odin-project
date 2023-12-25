@@ -2,7 +2,7 @@
 
 Önceki derste, bir internet sayfasının nasıl yapılandırıldığını belirleyen HTML'in nasıl yazıldığını öğrendiniz. Bir sonraki adım, bu yapının biraz _stil_ ile güzel görünmesini sağlamaktır. CSS de tam bu noktada devreye girer. Sonraki birkaç derste, bazı temel CSS kavramları olduğuna inandığımız ve herkesin en başından bilmesi gereken şeylere(ister yeni başlıyor olun, ister sadece bilgilerinizi tazelemek isteyin) odaklanacağız.
 
-### Derse Genel Bakış
+### Derse genel bakış
 
 Bu bölüm, bu derste öğreneceğiniz konulara genel bir bakış içerir.
 
