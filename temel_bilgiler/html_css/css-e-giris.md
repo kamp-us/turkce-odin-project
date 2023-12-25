@@ -187,7 +187,7 @@ Yukarıdaki iki öğeyi alıp aşağıdaki şekilde birleştirebilirsiniz:
 
 Genel olarak, bir öğe aynı anda iki farklı tipte olamayacağı için birden fazla tip seçiciyi zincirleyemezsiniz. Örneğin, `div` ve `p` gibi iki tip seçiciyi zincirlemek, bize `divp` seçicisini verir. Seçici, var olmayan bir `<divp>` öğesi bulmaya çalışacağı için işe yaramaz.
 
-#### Soydan Gelen Birleştirici
+#### Soydan gelen birleştirici
 
 Birleştiriciler, seçiciler arasında bir ilişki belirttiği için, birden fazla seçiciyi, gruplamaktan veya zincirlemekten farklı bir şekilde birleştirmemize olanak tanır. Toplamda dört tür birleştirici vardır. Ancak şimdilik size yalnızca seçiciler arasında tek bir boşlukla temsil edilen **soydan gelen birleştiriciyi** göstereceğiz. <span id="descendant-combinator-description">Soydan gelen birleştirici, son seçiciyle eşleşen öğeleri, ondan önceki seçiciyle eşleşen bir ataya(ebeveyn, büyük ebeveyn vb.) sahip olduğu durumlarda seçer.</span>
 
