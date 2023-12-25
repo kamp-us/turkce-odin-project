@@ -212,7 +212,7 @@ Hem `alert` hem de `warning` sınıflarına sahip bir öğe için basamaklama, k
 
 </div>
 
-### Bilgi Ölçme
+### Bilgi ölçme
 
 Bu bölüm, dersi anlayıp anlamadığınızı kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta zorlanıyorsanız, soruya tıklayıp yönlendirdiği materyali inceleyin.
 
