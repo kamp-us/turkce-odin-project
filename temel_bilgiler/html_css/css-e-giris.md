@@ -10,10 +10,6 @@ Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içerir.
 - Class ve ID niteliklerinin nasıl kullanılacağını anlamak.
 - Doğru seçicileri kullanarak belirli öğelere stiller eklemek.
 
-Daha interaktif bir açıklama ve örnek için aşağıdaki Scrim'i deneyin (bunlar hakkında ne düşündüğünüzü bize bildirin):
-
-<iframe src="https://scrimba.com/scrim/co12d4cf99cf2776f19e84a9d?embed=odin,mini-header,no-sidebar,no-next-up" sandbox="allow-scripts allow-same-origin allow-popups" width="100%" height="400"></iframe>
-
 ### Temel Sözdizimi
 
 CSS, en temel düzeyde çeşitli kurallardan oluşur. Bu kurallar, bir seçici(bu konuya birazdan değineceğiz) ve noktalı virgüllerle ayrılmış bir tanımlama listesiyle belirlenir. Bu tanımlamaların her biri özellik:değer(property:value) şeklinde yazılır.
