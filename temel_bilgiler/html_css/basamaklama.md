@@ -55,7 +55,7 @@ Yukarıdaki örnekte, her iki kural da yalnızca sınıf seçicileri kullanmakta
 
 Şimdi, birkaç şeyi değiştirelim:
 
-~~~html
+```html
 <!-- index.html -->
 
 <div class="main">
