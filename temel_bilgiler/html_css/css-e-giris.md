@@ -253,7 +253,7 @@ Bir alfa değeri ekleyerek bu renklerin opaklığını nasıl ayarlayabileceğin
 
 `font-family`(yazı tipi ailesi) tek bir değer olabileceği gibi, bir öğenin hangi yazı tipini kullanacağını belirleyen değerlerin bir listesi de olabilir. Her yazı tipi iki kategoriden birine girer, ya `"Times New Roman"` gibi bir "yazı tipi ailesi adı"(kelimeler arasındaki boşluklar nedeniyle tırnak işareti kullanırız) ya da `sans-serif` gibi bir "genel aile adı"dır(genel aile adlarında asla tırnak işareti kullanılmaz).
 
-Bir tarayıcı, listedeki ilk yazı tipini bulamazsa veya onu desteklemiyorsa, desteklenen ve geçerli bir yazı tipi bulana kadar listeden sonraki tiplerini deneyerek devam eder. Bu nedenle, en çok kullanılmasını istediğiniz yazı tipiyle başlayıp, yedek olarak genel bir yazı tipi ailesiyle biten bir liste oluşturmak en iyisidir, örneğin `font-family: "Times New Roman", sans-serif;`
+Bir tarayıcı, listedeki ilk yazı tipini bulamazsa veya onu desteklemiyorsa, desteklenen ve geçerli bir yazı tipi bulana kadar listeden sonraki tiplerini deneyerek devam eder. Bu nedenle, en çok kullanılmasını istediğiniz yazı tipiyle başlayıp, yedek olarak genel bir yazı tipi ailesiyle biten bir liste oluşturmak en iyisidir, örneğin `font-family: "Times New Roman", serif;`
 
 `font-size`(yazı tipi boyutu) özelliği, adından da anlaşılacağı gibi yazı tipinin boyutunu ayarlar. Bu özelliğe bir değer verirken, değer herhangi bir boşluk içermemelidir. Örneğin `font-size: 22px` tanımlaması, "22" ve "px" arasında boşluk içermez.
 
