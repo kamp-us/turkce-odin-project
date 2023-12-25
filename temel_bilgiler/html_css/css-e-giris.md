@@ -83,7 +83,7 @@ Sınıf seçicilerin sözdizimine dikkat edin. Bir nokta ve hemen ardından hede
 
 Sınıflarla yapabileceğiniz bir başka şey ise tek bir öğeye birden fazla sınıfı aralarında boşluk bırakarak liste halinde eklemektir. Örneğin `class="alert-text severe-alert"` şeklinde kullanabilirsiniz. Sınıfları ayırmak amacıyla boşluk kullanıldığı için, birden fazla kelimeyle tanımlanabilecek sınıfların isimlerinde asla boşluk kullanmamalı, bunun yerine kısa çizgi kullanılmalıdır.
 
-#### ID Seçiciler
+#### ID seçiciler
 
 ID seçiciler sınıf seçicilere benzer. HTML öğelerinin başka bir niteliği olan ID'ye sahip bir öğeyi seçerler. Sınıflar ve ID'ler arasındaki en büyük fark, bir öğenin yalnızca **bir** ID'ye sahip olabilmesidir. Bir sayfada tekrarlanamaz ve adında herhangi bir boşluk içermemelidir:
 
