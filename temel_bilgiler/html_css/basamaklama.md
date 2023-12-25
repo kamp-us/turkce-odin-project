@@ -112,7 +112,7 @@ Seçicileri karşılaştırırken, evrensel seçici (`*`) ve birleştiriciler (`
 
 Burada kural 1 de kural 2 de aynı özgüllüğe sahiptir. Kural 1 bir zincirleme seçici(boşluk yok) ve kural 2 de soydan gelen birleştirici(boşluk var) kullanır. Ancak her iki kuralın da iki sınıfı vardır ve birleştirici sembolünün kendisi özgüllüğe katkıda bulunmaz.
 
-~~~css
+```css
 /* rule 1 */
 .class.second-class {
   font-size: 12px;
@@ -122,7 +122,7 @@ Burada kural 1 de kural 2 de aynı özgüllüğe sahiptir. Kural 1 bir zincirlem
 .class > .second-class {
   font-size: 24px;
 }
-~~~
+```
 
 Bu örnek de aynı şeyi göstermektedir. Kural 2 bir alt birleştirici(`>`) kullanıyor olsa da, bu kullanım özgüllük değerini değiştirmez. Her iki kural da hala iki sınıfa sahiptir. Bu nedenle aynı özgüllük değerlerine sahiptirler.
 
