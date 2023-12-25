@@ -61,7 +61,7 @@ div {
 
 Burada, üç `<div>` öğesi de seçilirken, `<p>` öğesi seçilmez.
 
-#### Sınıf Seçiciler
+#### Class(sınıf) seçiciler
 
 Sınıf seçiciler, aynı sınıfa(HTML öğelerine verilen niteliklerden biri) sahip tüm HTML öğelerini seçerler. Bir HTML öğesine nasıl sınıf ekleyeceğiniz ve bu sınıfı CSS'te nasıl seçeceğiniz aşağıda açıklanmıştır:
 
