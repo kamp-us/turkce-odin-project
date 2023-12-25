@@ -388,7 +388,7 @@ Bu bölüm, bu dersi kendi kendinize anlayıp anlamadığınızı kontrol etmeni
 - [HTML'e CSS eklemek için kullanılan üç yöntemin isimleri nelerdir?](#adding-css-to-html)
 - [HTML'e CSS eklemenin üç yöntemi arasındaki temel farklar nelerdir?](#external-css)
 
-### Ek Kaynaklar
+### Ek kaynaklar
 
 Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
 
