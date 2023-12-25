@@ -366,7 +366,14 @@ _Tek bir_ öğeye _benzersiz_ bir stil eklemeniz gerekiyorsa bu yöntemi kullana
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  [CSS alıştırmaları repository'mize](https://github.com/TheOdinProject/css-exercises) gidin, README dosyasını okuyun ve `01-css-methods` ile başlayıp `05-descendant-combinator` ile bitecek şekilde `foundations` dizinindeki alıştırmaları sırasıyla yapın.
+1.  [Odin Project CSS alıştırmaları repository'sine](https://github.com/TheOdinProject/css-exercises) gidin, aşağıdaki alıştırmaları sırasıyla tamamlamadan önce her bir README dosyasını gözden geçirin:
+    - `01-css-methods`
+    - `02-class-id-selectors`
+    - `03-group-selectors`
+    - `04-chain-selectors`
+    - `05-descendant-combinator`
+
+   Not: Bu alıştırmaların çözümleri her alıştırmanın `solution` klasöründe bulunabilir.
 
 </div>
 
