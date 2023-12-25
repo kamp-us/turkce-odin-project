@@ -38,7 +38,7 @@ Evrensel seçici her türden öğeyi seçer, bu nedenle "evrensel"dir ve sözdiz
 }
 ~~~
 
-#### Tip Seçiciler
+#### Tip seçiciler
 
 Bir tip seçici(veya öğe seçici) verilen tipteki tüm öğeleri seçer ve sözdizimi yalnızca öğenin adıdır:
 
