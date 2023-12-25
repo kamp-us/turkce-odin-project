@@ -2,9 +2,9 @@
 
 Bir önceki derste temel CSS sözdizimini ve seçicileri ele almıştık. Şimdi seçiciler hakkındaki bilgilerimizi CSS'in *C*'si olan cascade(basamaklama) ile birleştirmenin zamanı geldi.
 
-### Derse Genel Bakış
+### Derse genel bakış
 
-Bu bölüm, bu derste öğreneceğiniz konulara genel bir bakış içerir.
+Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içerir.
 
 *   Basamaklama ne yapar?
 *   Özgüllük ve CSS seçicilerinin birleştirilmesi.
