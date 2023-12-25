@@ -183,7 +183,7 @@ Son faktöre geldik. Diğer tüm faktörler dikkate alındıktan sonra, bir öğ
 
 Aslında oldukça basit. Hangi kural *en son* tanımlanmışsa o kazanır.
 
-~~~css
+```css
 /* styles.css */
 
 .alert {
@@ -193,7 +193,7 @@ Aslında oldukça basit. Hangi kural *en son* tanımlanmışsa o kazanır.
 .warning {
   color: yellow;
 }
-~~~
+```
 
 Hem `alert` hem de `warning` sınıflarına sahip bir öğe için basamaklama, kalıtım(bu durumda bulunmuyor) ve özgüllük(iki kural da aynı özgüllüğe sahip) dahil olmak üzere diğer tüm faktörlerin üstünden geçer. `warning` kuralı en son tanımlanan kural olduğu için ve başka hiçbir faktör hangi kuralın uygulanacağını belirleyemediği için öğeye uygulanacak olan kural `warning` kuralıdır.
 
