@@ -381,12 +381,12 @@ _Tek bir_ öğeye _benzersiz_ bir stil eklemeniz gerekiyorsa bu yöntemi kullana
 
 Bu bölüm, bu dersi kendi kendinize anlayıp anlamadığınızı kontrol etmeniz için sorular içermektedir. Bir soruyu yanıtlamakta zorlanıyorsanız, soruya tıklayın ve bağlantılı olduğu materyali gözden geçirin.
 
-- <a class="knowledge-check-link" href="#class-selectors">Sınıf ve ID seçiciler için sözdizimi nasıldır?</a>
-- <a class="knowledge-check-link" href="#the-grouping-selector">Tek bir kuralı iki farklı seçiciye nasıl uygularsınız?</a>
-- <a class="knowledge-check-link" href="#chaining-selectors">ID'si `title` ve sınıfı `primary` olan bir öğe verildiğinde, tek bir CSS kuralı için her iki niteliği nasıl kullanırsınız?</a>
-- <a class="knowledge-check-link" href="#descendant-combinator-description">Soydan gelen birleştirici ne işe yarar?</a>
-- <a class="knowledge-check-link" href="#adding-css-to-html">HTML'e CSS eklemek için kullanılan üç yöntemin isimleri nelerdir?</a>
-- <a class="knowledge-check-link" href="#external-css">HTML'e CSS eklemenin üç yöntemi arasındaki temel farklar nelerdir?</a>
+- [Sınıf ve ID seçiciler için sözdizimi nasıldır?](#class-selectors)
+- [Tek bir kuralı iki farklı seçiciye nasıl uygularsınız?](#the-grouping-selector)
+- [ID'si `title` ve sınıfı `primary` olan bir öğe verildiğinde, tek bir CSS kuralı için her iki niteliği nasıl kullanırsınız?](#chaining-selectors)
+- [Soydan gelen birleştirici ne işe yarar?](#descendant-combinator-description)
+- [HTML'e CSS eklemek için kullanılan üç yöntemin isimleri nelerdir?](#adding-css-to-html)
+- [HTML'e CSS eklemenin üç yöntemi arasındaki temel farklar nelerdir?](#external-css)
 
 ### Ek Kaynaklar
 
