@@ -86,6 +86,16 @@ Biraz daha karmaşık:
 </div>
 ```
 
+Biraz daha karmaşık:
+
+```html
+<!-- index.html -->
+
+<div class="main">
+  <div class="list" id="subsection">Sarı arkaplanlı kırmızı yazı</div>
+</div>
+```
+
 ```css
 /* kural 1 */
 #subsection {
