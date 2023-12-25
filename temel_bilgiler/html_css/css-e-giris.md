@@ -10,7 +10,7 @@ Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içerir.
 - Class ve ID niteliklerinin nasıl kullanılacağını anlamak.
 - Doğru seçicileri kullanarak belirli öğelere stiller eklemek.
 
-### Temel Sözdizimi
+### Temel sözdizimi
 
 CSS, en temel düzeyde çeşitli kurallardan oluşur. Bu kurallar, bir seçici(bu konuya birazdan değineceğiz) ve noktalı virgüllerle ayrılmış bir tanımlama listesiyle belirlenir. Bu tanımlamaların her biri özellik:değer(property:value) şeklinde yazılır.
 
