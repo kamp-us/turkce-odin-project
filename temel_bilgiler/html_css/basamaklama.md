@@ -59,7 +59,7 @@ Yukarıdaki örnekte, her iki kural da yalnızca sınıf seçicileri kullanmakta
 <!-- index.html -->
 
 <div class="main">
-  <div class="list" id="subsection"></div>
+  <div class="list" id="subsection">Mavi yazı</div>
 </div>
 ```
 ```css
