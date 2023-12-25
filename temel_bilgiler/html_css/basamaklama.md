@@ -136,7 +136,7 @@ Burada kural 1 de kural 2 de aynı özgüllüğe sahiptir. Kural 1 bir zincirlem
 
 Bu örnek de aynı şeyi göstermektedir. Kural 2 bir alt birleştirici(`>`) kullanıyor olsa da, bu kullanım özgüllük değerini değiştirmez. Her iki kural da hala iki sınıfa sahiptir. Bu nedenle aynı özgüllük değerlerine sahiptirler.
 
-~~~css
+```css
 /* rule 1 */
 * {
   color: black;
@@ -146,7 +146,7 @@ Bu örnek de aynı şeyi göstermektedir. Kural 2 bir alt birleştirici(`>`) kul
 h1 {
   color: orange;
 }
-~~~
+```
 
 Bu örnekte, kural 2 daha yüksek özgüllüğe sahip olacak ve `orange` değeri bu öğe için öncelikli olacaktır. Kural 2, en düşük özgüllük değerine sahip olan bir tip seçici kullanır. Ancak kural 1, özgüllük değeri olmayan evrensel seçiciyi(`*`) kullanır.
 
