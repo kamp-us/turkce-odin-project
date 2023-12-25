@@ -344,7 +344,7 @@ Bu farklılıklar dışında sözdizimi, harici yöntemle tamamen aynıdır(seç
 
 Bu yöntem, bir internet sitesinin _tek bir sayfasına_ benzersiz stiller eklemek için yararlı olabilir. Ancak harici yöntem gibi her şeyi ayrı tutmaz. Kural ve tanımlama sayısına bağlı olarak HTML dosyasının oldukça büyük olmasına neden olabilir.
 
-#### Satır İçi CSS
+#### Satır içi CSS
 
 Satır içi CSS, stilleri doğrudan HTML öğelerine eklemeyi sağlar. Ancak bu yöntem genellikle önerilmez:
 
