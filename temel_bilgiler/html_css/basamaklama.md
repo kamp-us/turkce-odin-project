@@ -156,14 +156,14 @@ Kalıtım, bir öğeye CSS özellikleri uygulandığında, bu öğenin içindeki
 
 Bu durumun istisnası, bir öğeyi doğrudan hedeflemektir. Çünkü doğrudan hedeflemek her zaman kalıtımı yener:
 
-~~~html
+```html
 <!-- index.html -->
 
 <div id="parent">
   <div class="child"></div>
 </div>
-~~~
-~~~css
+```
+```css
 /* styles.css */
 
 #parent {
@@ -173,7 +173,7 @@ Bu durumun istisnası, bir öğeyi doğrudan hedeflemektir. Çünkü doğrudan h
 .child {
   color: blue;
 }
-~~~
+```
 
 `parent` öğesi bir ID ile seçildiği için daha yüksek bir özgüllüğe sahip olmasına rağmen, `child` öğesine `color: blue` stili uygulanır. Çünkü bu tanımlama doğrudan onu hedef alır. Ancak ebeveynden gelen `color: red` tanımlaması yalnızca miras olarak alınır.
 
