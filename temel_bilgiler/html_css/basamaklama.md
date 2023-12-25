@@ -228,7 +228,7 @@ Bu bölüm, bu dersi kendi kendinize anlayıp anlamadığınızı kontrol etmeni
 
 - <a class="knowledge-check-link" href="#high-specificity-class-type">Sınıf seçici kullanan bir kural ile üç adet tip seçici kullanan bir kural arasında hangisi daha yüksek özgüllüğe sahiptir?</a>
 
-### Ek Kaynaklar
+### Ek kaynaklar
 
 Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
 
