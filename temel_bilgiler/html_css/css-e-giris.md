@@ -290,7 +290,7 @@ Harici CSS karşılaşacağınız en yaygın yöntemdir. CSS için ayrı bir dos
 <!-- index.html -->
 
 <head>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css">
 </head>
 ~~~
 
