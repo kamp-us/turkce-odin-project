@@ -247,7 +247,7 @@ p {
 }
 ~~~
 
-Bir alfa değeri ekleyerek bu renklerin opaklığını nasıl ayarlayabileceğinizi görmek için [CSS Yasal Renk Değerleri](https://www.w3schools.com/cssref/css_colors_legal.asp) adresine hızlıca göz atın.
+Bir alfa değeri ekleyerek bu renklerin opaklığını nasıl ayarlayabileceğinizi görmek için [CSS Legal Color Values](https://www.w3schools.com/cssref/css_colors_legal.asp) adlı ingilizce makaleye göz atın.
 
 #### Tipografi temelleri ve metin hizalama
 
