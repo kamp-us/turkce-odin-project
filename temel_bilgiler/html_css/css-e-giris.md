@@ -4,7 +4,7 @@
 
 ### Derse genel bakış
 
-Bu bölüm, bu derste öğreneceğiniz konulara genel bir bakış içerir.
+Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içerir.
 
 - CSS ile HTML'e stiller ekleyin.
 - Class ve ID niteliklerinin nasıl kullanılacağını anlayın.
