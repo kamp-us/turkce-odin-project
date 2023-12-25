@@ -76,6 +76,16 @@ Yukarıdaki örnekte, her iki kural da yalnızca sınıf seçicileri kullanmakta
 
 Yukarıdaki örnekte, kural 2'de ID seçici sayısından daha fazla sınıf seçicisi vardır. Ancak ID, sınıftan öncelikli olduğu için kural 1 daha özgüldür. Bu durumda, `color: blue;` tanımlaması öncelikli olacaktır.
 
+Biraz daha karmaşık:
+
+```html
+<!-- index.html -->
+
+<div class="main">
+  <div class="list" id="subsection">Sarı arkaplanlı kırmızı yazı</div>
+</div>
+```
+
 ```css
 /* kural 1 */
 #subsection {
