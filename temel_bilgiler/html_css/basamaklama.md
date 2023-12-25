@@ -10,7 +10,7 @@ Bu bölüm, bu derste öğreneceğiniz konuların genel bir özetini içerir.
 - Özgüllük ve CSS seçicilerinin birleştirilmesi.
 - Kalıtım, belirli özellikleri nasıl etkiler?
 
-### CSS'in Basamaklandırılması
+### CSS'in basamaklandırılması
 
 Bazen birbiriyle çelişen kurallarımız olabilir. Böylece beklenmedik sonuçlarla karşılaşabiliriz. "Ama ben *bu* paragrafların mavi olmasını istemiştim, neden diğer paragraflar gibi kırmızılar?!" Bu durum her ne kadar sinir bozucu olsa da, CSS'in bizim isteğimiz dışında kafasına göre bir şeyler *yapmadığını* anlamak önemlidir. CSS, yalnızca bizim ondan istediğimiz şeyleri yapar. Bu durumun istisnalarından biri, tarayıcı tarafından sağlanan varsayılan stillerdir. Bu varsayılan stiller tarayıcıdan tarayıcıya değişir. Bazı öğelerin diğer öğelerle aralarında büyük bir "boşluk" olmasını ya da butonları o şekilde göstermek için herhangi bir CSS kuralı yazmamamıza rağmen o şekilde görünmesini sağlar.
 
