@@ -374,7 +374,6 @@ _Tek bir_ öğeye _benzersiz_ bir stil eklemeniz gerekiyorsa bu yöntemi kullana
     - `05-descendant-combinator`
 
    Not: Bu alıştırmaların çözümleri her alıştırmanın `solution` klasöründe bulunabilir.
-
 </div>
 
 ### Bilgi ölçme
