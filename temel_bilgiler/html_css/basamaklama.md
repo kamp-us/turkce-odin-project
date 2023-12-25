@@ -177,7 +177,7 @@ Bu durumun istisnası, bir öğeyi doğrudan hedeflemektir. Çünkü doğrudan h
 
 `parent` öğesi bir ID ile seçildiği için daha yüksek bir özgüllüğe sahip olmasına rağmen, `child` öğesine `color: blue` stili uygulanır. Çünkü bu tanımlama doğrudan onu hedef alır. Ancak ebeveynden gelen `color: red` tanımlaması yalnızca miras olarak alınır.
 
-#### Kural Sırası
+#### Kural sırası
 
 Son faktöre geldik. Diğer tüm faktörler dikkate alındıktan sonra, bir öğeyi hedefleyen birden fazla çelişkili kural olduğunu varsayalım. Bu durumda basamaklama, hangi kuralın uygulanacağını nasıl belirler?
 
