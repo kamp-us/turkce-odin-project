@@ -23,10 +23,11 @@ Alıştığınız varsayılan konumlandırma modu ``position: static``'tir. Stat
 
 Aşağıdaki örnekte, bir resim üzerinde metin görüntülemek için mutlak konumlandırma kullanıyoruz.
 
-<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="poWyWeJ" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="poWyWeJ" data-editable="true" data-user="TheOdinProjectExamples" style={{"height":"300px","boxSizing":"border-box","display":"flex","alignItems":"center","justifyContent":"center","border":"2px solid","margin":"1em 0","padding":"1em"}}>
  TheOdinProject tarafından yazılan Pen'e bakın <span> <a href="https://codepen.io/TheOdinProjectExamples/pen/poWyWeJ">
    Absolute Position | CSS Positioning</a> (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-   <a href="https://codepen.io">CodePen</a>.</span>
+ <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
