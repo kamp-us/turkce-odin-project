@@ -131,7 +131,6 @@ Diyelim ki her yeni satırın belirlediğimiz satır çizgilerinin boyutlarına 
 
 Varsayılan olarak CSS Grid ek olarak eklenen her içeriği belirsiz satır olarak olarak ekler. Bu, ekstra öğelerin gridin aşağısına yatay olarak ekleneceği anlamına gelir. Ekstra içeriğin yatay olarak eklenmesi nadiren istenilen bir şeydir *ama* bu `grid-auto-flows: column` özelliğiyle ve bu belirsiz çizgilerin boyutları `grid-auto-columns` özelliğiyle ayarlanabilir.
 
-
 ### Aralık
 
 Grid satırları ve sütunları arasındaki aralık oluk ya da geçit olarak bilinir. Aralık boyutları satırlar ve sütunlar için `column-gap` ve `row-gap` özellikleriyle ayrık olarak ayarlanabilir. Ek olarak `gap` adındaki kısayol özelliğini kullanarak `row-gap` ve `column-gap` tanımlanabilir.
@@ -172,11 +171,9 @@ Grid'inizi oluşturduğunuza göre CSS Grid ile öğelerinizin düzenini kontrol
 ### Ödev
 
 <div class="lesson-content__panel" markdown="1">
-
 - [CSS-Tricks'in ingilizce makalesindeki](https://css-tricks.com/snippets/css/complete-guide-grid/) birinci, ikinci ve üçüncü kısımları okuyun.
 - Web Bos'un Css Grid kursundaki belirli vs belirsiz çizgiler hakkındaki bu ingilizce [kısa videoyu](https://www.youtube.com/watch?v=8_153Zz4YI8&ab_channel=WesBos) izleyin.
 - Chrome geliştirici araçlarından CSS Grid'i incelemekle ilgili olan bu ingilizce [dökümantasyonlara](https://developer.chrome.com/docs/devtools/css/grid/) bakın.
-
 </div>
 
 ### Bilgi ölçme
