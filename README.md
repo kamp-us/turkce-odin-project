@@ -1,4 +1,4 @@
-# Türkçe Odin Projesi
+# Türkçe Odin Projesi - bu repo [kampus/monorepo](https://github.com/kamp-us/monorepo/tree/dev/content/odin) altına taşınmıştır, çeviri serüveni oradan devam edecektir.
 Türkçe Odin Projesi, web geliştirmeyi öğretmeyi amaçlayan ücretsiz ve oldukça kapsamlı bir açık kaynak müfredatı olan [The Odin Project](https://www.theodinproject.com/)'in gönüllüler aracılığıyla başlatılan Türkçe halidir.
 
 Müfredatın birebir orijinali takip edilmekte ve çevrilmekte olup her iki proje de sürekli büyüyüp gelişmektedir. Dersler, deneyimli kişilerce yazılmış hazırlanmış ve hazırlanmış içeriklerin yanı sıra dikkatlice seçilmiş müfredat dışı çeşitli kaynaklardan oluşmaktadır.     
