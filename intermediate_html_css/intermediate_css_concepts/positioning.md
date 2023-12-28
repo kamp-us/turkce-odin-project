@@ -1,6 +1,10 @@
+---
+title: 'Konumlandırma'
+---
+
 ### Giriş
 
-Şimdiye kadar	margin (dış kenar boşluğu), padding (iç kenar boşluğu) ve flexbox gibi öğeleri kullanarak öğeleri ekran etrafında hareket ettirme konusunda epey pratik yaptınız. Bu tekniklerin tümü CSS'nin varsayılan "konumlandırma modu" tekniğine dayanmaktadır. Bu varsayılan konumlandırma modu sezgiseldir ve neredeyse tüm düzenleme ihtiyaçlarınız için kullanmaya devam edeceksiniz. Ancak elinizdeki diğer yöntemler bazı durumlarda çok yararlı olabilir.
+Şimdiye kadar margin (dış kenar boşluğu), padding (iç kenar boşluğu) ve flexbox gibi öğeleri kullanarak öğeleri ekran etrafında hareket ettirme konusunda epey pratik yaptınız. Bu tekniklerin tümü CSS'nin varsayılan "konumlandırma modu" tekniğine dayanmaktadır. Bu varsayılan konumlandırma modu sezgiseldir ve neredeyse tüm düzenleme ihtiyaçlarınız için kullanmaya devam edeceksiniz. Ancak elinizdeki diğer yöntemler bazı durumlarda çok yararlı olabilir.
 
 ### Öğrenme çıktıları
 
@@ -15,7 +19,7 @@ Alıştığınız varsayılan konumlandırma modu ``position: static``'tir. Stat
 
 ### Mutlak konumlandırma
 
-``position: absolute`` diğer öğeleri etkilemeden ekrandaki belirli bir noktaya yerleştirmenizi sağlar. Daha açık bir ifadeyle, bir öğe üzerinde mutlak konumlandırma kullanmak, o öğeyi normal belge akışından çıkarırken, bir ata öğeye göre konumlandırır. Basit bir şekilde ifade etmek gerekirse: belgenin normal akışından çıkarılan öğeler diğer öğeleri etkilemez ve diğer öğelerden de etkilenmez. Mutlak konumlandırmayı kullanmak,  ``top``, ``right``, ``bottom``, ve ``left`` özelliklerini kullanarak öğeleri ekranda herhangi bir yere konumlandırmanıza olanak tanır. Bu özellik, diğer öğelerin hiçbirini rahatsız etmeden bir şeyi ekranda tam bir noktaya konumlandırmak istediğinizde gerçekten kullanışlıdır. Mutlak konumlandırma için birkaç iyi kullanım durumu vardır:
+``position: absolute`` bir şeyi diğer öğeleri etkilemeden ekrandaki belirli bir noktaya yerleştirmenizi sağlar. Daha açık bir ifadeyle, bir öğe üzerinde mutlak konumlandırma kullanmak, o öğeyi normal belge akışından çıkarırken, bir ata öğeye göre konumlandırır. Basit bir şekilde ifade etmek gerekirse: belgenin normal akışından çıkarılan öğeler diğer öğeleri etkilemez ve diğer öğelerden de etkilenmez. Mutlak konumlandırmayı kullanmak,  ``top``, ``right``, ``bottom``, ve ``left`` özelliklerini kullanarak öğeleri ekranda herhangi bir yere konumlandırmanıza olanak tanır. Bu özellik, diğer öğelerin hiçbirini rahatsız etmeden bir şeyi ekranda tam bir noktaya konumlandırmak istediğinizde gerçekten kullanışlıdır. Mutlak konumlandırma için birkaç iyi kullanım durumu vardır:
 
 - kipler
 - üzerinde bir başlık bulunan resim
@@ -25,9 +29,9 @@ Aşağıdaki örnekte, bir resim üzerinde metin görüntülemek için mutlak ko
 
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="poWyWeJ" data-editable="true" data-user="TheOdinProjectExamples" style={{"height":"300px","boxSizing":"border-box","display":"flex","alignItems":"center","justifyContent":"center","border":"2px solid","margin":"1em 0","padding":"1em"}}>
- TheOdinProject tarafından yazılan Pen'e bakın <span> <a href="https://codepen.io/TheOdinProjectExamples/pen/poWyWeJ">
-   Absolute Position | CSS Positioning</a> (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
- <a href="https://codepen.io">CodePen</a>.</span>
+ <span>TheOdinProject(<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+     tarafından (<a href="https://codepen.io">CodePen'de</a>) hazırlanan <a 
+     href="https://codepen.io/TheOdinProjectExamples/pen/poWyWeJ">Absolute Position | CSS Positioning</a>  adlı ingilizce örneğe bakınız.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
@@ -39,13 +43,13 @@ Sabit öğeler de belgenin normal akışından çıkarılır ve ``viewport``'a g
 
 ### Yapışkan konumlandırma
 
-Yapışkan öğeler, siz onları kaydırana kadar normal öğeler gibi davranır, daha sonra sabit öğeler gibi davranmaya başlarlar. Ayrıca belgenin normal akışından da çıkarılmazlar. Kulağa kafa karıştırıcı gelebilir, ancak [bu codepen](https://codepen.io/theanam/pen/MPLBYy) örneği sizin için bazı şeyleri açıklığa kavuşturabilir. Bölüm başlıkları gibi şeyler için kullanışlıdır. Mağaza sayfasında kaydırma yaparken hâlâ hangi kategoriyi incelediğinizi görebilmeyi hatırlıyor musunuz? İşte böyle yapılır!
+Yapışkan öğeler, siz onları kaydırana kadar normal öğeler gibi davranır, daha sonra sabit öğeler gibi davranmaya başlarlar. Ayrıca belgenin normal akışından da çıkarılmazlar. Kulağa kafa karıştırıcı gelebilir, ancak [bu ingilizce codepen](https://codepen.io/theanam/pen/MPLBYy) örneği sizin için bazı şeyleri açıklığa kavuşturabilir. Bölüm başlıkları gibi şeyler için kullanışlıdır. Bir mağaza sayfasında kaydırma yaparken hâlâ hangi kategoriyi incelediğinizi görebilmeyi hatırlıyor musunuz? İşte böyle yapılır!
 
 ### Ödev
 
 <div class="lesson-content__panel" markdown="1">
 
-1. [Bu](https://www.youtube.com/watch?v=jx5jmI0UlXU) Youtube videosu hızlı bir tempodadır ancak farklı konumlandırma davranışlarının iyi bir görsel temsilini sunuyor. Hadi izleyelim.
+1. [Bu](https://www.youtube.com/watch?v=jx5jmI0UlXU)  ingilizce Youtube videosu hızlı bir tempodadır ancak farklı konumlandırma davranışlarının iyi bir görsel temsilini sunuyor. Hadi izleyelim.
 2. [Bu ingilizce MDN makalesi](https://developer.mozilla.org/en-US/docs/Web/CSS/position) konumlandırma ile ilgili tüm kavramsal ayrıntıları kapsar.
 3. [Bu ingilizce CSS Tricks](https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/) sayfası size konu hakkında farklı bir fikir verecektir. Bunu siz de okumalısınız.
 4. Son olarak, [bu ingilizce makale](https://www.kevinpowell.co/article/positition-fixed-vs-sticky/) sabit ve yapışkan konumlandırma arasındaki farkı tartışıyor, farkı daha iyi anlamak için harika bir okuma.
@@ -53,20 +57,15 @@ Yapışkan öğeler, siz onları kaydırana kadar normal öğeler gibi davranır
 
 ### Bilgi ölçme
 
-Bu bölüm, bu dersi anladığınızı kontrol etmeniz için sorular içermektedir. Aşağıdaki soruları kendi başınıza cevaplamakta zorlanıyorsanız, cevabı bulmak için yukarıdaki materyali gözden geçirin.
+Bu bölüm, bu dersi anladığınızı kontrol etmeniz için sorular içermektedir. Aşağıdaki soruları kendi kendinize yanıtlamakta zorlanıyorsanız, yanıtı bulmak için yukarıdaki materyali gözden geçirin.
 
-- [Giriş](#giriş)
-- [Öğrenme çıktıları](#öğrenme-çıktıları)
-- [Statik ve göreli konumlandırma](#statik-ve-göreli-konumlandırma)
-- [Mutlak konumlandırma](#mutlak-konumlandırma)
-- [Sabit konumlandırma](#sabit-konumlandırma)
-- [Yapışkan konumlandırma](#yapışkan-konumlandırma)
-- [Ödev](#ödev)
-- [Bilgi ölçme](#bilgi-ölçme)
-- [Ek kaynaklar](#ek-kaynaklar)
+- [Statik ve göreceli konumlandırma arasındaki fark nedir?](#static-ve-göreli-konumlandırma)
+- [Mutlak konumlandırma ne işe yarar?](#mutlak-konumlandırma)
+- [Sabit ve yapışkan konumlandırma arasındaki fark nedir? ilgili ingilizce makale için tıklayın.](https://www.kevinpowell.co/article/positition-fixed-vs-sticky/)
 
-###	Ek kaynaklar
 
-Bu bölüm, bu dersi anladığınızı kontrol etmeniz için sorular içermektedir. Aşağıdaki soruları kendi başınıza yanıtlamakta zorlanıyorsanız, yanıtı bulmak için yukarıdaki materyali gözden geçirin.
+### Ek kaynaklar
 
-- [Understand the CSS Position Property With Practical Examples](https://www.makeuseof.com/css-position-property-practical-examples/) adlı ingilizce makale, öğeleri konumlandırmak için bazı farklı CSS yöntemleri sağlar.
+Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
+
+- [Understand the CSS Position Property With Practical Examples](https://www.makeuseof.com/css-position-property-practical-examples/) adlı ingilizce makale, öğeleri konumlandırmak için bazı farklı CSS yöntemleri sunmaktadır.
