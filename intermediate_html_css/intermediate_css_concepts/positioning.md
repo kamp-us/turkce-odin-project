@@ -27,7 +27,6 @@ Alıştığınız varsayılan konumlandırma modu ``position: static``'tir. Stat
 
 Aşağıdaki örnekte, bir resim üzerinde metin görüntülemek için mutlak konumlandırma kullanıyoruz.
 
-
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="poWyWeJ" data-editable="true" data-user="TheOdinProjectExamples" style={{"height":"300px","boxSizing":"border-box","display":"flex","alignItems":"center","justifyContent":"center","border":"2px solid","margin":"1em 0","padding":"1em"}}>
  <span>TheOdinProject(<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
      tarafından (<a href="https://codepen.io">CodePen'de</a>) hazırlanan <a 
