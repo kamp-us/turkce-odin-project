@@ -33,7 +33,7 @@ The most powerful use cases for calc include:
 - Mixing units
 - The ability to nest `calc( calc () - calc () )`
 
-<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="OJxNxya" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="OJxNxya" data-editable="true" data-user="TheOdinProjectExamples" style={{"height":"300px","boxSizing":"border-box","display":"flex","alignItems":"center","justifyContent":"center","border":"2px solid","margin":"1em 0","padding":"1em"}}>
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/OJxNxya">
   calc() | CSS Functions</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -58,7 +58,7 @@ Combined with CSS variables, `calc()` can save us from the headache of repeating
 
 You should be able to grasp how `calc()` is used in the above CodePen embed. We encourage you to play around with different units and sizes of the elements to see what results you get before moving on.
 
-<div class="lesson-note lesson-note--tip" markdown=1>
+<div class="lesson-note lesson-note--tip" markdown="1">
 The above is just an example of how `calc()` can affect a layout, but keep in mind that `calc()` is likely not the best way to go about it. We will talk more about layouts in future lessons.
 </div>
 
@@ -66,7 +66,7 @@ The above is just an example of how `calc()` can affect a layout, but keep in mi
 
 `min()` does an excellent job of helping us create responsive websites. Take a look at this example:
 
-<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="RwLaLay" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="RwLaLay" data-editable="true" data-user="TheOdinProjectExamples" style={{"height":"300px","boxSizing":"border-box","display":"flex","alignItems":"center","justifyContent":"center","border":"2px solid","margin":"1em 0","padding":"1em"}}>
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/RwLaLay">
   min() | CSS Functions</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -86,7 +86,7 @@ Focus on this line `width: min(150px, 100%);` we can make several observations:
 If there are `150px` available to the image, it will take up all `150px`.
 If there are not `150px` available, the image will switch to `100%` of the parent's width.
 In the first case `min()` selects `150px`, since `150px` is the smaller (the minimum) between `150px` and `100%` of the parent's width; in the second, it chooses `100%`. `min()` behaves as a boundary for the _maximum_ allowed value, which in this example is `150px`.
-<br>You are able to do basic math inside a `min ( )` => for example: `width: min(80ch, 100vw - 2rem);`
+<br />You are able to do basic math inside a `min ( )` => for example: `width: min(80ch, 100vw - 2rem);`
 
 #### max()
 

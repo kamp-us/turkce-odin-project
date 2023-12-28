@@ -180,7 +180,6 @@ Grid'inizi oluşturduğunuza göre CSS Grid ile öğelerinizin düzenini kontrol
 
 Bu bölüm, bu dersi anladığınızı kontrol etmeniz için sorular içermektedir. Aşağıdaki soruları kendi kendinize yanıtlamakta zorlanıyorsanız, yanıtı bulmak için yukarıdaki materyali gözden geçirin.
 
-
 - [Bir HTML öğesi nasıl grid öğesi olur?](#grid-düzeni-kurmak)
 - [Grid'de çizgilerin arasındaki boşluk nedir?](#sütunlar-ve-satırlar)
 - [Grid'de oluklar (geçit olarak da bilinir) nasıl ayarlarsınız?](#aralık)
