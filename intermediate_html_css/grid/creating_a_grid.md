@@ -1,3 +1,7 @@
+---
+title: 'Grid Oluşturma'
+---
+
 ### Giriş
 
 CSS Grid düzeninin ne olduğunu bildiğinize göre kendi Grid'inizi nasıl yaratacağınızı öğreneceksiniz. Bu ders, grid konteyneri oluşturmayı, sütun ve satır eklemeyi, Grid'in altındaki belirli ve belirsiz konsepti ve grid boşluklarını nasıl ayarlayabileceğinizi ele alacak.
@@ -13,14 +17,16 @@ Bu dersin sonunda şunları yapabiliyor olmalısınız:
 
 ### Grid düzeni kurmak
 
-Bu ders, size çok az iş ile birlikte grid düzeni oluşturmanın ne kadar kolay olduğunu gösterecek. İlerleyen derslerde konumlandırma ve karmaşık grid düzenleri oluşturmak hakkında daha fazlasını öğreneceksiniz ama şimdilik basit bir şey ile başlayacağız.
+Bu ders, size fazla uğraşmadan grid düzeni oluşturmanın ne kadar kolay olduğunu gösterecek. İlerleyen derslerde konumlandırma ve karmaşık grid düzenleri oluşturmak hakkında daha fazlasını öğreneceksiniz ama şimdilik basit bir şey ile başlayacağız.
 
 #### Grid konteyneri
 
 CSS Grid'i konteyner ve öğeler açısından düşünebiliriz. Basitçe, bir öğeyi grid konteyneri yaptığınız zaman o öğe grid'in bütününü içinde bulunduracaktır. CSS'de bir öğeyi grid konteynerı yapmak için `display: grid` ya da `display: inline-grid` özelliklerini kullanabilirsiniz.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="ZEXYGGx" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-    <span>TheOdinProject(<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>) tarafından (<a href="https://codepen.io">CodePen'de</a>) hazırlanan <a href="https://codepen.io/TheOdinProjectExamples/pen/ZEXYGGx">My First Grid | CSS Grid</a> adlı ingilizce örneğe bakınız.</span>
+    <span>TheOdinProject(<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+     tarafından (<a href="https://codepen.io">CodePen'de</a>) hazırlanan <a 
+     href="https://codepen.io/TheOdinProjectExamples/pen/ZEXYGGx">My First Grid | CSS Grid</a>  adlı ingilizce örneğe bakınız.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
@@ -43,33 +49,37 @@ Dikkate almanız gerekiyor ki sadece direkt çocuk olan öğeler grid öğesi ol
 
 Ama flexbox derslerinden öğrendiğiniz gibi grid öğeleri *aynı zamanda* grid konteyneri olabilir. Yani eğer isterseniz bir grid'in içerisinde başka bir grid yapabilirsiniz.
 
-#### Çizgiler ve izler!
+#### Grid'lerdeki çizgiler ve izler
 
-Örneğimiz ile beraber kodladığın için (kodluyorsun değil mi?) farkedeceksin ki tam olarak grid yapısına benzemiyor. CSS Grid hakkındaki bir çok kaynaksize en başından kutuları ve çizgilerle belirtilen grid tablolarını gösteriyor. Ama sizin grid konteynerınızın ve grid öğelerinizin herhangi bir kenar çizgisi bulunmuyorsa bunları ekranınızda göremeyeceksiniz. Merak etmeyin, onlar orada bulunuyor!
+Örneğimiz ile beraber kodladığın için (kodluyorsun değil mi?) farkedeceksin ki tam olarak grid yapısına benzemiyor. CSS Grid hakkındaki bir çok kaynak size en başından kutuları ve çizgilerle belirtilen grid tablolarını gösteriyor. Ama sizin grid konteynerınızın ve grid öğelerinizin herhangi bir kenar çizgisi bulunmuyorsa bunları ekranınızda göremeyeceksiniz. Merak etmeyin, onlar orada bulunuyor!
 
-Eğer bu öğeleri geliştirici araçları ile denetlerseniz, kod tarafında bu öğelerde grid rozeti olduğunu göreceksiniz. Geliştirici araçlarının Düzen ayarları size bu görünmez çizgileri, izleri ve gridin alanlarını gösterebileceği bir katman seçmesinize olanak sağlıyor. Aşağıdaki ödevde tarayıcının geliştirici araçlarıni kullanmakla ilgili okuma yapacaksınız ve bir sonraki derste çizgiler, izler ve alanlar hakkında daha fazla şey öğreneceksiniz.
+Eğer bu öğeleri geliştirici araçları ile denetlerseniz, kod tarafında bu öğelerde grid rozeti olduğunu göreceksiniz. Geliştirici araçlarının düzen ayarları size bu görünmez çizgileri, izleri ve gridin alanlarını gösterebileceği bir katman seçmesinize olanak sağlıyor. Aşağıdaki ödevde tarayıcının geliştirici araçlarıni kullanmakla ilgili okuma yapacaksınız ve bir sonraki derste çizgiler, izler ve alanlar hakkında daha fazla şey öğreneceksiniz.
 
 #### Sütunlar ve satırlar
 
-Şimdi birkaç grid öğesi bulunan bir grid konteynerimiz olduğuna göre, sütunlarımızı ve satırlarımız belirlememizin zamanı geldi. Bu grid izlerini (griddeki çizgilerin arasındaki boşluk) tanımlayacak. Böylece sütunlarımız arasında boşluk olması için sütun yollarımızı ve satırlarımız arasında bir boşluk olması için satır yollarımızı ayarlayabiliriz.
+Şimdi birkaç grid öğesi bulunan bir grid konteynerimiz olduğuna göre, sütunlarımızı ve satırlarımız belirlememizin zamanı geldi. Bu grid izlerini (griddeki çizgilerin arasındaki boşluk) tanımlayacak. Böylece sütunlarımız arasında boşluk bırakmak için bir sütun izi ve satırlarımız arasında boşluk bırakmak için bir satır izi ayarlayabiliriz. İzler ve satırlarla ilgili ayrıntılara bir sonraki derste gireceğiz, ancak şimdilik sadece birkaç sütun ve satır yapalım.
 
 `grid-template-columns` ve `grid-template-rows` özellikleri sütun ve satır izlerini tanımlamamızı kolaylaştırır. Bu ders için sütun ve satırlarımızı pikselleri kullanarak tanımlayacağız. Gelecek derslerde, yüzdelik ve kesirli değerler ile tanımlamayı da öğreneceksiniz.
 
 Yukarıdaki grid konteynerımıza dönecek olursak, dört grid öğemizi yerleştirmek için iki sütun ve iki satır tanımlayalım:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="yLzyNYp" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-    <span>TheOdinProject(<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>) tarafından (<a href="https://codepen.io">CodePen'de</a>) hazırlanan <a href="https://codepen.io/TheOdinProjectExamples/pen/yLzyNYp">Columns and Rows 1 | CSS Grid</a> adlı ingilizce örneğe bakınız.</span>
+    <span>TheOdinProject(<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>) 
+    tarafından (<a href="https://codepen.io">CodePen'de</a>) hazırlanan 
+    <a href="https://codepen.io/TheOdinProjectExamples/pen/yLzyNYp">Columns and Rows 1 | CSS Grid</a> adlı ingilizce örneğe bakınız.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Eğer gridimize daha fazla sütun ve satır eklemek istersek basitçe bu değerleri tanımlayarak başka bir iz oluşturabiliriz. Diyelim ki örneğimize üçüncü bir sütun eklemek istedik:
+Eğer gridimize daha fazla sütun ve satır eklemek istersek, basitçe bu değerleri tanımlayarak başka bir iz oluşturabiliriz. Diyelim ki örneğimize üçüncü bir sütun eklemek istedik:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="NWaPqxj" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-    <span>TheOdinProject(<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>) tarafından (<a href="https://codepen.io">CodePen'de</a>) hazırlanan <a href="https://codepen.io/TheOdinProjectExamples/pen/NWaPqxj">Columns and Rows 2 | CSS Grid</a> adlı ingilizce örneğe bakınız.</span>
+    <span>TheOdinProject(<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>) 
+    tarafından (<a href="https://codepen.io">CodePen'de</a>) hazırlanan 
+    <a href="https://codepen.io/TheOdinProjectExamples/pen/NWaPqxj">Columns and Rows 2 | CSS Grid</a> adlı ingilizce örneğe bakınız.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-CSS Grid satırları ve sütunları tanımlamak için kısa özellikler bulunduruyor. Önceki örneğimizde `grid-template-rows` ve `grid-template-columns` özelliklerini kısaca `grid-template` özelliği olarak değiştirebiliriz. Burada satırlarımızı ve sütunlarımızı aynı anda tanımlayabiliriz. Bu özellik için satırlar taksim işaretinden önce ve sütunlar taksim işaretinden sonra tanımlanır. Hadi aynı sütun ve satır değerlerini kısayol özelliğini kullanarak tanımlayalım:
+CSS Grid satırları ve sütunları tanımlamak için kısa özellikler bulunduruyor. Önceki örneğimizde `grid-template-rows` ve `grid-template-columns` özelliklerini kısaca `grid-template` özelliği olarak değiştirebiliriz. Burada satırlarımızı ve sütunlarımızı aynı anda tanımlayabiliriz. Bu özellik için satırlar taksim(slash)(/) işaretinden önce ve sütunlar taksim işaretinden sonra tanımlanır. Hadi aynı sütun ve satır değerlerini kısayol özelliğini kullanarak tanımlayalım:
 
 ```css
 /* styles.css */
@@ -83,24 +93,28 @@ CSS Grid satırları ve sütunları tanımlamak için kısa özellikler bulundur
 Sütunların ve satırların aynı değere sahip olmasına gerek yoktur. Hadi sütunlarımızın değerlerini ilk sütunumuz diğerlerinin beş katı olacak şekilde değiştirelim:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="LYzEVGo" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-    <span>TheOdinProject(<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>) tarafından (<a href="https://codepen.io">CodePen'de</a>) hazırlanan <a href="https://codepen.io/TheOdinProjectExamples/pen/LYzEVGo">Columns and Rows 3 | CSS Grid</a> adlı ingilizce örneğe bakınız.</span>
+    <span>TheOdinProject(<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>) 
+    tarafından (<a href="https://codepen.io">CodePen'de</a>) hazırlanan 
+    <a href="https://codepen.io/TheOdinProjectExamples/pen/LYzEVGo">Columns and Rows 3 | CSS Grid</a> adlı ingilizce örneğe bakınız.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-### Belirli grid vs imalı grid
+### Belirli grid vs belirsiz grid
 
 Hadi 4 grid öğesi olan 2x2 düzenli orjinal örneğimize geri dönelim. `grid-template-columns` ya da `grid-template-rows` özelliklerini değiştirmeden beşinci bir öğe eklersek ne olacaktır?
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="qBPEdZw" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-    <span>TheOdinProject(<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>) tarafından (<a href="https://codepen.io">CodePen'de</a>) hazırlanan <a href="https://codepen.io/TheOdinProjectExamples/pen/qBPEdZw">Implicit Grid | CSS Grid</a> adlı ingilizce örneğe bakınız.</span>
+    <span>TheOdinProject(<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>) 
+    tarafından (<a href="https://codepen.io">CodePen'de</a>) hazırlanan 
+    <a href="https://codepen.io/TheOdinProjectExamples/pen/qBPEdZw">Implicit Grid | CSS Grid</a> adlı ingilizce örneğe bakınız.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Farkedeceksiniz ki beşinci öğemiz grid içerisine yerleştirildi ve tanımlamadığımız üçüncü satırda yer alıyor. Bunun sebebi imalı grid konsepti ve bu CSS Grid'in belirli şekilde tanımlanmadığı zaman grid öğelerini yerleştirme yönetimidir.
+Farkedeceksiniz ki beşinci öğemiz grid içerisine yerleştirildi ve tanımlamadığımız üçüncü satırda yer alıyor. Bunun sebebi belirsiz grid konsepti ve bu CSS Grid'in belirli şekilde tanımlanmadığı zaman grid öğelerini yerleştirme yönetimidir.
 
-`grid-temlate-colums` ve `grid-temlate-rows` özelliklerini kullandığımız zaman, grid öğelerimizi yerleştirmek için belirleyici şekilde grid çizgilerini tanımlamış oluruz. Lakin grid'in ek içerikler için daha fazla çizgiye ihtiyacı olduğu zaman imalı şekilde yeni grid çizgileri tanımlayacaktır. Ek olarak `grid-temlate-colums` ve `grid-temlate-rows` özelliklerinde tanımladığımız boyut değerleri bu imalı grid çizgileri etki etmeyecektir. Ama imalı grid çizgileri için değerler tanımlayabiliriz.
+`grid-temlate-colums` ve `grid-temlate-rows` özelliklerini kullandığımız zaman, grid öğelerimizi yerleştirmek için belirleyici şekilde grid çizgilerini tanımlamış oluruz. Lakin grid'in ek içerikler için daha fazla çizgiye ihtiyacı olduğu zaman belirsiz şekilde yeni grid çizgileri tanımlayacaktır. Ek olarak `grid-temlate-colums` ve `grid-temlate-rows` özelliklerinde tanımladığımız boyut değerleri bu belirsiz grid çizgileri etki etmeyecektir. Ama belirsiz grid çizgileri için değerler tanımlayabiliriz.
 
-İmali grid çizgilerinin boyutlarını `grid-auto-rows` ve `grid-auto-column` özellikleriyle ayarlayabiliriz. Bu sayede imalı gride eklenen öğelerin tanımladığımız boyutlara uymalarını sağlayabiliriz.
+Belirsiz grid çizgilerinin boyutlarını `grid-auto-rows` ve `grid-auto-column` özellikleriyle ayarlayabiliriz. Bu sayede belirsiz gride eklenen öğelerin tanımladığımız boyutlara uymalarını sağlayabiliriz.
 
 Diyelim ki her yeni satırın belirlediğimiz satır çizgilerinin boyutlarına eşit olmasını istiyoruz:
 
@@ -115,38 +129,43 @@ Diyelim ki her yeni satırın belirlediğimiz satır çizgilerinin boyutlarına 
 }
 ```
 
-Varsayılan olarak CSS Grid ek olarak eklenen her içeriği imalı satır olarak olarak ekler. Bu, ekstra öğelerin gridin aşağısına yatay olarak ekleneceği anlamına gelir. Ekstra içeriğin yatay olarak eklenmesi nadiren istenilen bir şeydir *ama* bu `grid-auto-flows: column` özelliğiyle ve bu imalı çizgilerin boyutlarıysa `grid-auto-columns` özelliğiyle ayarlanabilir.
+Varsayılan olarak CSS Grid ek olarak eklenen her içeriği belirsiz satır olarak olarak ekler. Bu, ekstra öğelerin gridin aşağısına yatay olarak ekleneceği anlamına gelir. Ekstra içeriğin yatay olarak eklenmesi nadiren istenilen bir şeydir *ama* bu `grid-auto-flows: column` özelliğiyle ve bu belirsiz çizgilerin boyutları `grid-auto-columns` özelliğiyle ayarlanabilir.
 
-<!-- TODO: Burada kaldın -->
 
 ### Aralık
 
 Grid satırları ve sütunları arasındaki aralık oluk ya da geçit olarak bilinir. Aralık boyutları satırlar ve sütunlar için `column-gap` ve `row-gap` özellikleriyle ayrık olarak ayarlanabilir. Ek olarak `gap` adındaki kısayol özelliğini kullanarak `row-gap` ve `column-gap` tanımlanabilir.
 
-Grid aralık özelliklerimizi eklemeden önce geliştirici araçlarına dayanmadan Grid'imizi görmeyi kolaylaştıralım. Onların konumlarını daha iyi görebilmek için grid öğelerimizin çevresine basit bir kenarlık ekleyelim: 
+Grid aralığı özelliklerimizi eklemeden önce, geliştirici araçlarına güvenmeden işleri biraz daha kolay görülebilir hale getirelim. Devam edip grid öğelerimizin etrafına basit bir kenarlık ekleyeceğiz, böylece birbirlerinin etrafındaki yerleşimlerini daha iyi anlayabileceğiz:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="eYGmNzj" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-    <span>TheOdinProject(<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>) tarafından (<a href="https://codepen.io">CodePen'de</a>) hazırlanan <a href="https://codepen.io/TheOdinProjectExamples/pen/eYGmNzj">Gap 1 | CSS Grid</a> adlı ingilizce örneğe bakınız.</span>
+    <span>TheOdinProject(<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>) 
+    tarafından (<a href="https://codepen.io">CodePen'de</a>) hazırlanan 
+    <a href="https://codepen.io/TheOdinProjectExamples/pen/eYGmNzj">Gap 1 | CSS Grid</a> adlı ingilizce örneğe bakınız.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 Sonrasında iki sütunumuzu ayırmak için hafif bir sütun aralığı kullanalım:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="wvrBazJ" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-    <span>TheOdinProject(<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>) tarafından (<a href="https://codepen.io">CodePen'de</a>) hazırlanan <a href="https://codepen.io/TheOdinProjectExamples/pen/wvrBazJ">Gap 2 | CSS Grid</a> adlı ingilizce örneğe bakınız.</span>
+    <span>TheOdinProject(<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+    tarafından (<a href="https://codepen.io">CodePen'de</a>) hazırlanan 
+    <a href="https://codepen.io/TheOdinProjectExamples/pen/wvrBazJ">Gap 2 | CSS Grid</a> adlı ingilizce örneğe bakınız.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 Son olarak aradaki farkı vurgulamak için satırlarımıza fazlaca aralık ekleyelim:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="abLzOmX" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-    <span>TheOdinProject(<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>) tarafından (<a href="https://codepen.io">CodePen'de</a>) hazırlanan <a href="https://codepen.io/TheOdinProjectExamples/pen/abLzOmX">Gap 3 | CSS Grid</a> adlı ingilizce örneğe bakınız.</span>
+    <span>TheOdinProject(<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+    tarafından (<a href="https://codepen.io">CodePen'de</a>) hazırlanan 
+    <a href="https://codepen.io/TheOdinProjectExamples/pen/abLzOmX">Gap 3 | CSS Grid</a> adlı ingilizce örneğe bakınız.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Yukarıdaki CodePen örneğinde `gap` kısayoluyle oynarak hem `row-gap` hem de `column-gap` özelliklerini ayarlayabilirsiniz.
+Yukarıdaki CodePen örneğinde `gap` kısayoluyla oynarak hem `row-gap` hem de `column-gap` özelliklerini ayarlayabilirsiniz.
 
-### İlk grid'imizi tamamlamak
+### İlk grid'imizi tamamlıyoruz
 
 Grid'inizi oluşturduğunuza göre CSS Grid ile öğelerinizin düzenini kontrol etmenin ne kadar kolay olduğunu görebilirsiniz. Ayrıca CSS Grid'in yaygın düzen problemlerini nasıl çözebileceğinin farkına varabilirsiniz. Önümüzdeki birkaç derste öğelerin konumlanmasını ve ileri düzey grid özelliklerini ele alacağız. Ama önce grid temellerini konu alan aşağıdaki linklere göz atın.
 
@@ -155,12 +174,12 @@ Grid'inizi oluşturduğunuza göre CSS Grid ile öğelerinizin düzenini kontrol
 <div class="lesson-content__panel" markdown="1">
 
 - [CSS-Tricks'in ingilizce makalesindeki](https://css-tricks.com/snippets/css/complete-guide-grid/) birinci, ikinci ve üçüncü kısımları okuyun.
-- Web Bos'un Css Grid kursundaki belirli vs imalı çizgiler hakkındaki bu [kısa videoyu](https://www.youtube.com/watch?v=8_153Zz4YI8&ab_channel=WesBos) izleyin.
-- Chrome geliştirici araçlarından CSS Grid'i incelemekle ilgili olan [dökümantasyonlara](https://developer.chrome.com/docs/devtools/css/grid/) bakın.
+- Web Bos'un Css Grid kursundaki belirli vs belirsiz çizgiler hakkındaki bu ingilizce [kısa videoyu](https://www.youtube.com/watch?v=8_153Zz4YI8&ab_channel=WesBos) izleyin.
+- Chrome geliştirici araçlarından CSS Grid'i incelemekle ilgili olan bu ingilizce [dökümantasyonlara](https://developer.chrome.com/docs/devtools/css/grid/) bakın.
 
 </div>
 
-### Bilgi ölçmek
+### Bilgi ölçme
 
 Bu bölüm, bu dersi anladığınızı kontrol etmeniz için sorular içermektedir. Aşağıdaki soruları kendi kendinize yanıtlamakta zorlanıyorsanız, yanıtı bulmak için yukarıdaki materyali gözden geçirin.
 
@@ -175,5 +194,5 @@ Bu bölüm, bu dersi anladığınızı kontrol etmeniz için sorular içermekted
 
 Bu alanda içerikle alakalı faydalı linkler bulunmaktadır. Zorunlu değildir, ek olarak düşünülmelidir.
 
-- MDN'in, [grid düzeninin temel konseptleri](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout) adındaki yazısı temel konuları ve bazı ek konseptleri ele alıyor.
-- PeterSommerhoff'un grid terminolojisi hakkındaki [bu kısa videosunu](https://www.youtube.com/watch?v=0m5qgfX2TVQ&ab_channel=PeterSommerhoff) izleyin.
+- MDN'in, [Basic Concepts of grid layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout) adındaki ingilizce yazısı temel konuları ve bazı ek konseptleri ele alıyor.
+- PeterSommerhoff'un grid terminolojisi hakkındaki [bu ingilizce kısa videosunu](https://www.youtube.com/watch?v=0m5qgfX2TVQ&ab_channel=PeterSommerhoff) izleyin.
