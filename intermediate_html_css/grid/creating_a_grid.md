@@ -1,6 +1,6 @@
 ### Giriş
 
-CSS Grid düzeninin ne olduğunu bildiğinize göre kendi Grid'inizi nasıl yaratacağınızı öğreneceksiniz. Bu ders, grid konteyneri oluşturmayı, sütun ve satır eklemeyi, Grid'in altındaki belirli ve imalı konsepti ve grid boşluklarını nasıl ayarlayabileceğinizi ele alacak.
+CSS Grid düzeninin ne olduğunu bildiğinize göre kendi Grid'inizi nasıl yaratacağınızı öğreneceksiniz. Bu ders, grid konteyneri oluşturmayı, sütun ve satır eklemeyi, Grid'in altındaki belirli ve belirsiz konsepti ve grid boşluklarını nasıl ayarlayabileceğinizi ele alacak.
 
 ### Öğrenim çıktıları
 
